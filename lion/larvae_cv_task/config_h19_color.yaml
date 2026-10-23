@@ -1,0 +1,39 @@
+# Scene-CV pilot: h19_color; compare to config_convnext.yaml.
+output_dir: runs/morning_hypotheses/h19_color
+architecture: convnext_tiny_unet
+data_root: ../task/coco_export
+torch_home: ../larvae_autoresearch/progress/torch_cache
+pretrained: true
+fold: 0
+n_splits: 5
+seed: 42
+reset_seed_after_model_init: true
+epochs: 60
+batch_size: 8
+num_workers: 0
+patches_per_image: 8
+foreground_probability: 0.70
+scene_groups:
+  - {name: A, first: 1, last: 2}
+  - {name: B, first: 3, last: 12}
+  - {name: C, first: 13, last: 31}
+  - {name: D, first: 32, last: 39}
+  - {name: E, first: 40, last: 53}
+  - {name: F, first: 55, last: 70}
+  - {name: G, first: 72, last: 80}
+exclude_files: [7.jpg, 8.jpg]
+learning_rate: 0.0001
+weight_decay: 0.001
+lr_factor: 0.5
+lr_patience: 5
+early_stopping_patience: 100
+gradient_clip_norm: 1.0
+amp: true
+class_weight_power: 0.5
+dice_weight: 1.0
+ce_weight: 1.0
+include_background_in_dice: true
+full_image_tta: flip4
+candidate_every: 3
+color_jitter_probability: 0.5
+

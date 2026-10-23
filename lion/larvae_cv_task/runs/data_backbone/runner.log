@@ -1,0 +1,4 @@
+{"external_resnet34/fold_0": {"state": "done", "epoch": 7, "miou": 0.2446911814459341, "baseline_miou": 0.2590081297234221}}
+{"external_resnet34/fold_3": {"state": "done", "epoch": 48, "miou": 0.40974433764477824, "baseline_miou": 0.42390953531746367}}
+{"imagenet_convnext/fold_0": {"state": "done", "epoch": 12, "miou": 0.2753545579870891, "baseline_miou": 0.2590081297234221}}
+{"imagenet_convnext/fold_3": {"state": "done", "epoch": 48, "miou": 0.4336227470259346, "baseline_miou": 0.42390953531746367}}

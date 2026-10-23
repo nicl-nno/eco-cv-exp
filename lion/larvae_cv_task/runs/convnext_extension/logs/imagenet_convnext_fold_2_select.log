@@ -1,0 +1,42 @@
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\best.pt", "epoch": 7, "active_iou": 0.1739661145436995, "mature_iou": 0.426470859645831, "foreground_miou": 0.30021848709476523}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\last.pt", "epoch": 60, "active_iou": 0.17132475779586767, "mature_iou": 0.35358581077738754, "foreground_miou": 0.2624552842866276}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_001.pt", "epoch": 1, "active_iou": 0.0831891794769253, "mature_iou": 0.1360914382637162, "foreground_miou": 0.10964030887032075}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_002.pt", "epoch": 2, "active_iou": 0.13785363714706833, "mature_iou": 0.3727929690527009, "foreground_miou": 0.2553233030998846}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_003.pt", "epoch": 3, "active_iou": 0.20018215722303356, "mature_iou": 0.3747019952097204, "foreground_miou": 0.28744207621637696}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_006.pt", "epoch": 6, "active_iou": 0.18047319572684922, "mature_iou": 0.34459873198167923, "foreground_miou": 0.26253596385426425}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_007.pt", "epoch": 7, "active_iou": 0.1739661145436995, "mature_iou": 0.426470859645831, "foreground_miou": 0.30021848709476523}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_009.pt", "epoch": 9, "active_iou": 0.1739572001631765, "mature_iou": 0.37144236595077146, "foreground_miou": 0.27269978305697395}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_012.pt", "epoch": 12, "active_iou": 0.18547180382059175, "mature_iou": 0.4858986592194629, "foreground_miou": 0.3356852315200273}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_015.pt", "epoch": 15, "active_iou": 0.15373229889787549, "mature_iou": 0.361454255153736, "foreground_miou": 0.25759327702580576}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_018.pt", "epoch": 18, "active_iou": 0.17776709519406136, "mature_iou": 0.37161103917367244, "foreground_miou": 0.2746890671838669}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_021.pt", "epoch": 21, "active_iou": 0.1619221748068491, "mature_iou": 0.30692737153699795, "foreground_miou": 0.2344247731719235}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_024.pt", "epoch": 24, "active_iou": 0.16915678805547055, "mature_iou": 0.31617024500106344, "foreground_miou": 0.242663516528267}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_027.pt", "epoch": 27, "active_iou": 0.17237228778995245, "mature_iou": 0.3499506069630442, "foreground_miou": 0.2611614473764983}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_030.pt", "epoch": 30, "active_iou": 0.17249757461012125, "mature_iou": 0.3496964518190241, "foreground_miou": 0.2610970132145727}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_033.pt", "epoch": 33, "active_iou": 0.16973546304448078, "mature_iou": 0.3457840470267545, "foreground_miou": 0.25775975503561765}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_036.pt", "epoch": 36, "active_iou": 0.1778284575247699, "mature_iou": 0.38246440643244906, "foreground_miou": 0.28014643197860944}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_039.pt", "epoch": 39, "active_iou": 0.16909615765790462, "mature_iou": 0.34626796906586316, "foreground_miou": 0.2576820633618839}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_042.pt", "epoch": 42, "active_iou": 0.17584945749075517, "mature_iou": 0.36883125642215847, "foreground_miou": 0.2723403569564568}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_045.pt", "epoch": 45, "active_iou": 0.1738426495354514, "mature_iou": 0.3654879399046736, "foreground_miou": 0.2696652947200625}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_048.pt", "epoch": 48, "active_iou": 0.16656407046814747, "mature_iou": 0.3535200984139211, "foreground_miou": 0.26004208444103427}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_051.pt", "epoch": 51, "active_iou": 0.17003096911636104, "mature_iou": 0.3575470667905235, "foreground_miou": 0.2637890179534423}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_054.pt", "epoch": 54, "active_iou": 0.171702023171669, "mature_iou": 0.3595391460105474, "foreground_miou": 0.26562058459110816}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_057.pt", "epoch": 57, "active_iou": 0.16889503144509108, "mature_iou": 0.3487046618911248, "foreground_miou": 0.25879984666810796}
+{"checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_060.pt", "epoch": 60, "active_iou": 0.17132475779586767, "mature_iou": 0.35358581077738754, "foreground_miou": 0.2624552842866276}
+{
+  "baseline": {
+    "checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\best.pt",
+    "epoch": 7,
+    "active_iou": 0.1739661145436995,
+    "mature_iou": 0.426470859645831,
+    "foreground_miou": 0.30021848709476523
+  },
+  "selected": {
+    "checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\data_backbone\\imagenet_convnext\\fold_2\\candidate_epoch_012.pt",
+    "epoch": 12,
+    "active_iou": 0.18547180382059175,
+    "mature_iou": 0.4858986592194629,
+    "foreground_miou": 0.3356852315200273
+  },
+  "candidate_count": 25
+}

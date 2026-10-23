@@ -1,0 +1,2779 @@
+[
+  {
+    "id": 2565,
+    "file": "1.jpg",
+    "scene": "A",
+    "fold": 4,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 47,
+    "annotations_mature": 47,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 144368,
+    "gt_mature_pixels": 170635,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.5244128757134772,
+    "active_recall": 0.8279604898592486,
+    "mature_iou": 0.5269987686107691,
+    "mature_recall": 0.6897295396606792,
+    "foreground_miou": 0.5257058221621231,
+    "binary_iou": 0.718487290081671,
+    "binary_precision": 0.7707254510305828,
+    "binary_recall": 0.9137976463716219,
+    "stage_accuracy_on_detected_gt": 0.8241230645234133,
+    "confusion": [
+      [
+        3285768,
+        44219,
+        41410
+      ],
+      [
+        13557,
+        119531,
+        11280
+      ],
+      [
+        13597,
+        39346,
+        117692
+      ]
+    ]
+  },
+  {
+    "id": 2566,
+    "file": "2.jpg",
+    "scene": "A",
+    "fold": 4,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 39,
+    "annotations_mature": 48,
+    "annotations_ignore": 2,
+    "gt_active_pixels": 115530,
+    "gt_mature_pixels": 201625,
+    "gt_ignore_pixels": 6011,
+    "pixels": 3686400,
+    "active_iou": 0.5162835551901857,
+    "active_recall": 0.8480135029862373,
+    "mature_iou": 0.5324089327472457,
+    "mature_recall": 0.657195288282703,
+    "foreground_miou": 0.5243462439687157,
+    "binary_iou": 0.7295962943241329,
+    "binary_precision": 0.8019388181278359,
+    "binary_recall": 0.8899623212624742,
+    "stage_accuracy_on_detected_gt": 0.816556601099711,
+    "confusion": [
+      [
+        3293523,
+        30055,
+        39656
+      ],
+      [
+        9958,
+        97971,
+        7601
+      ],
+      [
+        24941,
+        44177,
+        132507
+      ]
+    ]
+  },
+  {
+    "id": 2568,
+    "file": "3.jpg",
+    "scene": "B",
+    "fold": 3,
+    "width": 964,
+    "height": 1280,
+    "annotations_active": 2,
+    "annotations_mature": 47,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 429,
+    "gt_mature_pixels": 12320,
+    "gt_ignore_pixels": 0,
+    "pixels": 1233920,
+    "active_iou": 0.0,
+    "active_recall": 0.0,
+    "mature_iou": 0.008685064935064934,
+    "mature_recall": 0.008685064935064934,
+    "foreground_miou": 0.004342532467532467,
+    "binary_iou": 0.008235203571153699,
+    "binary_precision": 0.30484330484330485,
+    "binary_recall": 0.008392815122754726,
+    "stage_accuracy_on_detected_gt": 1.0,
+    "confusion": [
+      [
+        1220927,
+        244,
+        0
+      ],
+      [
+        429,
+        0,
+        0
+      ],
+      [
+        12213,
+        0,
+        107
+      ]
+    ]
+  },
+  {
+    "id": 2567,
+    "file": "4.jpg",
+    "scene": "B",
+    "fold": 3,
+    "width": 964,
+    "height": 1280,
+    "annotations_active": 3,
+    "annotations_mature": 92,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 486,
+    "gt_mature_pixels": 16669,
+    "gt_ignore_pixels": 0,
+    "pixels": 1233920,
+    "active_iou": 0.0,
+    "active_recall": 0.0,
+    "mature_iou": 0.08061116965226554,
+    "mature_recall": 0.08260843481912532,
+    "foreground_miou": 0.04030558482613277,
+    "binary_iou": 0.0783811475409836,
+    "binary_precision": 0.7692737430167598,
+    "binary_recall": 0.08026814339842611,
+    "stage_accuracy_on_detected_gt": 1.0,
+    "confusion": [
+      [
+        1216352,
+        0,
+        413
+      ],
+      [
+        486,
+        0,
+        0
+      ],
+      [
+        15292,
+        0,
+        1377
+      ]
+    ]
+  },
+  {
+    "id": 2571,
+    "file": "5.jpg",
+    "scene": "B",
+    "fold": 3,
+    "width": 964,
+    "height": 1280,
+    "annotations_active": 0,
+    "annotations_mature": 111,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 0,
+    "gt_mature_pixels": 38847,
+    "gt_ignore_pixels": 0,
+    "pixels": 1233920,
+    "active_iou": 0.0,
+    "active_recall": 0.0,
+    "mature_iou": 0.00962004644160351,
+    "mature_recall": 0.009704739104692769,
+    "foreground_miou": 0.004810023220801755,
+    "binary_iou": 0.00962004644160351,
+    "binary_precision": 0.5243393602225312,
+    "binary_recall": 0.009704739104692769,
+    "stage_accuracy_on_detected_gt": 1.0,
+    "confusion": [
+      [
+        1194731,
+        0,
+        342
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        38470,
+        0,
+        377
+      ]
+    ]
+  },
+  {
+    "id": 2569,
+    "file": "6.jpg",
+    "scene": "B",
+    "fold": 3,
+    "width": 964,
+    "height": 1280,
+    "annotations_active": 0,
+    "annotations_mature": 107,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 0,
+    "gt_mature_pixels": 27870,
+    "gt_ignore_pixels": 0,
+    "pixels": 1233920,
+    "active_iou": 0.0,
+    "active_recall": 0.0,
+    "mature_iou": 0.03557201761129359,
+    "mature_recall": 0.03652673125224255,
+    "foreground_miou": 0.017786008805646795,
+    "binary_iou": 0.03896149276679013,
+    "binary_precision": 0.5984970477724101,
+    "binary_recall": 0.04000717617509867,
+    "stage_accuracy_on_detected_gt": 0.9130044843049328,
+    "confusion": [
+      [
+        1205302,
+        0,
+        748
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        26755,
+        97,
+        1018
+      ]
+    ]
+  },
+  {
+    "id": 2572,
+    "file": "7.jpg",
+    "scene": "B",
+    "fold": null,
+    "width": 964,
+    "height": 1280,
+    "annotations_active": 0,
+    "annotations_mature": 0,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 0,
+    "gt_mature_pixels": 0,
+    "gt_ignore_pixels": 0,
+    "pixels": 1233920
+  },
+  {
+    "id": 2573,
+    "file": "8.jpg",
+    "scene": "B",
+    "fold": null,
+    "width": 964,
+    "height": 1280,
+    "annotations_active": 0,
+    "annotations_mature": 80,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 0,
+    "gt_mature_pixels": 14689,
+    "gt_ignore_pixels": 0,
+    "pixels": 1233920
+  },
+  {
+    "id": 2575,
+    "file": "9.jpg",
+    "scene": "B",
+    "fold": 3,
+    "width": 964,
+    "height": 1280,
+    "annotations_active": 0,
+    "annotations_mature": 96,
+    "annotations_ignore": 2,
+    "gt_active_pixels": 0,
+    "gt_mature_pixels": 17621,
+    "gt_ignore_pixels": 1257,
+    "pixels": 1233920,
+    "active_iou": 0.0,
+    "active_recall": 0.0,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.0,
+    "binary_iou": 0.0,
+    "binary_precision": 0.0,
+    "binary_recall": 0.0,
+    "stage_accuracy_on_detected_gt": 0.0,
+    "confusion": [
+      [
+        1214938,
+        81,
+        23
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        17621,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2578,
+    "file": "10.jpg",
+    "scene": "B",
+    "fold": 3,
+    "width": 964,
+    "height": 1280,
+    "annotations_active": 54,
+    "annotations_mature": 24,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 4714,
+    "gt_mature_pixels": 7685,
+    "gt_ignore_pixels": 0,
+    "pixels": 1233920,
+    "active_iou": 0.0,
+    "active_recall": 0.0,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.0,
+    "binary_iou": 0.0,
+    "binary_precision": 0.0,
+    "binary_recall": 0.0,
+    "stage_accuracy_on_detected_gt": 0.0,
+    "confusion": [
+      [
+        1221521,
+        0,
+        0
+      ],
+      [
+        4714,
+        0,
+        0
+      ],
+      [
+        7685,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2577,
+    "file": "11.jpg",
+    "scene": "B",
+    "fold": 3,
+    "width": 964,
+    "height": 1280,
+    "annotations_active": 0,
+    "annotations_mature": 71,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 0,
+    "gt_mature_pixels": 19445,
+    "gt_ignore_pixels": 0,
+    "pixels": 1233920,
+    "active_iou": 0.0,
+    "active_recall": 0.0,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.0,
+    "binary_iou": 0.0,
+    "binary_precision": 0.0,
+    "binary_recall": 0.0,
+    "stage_accuracy_on_detected_gt": 0.0,
+    "confusion": [
+      [
+        1214290,
+        185,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        19445,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2576,
+    "file": "12.jpg",
+    "scene": "B",
+    "fold": 3,
+    "width": 1280,
+    "height": 964,
+    "annotations_active": 0,
+    "annotations_mature": 70,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 0,
+    "gt_mature_pixels": 9163,
+    "gt_ignore_pixels": 0,
+    "pixels": 1233920,
+    "active_iou": 0.0,
+    "active_recall": 0.0,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.0,
+    "binary_iou": 0.0,
+    "binary_precision": 0.0,
+    "binary_recall": 0.0,
+    "stage_accuracy_on_detected_gt": 0.0,
+    "confusion": [
+      [
+        1224320,
+        12,
+        425
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        9163,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2574,
+    "file": "13.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 27,
+    "annotations_mature": 105,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 7080,
+    "gt_mature_pixels": 49156,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.1967782177143787,
+    "active_recall": 0.5124293785310734,
+    "mature_iou": 0.2267024128686327,
+    "mature_recall": 0.2580356416307267,
+    "foreground_miou": 0.21174031529150572,
+    "binary_iou": 0.39155850133480624,
+    "binary_precision": 0.7405333255955663,
+    "binary_recall": 0.4538196173269792,
+    "stage_accuracy_on_detected_gt": 0.6391599075271345,
+    "confusion": [
+      [
+        3621222,
+        3013,
+        5929
+      ],
+      [
+        2587,
+        3628,
+        865
+      ],
+      [
+        28128,
+        8344,
+        12684
+      ]
+    ]
+  },
+  {
+    "id": 2580,
+    "file": "14.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 95,
+    "annotations_mature": 1,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 19094,
+    "gt_mature_pixels": 130,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.29780686377624555,
+    "active_recall": 0.4003875563004085,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.14890343188812277,
+    "binary_iou": 0.41992494467075087,
+    "binary_precision": 0.5227390696745857,
+    "binary_recall": 0.681023720349563,
+    "stage_accuracy_on_detected_gt": 0.583944393522762,
+    "confusion": [
+      [
+        3655223,
+        6577,
+        5376
+      ],
+      [
+        6002,
+        7645,
+        5447
+      ],
+      [
+        130,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2579,
+    "file": "15.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 194,
+    "annotations_mature": 0,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 107207,
+    "gt_mature_pixels": 0,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.509210575381288,
+    "active_recall": 0.7642504687193933,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.254605287690644,
+    "binary_iou": 0.5142463876205895,
+    "binary_precision": 0.5950631836711783,
+    "binary_recall": 0.7910770751909857,
+    "stage_accuracy_on_detected_gt": 0.9660885047577498,
+    "confusion": [
+      [
+        3521481,
+        53695,
+        4017
+      ],
+      [
+        22398,
+        81933,
+        2876
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2581,
+    "file": "16.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 223,
+    "annotations_mature": 6,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 76513,
+    "gt_mature_pixels": 1142,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.3972743474158717,
+    "active_recall": 0.7429325735495929,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.19863717370793585,
+    "binary_iou": 0.403179686606428,
+    "binary_precision": 0.4577887105522494,
+    "binary_recall": 0.771682441568476,
+    "stage_accuracy_on_detected_gt": 0.9485857321652065,
+    "confusion": [
+      [
+        3537769,
+        65580,
+        5396
+      ],
+      [
+        17580,
+        56844,
+        2089
+      ],
+      [
+        150,
+        992,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2582,
+    "file": "17.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 173,
+    "annotations_mature": 0,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 60871,
+    "gt_mature_pixels": 0,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.40110460463236636,
+    "active_recall": 0.8315782556554024,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.20055230231618318,
+    "binary_iou": 0.3935391808604305,
+    "binary_precision": 0.42247300875942145,
+    "binary_recall": 0.8517684940283551,
+    "stage_accuracy_on_detected_gt": 0.9762960962814381,
+    "confusion": [
+      [
+        3554652,
+        65328,
+        5549
+      ],
+      [
+        9023,
+        50619,
+        1229
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2585,
+    "file": "18.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 179,
+    "annotations_mature": 1,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 142762,
+    "gt_mature_pixels": 233,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.4631412316495819,
+    "active_recall": 0.8832812653227049,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.23157061582479094,
+    "binary_iou": 0.464083227830682,
+    "binary_precision": 0.4940521535306182,
+    "binary_recall": 0.8844015525018357,
+    "stage_accuracy_on_detected_gt": 0.9971059186336141,
+    "confusion": [
+      [
+        3413895,
+        129325,
+        185
+      ],
+      [
+        16479,
+        126099,
+        184
+      ],
+      [
+        51,
+        182,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2583,
+    "file": "19.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 147,
+    "annotations_mature": 0,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 99055,
+    "gt_mature_pixels": 0,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.3786542491268917,
+    "active_recall": 0.8209176720004038,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.18932712456344586,
+    "binary_iou": 0.3786542491268917,
+    "binary_precision": 0.4127485267320099,
+    "binary_recall": 0.8209176720004038,
+    "stage_accuracy_on_detected_gt": 1.0,
+    "confusion": [
+      [
+        3471650,
+        115695,
+        0
+      ],
+      [
+        17739,
+        81316,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2584,
+    "file": "20.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 279,
+    "annotations_mature": 0,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 215289,
+    "gt_mature_pixels": 0,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.5821707789084045,
+    "active_recall": 0.7363822582667948,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.29108538945420226,
+    "binary_iou": 0.5813285247247512,
+    "binary_precision": 0.7337475192790759,
+    "binary_recall": 0.7367399170417439,
+    "stage_accuracy_on_detected_gt": 0.9995145386225506,
+    "confusion": [
+      [
+        3413556,
+        57028,
+        527
+      ],
+      [
+        56677,
+        158535,
+        77
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2587,
+    "file": "21.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 257,
+    "annotations_mature": 0,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 185329,
+    "gt_mature_pixels": 0,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.5954581549368415,
+    "active_recall": 0.784950007823924,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.29772907746842076,
+    "binary_iou": 0.5950990070736821,
+    "binary_precision": 0.7092384434375061,
+    "binary_recall": 0.7871353107176966,
+    "stage_accuracy_on_detected_gt": 0.997223726513069,
+    "confusion": [
+      [
+        3441266,
+        58977,
+        828
+      ],
+      [
+        39450,
+        145474,
+        405
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2588,
+    "file": "22.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 286,
+    "annotations_mature": 0,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 170025,
+    "gt_mature_pixels": 0,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.5822711667102499,
+    "active_recall": 0.8119570651374798,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.29113558335512496,
+    "binary_iou": 0.5803218336702403,
+    "binary_precision": 0.6702894505633195,
+    "binary_recall": 0.8121570357300397,
+    "stage_accuracy_on_detected_gt": 0.9997537784150572,
+    "confusion": [
+      [
+        3448451,
+        67069,
+        855
+      ],
+      [
+        31938,
+        138053,
+        34
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2586,
+    "file": "23.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 252,
+    "annotations_mature": 0,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 95542,
+    "gt_mature_pixels": 0,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.439695284397137,
+    "active_recall": 0.7497121684704109,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.2198476421985685,
+    "binary_iou": 0.4387803220057689,
+    "binary_precision": 0.5139926109257864,
+    "binary_recall": 0.7499110338908543,
+    "stage_accuracy_on_detected_gt": 0.9997348146493971,
+    "confusion": [
+      [
+        3523111,
+        67364,
+        383
+      ],
+      [
+        23894,
+        71629,
+        19
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2590,
+    "file": "24.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 441,
+    "annotations_mature": 5,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 203753,
+    "gt_mature_pixels": 1020,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.466114876124875,
+    "active_recall": 0.5353688043857023,
+    "mature_iou": 0.0003940627873374491,
+    "mature_recall": 0.014705882352941176,
+    "foreground_miou": 0.23325446945610623,
+    "binary_iou": 0.5684079294936678,
+    "binary_precision": 0.78307523127154,
+    "binary_recall": 0.6746348395540428,
+    "stage_accuracy_on_detected_gt": 0.7897239896631849,
+    "confusion": [
+      [
+        3443358,
+        29789,
+        8480
+      ],
+      [
+        66105,
+        109083,
+        28565
+      ],
+      [
+        521,
+        484,
+        15
+      ]
+    ]
+  },
+  {
+    "id": 2589,
+    "file": "25.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 364,
+    "annotations_mature": 5,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 204673,
+    "gt_mature_pixels": 1638,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.4802866321568096,
+    "active_recall": 0.5544111827158443,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.2401433160784048,
+    "binary_iou": 0.5508222027769981,
+    "binary_precision": 0.7877119044246116,
+    "binary_recall": 0.6468438425483857,
+    "stage_accuracy_on_detected_gt": 0.8502971127979558,
+    "confusion": [
+      [
+        3444124,
+        30282,
+        5683
+      ],
+      [
+        72528,
+        113473,
+        18672
+      ],
+      [
+        332,
+        1306,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2592,
+    "file": "26.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 346,
+    "annotations_mature": 2,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 227030,
+    "gt_mature_pixels": 514,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.569841330359469,
+    "active_recall": 0.7899969167070431,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.2849206651797345,
+    "binary_iou": 0.5695406812510292,
+    "binary_precision": 0.6708806929455783,
+    "binary_recall": 0.7903746088668565,
+    "stage_accuracy_on_detected_gt": 0.9972643109344157,
+    "confusion": [
+      [
+        3370628,
+        87504,
+        724
+      ],
+      [
+        47393,
+        179353,
+        284
+      ],
+      [
+        306,
+        208,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2591,
+    "file": "27.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 234,
+    "annotations_mature": 0,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 139181,
+    "gt_mature_pixels": 0,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.22129967581782323,
+    "active_recall": 0.28054835070878925,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.11064983790891161,
+    "binary_iou": 0.22129967581782323,
+    "binary_precision": 0.5116891626261303,
+    "binary_recall": 0.28054835070878925,
+    "stage_accuracy_on_detected_gt": 1.0,
+    "confusion": [
+      [
+        3509956,
+        37263,
+        0
+      ],
+      [
+        100134,
+        39047,
+        0
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2594,
+    "file": "28.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 283,
+    "annotations_mature": 42,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 163976,
+    "gt_mature_pixels": 14344,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.448242691567735,
+    "active_recall": 0.6990657169341855,
+    "mature_iou": 0.02604734714826458,
+    "mature_recall": 0.02830451756832125,
+    "foreground_miou": 0.23714501935799978,
+    "binary_iou": 0.49186214885606716,
+    "binary_precision": 0.612300814766746,
+    "binary_recall": 0.7143337819650067,
+    "stage_accuracy_on_detected_gt": 0.9030931072381849,
+    "confusion": [
+      [
+        3427425,
+        79907,
+        748
+      ],
+      [
+        48851,
+        114630,
+        495
+      ],
+      [
+        2089,
+        11849,
+        406
+      ]
+    ]
+  },
+  {
+    "id": 2593,
+    "file": "29.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 298,
+    "annotations_mature": 0,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 157135,
+    "gt_mature_pixels": 0,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.5137407628422852,
+    "active_recall": 0.7286791612307888,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.2568703814211426,
+    "binary_iou": 0.5270711748992137,
+    "binary_precision": 0.6360720281933411,
+    "binary_recall": 0.7546440958411557,
+    "stage_accuracy_on_detected_gt": 0.9655931388671035,
+    "confusion": [
+      [
+        3461419,
+        65742,
+        2104
+      ],
+      [
+        38554,
+        114501,
+        4080
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2595,
+    "file": "30.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 270,
+    "annotations_mature": 9,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 160431,
+    "gt_mature_pixels": 4024,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.4854116957595546,
+    "active_recall": 0.7228029495546372,
+    "mature_iou": 0.004476690336523618,
+    "mature_recall": 0.00720675944333996,
+    "foreground_miou": 0.2449441930480391,
+    "binary_iou": 0.5041312337924518,
+    "binary_precision": 0.6150978659434643,
+    "binary_recall": 0.7364567814903773,
+    "stage_accuracy_on_detected_gt": 0.9576844955991876,
+    "confusion": [
+      [
+        3446157,
+        74840,
+        948
+      ],
+      [
+        42965,
+        115960,
+        1506
+      ],
+      [
+        376,
+        3619,
+        29
+      ]
+    ]
+  },
+  {
+    "id": 2596,
+    "file": "31.jpg",
+    "scene": "C",
+    "fold": 0,
+    "width": 2560,
+    "height": 1440,
+    "annotations_active": 300,
+    "annotations_mature": 4,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 157649,
+    "gt_mature_pixels": 905,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.49368078855414355,
+    "active_recall": 0.7205373963678805,
+    "mature_iou": 0.04,
+    "mature_recall": 0.16132596685082873,
+    "foreground_miou": 0.2668403942770718,
+    "binary_iou": 0.5025382466639569,
+    "binary_precision": 0.6151509056455967,
+    "binary_recall": 0.7329868688270242,
+    "stage_accuracy_on_detected_gt": 0.9786607926482989,
+    "confusion": [
+      [
+        3455138,
+        71744,
+        964
+      ],
+      [
+        42276,
+        113592,
+        1781
+      ],
+      [
+        60,
+        699,
+        146
+      ]
+    ]
+  },
+  {
+    "id": 2598,
+    "file": "32.jpg",
+    "scene": "D",
+    "fold": 4,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 109,
+    "annotations_mature": 1,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 66291,
+    "gt_mature_pixels": 480,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.5588031027770441,
+    "active_recall": 0.8617610233666712,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.2794015513885221,
+    "binary_iou": 0.5543242195074656,
+    "binary_precision": 0.6112013854739048,
+    "binary_recall": 0.8562549609860568,
+    "stage_accuracy_on_detected_gt": 0.9991954244136219,
+    "confusion": [
+      [
+        3583260,
+        35935,
+        434
+      ],
+      [
+        9123,
+        57127,
+        41
+      ],
+      [
+        475,
+        5,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2597,
+    "file": "33.jpg",
+    "scene": "D",
+    "fold": 4,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 126,
+    "annotations_mature": 7,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 67702,
+    "gt_mature_pixels": 2118,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.5587915915423701,
+    "active_recall": 0.8056925940149479,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.27939579577118506,
+    "binary_iou": 0.5549201499512558,
+    "binary_precision": 0.6503952033736586,
+    "binary_recall": 0.7908049269550272,
+    "stage_accuracy_on_detected_gt": 0.9879197305031333,
+    "confusion": [
+      [
+        3586901,
+        29560,
+        119
+      ],
+      [
+        12842,
+        54547,
+        313
+      ],
+      [
+        1764,
+        354,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2599,
+    "file": "34.jpg",
+    "scene": "D",
+    "fold": 4,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 160,
+    "annotations_mature": 3,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 139236,
+    "gt_mature_pixels": 2744,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.54093751049649,
+    "active_recall": 0.8096541124421844,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.270468755248245,
+    "binary_iou": 0.5518275332724395,
+    "binary_precision": 0.6322170963959719,
+    "binary_recall": 0.8127271446682631,
+    "stage_accuracy_on_detected_gt": 0.9769652745881394,
+    "confusion": [
+      [
+        3477293,
+        66509,
+        618
+      ],
+      [
+        26503,
+        112733,
+        0
+      ],
+      [
+        86,
+        2658,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2600,
+    "file": "35.jpg",
+    "scene": "D",
+    "fold": 4,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 132,
+    "annotations_mature": 2,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 92224,
+    "gt_mature_pixels": 1795,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.5392980541916712,
+    "active_recall": 0.8039122137404581,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.2696490270958356,
+    "binary_iou": 0.5507552344056066,
+    "binary_precision": 0.634030434128986,
+    "binary_recall": 0.8074431763792425,
+    "stage_accuracy_on_detected_gt": 0.9766185865770928,
+    "confusion": [
+      [
+        3548562,
+        43647,
+        172
+      ],
+      [
+        17913,
+        74140,
+        171
+      ],
+      [
+        191,
+        1604,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2602,
+    "file": "36.jpg",
+    "scene": "D",
+    "fold": 4,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 101,
+    "annotations_mature": 0,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 62054,
+    "gt_mature_pixels": 0,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.49763529954952146,
+    "active_recall": 0.6426499500435104,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.24881764977476073,
+    "binary_iou": 0.5009221643446402,
+    "binary_precision": 0.6884344653958794,
+    "binary_recall": 0.647774518967351,
+    "stage_accuracy_on_detected_gt": 0.9920889618628256,
+    "confusion": [
+      [
+        3606154,
+        18083,
+        109
+      ],
+      [
+        21857,
+        39879,
+        318
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2601,
+    "file": "37.jpg",
+    "scene": "D",
+    "fold": 4,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 112,
+    "annotations_mature": 0,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 62104,
+    "gt_mature_pixels": 0,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.5008355990122472,
+    "active_recall": 0.6466250161020224,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.2504177995061236,
+    "binary_iou": 0.5108493799464074,
+    "binary_precision": 0.6933134863580237,
+    "binary_recall": 0.659989694705655,
+    "stage_accuracy_on_detected_gt": 0.9797501707816922,
+    "confusion": [
+      [
+        3606165,
+        18078,
+        53
+      ],
+      [
+        21116,
+        40158,
+        830
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2603,
+    "file": "38.jpg",
+    "scene": "D",
+    "fold": 4,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 97,
+    "annotations_mature": 1,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 49904,
+    "gt_mature_pixels": 414,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.521432439156459,
+    "active_recall": 0.7139708239820455,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.2607162195782295,
+    "binary_iou": 0.5320221517600129,
+    "binary_precision": 0.6677180949586459,
+    "binary_recall": 0.7235979172463134,
+    "stage_accuracy_on_detected_gt": 0.9785773139247459,
+    "confusion": [
+      [
+        3617963,
+        18062,
+        57
+      ],
+      [
+        13859,
+        35630,
+        415
+      ],
+      [
+        49,
+        365,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2604,
+    "file": "39.jpg",
+    "scene": "D",
+    "fold": 4,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 104,
+    "annotations_mature": 0,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 56389,
+    "gt_mature_pixels": 0,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.5355321130245034,
+    "active_recall": 0.6833070279664474,
+    "mature_iou": 0.0,
+    "mature_recall": 0.0,
+    "foreground_miou": 0.2677660565122517,
+    "binary_iou": 0.553092990699544,
+    "binary_precision": 0.7168984226222558,
+    "binary_recall": 0.7076557484615794,
+    "stage_accuracy_on_detected_gt": 0.9655924218123496,
+    "confusion": [
+      [
+        3614253,
+        15560,
+        198
+      ],
+      [
+        16485,
+        38531,
+        1373
+      ],
+      [
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": 2606,
+    "file": "40.jpg",
+    "scene": "E",
+    "fold": 2,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 37,
+    "annotations_mature": 88,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 27031,
+    "gt_mature_pixels": 94546,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.3345972509791204,
+    "active_recall": 0.4962080574155599,
+    "mature_iou": 0.4366670721861556,
+    "mature_recall": 0.8352124891587164,
+    "foreground_miou": 0.385632161582638,
+    "binary_iou": 0.5325135248828495,
+    "binary_precision": 0.5678177825762672,
+    "binary_recall": 0.8954489747238376,
+    "stage_accuracy_on_detected_gt": 0.8485569415611853,
+    "confusion": [
+      [
+        3481962,
+        9007,
+        73854
+      ],
+      [
+        1180,
+        13413,
+        12438
+      ],
+      [
+        11531,
+        4049,
+        78966
+      ]
+    ]
+  },
+  {
+    "id": 2605,
+    "file": "41.jpg",
+    "scene": "E",
+    "fold": 2,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 8,
+    "annotations_mature": 32,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 24040,
+    "gt_mature_pixels": 83320,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.284736542700704,
+    "active_recall": 0.6662645590682197,
+    "mature_iou": 0.11902146540352561,
+    "mature_recall": 0.2978036485837734,
+    "foreground_miou": 0.20187900405211479,
+    "binary_iou": 0.2879006288671961,
+    "binary_precision": 0.3446318561834942,
+    "binary_recall": 0.6362239195230999,
+    "stage_accuracy_on_detected_gt": 0.5977600468486933,
+    "confusion": [
+      [
+        3449148,
+        6302,
+        123590
+      ],
+      [
+        6458,
+        16017,
+        1565
+      ],
+      [
+        32597,
+        25910,
+        24813
+      ]
+    ]
+  },
+  {
+    "id": 2608,
+    "file": "42.jpg",
+    "scene": "E",
+    "fold": 2,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 21,
+    "annotations_mature": 29,
+    "annotations_ignore": 8,
+    "gt_active_pixels": 31969,
+    "gt_mature_pixels": 42683,
+    "gt_ignore_pixels": 7310,
+    "pixels": 3686400,
+    "active_iou": 0.5445228705634121,
+    "active_recall": 0.6780944039538302,
+    "mature_iou": 0.2961731974831811,
+    "mature_recall": 0.60544010495982,
+    "foreground_miou": 0.42034803402329657,
+    "binary_iou": 0.43532236052419554,
+    "binary_precision": 0.529860305007405,
+    "binary_recall": 0.7092911107538981,
+    "stage_accuracy_on_detected_gt": 0.8974504249291785,
+    "confusion": [
+      [
+        3557456,
+        4218,
+        42764
+      ],
+      [
+        8485,
+        21678,
+        1806
+      ],
+      [
+        13217,
+        3624,
+        25842
+      ]
+    ]
+  },
+  {
+    "id": 2607,
+    "file": "43.jpg",
+    "scene": "E",
+    "fold": 2,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 20,
+    "annotations_mature": 40,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 26687,
+    "gt_mature_pixels": 50654,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.5335855609998139,
+    "active_recall": 0.644733390789523,
+    "mature_iou": 0.2806915824993912,
+    "mature_recall": 0.4778694673668417,
+    "foreground_miou": 0.40713857174960255,
+    "binary_iou": 0.43833151924581937,
+    "binary_precision": 0.5902560748116384,
+    "binary_recall": 0.6300409873159126,
+    "stage_accuracy_on_detected_gt": 0.8498604498440322,
+    "confusion": [
+      [
+        3575233,
+        2834,
+        30992
+      ],
+      [
+        4890,
+        17206,
+        4591
+      ],
+      [
+        23723,
+        2725,
+        24206
+      ]
+    ]
+  },
+  {
+    "id": 2610,
+    "file": "44.jpg",
+    "scene": "E",
+    "fold": 2,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 13,
+    "annotations_mature": 29,
+    "annotations_ignore": 1,
+    "gt_active_pixels": 24847,
+    "gt_mature_pixels": 39360,
+    "gt_ignore_pixels": 652,
+    "pixels": 3686400,
+    "active_iou": 0.3951285959848215,
+    "active_recall": 0.49032076306998834,
+    "mature_iou": 0.26568645363541077,
+    "mature_recall": 0.7019563008130081,
+    "foreground_miou": 0.33040752481011615,
+    "binary_iou": 0.38739840950799614,
+    "binary_precision": 0.44157784639904374,
+    "binary_recall": 0.7594654788418709,
+    "stage_accuracy_on_detected_gt": 0.8164386932715378,
+    "confusion": [
+      [
+        3559875,
+        2759,
+        58907
+      ],
+      [
+        6940,
+        12183,
+        5724
+      ],
+      [
+        8504,
+        3227,
+        27629
+      ]
+    ]
+  },
+  {
+    "id": 2609,
+    "file": "45.jpg",
+    "scene": "E",
+    "fold": 2,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 39,
+    "annotations_mature": 117,
+    "annotations_ignore": 1,
+    "gt_active_pixels": 42266,
+    "gt_mature_pixels": 328229,
+    "gt_ignore_pixels": 1208,
+    "pixels": 3686400,
+    "active_iou": 0.09854525808162162,
+    "active_recall": 0.4660720200634079,
+    "mature_iou": 0.5734450345231629,
+    "mature_recall": 0.7365741601138229,
+    "foreground_miou": 0.33599514630239224,
+    "binary_iou": 0.4818793635875403,
+    "binary_precision": 0.5602749830233302,
+    "binary_recall": 0.7749713221500965,
+    "stage_accuracy_on_detected_gt": 0.9106341184788401,
+    "confusion": [
+      [
+        3089352,
+        147249,
+        78096
+      ],
+      [
+        7291,
+        19699,
+        15276
+      ],
+      [
+        76081,
+        10383,
+        241765
+      ]
+    ]
+  },
+  {
+    "id": 2570,
+    "file": "48.jpg",
+    "scene": "E",
+    "fold": 2,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 31,
+    "annotations_mature": 83,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 41049,
+    "gt_mature_pixels": 177288,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.34953936816978104,
+    "active_recall": 0.45660064800604155,
+    "mature_iou": 0.5186250426475606,
+    "mature_recall": 0.8574127972564415,
+    "foreground_miou": 0.4340822054086708,
+    "binary_iou": 0.6053919059363706,
+    "binary_precision": 0.6523398977725925,
+    "binary_recall": 0.8937514026481999,
+    "stage_accuracy_on_detected_gt": 0.8750275444683021,
+    "confusion": [
+      [
+        3364065,
+        6991,
+        97007
+      ],
+      [
+        3501,
+        18743,
+        18805
+      ],
+      [
+        19697,
+        5582,
+        152009
+      ]
+    ]
+  },
+  {
+    "id": 2614,
+    "file": "49.jpg",
+    "scene": "E",
+    "fold": 2,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 10,
+    "annotations_mature": 129,
+    "annotations_ignore": 7,
+    "gt_active_pixels": 13474,
+    "gt_mature_pixels": 624260,
+    "gt_ignore_pixels": 3816,
+    "pixels": 3686400,
+    "active_iou": 0.11458134003991143,
+    "active_recall": 0.6221611993468903,
+    "mature_iou": 0.577659466556965,
+    "mature_recall": 0.6568176721237946,
+    "foreground_miou": 0.3461204032984382,
+    "binary_iou": 0.645352675159759,
+    "binary_precision": 0.8360158966716343,
+    "binary_recall": 0.7388848642223874,
+    "stage_accuracy_on_detected_gt": 0.8879400354829673,
+    "confusion": [
+      [
+        2952422,
+        9022,
+        83406
+      ],
+      [
+        2953,
+        8383,
+        2138
+      ],
+      [
+        163569,
+        50666,
+        410025
+      ]
+    ]
+  },
+  {
+    "id": 2618,
+    "file": "52.jpg",
+    "scene": "E",
+    "fold": 2,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 7,
+    "annotations_mature": 125,
+    "annotations_ignore": 4,
+    "gt_active_pixels": 14890,
+    "gt_mature_pixels": 591866,
+    "gt_ignore_pixels": 6609,
+    "pixels": 3686400,
+    "active_iou": 0.08757817348546332,
+    "active_recall": 0.4928139691067831,
+    "mature_iou": 0.5704089013850955,
+    "mature_recall": 0.6834824098698016,
+    "foreground_miou": 0.32899353743527937,
+    "binary_iou": 0.6405382184381481,
+    "binary_precision": 0.786543229899029,
+    "binary_recall": 0.7753133055132541,
+    "stage_accuracy_on_detected_gt": 0.8755213359805794,
+    "confusion": [
+      [
+        2945368,
+        11497,
+        116170
+      ],
+      [
+        6395,
+        7338,
+        1157
+      ],
+      [
+        129935,
+        57401,
+        404530
+      ]
+    ]
+  },
+  {
+    "id": 2617,
+    "file": "53.jpg",
+    "scene": "E",
+    "fold": 2,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 0,
+    "annotations_mature": 149,
+    "annotations_ignore": 2,
+    "gt_active_pixels": 0,
+    "gt_mature_pixels": 749578,
+    "gt_ignore_pixels": 7391,
+    "pixels": 3686400,
+    "active_iou": 0.0,
+    "active_recall": 0.0,
+    "mature_iou": 0.488971302921624,
+    "mature_recall": 0.5604006521002484,
+    "foreground_miou": 0.244485651460812,
+    "binary_iou": 0.5859580646529052,
+    "binary_precision": 0.8060279802955665,
+    "binary_recall": 0.6821491559250672,
+    "stage_accuracy_on_detected_gt": 0.8215221659847768,
+    "confusion": [
+      [
+        2806380,
+        13552,
+        109499
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        238254,
+        91260,
+        420064
+      ]
+    ]
+  },
+  {
+    "id": 2619,
+    "file": "55.jpg",
+    "scene": "F",
+    "fold": 1,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 41,
+    "annotations_mature": 4,
+    "annotations_ignore": 13,
+    "gt_active_pixels": 97294,
+    "gt_mature_pixels": 8047,
+    "gt_ignore_pixels": 22003,
+    "pixels": 3686400,
+    "active_iou": 0.4339663582550732,
+    "active_recall": 0.5138960264764528,
+    "mature_iou": 0.12792199118393516,
+    "mature_recall": 0.3570274636510501,
+    "foreground_miou": 0.28094417471950417,
+    "binary_iou": 0.44885715589214836,
+    "binary_precision": 0.6928195859349326,
+    "binary_recall": 0.560380098916851,
+    "stage_accuracy_on_detected_gt": 0.8956649895817452,
+    "confusion": [
+      [
+        3532883,
+        17399,
+        8774
+      ],
+      [
+        41657,
+        49999,
+        5638
+      ],
+      [
+        4653,
+        521,
+        2873
+      ]
+    ]
+  },
+  {
+    "id": 2615,
+    "file": "56.jpg",
+    "scene": "F",
+    "fold": 1,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 34,
+    "annotations_mature": 1,
+    "annotations_ignore": 3,
+    "gt_active_pixels": 97133,
+    "gt_mature_pixels": 2689,
+    "gt_ignore_pixels": 5716,
+    "pixels": 3686400,
+    "active_iou": 0.4451830814302481,
+    "active_recall": 0.5115666148476831,
+    "mature_iou": 0.17764261744966442,
+    "mature_recall": 0.9449609520267758,
+    "foreground_miou": 0.3114128494399563,
+    "binary_iou": 0.48935351998461757,
+    "binary_precision": 0.7472871186007916,
+    "binary_recall": 0.5863937809300555,
+    "stage_accuracy_on_detected_gt": 0.8923037498932263,
+    "confusion": [
+      [
+        3561067,
+        14484,
+        5311
+      ],
+      [
+        41139,
+        49690,
+        6304
+      ],
+      [
+        148,
+        0,
+        2541
+      ]
+    ]
+  },
+  {
+    "id": 2620,
+    "file": "57.jpg",
+    "scene": "F",
+    "fold": 1,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 27,
+    "annotations_mature": 3,
+    "annotations_ignore": 5,
+    "gt_active_pixels": 66711,
+    "gt_mature_pixels": 4446,
+    "gt_ignore_pixels": 9051,
+    "pixels": 3686400,
+    "active_iou": 0.4570144690720291,
+    "active_recall": 0.5198692869241954,
+    "mature_iou": 0.15640347563279183,
+    "mature_recall": 0.46558704453441296,
+    "foreground_miou": 0.30670897235241046,
+    "binary_iou": 0.488253307636828,
+    "binary_precision": 0.7547290505345883,
+    "binary_recall": 0.5803364391416165,
+    "stage_accuracy_on_detected_gt": 0.8899624651894903,
+    "confusion": [
+      [
+        3592772,
+        8207,
+        5213
+      ],
+      [
+        28454,
+        34681,
+        3576
+      ],
+      [
+        1408,
+        968,
+        2070
+      ]
+    ]
+  },
+  {
+    "id": 2622,
+    "file": "58.jpg",
+    "scene": "F",
+    "fold": 1,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 18,
+    "annotations_mature": 2,
+    "annotations_ignore": 9,
+    "gt_active_pixels": 47258,
+    "gt_mature_pixels": 8174,
+    "gt_ignore_pixels": 23471,
+    "pixels": 3686400,
+    "active_iou": 0.43610396642750776,
+    "active_recall": 0.5453468195861019,
+    "mature_iou": 0.13445919175911253,
+    "mature_recall": 0.3321507218008319,
+    "foreground_miou": 0.28528157909331014,
+    "binary_iou": 0.4931835185236499,
+    "binary_precision": 0.6800718338650823,
+    "binary_recall": 0.6421741954105932,
+    "stage_accuracy_on_detected_gt": 0.8002640671966739,
+    "confusion": [
+      [
+        3590751,
+        10128,
+        6618
+      ],
+      [
+        16086,
+        25772,
+        5400
+      ],
+      [
+        3749,
+        1710,
+        2715
+      ]
+    ]
+  },
+  {
+    "id": 2624,
+    "file": "59.jpg",
+    "scene": "F",
+    "fold": 1,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 21,
+    "annotations_mature": 2,
+    "annotations_ignore": 0,
+    "gt_active_pixels": 104165,
+    "gt_mature_pixels": 3903,
+    "gt_ignore_pixels": 0,
+    "pixels": 3686400,
+    "active_iou": 0.34012218169032654,
+    "active_recall": 0.3714683434934959,
+    "mature_iou": 0.04790843715182822,
+    "mature_recall": 0.24237765821163207,
+    "foreground_miou": 0.1940153094210774,
+    "binary_iou": 0.3719168693695478,
+    "binary_precision": 0.7212328872362983,
+    "binary_recall": 0.4343561461302143,
+    "stage_accuracy_on_detected_gt": 0.8444823178525778,
+    "confusion": [
+      [
+        3560189,
+        9600,
+        8543
+      ],
+      [
+        58171,
+        38694,
+        7300
+      ],
+      [
+        2957,
+        0,
+        946
+      ]
+    ]
+  },
+  {
+    "id": 2623,
+    "file": "60.jpg",
+    "scene": "F",
+    "fold": 1,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 59,
+    "annotations_mature": 6,
+    "annotations_ignore": 6,
+    "gt_active_pixels": 128930,
+    "gt_mature_pixels": 13964,
+    "gt_ignore_pixels": 6814,
+    "pixels": 3686400,
+    "active_iou": 0.5492772429610405,
+    "active_recall": 0.7058636469402001,
+    "mature_iou": 0.1863453061990059,
+    "mature_recall": 0.28458894299627613,
+    "foreground_miou": 0.3678112745800232,
+    "binary_iou": 0.5539317793574695,
+    "binary_precision": 0.7226703475247667,
+    "binary_recall": 0.7034725040939438,
+    "stage_accuracy_on_detected_gt": 0.9448777382065617,
+    "confusion": [
+      [
+        3498116,
+        32552,
+        6024
+      ],
+      [
+        36585,
+        91007,
+        1338
+      ],
+      [
+        5787,
+        4203,
+        3974
+      ]
+    ]
+  },
+  {
+    "id": 2625,
+    "file": "61.jpg",
+    "scene": "F",
+    "fold": 1,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 50,
+    "annotations_mature": 5,
+    "annotations_ignore": 15,
+    "gt_active_pixels": 134841,
+    "gt_mature_pixels": 6643,
+    "gt_ignore_pixels": 33785,
+    "pixels": 3686400,
+    "active_iou": 0.5267329641623075,
+    "active_recall": 0.6116018125050986,
+    "mature_iou": 0.16113074204946998,
+    "mature_recall": 0.41186211049224747,
+    "foreground_miou": 0.34393185310588875,
+    "binary_iou": 0.5445759686729583,
+    "binary_precision": 0.777953064774704,
+    "binary_recall": 0.6448008255350428,
+    "stage_accuracy_on_detected_gt": 0.9339683653224303,
+    "confusion": [
+      [
+        3485092,
+        21725,
+        4314
+      ],
+      [
+        46349,
+        82469,
+        6023
+      ],
+      [
+        3906,
+        1,
+        2736
+      ]
+    ]
+  },
+  {
+    "id": 2626,
+    "file": "62.jpg",
+    "scene": "F",
+    "fold": 1,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 61,
+    "annotations_mature": 3,
+    "annotations_ignore": 19,
+    "gt_active_pixels": 114486,
+    "gt_mature_pixels": 6698,
+    "gt_ignore_pixels": 40161,
+    "pixels": 3686400,
+    "active_iou": 0.5610049581025834,
+    "active_recall": 0.6760127875897489,
+    "mature_iou": 0.4014906027219702,
+    "mature_recall": 0.9249029561063004,
+    "foreground_miou": 0.4812477804122768,
+    "binary_iou": 0.5807501684310233,
+    "binary_precision": 0.751889179642632,
+    "binary_recall": 0.7184281753366781,
+    "stage_accuracy_on_detected_gt": 0.9601088879189543,
+    "confusion": [
+      [
+        3496326,
+        23226,
+        5503
+      ],
+      [
+        33863,
+        77394,
+        3229
+      ],
+      [
+        259,
+        244,
+        6195
+      ]
+    ]
+  },
+  {
+    "id": 2628,
+    "file": "63.jpg",
+    "scene": "F",
+    "fold": 1,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 58,
+    "annotations_mature": 6,
+    "annotations_ignore": 10,
+    "gt_active_pixels": 115971,
+    "gt_mature_pixels": 11569,
+    "gt_ignore_pixels": 19696,
+    "pixels": 3686400,
+    "active_iou": 0.4198386764402838,
+    "active_recall": 0.49189883677816004,
+    "mature_iou": 0.20213871330851155,
+    "mature_recall": 0.8071570576540755,
+    "foreground_miou": 0.3109886948743977,
+    "binary_iou": 0.518707555762025,
+    "binary_precision": 0.7018012504548612,
+    "binary_recall": 0.6653520464168104,
+    "stage_accuracy_on_detected_gt": 0.7822859095676358,
+    "confusion": [
+      [
+        3503107,
+        19793,
+        16264
+      ],
+      [
+        40562,
+        57046,
+        18363
+      ],
+      [
+        2119,
+        112,
+        9338
+      ]
+    ]
+  },
+  {
+    "id": 2627,
+    "file": "64.jpg",
+    "scene": "F",
+    "fold": 1,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 50,
+    "annotations_mature": 4,
+    "annotations_ignore": 23,
+    "gt_active_pixels": 85134,
+    "gt_mature_pixels": 7399,
+    "gt_ignore_pixels": 25242,
+    "pixels": 3686400,
+    "active_iou": 0.3719145779237984,
+    "active_recall": 0.41219724199497265,
+    "mature_iou": 0.1319735155916275,
+    "mature_recall": 0.8351128530882552,
+    "foreground_miou": 0.251944046757713,
+    "binary_iou": 0.5216640672566076,
+    "binary_precision": 0.6956391178138868,
+    "binary_recall": 0.6759426366809679,
+    "stage_accuracy_on_detected_gt": 0.6598398004700465,
+    "confusion": [
+      [
+        3541259,
+        9221,
+        18145
+      ],
+      [
+        28766,
+        35092,
+        21276
+      ],
+      [
+        1220,
+        0,
+        6179
+      ]
+    ]
+  },
+  {
+    "id": 2630,
+    "file": "65.jpg",
+    "scene": "F",
+    "fold": 1,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 33,
+    "annotations_mature": 2,
+    "annotations_ignore": 17,
+    "gt_active_pixels": 76217,
+    "gt_mature_pixels": 4474,
+    "gt_ignore_pixels": 26726,
+    "pixels": 3686400,
+    "active_iou": 0.31095995741408883,
+    "active_recall": 0.34489680779878507,
+    "mature_iou": 0.07718229801055623,
+    "mature_recall": 0.8497988377291015,
+    "foreground_miou": 0.19407112771232254,
+    "binary_iou": 0.4969993149120804,
+    "binary_precision": 0.6540093517483442,
+    "binary_recall": 0.6742883345106642,
+    "stage_accuracy_on_detected_gt": 0.5530151261739785,
+    "confusion": [
+      [
+        3550199,
+        7990,
+        20794
+      ],
+      [
+        25938,
+        26287,
+        23992
+      ],
+      [
+        344,
+        328,
+        3802
+      ]
+    ]
+  },
+  {
+    "id": 2629,
+    "file": "66.jpg",
+    "scene": "F",
+    "fold": 1,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 71,
+    "annotations_mature": 2,
+    "annotations_ignore": 11,
+    "gt_active_pixels": 141029,
+    "gt_mature_pixels": 3190,
+    "gt_ignore_pixels": 31957,
+    "pixels": 3686400,
+    "active_iou": 0.5242822092783698,
+    "active_recall": 0.5954732714548072,
+    "mature_iou": 0.06941199650969684,
+    "mature_recall": 0.7730407523510971,
+    "foreground_miou": 0.2968471028940333,
+    "binary_iou": 0.5754616368215042,
+    "binary_precision": 0.7471797697416118,
+    "binary_recall": 0.7146076453171912,
+    "stage_accuracy_on_detected_gt": 0.8387832330681156,
+    "confusion": [
+      [
+        3475352,
+        19150,
+        15722
+      ],
+      [
+        40435,
+        83979,
+        16615
+      ],
+      [
+        724,
+        0,
+        2466
+      ]
+    ]
+  },
+  {
+    "id": 2631,
+    "file": "67.jpg",
+    "scene": "F",
+    "fold": 1,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 56,
+    "annotations_mature": 3,
+    "annotations_ignore": 26,
+    "gt_active_pixels": 128280,
+    "gt_mature_pixels": 5392,
+    "gt_ignore_pixels": 48009,
+    "pixels": 3686400,
+    "active_iou": 0.5646772196198783,
+    "active_recall": 0.6540536326785158,
+    "mature_iou": 0.15869860864107124,
+    "mature_recall": 0.5626854599406528,
+    "foreground_miou": 0.36168791413047474,
+    "binary_iou": 0.5891633486026686,
+    "binary_precision": 0.7804176380139874,
+    "binary_recall": 0.7062361601532109,
+    "stage_accuracy_on_detected_gt": 0.9208931824922673,
+    "confusion": [
+      [
+        3478157,
+        20304,
+        6258
+      ],
+      [
+        36910,
+        83902,
+        7468
+      ],
+      [
+        2358,
+        0,
+        3034
+      ]
+    ]
+  },
+  {
+    "id": 2632,
+    "file": "68.jpg",
+    "scene": "F",
+    "fold": 1,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 66,
+    "annotations_mature": 2,
+    "annotations_ignore": 6,
+    "gt_active_pixels": 102846,
+    "gt_mature_pixels": 1319,
+    "gt_ignore_pixels": 6318,
+    "pixels": 3686400,
+    "active_iou": 0.6094294726357147,
+    "active_recall": 0.7495770375123971,
+    "mature_iou": 0.038166474875335636,
+    "mature_recall": 0.3017437452615618,
+    "foreground_miou": 0.32379797375552516,
+    "binary_iou": 0.6129964116182323,
+    "binary_precision": 0.7390996743734637,
+    "binary_recall": 0.7822685162962607,
+    "stage_accuracy_on_detected_gt": 0.950960299441615,
+    "confusion": [
+      [
+        3547153,
+        23129,
+        5635
+      ],
+      [
+        22281,
+        77091,
+        3474
+      ],
+      [
+        399,
+        522,
+        398
+      ]
+    ]
+  },
+  {
+    "id": 2633,
+    "file": "69.jpg",
+    "scene": "F",
+    "fold": 1,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 48,
+    "annotations_mature": 6,
+    "annotations_ignore": 16,
+    "gt_active_pixels": 67174,
+    "gt_mature_pixels": 8373,
+    "gt_ignore_pixels": 23423,
+    "pixels": 3686400,
+    "active_iou": 0.46184037866716654,
+    "active_recall": 0.5868193050882782,
+    "mature_iou": 0.09213868233422075,
+    "mature_recall": 0.3596082646602174,
+    "foreground_miou": 0.27698953050069364,
+    "binary_iou": 0.5771672891684686,
+    "binary_precision": 0.6915349647879031,
+    "binary_recall": 0.7772777211537188,
+    "stage_accuracy_on_detected_gt": 0.7225694385313601,
+    "confusion": [
+      [
+        3561237,
+        13251,
+        12942
+      ],
+      [
+        16391,
+        39419,
+        11364
+      ],
+      [
+        435,
+        4927,
+        3011
+      ]
+    ]
+  },
+  {
+    "id": 2634,
+    "file": "70.jpg",
+    "scene": "F",
+    "fold": 1,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 35,
+    "annotations_mature": 7,
+    "annotations_ignore": 21,
+    "gt_active_pixels": 53093,
+    "gt_mature_pixels": 8030,
+    "gt_ignore_pixels": 30796,
+    "pixels": 3686400,
+    "active_iou": 0.4940468207489532,
+    "active_recall": 0.6244514342757049,
+    "mature_iou": 0.158558502726822,
+    "mature_recall": 0.6372353673723536,
+    "foreground_miou": 0.3263026617378876,
+    "binary_iou": 0.5869630381147825,
+    "binary_precision": 0.6652815346217675,
+    "binary_recall": 0.8329434091913028,
+    "stage_accuracy_on_detected_gt": 0.7517088309239472,
+    "confusion": [
+      [
+        3568866,
+        12016,
+        13599
+      ],
+      [
+        9296,
+        33154,
+        10643
+      ],
+      [
+        915,
+        1998,
+        5117
+      ]
+    ]
+  },
+  {
+    "id": 2637,
+    "file": "72.jpg",
+    "scene": "G",
+    "fold": 3,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 84,
+    "annotations_mature": 133,
+    "annotations_ignore": 24,
+    "gt_active_pixels": 143892,
+    "gt_mature_pixels": 262238,
+    "gt_ignore_pixels": 15369,
+    "pixels": 3686400,
+    "active_iou": 0.40193265814513823,
+    "active_recall": 0.5471951185611431,
+    "mature_iou": 0.49441007434925677,
+    "mature_recall": 0.75516134198705,
+    "foreground_miou": 0.4481713662471975,
+    "binary_iou": 0.6957451353555754,
+    "binary_precision": 0.7670405522001725,
+    "binary_recall": 0.8821485731169822,
+    "stage_accuracy_on_detected_gt": 0.7725216109772879,
+    "confusion": [
+      [
+        3156091,
+        23800,
+        85010
+      ],
+      [
+        11861,
+        78737,
+        53294
+      ],
+      [
+        36002,
+        28204,
+        198032
+      ]
+    ]
+  },
+  {
+    "id": 2635,
+    "file": "73.jpg",
+    "scene": "G",
+    "fold": 3,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 55,
+    "annotations_mature": 149,
+    "annotations_ignore": 8,
+    "gt_active_pixels": 85711,
+    "gt_mature_pixels": 232536,
+    "gt_ignore_pixels": 5836,
+    "pixels": 3686400,
+    "active_iou": 0.4018461248646018,
+    "active_recall": 0.5973095635332688,
+    "mature_iou": 0.5161360112501352,
+    "mature_recall": 0.7386727216431004,
+    "foreground_miou": 0.4589910680573685,
+    "binary_iou": 0.6711889781500435,
+    "binary_precision": 0.7518846854746996,
+    "binary_recall": 0.8621416698350652,
+    "stage_accuracy_on_detected_gt": 0.8126280186898176,
+    "confusion": [
+      [
+        3271776,
+        18901,
+        71640
+      ],
+      [
+        5895,
+        51196,
+        28620
+      ],
+      [
+        37978,
+        22790,
+        171768
+      ]
+    ]
+  },
+  {
+    "id": 2640,
+    "file": "76.jpg",
+    "scene": "G",
+    "fold": 3,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 51,
+    "annotations_mature": 136,
+    "annotations_ignore": 9,
+    "gt_active_pixels": 122546,
+    "gt_mature_pixels": 378849,
+    "gt_ignore_pixels": 18702,
+    "pixels": 3686400,
+    "active_iou": 0.3817027144723472,
+    "active_recall": 0.85830626866646,
+    "mature_iou": 0.5121582736954253,
+    "mature_recall": 0.6192176830346655,
+    "foreground_miou": 0.4469304940838863,
+    "binary_iou": 0.6963903024939153,
+    "binary_precision": 0.7703674435599909,
+    "binary_recall": 0.878816103072428,
+    "stage_accuracy_on_detected_gt": 0.7710980087782604,
+    "confusion": [
+      [
+        3034958,
+        60166,
+        71179
+      ],
+      [
+        9350,
+        105182,
+        8014
+      ],
+      [
+        51411,
+        92848,
+        234590
+      ]
+    ]
+  },
+  {
+    "id": 2644,
+    "file": "80.jpg",
+    "scene": "G",
+    "fold": 3,
+    "width": 1440,
+    "height": 2560,
+    "annotations_active": 51,
+    "annotations_mature": 39,
+    "annotations_ignore": 30,
+    "gt_active_pixels": 128149,
+    "gt_mature_pixels": 109106,
+    "gt_ignore_pixels": 31455,
+    "pixels": 3686400,
+    "active_iou": 0.49944784590008107,
+    "active_recall": 0.5576243279307681,
+    "mature_iou": 0.4932737681990602,
+    "mature_recall": 0.8986673510164427,
+    "foreground_miou": 0.49636080704957064,
+    "binary_iou": 0.7325335167422777,
+    "binary_precision": 0.7887809006800338,
+    "binary_recall": 0.9112895407894459,
+    "stage_accuracy_on_detected_gt": 0.7840089173388589,
+    "confusion": [
+      [
+        3359794,
+        14905,
+        42991
+      ],
+      [
+        10013,
+        71459,
+        46677
+      ],
+      [
+        11034,
+        22,
+        98050
+      ]
+    ]
+  }
+]

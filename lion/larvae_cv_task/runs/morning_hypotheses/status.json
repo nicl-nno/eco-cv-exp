@@ -1,0 +1,117 @@
+{
+  "runs": {
+    "h17_convnext_fpn/fold_0": {
+      "state": "done",
+      "epoch": 27,
+      "foreground_miou": 0.28135276952154187,
+      "baseline_miou": 0.2753545579870891,
+      "delta": 0.005998211534452791,
+      "seconds": 18.685030300170183,
+      "baseline_seconds": 18.457019299967214
+    },
+    "h17_convnext_fpn/fold_3": {
+      "state": "done",
+      "epoch": 42,
+      "foreground_miou": 0.4226307114375049,
+      "baseline_miou": 0.4336227470259346,
+      "delta": -0.010992035588429705,
+      "seconds": 7.8547030000481755,
+      "baseline_seconds": 7.413949799956754
+    },
+    "h18_convnext_se/fold_0": {
+      "state": "done",
+      "epoch": 20,
+      "foreground_miou": 0.27389322558445883,
+      "baseline_miou": 0.2753545579870891,
+      "delta": -0.0014613324026302443,
+      "seconds": 21.655024900101125,
+      "baseline_seconds": 18.457019299967214
+    },
+    "h18_convnext_se/fold_3": {
+      "state": "done",
+      "epoch": 51,
+      "foreground_miou": 0.43249973515893014,
+      "baseline_miou": 0.4336227470259346,
+      "delta": -0.0011230118670044753,
+      "seconds": 8.837811199948192,
+      "baseline_seconds": 7.413949799956754
+    },
+    "h19_color/fold_0": {
+      "state": "done",
+      "epoch": 7,
+      "foreground_miou": 0.2696460451857824,
+      "baseline_miou": 0.2753545579870891,
+      "delta": -0.005708512801306687,
+      "seconds": 21.31278940010816,
+      "baseline_seconds": 18.457019299967214
+    },
+    "h19_color/fold_3": {
+      "state": "done",
+      "epoch": 24,
+      "foreground_miou": 0.42633519308749646,
+      "baseline_miou": 0.4336227470259346,
+      "delta": -0.007287553938438163,
+      "seconds": 8.754615399986506,
+      "baseline_seconds": 7.413949799956754
+    },
+    "h20_no_elastic/fold_0": {
+      "state": "done",
+      "epoch": 12,
+      "foreground_miou": 0.2726534197666467,
+      "baseline_miou": 0.2753545579870891,
+      "delta": -0.0027011382204423784,
+      "seconds": 21.35686319996603,
+      "baseline_seconds": 18.457019299967214
+    },
+    "h20_no_elastic/fold_3": {
+      "state": "done",
+      "epoch": 48,
+      "foreground_miou": 0.4378897069298833,
+      "baseline_miou": 0.4336227470259346,
+      "delta": 0.004266959903948708,
+      "seconds": 8.74593219999224,
+      "baseline_seconds": 7.413949799956754
+    }
+  },
+  "errors": [],
+  "decisions": {
+    "h17_convnext_fpn": {
+      "pilot_deltas": [
+        0.005998211534452791,
+        -0.010992035588429705
+      ],
+      "extend_to_five_folds": false
+    },
+    "h18_convnext_se": {
+      "pilot_deltas": [
+        -0.0014613324026302443,
+        -0.0011230118670044753
+      ],
+      "extend_to_five_folds": false
+    },
+    "h19_color": {
+      "pilot_deltas": [
+        -0.005708512801306687,
+        -0.007287553938438163
+      ],
+      "extend_to_five_folds": false
+    },
+    "h20_no_elastic": {
+      "pilot_deltas": [
+        -0.0027011382204423784,
+        0.004266959903948708
+      ],
+      "extend_to_five_folds": false
+    }
+  },
+  "deferred": [],
+  "state": "finished",
+  "updated": "2026-10-20T09:20:32.527623+03:00",
+  "active": null,
+  "recovered_errors": [
+    {
+      "active": "h17_convnext_fpn/fold_0",
+      "error": "train failed (1): D:\\agents\\flycv\\larvae_cv_task\\runs\\morning_hypotheses\\logs\\h17_convnext_fpn_fold_0_train.log"
+    }
+  ]
+}

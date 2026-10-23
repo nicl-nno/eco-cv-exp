@@ -1,0 +1,461 @@
+{
+  "exploratory_only": true,
+  "scale": 2,
+  "protocol": "Resize RGB 2x bilinear; existing fold3 checkpoint; tile512/448 Flip4; resize probabilities back bilinear; original GT unchanged",
+  "per_image": [
+    {
+      "file": "3.jpg",
+      "id": 2568,
+      "scene": "B",
+      "seconds": 2.9143276000395417,
+      "baseline_binary_iou": 0.008235203571153699,
+      "active_iou": 0.0,
+      "active_recall": 0.0,
+      "mature_iou": 0.12091164718070149,
+      "mature_recall": 0.13262987012987013,
+      "foreground_miou": 0.060455823590350746,
+      "binary_iou": 0.3029771304907294,
+      "binary_precision": 0.5436607892527288,
+      "binary_recall": 0.4063063769707428,
+      "stage_accuracy_on_detected_gt": 0.31544401544401546,
+      "confusion": [
+        [
+          1216823,
+          3154,
+          1194
+        ],
+        [
+          429,
+          0,
+          0
+        ],
+        [
+          7140,
+          3546,
+          1634
+        ]
+      ]
+    },
+    {
+      "file": "4.jpg",
+      "id": 2567,
+      "scene": "B",
+      "seconds": 1.0119527000933886,
+      "baseline_binary_iou": 0.0783811475409836,
+      "active_iou": 0.008888219343175656,
+      "active_recall": 0.24279835390946503,
+      "mature_iou": 0.02546057901361712,
+      "mature_recall": 0.026696262523246746,
+      "foreground_miou": 0.017174399178396388,
+      "binary_iou": 0.3606621480709072,
+      "binary_precision": 0.5861460245728004,
+      "binary_recall": 0.48388225007286506,
+      "stage_accuracy_on_detected_gt": 0.06782315383688713,
+      "confusion": [
+        [
+          1210904,
+          5052,
+          809
+        ],
+        [
+          368,
+          118,
+          0
+        ],
+        [
+          8486,
+          7738,
+          445
+        ]
+      ]
+    },
+    {
+      "file": "5.jpg",
+      "id": 2571,
+      "scene": "B",
+      "seconds": 0.9848963001277298,
+      "baseline_binary_iou": 0.00962004644160351,
+      "active_iou": 0.0,
+      "active_recall": 0.0,
+      "mature_iou": 0.02084812823374252,
+      "mature_recall": 0.02115993513012588,
+      "foreground_miou": 0.01042406411687126,
+      "binary_iou": 0.2779908156985277,
+      "binary_precision": 0.7755398533976094,
+      "binary_recall": 0.3023142070172729,
+      "stage_accuracy_on_detected_gt": 0.06999318801089918,
+      "confusion": [
+        [
+          1191674,
+          2818,
+          581
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          27103,
+          10922,
+          822
+        ]
+      ]
+    },
+    {
+      "file": "6.jpg",
+      "id": 2569,
+      "scene": "B",
+      "seconds": 0.9970509998966008,
+      "baseline_binary_iou": 0.03896149276679013,
+      "active_iou": 0.0,
+      "active_recall": 0.0,
+      "mature_iou": 0.02223398623610376,
+      "mature_recall": 0.022604951560818085,
+      "foreground_miou": 0.01111699311805188,
+      "binary_iou": 0.2857405253168432,
+      "binary_precision": 0.6605803255484785,
+      "binary_recall": 0.3349120918550413,
+      "stage_accuracy_on_detected_gt": 0.06749517891579172,
+      "confusion": [
+        [
+          1201254,
+          4331,
+          465
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          18536,
+          8704,
+          630
+        ]
+      ]
+    },
+    {
+      "file": "9.jpg",
+      "id": 2575,
+      "scene": "B",
+      "seconds": 0.9941749998833984,
+      "baseline_binary_iou": 0.0,
+      "active_iou": 0.0,
+      "active_recall": 0.0,
+      "mature_iou": 0.013767555014928674,
+      "mature_recall": 0.014130866579649282,
+      "foreground_miou": 0.006883777507464337,
+      "binary_iou": 0.133632380554976,
+      "binary_precision": 0.6229029905178701,
+      "binary_recall": 0.14539469950627093,
+      "stage_accuracy_on_detected_gt": 0.09718969555035128,
+      "confusion": [
+        [
+          1213491,
+          1086,
+          465
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          15059,
+          2313,
+          249
+        ]
+      ]
+    },
+    {
+      "file": "10.jpg",
+      "id": 2578,
+      "scene": "B",
+      "seconds": 0.9612163999117911,
+      "baseline_binary_iou": 0.0,
+      "active_iou": 0.1257794878598912,
+      "active_recall": 0.402206194314807,
+      "mature_iou": 0.0,
+      "mature_recall": 0.0,
+      "foreground_miou": 0.0628897439299456,
+      "binary_iou": 0.44969485614646904,
+      "binary_precision": 0.6168380770150682,
+      "binary_recall": 0.624001935639971,
+      "stage_accuracy_on_detected_gt": 0.24505622334238078,
+      "confusion": [
+        [
+          1216715,
+          4523,
+          283
+        ],
+        [
+          2814,
+          1896,
+          4
+        ],
+        [
+          1848,
+          5837,
+          0
+        ]
+      ]
+    },
+    {
+      "file": "11.jpg",
+      "id": 2577,
+      "scene": "B",
+      "seconds": 0.9957940001040697,
+      "baseline_binary_iou": 0.0,
+      "active_iou": 0.0,
+      "active_recall": 0.0,
+      "mature_iou": 0.0639386189258312,
+      "mature_recall": 0.06428387760349705,
+      "foreground_miou": 0.0319693094629156,
+      "binary_iou": 0.14587455480807282,
+      "binary_precision": 0.792741935483871,
+      "binary_recall": 0.15165852404217023,
+      "stage_accuracy_on_detected_gt": 0.423872499152255,
+      "confusion": [
+        [
+          1213704,
+          666,
+          105
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          16496,
+          1699,
+          1250
+        ]
+      ]
+    },
+    {
+      "file": "12.jpg",
+      "id": 2576,
+      "scene": "B",
+      "seconds": 0.9616445999126881,
+      "baseline_binary_iou": 0.0,
+      "active_iou": 0.0,
+      "active_recall": 0.0,
+      "mature_iou": 0.03720221907973458,
+      "mature_recall": 0.03732402051729783,
+      "foreground_miou": 0.01860110953986729,
+      "binary_iou": 0.08937743990137662,
+      "binary_precision": 0.6037473976405274,
+      "binary_recall": 0.0949470697369857,
+      "stage_accuracy_on_detected_gt": 0.3931034482758621,
+      "confusion": [
+        [
+          1224186,
+          541,
+          30
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          8293,
+          528,
+          342
+        ]
+      ]
+    },
+    {
+      "file": "72.jpg",
+      "id": 2637,
+      "scene": "G",
+      "seconds": 2.8976340000517666,
+      "baseline_binary_iou": 0.6957451353555754,
+      "active_iou": 0.4245119899129903,
+      "active_recall": 0.6364287104217051,
+      "mature_iou": 0.4619933769190499,
+      "mature_recall": 0.5788139018753956,
+      "foreground_miou": 0.4432526834160201,
+      "binary_iou": 0.7006449467654419,
+      "binary_precision": 0.850568144585261,
+      "binary_recall": 0.798995395562997,
+      "stage_accuracy_on_detected_gt": 0.7499753463833144,
+      "confusion": [
+        [
+          3207892,
+          23916,
+          33093
+        ],
+        [
+          19098,
+          91577,
+          33217
+        ],
+        [
+          62536,
+          47915,
+          151787
+        ]
+      ]
+    },
+    {
+      "file": "73.jpg",
+      "id": 2635,
+      "scene": "G",
+      "seconds": 2.926943700062111,
+      "baseline_binary_iou": 0.6711889781500435,
+      "active_iou": 0.41935082357171505,
+      "active_recall": 0.7075404557174692,
+      "mature_iou": 0.5185259759039673,
+      "mature_recall": 0.6091056868613892,
+      "foreground_miou": 0.4689383997378412,
+      "binary_iou": 0.7108241591479734,
+      "binary_precision": 0.8536051185028843,
+      "binary_recall": 0.8095095947487329,
+      "stage_accuracy_on_detected_gt": 0.7851869391050523,
+      "confusion": [
+        [
+          3318134,
+          18787,
+          25396
+        ],
+        [
+          9842,
+          60644,
+          15225
+        ],
+        [
+          50781,
+          40116,
+          141639
+        ]
+      ]
+    },
+    {
+      "file": "76.jpg",
+      "id": 2640,
+      "scene": "G",
+      "seconds": 2.8710938000585884,
+      "baseline_binary_iou": 0.6963903024939153,
+      "active_iou": 0.33627566772342055,
+      "active_recall": 0.7945914187325576,
+      "mature_iou": 0.38530289929972983,
+      "mature_recall": 0.41522611911341983,
+      "foreground_miou": 0.3607892835115752,
+      "binary_iou": 0.661362621569202,
+      "binary_precision": 0.8405294331492007,
+      "binary_recall": 0.7562560456326848,
+      "stage_accuracy_on_detected_gt": 0.6716598581687471,
+      "confusion": [
+        [
+          3094362,
+          47135,
+          24806
+        ],
+        [
+          20556,
+          97374,
+          4616
+        ],
+        [
+          101656,
+          119885,
+          157308
+        ]
+      ]
+    },
+    {
+      "file": "80.jpg",
+      "id": 2644,
+      "scene": "G",
+      "seconds": 2.873522099805996,
+      "baseline_binary_iou": 0.7325335167422777,
+      "active_iou": 0.4487727014755959,
+      "active_recall": 0.4936363139782597,
+      "mature_iou": 0.46928704718462133,
+      "mature_recall": 0.7260645610690522,
+      "foreground_miou": 0.4590298743301086,
+      "binary_iou": 0.7133299236612302,
+      "binary_precision": 0.8758064441105742,
+      "binary_recall": 0.7936060356999852,
+      "stage_accuracy_on_detected_gt": 0.7567012061374391,
+      "confusion": [
+        [
+          3390990,
+          9665,
+          17035
+        ],
+        [
+          22226,
+          63259,
+          42664
+        ],
+        [
+          26742,
+          3146,
+          79218
+        ]
+      ]
+    }
+  ],
+  "scenes": {
+    "B": {
+      "active_iou": 0.029151649369635386,
+      "active_recall": 0.3577900159886303,
+      "mature_iou": 0.03498397978587616,
+      "mature_recall": 0.03590429087020452,
+      "foreground_miou": 0.032067814577755774,
+      "binary_iou": 0.2684117076183334,
+      "binary_precision": 0.6509360791655523,
+      "binary_recall": 0.31354147208677674,
+      "stage_accuracy_on_detected_gt": 0.15173490560223515,
+      "confusion": [
+        [
+          9688751,
+          22171,
+          3932
+        ],
+        [
+          3611,
+          2014,
+          4
+        ],
+        [
+          102961,
+          41287,
+          5372
+        ]
+      ]
+    },
+    "G": {
+      "active_iou": 0.39558558182643516,
+      "active_recall": 0.6513747714960295,
+      "mature_iou": 0.44957629958406187,
+      "mature_recall": 0.5392656571648949,
+      "foreground_miou": 0.42258094070524854,
+      "binary_iou": 0.6913330045824664,
+      "binary_precision": 0.8519122617592852,
+      "binary_recall": 0.7857613017394758,
+      "stage_accuracy_on_detected_gt": 0.7331361615880444,
+      "confusion": [
+        [
+          13011378,
+          99503,
+          100330
+        ],
+        [
+          71722,
+          312854,
+          95722
+        ],
+        [
+          241715,
+          211062,
+          529952
+        ]
+      ]
+    }
+  }
+}

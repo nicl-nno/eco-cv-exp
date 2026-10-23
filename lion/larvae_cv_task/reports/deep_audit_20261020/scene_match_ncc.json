@@ -1,0 +1,128 @@
+[
+  {
+    "target": 80,
+    "source_xy": [
+      400,
+      450
+    ],
+    "target_xy": [
+      396,
+      888
+    ],
+    "target_size": 496,
+    "scale": 0.97,
+    "ncc": 0.7690863243332087
+  },
+  {
+    "target": 80,
+    "source_xy": [
+      500,
+      1100
+    ],
+    "target_xy": [
+      484,
+      1512
+    ],
+    "target_size": 516,
+    "scale": 1.01,
+    "ncc": 0.8048643153305246
+  },
+  {
+    "target": 80,
+    "source_xy": [
+      400,
+      1750
+    ],
+    "target_xy": [
+      320,
+      596
+    ],
+    "target_size": 344,
+    "scale": 0.67,
+    "ncc": 0.253054664617295
+  },
+  {
+    "target": 73,
+    "source_xy": [
+      400,
+      450
+    ],
+    "target_xy": [
+      644,
+      300
+    ],
+    "target_size": 344,
+    "scale": 0.67,
+    "ncc": 0.49377633945299937
+  },
+  {
+    "target": 73,
+    "source_xy": [
+      500,
+      1100
+    ],
+    "target_xy": [
+      676,
+      756
+    ],
+    "target_size": 364,
+    "scale": 0.71,
+    "ncc": 0.4918911500787297
+  },
+  {
+    "target": 73,
+    "source_xy": [
+      400,
+      1750
+    ],
+    "target_xy": [
+      584,
+      1208
+    ],
+    "target_size": 352,
+    "scale": 0.6900000000000001,
+    "ncc": 0.470295958096616
+  },
+  {
+    "target": 32,
+    "source_xy": [
+      400,
+      450
+    ],
+    "target_xy": [
+      48,
+      64
+    ],
+    "target_size": 332,
+    "scale": 0.65,
+    "ncc": 0.34277885736592567
+  },
+  {
+    "target": 32,
+    "source_xy": [
+      500,
+      1100
+    ],
+    "target_xy": [
+      64,
+      340
+    ],
+    "target_size": 364,
+    "scale": 0.71,
+    "ncc": 0.308327314116358
+  },
+  {
+    "target": 32,
+    "source_xy": [
+      400,
+      1750
+    ],
+    "target_xy": [
+      484,
+      296
+    ],
+    "target_size": 372,
+    "scale": 0.73,
+    "ncc": 0.21792626451365185
+  }
+]

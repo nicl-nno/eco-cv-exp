@@ -1,0 +1,80 @@
+2026-10-16T21:42:39+03:00 START train: resnet34_unet fold=0 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_fold_0_train.log
+2026-10-16T22:25:35+03:00 DONE train: resnet34_unet fold=0
+2026-10-16T22:25:35+03:00 START select: resnet34_unet fold=0 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_fold_0_select.log
+2026-10-16T22:31:44+03:00 DONE select: resnet34_unet fold=0
+2026-10-16T22:31:44+03:00 START tiling: resnet34_unet fold=0 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_fold_0_tiling.log
+2026-10-16T22:32:09+03:00 DONE tiling: resnet34_unet fold=0
+2026-10-16T22:32:09+03:00 START train: resnet34_unet_se fold=0 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_se_fold_0_train.log
+2026-10-16T23:15:33+03:00 DONE train: resnet34_unet_se fold=0
+2026-10-16T23:15:33+03:00 START select: resnet34_unet_se fold=0 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_se_fold_0_select.log
+2026-10-16T23:21:05+03:00 DONE select: resnet34_unet_se fold=0
+2026-10-16T23:21:05+03:00 START tiling: resnet34_unet_se fold=0 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_se_fold_0_tiling.log
+2026-10-16T23:21:32+03:00 DONE tiling: resnet34_unet_se fold=0
+2026-10-16T23:21:32+03:00 START train: resnet34_unet_aspp fold=0 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_aspp_fold_0_train.log
+2026-10-17T00:05:30+03:00 DONE train: resnet34_unet_aspp fold=0
+2026-10-17T00:05:30+03:00 START select: resnet34_unet_aspp fold=0 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_aspp_fold_0_select.log
+2026-10-17T00:11:03+03:00 DONE select: resnet34_unet_aspp fold=0
+2026-10-17T00:11:03+03:00 START tiling: resnet34_unet_aspp fold=0 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_aspp_fold_0_tiling.log
+2026-10-17T00:11:29+03:00 DONE tiling: resnet34_unet_aspp fold=0
+2026-10-17T00:11:29+03:00 START train: resnet34_fpn fold=0 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_fpn_fold_0_train.log
+2026-10-17T00:57:30+03:00 DONE train: resnet34_fpn fold=0
+2026-10-17T00:57:30+03:00 START select: resnet34_fpn fold=0 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_fpn_fold_0_select.log
+2026-10-17T01:02:46+03:00 DONE select: resnet34_fpn fold=0
+2026-10-17T01:02:46+03:00 START tiling: resnet34_fpn fold=0 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_fpn_fold_0_tiling.log
+2026-10-17T01:03:11+03:00 DONE tiling: resnet34_fpn fold=0
+2026-10-17T01:03:11+03:00 START train: resnet34_unet fold=1 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_fold_1_train.log
+2026-10-17T01:49:14+03:00 DONE train: resnet34_unet fold=1
+2026-10-17T01:49:14+03:00 START select: resnet34_unet fold=1 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_fold_1_select.log
+2026-10-17T01:53:51+03:00 DONE select: resnet34_unet fold=1
+2026-10-17T01:53:51+03:00 START tiling: resnet34_unet fold=1 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_fold_1_tiling.log
+2026-10-17T01:54:16+03:00 DONE tiling: resnet34_unet fold=1
+2026-10-17T01:54:16+03:00 START train: resnet34_unet_se fold=1 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_se_fold_1_train.log
+2026-10-17T02:39:34+03:00 DONE train: resnet34_unet_se fold=1
+2026-10-17T02:39:34+03:00 START select: resnet34_unet_se fold=1 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_se_fold_1_select.log
+2026-10-17T02:45:22+03:00 DONE select: resnet34_unet_se fold=1
+2026-10-17T02:45:22+03:00 START tiling: resnet34_unet_se fold=1 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_se_fold_1_tiling.log
+2026-10-17T02:45:50+03:00 DONE tiling: resnet34_unet_se fold=1
+2026-10-17T02:45:50+03:00 START train: resnet34_unet_aspp fold=1 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_aspp_fold_1_train.log
+2026-10-17T03:29:56+03:00 DONE train: resnet34_unet_aspp fold=1
+2026-10-17T03:29:56+03:00 START select: resnet34_unet_aspp fold=1 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_aspp_fold_1_select.log
+2026-10-17T03:35:28+03:00 DONE select: resnet34_unet_aspp fold=1
+2026-10-17T03:35:28+03:00 START tiling: resnet34_unet_aspp fold=1 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_aspp_fold_1_tiling.log
+2026-10-17T03:35:54+03:00 DONE tiling: resnet34_unet_aspp fold=1
+2026-10-17T03:35:54+03:00 START train: resnet34_fpn fold=1 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_fpn_fold_1_train.log
+2026-10-17T04:19:31+03:00 DONE train: resnet34_fpn fold=1
+2026-10-17T04:19:31+03:00 START select: resnet34_fpn fold=1 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_fpn_fold_1_select.log
+2026-10-17T04:24:30+03:00 DONE select: resnet34_fpn fold=1
+2026-10-17T04:24:30+03:00 START tiling: resnet34_fpn fold=1 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_fpn_fold_1_tiling.log
+2026-10-17T04:24:55+03:00 DONE tiling: resnet34_fpn fold=1
+2026-10-17T04:24:55+03:00 SCREENING winner=resnet34_unet_se mean_gain=0.008510
+2026-10-17T04:24:55+03:00 START train: resnet34_unet fold=2 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_fold_2_train.log
+2026-10-17T05:10:16+03:00 DONE train: resnet34_unet fold=2
+2026-10-17T05:10:16+03:00 START select: resnet34_unet fold=2 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_fold_2_select.log
+2026-10-17T05:16:26+03:00 DONE select: resnet34_unet fold=2
+2026-10-17T05:16:26+03:00 START tiling: resnet34_unet fold=2 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_fold_2_tiling.log
+2026-10-17T05:16:54+03:00 DONE tiling: resnet34_unet fold=2
+2026-10-17T05:16:54+03:00 START train: resnet34_unet_se fold=2 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_se_fold_2_train.log
+2026-10-17T06:01:47+03:00 DONE train: resnet34_unet_se fold=2
+2026-10-17T06:01:47+03:00 START select: resnet34_unet_se fold=2 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_se_fold_2_select.log
+2026-10-17T06:08:04+03:00 DONE select: resnet34_unet_se fold=2
+2026-10-17T06:08:04+03:00 START tiling: resnet34_unet_se fold=2 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_se_fold_2_tiling.log
+2026-10-17T06:08:32+03:00 DONE tiling: resnet34_unet_se fold=2
+2026-10-17T06:08:32+03:00 START train: resnet34_unet fold=3 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_fold_3_train.log
+2026-10-17T06:51:27+03:00 DONE train: resnet34_unet fold=3
+2026-10-17T06:51:27+03:00 START select: resnet34_unet fold=3 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_fold_3_select.log
+2026-10-17T06:57:43+03:00 DONE select: resnet34_unet fold=3
+2026-10-17T06:57:43+03:00 START tiling: resnet34_unet fold=3 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_fold_3_tiling.log
+2026-10-17T06:58:10+03:00 DONE tiling: resnet34_unet fold=3
+2026-10-17T06:58:10+03:00 START train: resnet34_unet_se fold=3 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_se_fold_3_train.log
+2026-10-17T07:43:56+03:00 DONE train: resnet34_unet_se fold=3
+2026-10-17T07:43:56+03:00 START select: resnet34_unet_se fold=3 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_se_fold_3_select.log
+2026-10-17T07:51:23+03:00 DONE select: resnet34_unet_se fold=3
+2026-10-17T07:51:23+03:00 START tiling: resnet34_unet_se fold=3 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_se_fold_3_tiling.log
+2026-10-17T07:51:50+03:00 DONE tiling: resnet34_unet_se fold=3
+2026-10-17T07:51:50+03:00 START train: resnet34_unet fold=4 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_fold_4_train.log
+2026-10-17T08:35:25+03:00 DONE train: resnet34_unet fold=4
+2026-10-17T08:35:25+03:00 START select: resnet34_unet fold=4 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_fold_4_select.log
+2026-10-17T08:40:25+03:00 DONE select: resnet34_unet fold=4
+2026-10-17T08:40:25+03:00 START tiling: resnet34_unet fold=4 log=D:\agents\flycv\larvae_cv_task\runs\night\logs\resnet34_unet_fold_4_tiling.log
+2026-10-17T08:40:52+03:00 DONE tiling: resnet34_unet fold=4
+2026-10-17T08:40:52+03:00 FINISHED completed_runs=13 errors=0

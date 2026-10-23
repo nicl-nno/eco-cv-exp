@@ -1,0 +1,17 @@
+{
+  "baseline": {
+    "checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\morning_hypotheses\\h19_color\\fold_0\\best.pt",
+    "epoch": 7,
+    "active_iou": 0.46251903482130835,
+    "mature_iou": 0.06649143041064293,
+    "foreground_miou": 0.26450523261597564
+  },
+  "selected": {
+    "checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\morning_hypotheses\\h19_color\\fold_0\\best.pt",
+    "epoch": 7,
+    "active_iou": 0.46251903482130835,
+    "mature_iou": 0.06649143041064293,
+    "foreground_miou": 0.26450523261597564
+  },
+  "candidate_count": 27
+}

@@ -1,0 +1,441 @@
+{
+  "images": 69,
+  "evaluated_images": 67,
+  "annotation_counts": {
+    "1": 6889,
+    "3": 2323,
+    "2": 298
+  },
+  "pixel_identical_groups": [
+    [
+      {
+        "id": 2569,
+        "file": "6.jpg"
+      },
+      {
+        "id": 2572,
+        "file": "7.jpg"
+      }
+    ],
+    [
+      {
+        "id": 2573,
+        "file": "8.jpg"
+      },
+      {
+        "id": 2575,
+        "file": "9.jpg"
+      }
+    ]
+  ],
+  "scenes": {
+    "A": {
+      "n_images": 2,
+      "folds": [
+        4
+      ],
+      "annotations_active": 86,
+      "annotations_mature": 95,
+      "active_iou": 0.5207196638695699,
+      "active_recall": 0.8368744661367151,
+      "mature_iou": 0.5298502563494399,
+      "mature_recall": 0.6721082039434804,
+      "foreground_miou": 0.5252849601095049,
+      "binary_iou": 0.7239446957325606,
+      "binary_precision": 0.7858693629427455,
+      "binary_recall": 0.9018394135643304,
+      "stage_accuracy_on_detected_gt": 0.8203769481060507,
+      "confusion": [
+        [
+          6579291,
+          74274,
+          81066
+        ],
+        [
+          23515,
+          217502,
+          18881
+        ],
+        [
+          38538,
+          83523,
+          250199
+        ]
+      ]
+    },
+    "B": {
+      "n_images": 8,
+      "folds": [
+        3
+      ],
+      "annotations_active": 59,
+      "annotations_mature": 618,
+      "active_iou": 0.0,
+      "active_recall": 0.0,
+      "mature_iou": 0.01899439866465221,
+      "mature_recall": 0.019242079935837455,
+      "foreground_miou": 0.009497199332326105,
+      "binary_iou": 0.01886864229467037,
+      "binary_precision": 0.5461552578454762,
+      "binary_recall": 0.019169205598747817,
+      "stage_accuracy_on_detected_gt": 0.9674059139784946,
+      "confusion": [
+        [
+          9712381,
+          522,
+          1951
+        ],
+        [
+          5629,
+          0,
+          0
+        ],
+        [
+          146644,
+          97,
+          2879
+        ]
+      ]
+    },
+    "C": {
+      "n_images": 19,
+      "folds": [
+        0
+      ],
+      "annotations_active": 4648,
+      "annotations_mature": 180,
+      "active_iou": 0.4809648798521257,
+      "active_recall": 0.70254474763702,
+      "mature_iou": 0.06974423612205241,
+      "mature_recall": 0.18165403660438267,
+      "foreground_miou": 0.2753545579870891,
+      "binary_iou": 0.4975330568323208,
+      "binary_precision": 0.6137119116654796,
+      "binary_recall": 0.7243816917201141,
+      "stage_accuracy_on_detected_gt": 0.9501337400342312,
+      "confusion": [
+        [
+          66160481,
+          1166722,
+          48696
+        ],
+        [
+          702573,
+          1821414,
+          68608
+        ],
+        [
+          32143,
+          27683,
+          13280
+        ]
+      ]
+    },
+    "D": {
+      "n_images": 8,
+      "folds": [
+        4
+      ],
+      "annotations_active": 941,
+      "annotations_mature": 14,
+      "active_iou": 0.5349546982006891,
+      "active_recall": 0.7597616394587048,
+      "mature_iou": 0.0,
+      "mature_recall": 0.0,
+      "foreground_miou": 0.26747734910034454,
+      "binary_iou": 0.5421648647091809,
+      "binary_precision": 0.6510461810368923,
+      "binary_recall": 0.7642525126148594,
+      "stage_accuracy_on_detected_gt": 0.9816844177696057,
+      "confusion": [
+        [
+          28640551,
+          245434,
+          1760
+        ],
+        [
+          139698,
+          452745,
+          3461
+        ],
+        [
+          2565,
+          4986,
+          0
+        ]
+      ]
+    },
+    "E": {
+      "n_images": 10,
+      "folds": [
+        2
+      ],
+      "annotations_active": 186,
+      "annotations_mature": 821,
+      "active_iou": 0.188464558278319,
+      "active_recall": 0.5468359776327598,
+      "mature_iou": 0.49455250058135264,
+      "mature_recall": 0.6506073081159429,
+      "foreground_miou": 0.34150852942983584,
+      "binary_iou": 0.5579323987432173,
+      "binary_precision": 0.6876767180704028,
+      "binary_recall": 0.7472946995033416,
+      "stage_accuracy_on_detected_gt": 0.8593238749958018,
+      "confusion": [
+        [
+          32781261,
+          213431,
+          814285
+        ],
+        [
+          48093,
+          134660,
+          63500
+        ],
+        [
+          717108,
+          254827,
+          1809849
+        ]
+      ]
+    },
+    "F": {
+      "n_images": 16,
+      "folds": [
+        1
+      ],
+      "annotations_active": 728,
+      "annotations_mature": 58,
+      "active_iou": 0.4817983855481591,
+      "active_recall": 0.5675365669547253,
+      "mature_iou": 0.1379780369832585,
+      "mature_recall": 0.5502348768095101,
+      "foreground_miou": 0.3098882112657088,
+      "binary_iou": 0.532230223136369,
+      "binary_precision": 0.7247308544140659,
+      "binary_recall": 0.6670831150983378,
+      "stage_accuracy_on_detected_gt": 0.8491483943929812,
+      "confusion": [
+        [
+          56542526,
+          262175,
+          159659
+        ],
+        [
+          522883,
+          885676,
+          152003
+        ],
+        [
+          31381,
+          15534,
+          57395
+        ]
+      ]
+    },
+    "G": {
+      "n_images": 4,
+      "folds": [
+        3
+      ],
+      "annotations_active": 241,
+      "annotations_mature": 457,
+      "active_iou": 0.4132092612011311,
+      "active_recall": 0.6382995556925075,
+      "mature_iou": 0.5052965354917512,
+      "mature_recall": 0.7147850526442183,
+      "foreground_miou": 0.4592528983464412,
+      "binary_iou": 0.6964083863905047,
+      "binary_precision": 0.7684298973526213,
+      "binary_recall": 0.8813801795865694,
+      "stage_accuracy_on_detected_gt": 0.7824949999340821,
+      "confusion": [
+        [
+          12822619,
+          117772,
+          270820
+        ],
+        [
+          37119,
+          306574,
+          136605
+        ],
+        [
+          136425,
+          143864,
+          702440
+        ]
+      ]
+    }
+  },
+  "folds": {
+    "4": {
+      "active_iou": 0.5302507319905793,
+      "active_recall": 0.7831799878943961,
+      "mature_iou": 0.5158965645935185,
+      "mature_recall": 0.6587460605406373,
+      "foreground_miou": 0.5230736482920488,
+      "binary_iou": 0.6295509499452735,
+      "binary_precision": 0.7192598011899589,
+      "binary_recall": 0.8346440187987663,
+      "stage_accuracy_on_detected_gt": 0.8925130200126636,
+      "confusion": [
+        [
+          35219842,
+          319708,
+          82826
+        ],
+        [
+          163213,
+          670247,
+          22342
+        ],
+        [
+          41103,
+          88509,
+          250199
+        ]
+      ]
+    },
+    "3": {
+      "active_iou": 0.4097585881510114,
+      "active_recall": 0.6309054652242003,
+      "mature_iou": 0.45748690590085783,
+      "mature_recall": 0.6228812848335628,
+      "foreground_miou": 0.4336227470259346,
+      "binary_iou": 0.6432253161608706,
+      "binary_precision": 0.7677104692300198,
+      "binary_recall": 0.7986641339301825,
+      "stage_accuracy_on_detected_gt": 0.7829207735022929,
+      "confusion": [
+        [
+          22535000,
+          118294,
+          272771
+        ],
+        [
+          42748,
+          306574,
+          136605
+        ],
+        [
+          283069,
+          143961,
+          705319
+        ]
+      ]
+    },
+    "0": {
+      "active_iou": 0.4809648798521257,
+      "active_recall": 0.70254474763702,
+      "mature_iou": 0.06974423612205241,
+      "mature_recall": 0.18165403660438267,
+      "foreground_miou": 0.2753545579870891,
+      "binary_iou": 0.4975330568323208,
+      "binary_precision": 0.6137119116654796,
+      "binary_recall": 0.7243816917201141,
+      "stage_accuracy_on_detected_gt": 0.9501337400342312,
+      "confusion": [
+        [
+          66160481,
+          1166722,
+          48696
+        ],
+        [
+          702573,
+          1821414,
+          68608
+        ],
+        [
+          32143,
+          27683,
+          13280
+        ]
+      ]
+    },
+    "2": {
+      "active_iou": 0.188464558278319,
+      "active_recall": 0.5468359776327598,
+      "mature_iou": 0.49455250058135264,
+      "mature_recall": 0.6506073081159429,
+      "foreground_miou": 0.34150852942983584,
+      "binary_iou": 0.5579323987432173,
+      "binary_precision": 0.6876767180704028,
+      "binary_recall": 0.7472946995033416,
+      "stage_accuracy_on_detected_gt": 0.8593238749958018,
+      "confusion": [
+        [
+          32781261,
+          213431,
+          814285
+        ],
+        [
+          48093,
+          134660,
+          63500
+        ],
+        [
+          717108,
+          254827,
+          1809849
+        ]
+      ]
+    },
+    "1": {
+      "active_iou": 0.4817983855481591,
+      "active_recall": 0.5675365669547253,
+      "mature_iou": 0.1379780369832585,
+      "mature_recall": 0.5502348768095101,
+      "foreground_miou": 0.3098882112657088,
+      "binary_iou": 0.532230223136369,
+      "binary_precision": 0.7247308544140659,
+      "binary_recall": 0.6670831150983378,
+      "stage_accuracy_on_detected_gt": 0.8491483943929812,
+      "confusion": [
+        [
+          56542526,
+          262175,
+          159659
+        ],
+        [
+          522883,
+          885676,
+          152003
+        ],
+        [
+          31381,
+          15534,
+          57395
+        ]
+      ]
+    }
+  },
+  "aggregate": {
+    "active_iou": 0.4572053127981702,
+    "active_recall": 0.6651242897968505,
+    "mature_iou": 0.4506908451202235,
+    "mature_recall": 0.6342683210477349,
+    "foreground_miou": 0.45394807895919687,
+    "binary_iou": 0.5579802628412445,
+    "binary_precision": 0.6880450649568061,
+    "binary_recall": 0.7469459727731674,
+    "stage_accuracy_on_detected_gt": 0.872371737182567,
+    "confusion": [
+      [
+        213239110,
+        2080330,
+        1378237
+      ],
+      [
+        1479510,
+        3818571,
+        443058
+      ],
+      [
+        1104804,
+        530514,
+        2836042
+      ]
+    ]
+  }
+}

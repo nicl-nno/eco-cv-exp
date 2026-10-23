@@ -1,0 +1,436 @@
+{
+  "top_pairs": [
+    {
+      "left": 2573,
+      "right": 2575,
+      "similarity": 0.9999999403953552,
+      "cross_fold": true
+    },
+    {
+      "left": 2569,
+      "right": 2572,
+      "similarity": 0.9999997615814209,
+      "cross_fold": true
+    },
+    {
+      "left": 2595,
+      "right": 2596,
+      "similarity": 0.9444402456283569,
+      "cross_fold": true
+    },
+    {
+      "left": 2581,
+      "right": 2582,
+      "similarity": 0.9126765727996826,
+      "cross_fold": true
+    },
+    {
+      "left": 2584,
+      "right": 2587,
+      "similarity": 0.8916256427764893,
+      "cross_fold": true
+    },
+    {
+      "left": 2589,
+      "right": 2590,
+      "similarity": 0.8908947706222534,
+      "cross_fold": true
+    },
+    {
+      "left": 2574,
+      "right": 2580,
+      "similarity": 0.8879438638687134,
+      "cross_fold": true
+    },
+    {
+      "left": 2601,
+      "right": 2603,
+      "similarity": 0.8360623121261597,
+      "cross_fold": true
+    },
+    {
+      "left": 2597,
+      "right": 2598,
+      "similarity": 0.822670578956604,
+      "cross_fold": true
+    },
+    {
+      "left": 2591,
+      "right": 2596,
+      "similarity": 0.8211017847061157,
+      "cross_fold": false
+    },
+    {
+      "left": 2591,
+      "right": 2595,
+      "similarity": 0.8187496066093445,
+      "cross_fold": true
+    },
+    {
+      "left": 2607,
+      "right": 2608,
+      "similarity": 0.7951493859291077,
+      "cross_fold": true
+    },
+    {
+      "left": 2627,
+      "right": 2630,
+      "similarity": 0.7951488494873047,
+      "cross_fold": true
+    },
+    {
+      "left": 2574,
+      "right": 2582,
+      "similarity": 0.7938307523727417,
+      "cross_fold": true
+    },
+    {
+      "left": 2593,
+      "right": 2595,
+      "similarity": 0.7927337884902954,
+      "cross_fold": true
+    },
+    {
+      "left": 2579,
+      "right": 2582,
+      "similarity": 0.7920764684677124,
+      "cross_fold": true
+    },
+    {
+      "left": 2580,
+      "right": 2590,
+      "similarity": 0.7913945913314819,
+      "cross_fold": false
+    },
+    {
+      "left": 2580,
+      "right": 2589,
+      "similarity": 0.7909268140792847,
+      "cross_fold": true
+    },
+    {
+      "left": 2593,
+      "right": 2596,
+      "similarity": 0.7788733243942261,
+      "cross_fold": true
+    },
+    {
+      "left": 2579,
+      "right": 2581,
+      "similarity": 0.77695631980896,
+      "cross_fold": true
+    },
+    {
+      "left": 2580,
+      "right": 2582,
+      "similarity": 0.7759934663772583,
+      "cross_fold": true
+    },
+    {
+      "left": 2574,
+      "right": 2589,
+      "similarity": 0.7721639275550842,
+      "cross_fold": false
+    },
+    {
+      "left": 2591,
+      "right": 2593,
+      "similarity": 0.7716816067695618,
+      "cross_fold": true
+    },
+    {
+      "left": 2593,
+      "right": 2594,
+      "similarity": 0.7680383920669556,
+      "cross_fold": true
+    },
+    {
+      "left": 2582,
+      "right": 2589,
+      "similarity": 0.7638651132583618,
+      "cross_fold": true
+    },
+    {
+      "left": 2574,
+      "right": 2590,
+      "similarity": 0.7627032399177551,
+      "cross_fold": true
+    },
+    {
+      "left": 2579,
+      "right": 2589,
+      "similarity": 0.7618246078491211,
+      "cross_fold": false
+    },
+    {
+      "left": 2580,
+      "right": 2581,
+      "similarity": 0.7617075443267822,
+      "cross_fold": true
+    },
+    {
+      "left": 2582,
+      "right": 2590,
+      "similarity": 0.759185791015625,
+      "cross_fold": true
+    },
+    {
+      "left": 2581,
+      "right": 2589,
+      "similarity": 0.7548263669013977,
+      "cross_fold": true
+    },
+    {
+      "left": 2594,
+      "right": 2595,
+      "similarity": 0.7544704079627991,
+      "cross_fold": true
+    },
+    {
+      "left": 2581,
+      "right": 2590,
+      "similarity": 0.7540985345840454,
+      "cross_fold": true
+    },
+    {
+      "left": 2574,
+      "right": 2581,
+      "similarity": 0.753987193107605,
+      "cross_fold": true
+    },
+    {
+      "left": 2579,
+      "right": 2580,
+      "similarity": 0.7461228370666504,
+      "cross_fold": true
+    },
+    {
+      "left": 2579,
+      "right": 2590,
+      "similarity": 0.7460663318634033,
+      "cross_fold": true
+    },
+    {
+      "left": 2594,
+      "right": 2596,
+      "similarity": 0.7448948621749878,
+      "cross_fold": true
+    },
+    {
+      "left": 2574,
+      "right": 2579,
+      "similarity": 0.7351535558700562,
+      "cross_fold": false
+    },
+    {
+      "left": 2590,
+      "right": 2596,
+      "similarity": 0.7342056035995483,
+      "cross_fold": true
+    },
+    {
+      "left": 2589,
+      "right": 2596,
+      "similarity": 0.7315596342086792,
+      "cross_fold": true
+    },
+    {
+      "left": 2590,
+      "right": 2595,
+      "similarity": 0.7299736142158508,
+      "cross_fold": false
+    },
+    {
+      "left": 2589,
+      "right": 2595,
+      "similarity": 0.7273757457733154,
+      "cross_fold": true
+    },
+    {
+      "left": 2590,
+      "right": 2594,
+      "similarity": 0.7260067462921143,
+      "cross_fold": true
+    },
+    {
+      "left": 2623,
+      "right": 2625,
+      "similarity": 0.718762218952179,
+      "cross_fold": true
+    },
+    {
+      "left": 2589,
+      "right": 2594,
+      "similarity": 0.7180559635162354,
+      "cross_fold": false
+    },
+    {
+      "left": 2590,
+      "right": 2593,
+      "similarity": 0.7179325819015503,
+      "cross_fold": true
+    },
+    {
+      "left": 2589,
+      "right": 2593,
+      "similarity": 0.7146049737930298,
+      "cross_fold": true
+    },
+    {
+      "left": 2587,
+      "right": 2588,
+      "similarity": 0.7039802074432373,
+      "cross_fold": true
+    },
+    {
+      "left": 2584,
+      "right": 2588,
+      "similarity": 0.6995543241500854,
+      "cross_fold": true
+    },
+    {
+      "left": 2589,
+      "right": 2591,
+      "similarity": 0.6966726779937744,
+      "cross_fold": true
+    },
+    {
+      "left": 2590,
+      "right": 2591,
+      "similarity": 0.6965288519859314,
+      "cross_fold": true
+    },
+    {
+      "left": 2627,
+      "right": 2634,
+      "similarity": 0.6918734312057495,
+      "cross_fold": true
+    },
+    {
+      "left": 2580,
+      "right": 2596,
+      "similarity": 0.6853595972061157,
+      "cross_fold": true
+    },
+    {
+      "left": 2580,
+      "right": 2595,
+      "similarity": 0.6821314096450806,
+      "cross_fold": false
+    },
+    {
+      "left": 2580,
+      "right": 2593,
+      "similarity": 0.6728572249412537,
+      "cross_fold": true
+    },
+    {
+      "left": 2580,
+      "right": 2594,
+      "similarity": 0.6698561906814575,
+      "cross_fold": true
+    },
+    {
+      "left": 2583,
+      "right": 2585,
+      "similarity": 0.6697219014167786,
+      "cross_fold": true
+    },
+    {
+      "left": 2637,
+      "right": 2644,
+      "similarity": 0.6691891551017761,
+      "cross_fold": true
+    },
+    {
+      "left": 2630,
+      "right": 2634,
+      "similarity": 0.6667857766151428,
+      "cross_fold": true
+    },
+    {
+      "left": 2589,
+      "right": 2624,
+      "similarity": 0.6594388484954834,
+      "cross_fold": false
+    },
+    {
+      "left": 2590,
+      "right": 2644,
+      "similarity": 0.6585230827331543,
+      "cross_fold": true
+    }
+  ],
+  "thresholds": {
+    "0.95": {
+      "pairs": 2,
+      "cross_fold_pairs": 2
+    },
+    "0.9": {
+      "pairs": 4,
+      "cross_fold_pairs": 4
+    },
+    "0.85": {
+      "pairs": 7,
+      "cross_fold_pairs": 7
+    },
+    "0.8": {
+      "pairs": 11,
+      "cross_fold_pairs": 10
+    }
+  },
+  "exact_duplicates": [
+    {
+      "ids": [
+        2569,
+        2572
+      ],
+      "files": [
+        "images/6.jpg",
+        "images/7.jpg"
+      ],
+      "folds": [
+        4,
+        1
+      ],
+      "annotations": [
+        {
+          "1": 0,
+          "2": 0,
+          "3": 107
+        },
+        {
+          "1": 0,
+          "2": 0,
+          "3": 0
+        }
+      ]
+    },
+    {
+      "ids": [
+        2573,
+        2575
+      ],
+      "files": [
+        "images/8.jpg",
+        "images/9.jpg"
+      ],
+      "folds": [
+        0,
+        3
+      ],
+      "annotations": [
+        {
+          "1": 0,
+          "2": 0,
+          "3": 80
+        },
+        {
+          "1": 0,
+          "2": 2,
+          "3": 96
+        }
+      ]
+    }
+  ]
+}

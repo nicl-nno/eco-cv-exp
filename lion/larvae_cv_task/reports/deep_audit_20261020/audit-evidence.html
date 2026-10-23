@@ -1,0 +1,25 @@
+<div id="larvae-audit-evidence">
+  <style>
+    #larvae-audit-evidence {font-family:var(--font-sans);color:var(--foreground)}
+    #larvae-audit-evidence .pair {display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:12px 0 24px}
+    #larvae-audit-evidence figure {margin:0;min-width:0}
+    #larvae-audit-evidence img {display:block;width:100%;max-width:300px;height:auto}
+    #larvae-audit-evidence figcaption {margin-top:6px}
+    #larvae-audit-evidence h3 {font-weight:500;margin:12px 0}
+  </style>
+  <h3>Одна сцена по разные стороны train / validation</h3>
+  <div class="pair">
+    <figure><img src="D:/agents/flycv/larvae_cv_task/reports/deep_audit_20261020/crops/evidence_1.jpg" alt="Совпадающие комки корма и личинки в кадре 1"><figcaption>1.jpg · группа A · fold 4</figcaption></figure>
+    <figure><img src="D:/agents/flycv/larvae_cv_task/reports/deep_audit_20261020/crops/evidence_80.jpg" alt="Тот же участок сцены в кадре 80"><figcaption>80.jpg · группа G · fold 3</figcaption></figure>
+  </div>
+  <h3>19.jpg · расхождения в полноте и границах</h3>
+  <div class="pair">
+    <figure><img src="D:/agents/flycv/larvae_cv_task/reports/deep_audit_20261020/crops/evidence_19_gt.jpg" alt="GT: узкие полигоны и тела без меток"><figcaption>Разметка active</figcaption></figure>
+    <figure><img src="D:/agents/flycv/larvae_cv_task/reports/deep_audit_20261020/crops/evidence_19_pred.jpg" alt="Модель: больше выделенных тел, но есть слияния"><figcaption>Предсказание · не новый эталон</figcaption></figure>
+  </div>
+  <h3>45.jpg · ложные личинки вне лотка</h3>
+  <div class="pair">
+    <figure><img src="D:/agents/flycv/larvae_cv_task/reports/deep_audit_20261020/crops/evidence_45_source.jpg" alt="Чёрная область под лотком без личинок"><figcaption>Оригинал</figcaption></figure>
+    <figure><img src="D:/agents/flycv/larvae_cv_task/reports/deep_audit_20261020/crops/evidence_45_pred.jpg" alt="Модель закрашивает чёрный фон как active"><figcaption>Предсказание active</figcaption></figure>
+  </div>
+</div>

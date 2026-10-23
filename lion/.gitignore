@@ -1,0 +1,22 @@
+# Report illustrations and prediction masks are part of the results archive.
+!**/*.png
+!**/*.jpg
+!**/*.jpeg
+!**/*.tif
+!**/*.tiff
+
+# Model weights, inputs and machine-local runtime state stay outside this snapshot.
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+*.lock
+__pycache__/
+task/
+larvae_autoresearch/
+larvae_cv_task/external/zenodo/
+*.zip
+*.7z
+.env*

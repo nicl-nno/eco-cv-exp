@@ -1,0 +1,17 @@
+{
+  "baseline": {
+    "checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\night\\resnet34_unet_se\\fold_2\\best.pt",
+    "epoch": 34,
+    "active_iou": 0.5078414198061322,
+    "mature_iou": 0.5666535876797008,
+    "foreground_miou": 0.5372475037429165
+  },
+  "selected": {
+    "checkpoint": "D:\\agents\\flycv\\larvae_cv_task\\runs\\night\\resnet34_unet_se\\fold_2\\candidate_epoch_036.pt",
+    "epoch": 36,
+    "active_iou": 0.534258036551314,
+    "mature_iou": 0.5968265331212709,
+    "foreground_miou": 0.5655422848362924
+  },
+  "candidate_count": 33
+}

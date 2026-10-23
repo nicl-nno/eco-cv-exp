@@ -1,0 +1,38 @@
+{
+  "runs": {
+    "resnet34_unet/fold_1": {
+      "state": "done",
+      "epoch": 13,
+      "miou": 0.23988541847109707
+    },
+    "imagenet_convnext/fold_1": {
+      "state": "done",
+      "epoch": 9,
+      "miou": 0.3098882112657088
+    },
+    "resnet34_unet/fold_2": {
+      "state": "done",
+      "epoch": 3,
+      "miou": 0.32298315268397754
+    },
+    "imagenet_convnext/fold_2": {
+      "state": "done",
+      "epoch": 12,
+      "miou": 0.34150852942983584
+    },
+    "resnet34_unet/fold_4": {
+      "state": "done",
+      "epoch": 23,
+      "miou": 0.5189011982053215
+    },
+    "imagenet_convnext/fold_4": {
+      "state": "done",
+      "epoch": 12,
+      "miou": 0.5230736482920488
+    }
+  },
+  "errors": [],
+  "state": "finished",
+  "updated": "2026-10-19T15:23:00.424869+03:00",
+  "active": null
+}

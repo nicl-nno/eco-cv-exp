@@ -1,0 +1,28 @@
+{
+  "runs": {
+    "resnet34_unet/fold_0": {
+      "state": "done",
+      "epoch": 12,
+      "miou": 0.2590081297234221
+    },
+    "resnet34_unet_se/fold_0": {
+      "state": "done",
+      "epoch": 12,
+      "miou": 0.2549122046820305
+    },
+    "resnet34_unet/fold_3": {
+      "state": "done",
+      "epoch": 57,
+      "miou": 0.42390953531746367
+    },
+    "resnet34_unet_se/fold_3": {
+      "state": "done",
+      "epoch": 48,
+      "miou": 0.42109659790235576
+    }
+  },
+  "errors": [],
+  "state": "finished",
+  "active": null,
+  "updated": "2026-10-18T15:43:07.887323+03:00"
+}

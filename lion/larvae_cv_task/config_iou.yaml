@@ -1,0 +1,31 @@
+# Continue fold 0 from the original last.pt without changing the source run.
+# Paths are relative to this configuration file.
+data_root: ../task/coco_export
+output_dir: runs/iou_extended
+torch_home: ../larvae_autoresearch/progress/torch_cache
+
+fold: 0
+n_splits: 5
+seed: 42
+epochs: 60
+batch_size: 8
+num_workers: 0
+patches_per_image: 8
+foreground_probability: 0.70
+
+learning_rate: 0.0001
+weight_decay: 0.001
+lr_factor: 0.5
+lr_patience: 5
+early_stopping_patience: 100
+gradient_clip_norm: 1.0
+pretrained: true
+amp: true
+
+class_weight_power: 0.5
+dice_weight: 1.0
+ce_weight: 1.0
+include_background_in_dice: true
+
+full_image_tta: flip4
+candidate_every: 1

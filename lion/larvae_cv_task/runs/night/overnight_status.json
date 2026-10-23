@@ -1,0 +1,131 @@
+{
+  "started": "2026-10-16T21:42:39+03:00",
+  "deadline": "2026-10-17T08:00:00+03:00",
+  "state": "running",
+  "active": "resnet34_unet_se/fold_4",
+  "runs": {
+    "resnet34_unet/fold_0": {
+      "state": "done",
+      "completed": "2026-10-16T22:32:09+03:00",
+      "selected_epoch": 46,
+      "active_iou": 0.5636554536850156,
+      "mature_iou": 0.6384872847727822,
+      "miou": 0.6010713692288989,
+      "overlap_miou": 0.6078001141122226
+    },
+    "resnet34_unet_se/fold_0": {
+      "state": "done",
+      "completed": "2026-10-16T23:21:32+03:00",
+      "selected_epoch": 57,
+      "active_iou": 0.5641728718051922,
+      "mature_iou": 0.6427686489043065,
+      "miou": 0.6034707603547493,
+      "overlap_miou": 0.6099695964166286
+    },
+    "resnet34_unet_aspp/fold_0": {
+      "state": "done",
+      "completed": "2026-10-17T00:11:29+03:00",
+      "selected_epoch": 57,
+      "active_iou": 0.5675057408331641,
+      "mature_iou": 0.6457949196119656,
+      "miou": 0.6066503302225648,
+      "overlap_miou": 0.6132787174708121
+    },
+    "resnet34_fpn/fold_0": {
+      "state": "done",
+      "completed": "2026-10-17T01:03:11+03:00",
+      "selected_epoch": 33,
+      "active_iou": 0.5558278656636456,
+      "mature_iou": 0.6407716722953065,
+      "miou": 0.598299768979476,
+      "overlap_miou": 0.6029361464690061
+    },
+    "resnet34_unet/fold_1": {
+      "state": "done",
+      "completed": "2026-10-17T01:54:16+03:00",
+      "selected_epoch": 39,
+      "active_iou": 0.5557648695105447,
+      "mature_iou": 0.478398427324331,
+      "miou": 0.5170816484174379,
+      "overlap_miou": 0.5169284330709465
+    },
+    "resnet34_unet_se/fold_1": {
+      "state": "done",
+      "completed": "2026-10-17T02:45:50+03:00",
+      "selected_epoch": 21,
+      "active_iou": 0.5667194242125136,
+      "mature_iou": 0.49668393487418877,
+      "miou": 0.5317016795433512,
+      "overlap_miou": 0.5356911211913897
+    },
+    "resnet34_unet_aspp/fold_1": {
+      "state": "done",
+      "completed": "2026-10-17T03:35:54+03:00",
+      "selected_epoch": 21,
+      "active_iou": 0.5645092431323507,
+      "mature_iou": 0.4759093658880635,
+      "miou": 0.5202093045102071,
+      "overlap_miou": 0.5271207707922431
+    },
+    "resnet34_fpn/fold_1": {
+      "state": "done",
+      "completed": "2026-10-17T04:24:55+03:00",
+      "selected_epoch": 21,
+      "active_iou": 0.5690952189810904,
+      "mature_iou": 0.4949009710464701,
+      "miou": 0.5319980950137803,
+      "overlap_miou": 0.540221693209671
+    },
+    "resnet34_unet/fold_2": {
+      "state": "done",
+      "completed": "2026-10-17T05:16:54+03:00",
+      "selected_epoch": 54,
+      "active_iou": 0.5267528598394396,
+      "mature_iou": 0.5949716444706717,
+      "miou": 0.5608622521550557,
+      "overlap_miou": 0.5664099183964149
+    },
+    "resnet34_unet_se/fold_2": {
+      "state": "done",
+      "completed": "2026-10-17T06:08:32+03:00",
+      "selected_epoch": 36,
+      "active_iou": 0.534258036551314,
+      "mature_iou": 0.5968265331212709,
+      "miou": 0.5655422848362924,
+      "overlap_miou": 0.5717167764054192
+    },
+    "resnet34_unet/fold_3": {
+      "state": "done",
+      "completed": "2026-10-17T06:58:10+03:00",
+      "selected_epoch": 57,
+      "active_iou": 0.5564445759418987,
+      "mature_iou": 0.4915047468236491,
+      "miou": 0.5239746613827738,
+      "overlap_miou": 0.5338577803192581
+    },
+    "resnet34_unet_se/fold_3": {
+      "state": "done",
+      "completed": "2026-10-17T07:51:50+03:00",
+      "selected_epoch": 51,
+      "active_iou": 0.5556863747917843,
+      "mature_iou": 0.5107677931403348,
+      "miou": 0.5332270839660596,
+      "overlap_miou": 0.539089073039853
+    },
+    "resnet34_unet/fold_4": {
+      "state": "done",
+      "completed": "2026-10-17T08:40:52+03:00",
+      "selected_epoch": 45,
+      "active_iou": 0.5844424951493534,
+      "mature_iou": 0.5989809026961821,
+      "miou": 0.5917116989227678,
+      "overlap_miou": 0.600992316764414
+    }
+  },
+  "errors": [],
+  "updated": "2026-10-18T12:33:41+03:00",
+  "screening_winner": {
+    "architecture": "resnet34_unet_se",
+    "mean_gain": 0.008509711125881891
+  }
+}

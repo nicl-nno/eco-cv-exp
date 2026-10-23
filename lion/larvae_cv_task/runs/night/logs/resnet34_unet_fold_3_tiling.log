@@ -1,0 +1,17 @@
+{
+  "epoch": 57,
+  "baseline": {
+    "active_iou": 0.5564445759418987,
+    "mature_iou": 0.4915047468236491,
+    "foreground_miou": 0.5239746613827738
+  },
+  "baseline_seconds": 10.515610799891874,
+  "overlap_stride": 448,
+  "overlap_tta": "flip4",
+  "overlap": {
+    "active_iou": 0.5638115927557468,
+    "mature_iou": 0.5039039678827695,
+    "foreground_miou": 0.5338577803192581
+  },
+  "overlap_seconds": 10.18282139999792
+}

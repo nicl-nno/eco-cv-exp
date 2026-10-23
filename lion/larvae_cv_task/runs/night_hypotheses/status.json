@@ -1,0 +1,60 @@
+{
+  "runs": {
+    "h10_encoder_lr/fold_0": {
+      "state": "done",
+      "epoch": 12,
+      "foreground_miou": 0.26947410070295735,
+      "baseline_miou": 0.2753545579870891,
+      "delta": -0.005880457284131724,
+      "seconds": 21.326566000003368,
+      "baseline_seconds": 18.457019299967214
+    },
+    "h10_encoder_lr/fold_3": {
+      "state": "done",
+      "epoch": 48,
+      "foreground_miou": 0.3963819790822568,
+      "baseline_miou": 0.4336227470259346,
+      "delta": -0.03724076794367781,
+      "seconds": 8.708447699900717,
+      "baseline_seconds": 7.413949799956754
+    },
+    "h13_scale/fold_0": {
+      "state": "done",
+      "epoch": 12,
+      "foreground_miou": 0.277963834552842,
+      "baseline_miou": 0.2753545579870891,
+      "delta": 0.002609276565752938,
+      "seconds": 21.150294300168753,
+      "baseline_seconds": 18.457019299967214
+    },
+    "h13_scale/fold_3": {
+      "state": "done",
+      "epoch": 48,
+      "foreground_miou": 0.42363623138671436,
+      "baseline_miou": 0.4336227470259346,
+      "delta": -0.009986515639220261,
+      "seconds": 8.7490105999168,
+      "baseline_seconds": 7.413949799956754
+    }
+  },
+  "errors": [],
+  "state": "finished",
+  "updated": "2026-10-20T00:47:20.800239+03:00",
+  "active": null,
+  "decisions": {
+    "h10_encoder_lr": {
+      "pilot_deltas": [
+        -0.005880457284131724,
+        -0.03724076794367781
+      ],
+      "extend_to_five_folds": false
+    },
+    "h13_scale": {
+      "pilot_deltas": [
+        0.002609276565752938,
+        -0.009986515639220261
+      ],
+      "extend_to_five_folds": false
+    }
+  }
+}

@@ -1,0 +1,1283 @@
+{
+  "id": "https://openalex.org/W4410362112",
+  "doi": "https://doi.org/10.1016/j.inpa.2025.05.001",
+  "title": "Automated detection of larval stages of the black soldier fly (Hermetia illucens Linnaeus) through deep learning augmented with optical flow",
+  "display_name": "Automated detection of larval stages of the black soldier fly (Hermetia illucens Linnaeus) through deep learning augmented with optical flow",
+  "publication_year": 2025,
+  "publication_date": "2025-05-14",
+  "ids": {
+    "openalex": "https://openalex.org/W4410362112",
+    "doi": "https://doi.org/10.1016/j.inpa.2025.05.001"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/j.inpa.2025.05.001",
+    "doi": "https://doi.org/10.1016/j.inpa.2025.05.001",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.inpa.2025.05.001",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2898269329",
+      "display_name": "Information Processing in Agriculture",
+      "issn_l": "2214-3173",
+      "issn": [
+        "2214-3173"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "dongbi-b",
+        "poland-70"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Information Processing in Agriculture",
+    "raw_type": "journal-article"
+  },
+  "volume": null,
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.1016/j.inpa.2025.05.001",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5010132273",
+        "display_name": "Gianluca Manduca",
+        "orcid": "https://orcid.org/0000-0003-0338-441X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0338-441X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I162290304",
+          "display_name": "Scuola Superiore Sant'Anna",
+          "ror": "https://ror.org/025602r80",
+          "country_code": "IT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I162290304"
+          ]
+        }
+      ],
+      "countries": [
+        "IT"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Gianluca Manduca",
+      "raw_affiliation_strings": [
+        "Department of Excellence in Robotics and AI, Sant’Anna School of Advanced Studies, Piazza Martiri della Libertà 33, 56127 Pisa, Italy",
+        "The BioRobotics Institute, Sant’Anna School of Advanced Studies, Viale R. Piaggio 34, 56025, Pontedera, Pisa, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Excellence in Robotics and AI, Sant’Anna School of Advanced Studies, Piazza Martiri della Libertà 33, 56127 Pisa, Italy",
+          "institution_ids": [
+            "https://openalex.org/I162290304"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The BioRobotics Institute, Sant’Anna School of Advanced Studies, Viale R. Piaggio 34, 56025, Pontedera, Pisa, Italy",
+          "institution_ids": [
+            "https://openalex.org/I162290304"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Lloyd T. Wilson",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I91045830",
+          "display_name": "Texas A&M University",
+          "ror": "https://ror.org/01f5ytq51",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I91045830"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lloyd T. Wilson",
+      "raw_affiliation_strings": [
+        "Texas A&M University and Texas A&M AgriLife Research, 1509 Aggie Drive, Beaumont, TX, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Texas A&M University and Texas A&M AgriLife Research, 1509 Aggie Drive, Beaumont, TX, USA",
+          "institution_ids": [
+            "https://openalex.org/I91045830"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5067436187",
+        "display_name": "Cesare Stefanini",
+        "orcid": "https://orcid.org/0000-0003-0989-041X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0989-041X",
+          "https://orcid.org/0000-0001-5581-3875"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I162290304",
+          "display_name": "Scuola Superiore Sant'Anna",
+          "ror": "https://ror.org/025602r80",
+          "country_code": "IT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I162290304"
+          ]
+        }
+      ],
+      "countries": [
+        "IT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Cesare Stefanini",
+      "raw_affiliation_strings": [
+        "Department of Excellence in Robotics and AI, Sant’Anna School of Advanced Studies, Piazza Martiri della Libertà 33, 56127 Pisa, Italy",
+        "The BioRobotics Institute, Sant’Anna School of Advanced Studies, Viale R. Piaggio 34, 56025, Pontedera, Pisa, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Excellence in Robotics and AI, Sant’Anna School of Advanced Studies, Piazza Martiri della Libertà 33, 56127 Pisa, Italy",
+          "institution_ids": [
+            "https://openalex.org/I162290304"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The BioRobotics Institute, Sant’Anna School of Advanced Studies, Viale R. Piaggio 34, 56025, Pontedera, Pisa, Italy",
+          "institution_ids": [
+            "https://openalex.org/I162290304"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5061773642",
+        "display_name": "Donato Romano",
+        "orcid": "https://orcid.org/0000-0003-4975-3495",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4975-3495",
+          "https://orcid.org/0000-0001-7120-8050"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I162290304",
+          "display_name": "Scuola Superiore Sant'Anna",
+          "ror": "https://ror.org/025602r80",
+          "country_code": "IT",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I162290304"
+          ]
+        }
+      ],
+      "countries": [
+        "IT"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Donato Romano",
+      "raw_affiliation_strings": [
+        "Department of Excellence in Robotics and AI, Sant’Anna School of Advanced Studies, Piazza Martiri della Libertà 33, 56127 Pisa, Italy",
+        "The BioRobotics Institute, Sant’Anna School of Advanced Studies, Viale R. Piaggio 34, 56025, Pontedera, Pisa, Italy"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Excellence in Robotics and AI, Sant’Anna School of Advanced Studies, Piazza Martiri della Libertà 33, 56127 Pisa, Italy",
+          "institution_ids": [
+            "https://openalex.org/I162290304"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The BioRobotics Institute, Sant’Anna School of Advanced Studies, Viale R. Piaggio 34, 56025, Pontedera, Pisa, Italy",
+          "institution_ids": [
+            "https://openalex.org/I162290304"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5010132273",
+    "https://openalex.org/A5061773642"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I162290304"
+  ],
+  "apc_list": {
+    "value": 2000,
+    "currency": "USD",
+    "value_usd": 2000
+  },
+  "apc_paid": {
+    "value": 2000,
+    "currency": "USD",
+    "value_usd": 2000
+  },
+  "fwci": 2.7764,
+  "has_fulltext": false,
+  "cited_by_count": 4,
+  "citation_normalized_percentile": {
+    "value": 0.88952102,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "12",
+    "issue": "4",
+    "first_page": "501",
+    "last_page": "510"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12336",
+    "display_name": "Insect Utilization and Effects",
+    "score": 0.8378999829292297,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1109",
+      "display_name": "Insect Science"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/11",
+      "display_name": "Agricultural and Biological Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/1",
+      "display_name": "Life Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12336",
+      "display_name": "Insect Utilization and Effects",
+      "score": 0.8378999829292297,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1109",
+        "display_name": "Insect Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10036",
+      "display_name": "Advanced Neural Network Applications",
+      "score": 0.08100000023841858,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10616",
+      "display_name": "Smart Agriculture and AI",
+      "score": 0.06019999831914902,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1110",
+        "display_name": "Plant Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/black-soldier-fly",
+      "display_name": "Hermetia illucens",
+      "score": 1.0
+    },
+    {
+      "id": "https://openalex.org/keywords/prepupae",
+      "display_name": "prepupae",
+      "score": 0.6980000138282776
+    },
+    {
+      "id": "https://openalex.org/keywords/pupae",
+      "display_name": "pupae",
+      "score": 0.9760000109672546
+    },
+    {
+      "id": "https://openalex.org/keywords/optical-flow",
+      "display_name": "optical flow",
+      "score": 0.8679999709129333
+    },
+    {
+      "id": "https://openalex.org/keywords/convolutional-neural-networks",
+      "display_name": "convolutional neural networks",
+      "score": 0.9620000123977661
+    },
+    {
+      "id": "https://openalex.org/keywords/insect-mass-rearing",
+      "display_name": "insect mass rearing",
+      "score": 0.5170000195503235
+    },
+    {
+      "id": "https://openalex.org/keywords/waste-management",
+      "display_name": "waste management",
+      "score": 0.6710000038146973
+    },
+    {
+      "id": "https://openalex.org/keywords/bioregenerative-life-support-systems",
+      "display_name": "bioregenerative life support",
+      "score": 0.8209999799728394
+    },
+    {
+      "id": "https://openalex.org/keywords/space-technology",
+      "display_name": "space technology",
+      "score": 0.6119999885559082
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2777121799",
+      "wikidata": "https://www.wikidata.org/wiki/Q285029",
+      "display_name": "Hermetia illucens",
+      "level": 3,
+      "score": 0.9884388446807861
+    },
+    {
+      "id": "https://openalex.org/C173758957",
+      "wikidata": "https://www.wikidata.org/wiki/Q129270",
+      "display_name": "Larva",
+      "level": 2,
+      "score": 0.6121375560760498
+    },
+    {
+      "id": "https://openalex.org/C39432304",
+      "wikidata": "https://www.wikidata.org/wiki/Q188847",
+      "display_name": "Environmental science",
+      "level": 0,
+      "score": 0.3540816307067871
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.312999427318573
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.2796981930732727
+    }
+  ],
+  "mesh": [],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.1016/j.inpa.2025.05.001",
+      "doi": "https://doi.org/10.1016/j.inpa.2025.05.001",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.inpa.2025.05.001",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2898269329",
+        "display_name": "Information Processing in Agriculture",
+        "issn_l": "2214-3173",
+        "issn": [
+          "2214-3173"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "dongbi-b",
+          "poland-70"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Information Processing in Agriculture",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:doaj.org/article:1e52887508d64dc2b2d73b356d85c31f",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "https://doaj.org/article/1e52887508d64dc2b2d73b356d85c31f",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Information Processing in Agriculture, Vol 12, Iss 4, Pp 501-510 (2025)",
+      "raw_type": "article"
+    },
+    {
+      "id": "pmh:oai:www.iris.sssup.it:11382/578712",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/11382/578712",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4377196376",
+        "display_name": "CINECA IRIS Institutional Research Information System (Sant'Anna School of Advanced Studies)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I162290304",
+        "host_organization_name": "Scuola Superiore Sant'Anna",
+        "host_organization_lineage": [
+          "https://openalex.org/I162290304"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "info:eu-repo/semantics/article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1016/j.inpa.2025.05.001",
+    "doi": "https://doi.org/10.1016/j.inpa.2025.05.001",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.inpa.2025.05.001",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2898269329",
+      "display_name": "Information Processing in Agriculture",
+      "issn_l": "2214-3173",
+      "issn": [
+        "2214-3173"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "dongbi-b",
+        "poland-70"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Information Processing in Agriculture",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Zero hunger",
+      "id": "https://metadata.un.org/sdg/2",
+      "score": 0.6735000014305115
+    }
+  ],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G4421752481",
+      "display_name": null,
+      "funder_award_id": "2022EY5BXC",
+      "funder_id": "https://openalex.org/F4320321873",
+      "funder_display_name": "Ministero dell’Istruzione, dell’Università e della Ricerca"
+    },
+    {
+      "id": "https://openalex.org/G5079474000",
+      "display_name": null,
+      "funder_award_id": "DC-DSR-UVS-2022-375",
+      "funder_id": "https://openalex.org/F4320322256",
+      "funder_display_name": "Agenzia Spaziale Italiana"
+    },
+    {
+      "id": "https://openalex.org/G913644843",
+      "display_name": null,
+      "funder_award_id": "J83C24000310005",
+      "funder_id": "https://openalex.org/F4320322256",
+      "funder_display_name": "Agenzia Spaziale Italiana"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320321873",
+      "display_name": "Ministero dell’Istruzione, dell’Università e della Ricerca",
+      "ror": "https://ror.org/0166hxq48"
+    },
+    {
+      "id": "https://openalex.org/F4320322256",
+      "display_name": "Agenzia Spaziale Italiana",
+      "ror": "https://ror.org/034zgem50"
+    },
+    {
+      "id": "https://openalex.org/F5497039910",
+      "display_name": "Ministero dell'Istruzione e del Merito",
+      "ror": "https://ror.org/01ehyh486"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 59,
+  "referenced_works": [
+    "https://openalex.org/W1755205674",
+    "https://openalex.org/W1936583932",
+    "https://openalex.org/W2045255436",
+    "https://openalex.org/W2103929054",
+    "https://openalex.org/W2500637366",
+    "https://openalex.org/W2768656338",
+    "https://openalex.org/W2773507405",
+    "https://openalex.org/W2794483618",
+    "https://openalex.org/W2884084268",
+    "https://openalex.org/W2899132865",
+    "https://openalex.org/W2900646818",
+    "https://openalex.org/W2902426454",
+    "https://openalex.org/W2912794268",
+    "https://openalex.org/W2943123860",
+    "https://openalex.org/W2950944546",
+    "https://openalex.org/W2955932277",
+    "https://openalex.org/W2962762881",
+    "https://openalex.org/W2970080948",
+    "https://openalex.org/W2979042524",
+    "https://openalex.org/W2987725284",
+    "https://openalex.org/W3043546913",
+    "https://openalex.org/W3048537769",
+    "https://openalex.org/W3049674879",
+    "https://openalex.org/W3111221273",
+    "https://openalex.org/W3135301178",
+    "https://openalex.org/W3199309088",
+    "https://openalex.org/W3200898569",
+    "https://openalex.org/W3203991615",
+    "https://openalex.org/W3207332719",
+    "https://openalex.org/W3217257528",
+    "https://openalex.org/W3217775820",
+    "https://openalex.org/W4210598935",
+    "https://openalex.org/W4210809407",
+    "https://openalex.org/W4221108760",
+    "https://openalex.org/W4238452663",
+    "https://openalex.org/W4284883354",
+    "https://openalex.org/W4292884087",
+    "https://openalex.org/W4297312203",
+    "https://openalex.org/W4306292672",
+    "https://openalex.org/W4307702573",
+    "https://openalex.org/W4307722762",
+    "https://openalex.org/W4308516693",
+    "https://openalex.org/W4309113418",
+    "https://openalex.org/W4309436848",
+    "https://openalex.org/W4312058488",
+    "https://openalex.org/W4312117018",
+    "https://openalex.org/W4321189555",
+    "https://openalex.org/W4322491072",
+    "https://openalex.org/W4386136343",
+    "https://openalex.org/W4386294595",
+    "https://openalex.org/W4386323838",
+    "https://openalex.org/W4388192488",
+    "https://openalex.org/W4388923662",
+    "https://openalex.org/W4391266554",
+    "https://openalex.org/W4391742572",
+    "https://openalex.org/W4403940890",
+    "https://openalex.org/W4405489555",
+    "https://openalex.org/W4406865049",
+    "https://openalex.org/W4407622900"
+  ],
+  "related_works": [
+    "https://openalex.org/W2950731080",
+    "https://openalex.org/W4205488340",
+    "https://openalex.org/W4212975408",
+    "https://openalex.org/W4396498565",
+    "https://openalex.org/W4409447639",
+    "https://openalex.org/W4405631208",
+    "https://openalex.org/W3140808305",
+    "https://openalex.org/W4407876144",
+    "https://openalex.org/W4297990819",
+    "https://openalex.org/W903240349"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      162,
+      208
+    ],
+    "Black": [
+      1
+    ],
+    "Soldier": [
+      2
+    ],
+    "Fly": [
+      3
+    ],
+    "(BSF)": [
+      4
+    ],
+    "Hermetia": [
+      5
+    ],
+    "illucens": [
+      6
+    ],
+    "has": [
+      7
+    ],
+    "garnered": [
+      8
+    ],
+    "significant": [
+      9
+    ],
+    "attention": [
+      10
+    ],
+    "for": [
+      11,
+      59,
+      99,
+      179,
+      218
+    ],
+    "its": [
+      12,
+      154
+    ],
+    "potential": [
+      13,
+      216
+    ],
+    "in": [
+      14,
+      159,
+      185,
+      223
+    ],
+    "sustainable": [
+      15
+    ],
+    "waste": [
+      16
+    ],
+    "management,": [
+      17,
+      196
+    ],
+    "nutrient": [
+      18
+    ],
+    "recycling,": [
+      19
+    ],
+    "and": [
+      20,
+      31,
+      39,
+      64,
+      89,
+      107,
+      124,
+      144,
+      157,
+      181,
+      200
+    ],
+    "the": [
+      21,
+      48,
+      71,
+      132,
+      150,
+      168,
+      202
+    ],
+    "production": [
+      22,
+      35
+    ],
+    "of": [
+      23,
+      51,
+      73,
+      116,
+      138,
+      142,
+      147,
+      164,
+      175,
+      190,
+      205
+    ],
+    "valuable": [
+      24
+    ],
+    "resources": [
+      25
+    ],
+    "such": [
+      26
+    ],
+    "as": [
+      27
+    ],
+    "protein-rich": [
+      28
+    ],
+    "animal": [
+      29
+    ],
+    "feed": [
+      30
+    ],
+    "biofuels.": [
+      32
+    ],
+    "Traditional": [
+      33
+    ],
+    "mass": [
+      34
+    ],
+    "methods": [
+      36
+    ],
+    "remain": [
+      37
+    ],
+    "labor-intensive": [
+      38
+    ],
+    "error-prone,": [
+      40
+    ],
+    "necessitating": [
+      41
+    ],
+    "automated": [
+      42
+    ],
+    "solutions.": [
+      43
+    ],
+    "A": [
+      44,
+      91
+    ],
+    "critical": [
+      45
+    ],
+    "challenge": [
+      46
+    ],
+    "is": [
+      47,
+      57
+    ],
+    "precise": [
+      49
+    ],
+    "identification": [
+      50,
+      189
+    ],
+    "BSF": [
+      52,
+      83,
+      101,
+      191
+    ],
+    "different": [
+      53
+    ],
+    "life": [
+      54,
+      84
+    ],
+    "stages": [
+      55,
+      103,
+      193
+    ],
+    "which": [
+      56
+    ],
+    "essential": [
+      58
+    ],
+    "optimizing": [
+      60
+    ],
+    "feeding": [
+      61
+    ],
+    "strategies,": [
+      62
+    ],
+    "harvesting,": [
+      63
+    ],
+    "overall": [
+      65
+    ],
+    "system": [
+      66,
+      210
+    ],
+    "efficiency.": [
+      67
+    ],
+    "This": [
+      68
+    ],
+    "study": [
+      69
+    ],
+    "explores": [
+      70
+    ],
+    "use": [
+      72
+    ],
+    "deep": [
+      74
+    ],
+    "learning,": [
+      75
+    ],
+    "combined": [
+      76
+    ],
+    "with": [
+      77,
+      215
+    ],
+    "optical": [
+      78,
+      165
+    ],
+    "flow": [
+      79,
+      166
+    ],
+    "analysis,": [
+      80
+    ],
+    "to": [
+      81
+    ],
+    "identify": [
+      82
+    ],
+    "stages,": [
+      85
+    ],
+    "particularly": [
+      86,
+      178,
+      222
+    ],
+    "larvae,": [
+      87
+    ],
+    "prepupae,": [
+      88
+    ],
+    "pupae.": [
+      90
+    ],
+    "Convolutional": [
+      92
+    ],
+    "Neural": [
+      93
+    ],
+    "Network": [
+      94
+    ],
+    "(CNN)": [
+      95
+    ],
+    "model": [
+      96,
+      134
+    ],
+    "was": [
+      97
+    ],
+    "employed": [
+      98
+    ],
+    "real-time": [
+      100
+    ],
+    "larval": [
+      102,
+      192
+    ],
+    "detection.": [
+      104
+    ],
+    "Training,": [
+      105
+    ],
+    "validation,": [
+      106
+    ],
+    "test": [
+      108,
+      151
+    ],
+    "were": [
+      109,
+      129
+    ],
+    "performed": [
+      110
+    ],
+    "on": [
+      111,
+      149
+    ],
+    "a": [
+      112,
+      136,
+      140,
+      145
+    ],
+    "comprehensive": [
+      113
+    ],
+    "custom": [
+      114
+    ],
+    "dataset": [
+      115
+    ],
+    "2130": [
+      117
+    ],
+    "images.": [
+      118
+    ],
+    "Evaluation": [
+      119
+    ],
+    "metrics": [
+      120
+    ],
+    "including": [
+      121
+    ],
+    "precision,": [
+      122
+    ],
+    "recall,": [
+      123
+    ],
+    "mean": [
+      125
+    ],
+    "Average": [
+      126
+    ],
+    "Precision": [
+      127
+    ],
+    "(mAP)": [
+      128
+    ],
+    "assessed.": [
+      130
+    ],
+    "Overall,": [
+      131
+    ],
+    "CNN": [
+      133
+    ],
+    "demonstrated": [
+      135
+    ],
+    "precision": [
+      137
+    ],
+    "0.96,": [
+      139
+    ],
+    "recall": [
+      141
+    ],
+    "0.95,": [
+      143
+    ],
+    "mAP@0.5": [
+      146
+    ],
+    "0.97": [
+      148
+    ],
+    "set,": [
+      152
+    ],
+    "confirming": [
+      153
+    ],
+    "generalization": [
+      155
+    ],
+    "capability": [
+      156
+    ],
+    "effectiveness": [
+      158
+    ],
+    "real-world": [
+      160
+    ],
+    "scenarios.": [
+      161
+    ],
+    "integration": [
+      163
+    ],
+    "enhanced": [
+      167
+    ],
+    "model’s": [
+      169
+    ],
+    "performance": [
+      170
+    ],
+    "by": [
+      171
+    ],
+    "leveraging": [
+      172
+    ],
+    "prior": [
+      173
+    ],
+    "knowledge": [
+      174
+    ],
+    "motor": [
+      176
+    ],
+    "activity,": [
+      177
+    ],
+    "identifying": [
+      180
+    ],
+    "correcting": [
+      182
+    ],
+    "false": [
+      183
+    ],
+    "positives": [
+      184
+    ],
+    "pupae": [
+      186
+    ],
+    "classification.": [
+      187
+    ],
+    "Automated": [
+      188
+    ],
+    "optimizes": [
+      194
+    ],
+    "resource": [
+      195
+    ],
+    "reduces": [
+      197
+    ],
+    "operational": [
+      198
+    ],
+    "costs,": [
+      199
+    ],
+    "enhances": [
+      201
+    ],
+    "economic": [
+      203
+    ],
+    "viability": [
+      204
+    ],
+    "BSF-based": [
+      206
+    ],
+    "systems.": [
+      207
+    ],
+    "proposed": [
+      209
+    ],
+    "extends": [
+      211
+    ],
+    "beyond": [
+      212
+    ],
+    "terrestrial": [
+      213
+    ],
+    "concerns,": [
+      214
+    ],
+    "implications": [
+      217
+    ],
+    "bioregenerative": [
+      219
+    ],
+    "life-support": [
+      220
+    ],
+    "systems,": [
+      221
+    ],
+    "space": [
+      224
+    ],
+    "technology.": [
+      225
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-10-16T09:59:22.235173",
+  "created_date": "2025-10-10T00:00:00"
+}

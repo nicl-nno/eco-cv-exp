@@ -1,0 +1,12 @@
+{
+  "epoch": 60,
+  "train_loss": 0.41017880769712584,
+  "val_loss": 1.009591506077693,
+  "learning_rate": 7.8125e-07,
+  "seconds": 40.72482490539551,
+  "central_active_iou": 0.5719643274735617,
+  "central_mature_iou": 0.49805617337279195,
+  "central_foreground_miou": 0.5350102504231768,
+  "best_epoch": 15,
+  "best_val_loss": 0.7730702849534842
+}
