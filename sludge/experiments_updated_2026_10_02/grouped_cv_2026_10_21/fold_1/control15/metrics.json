@@ -1,0 +1,194 @@
+{
+  "classes": [
+    {
+      "f1": 0.3005181347150259,
+      "fn": 51,
+      "fp": 84,
+      "name": "attached_ciliates",
+      "precision": 0.25663716814159293,
+      "predictions": 113,
+      "recall": 0.3625,
+      "support": 80,
+      "tp": 29
+    },
+    {
+      "f1": 0.22018348623853212,
+      "fn": 45,
+      "fp": 125,
+      "name": "filamentous_bacteria",
+      "precision": 0.1610738255033557,
+      "predictions": 149,
+      "recall": 0.34782608695652173,
+      "support": 69,
+      "tp": 24
+    },
+    {
+      "f1": 0.6206896551724138,
+      "fn": 12,
+      "fp": 10,
+      "name": "rotifers",
+      "precision": 0.6428571428571429,
+      "predictions": 28,
+      "recall": 0.6,
+      "support": 30,
+      "tp": 18
+    },
+    {
+      "f1": 0.42857142857142855,
+      "fn": 9,
+      "fp": 31,
+      "name": "testate_amoebae",
+      "precision": 0.32608695652173914,
+      "predictions": 46,
+      "recall": 0.625,
+      "support": 24,
+      "tp": 15
+    },
+    {
+      "f1": 0.0,
+      "fn": 8,
+      "fp": 7,
+      "name": "free_swimming_ciliates",
+      "precision": 0.0,
+      "predictions": 7,
+      "recall": 0.0,
+      "support": 8,
+      "tp": 0
+    },
+    {
+      "f1": 0.0,
+      "fn": 1,
+      "fp": 2,
+      "name": "nematoda",
+      "precision": 0.0,
+      "predictions": 2,
+      "recall": 0.0,
+      "support": 1,
+      "tp": 0
+    },
+    {
+      "f1": 0.42857142857142855,
+      "fn": 6,
+      "fp": 2,
+      "name": "gastrotrichs",
+      "precision": 0.6,
+      "predictions": 5,
+      "recall": 0.3333333333333333,
+      "support": 9,
+      "tp": 3
+    }
+  ],
+  "confidence": 0.4,
+  "confidence_source": "validation_selection",
+  "evaluation": {
+    "confidence_grid": {
+      "start": 0.05,
+      "step": 0.05,
+      "stop": 0.95
+    },
+    "ignore_ioa_threshold": 0.5,
+    "iou_threshold": 0.5,
+    "matching": "greedy_by_confidence",
+    "selection_tie_break": "higher_confidence",
+    "unsupported_class_policy": "exclude_if_no_support_and_no_predictions"
+  },
+  "ignore_regions": 16,
+  "images": 75,
+  "macro_f1": 0.2855048761812613,
+  "macro_f1_classes": [
+    "attached_ciliates",
+    "filamentous_bacteria",
+    "rotifers",
+    "testate_amoebae",
+    "free_swimming_ciliates",
+    "nematoda",
+    "gastrotrichs"
+  ],
+  "objects": 221,
+  "period": null,
+  "postprocess": {
+    "max_detections": 100,
+    "min_score": 0.05,
+    "nms_iou": 0.5
+  },
+  "run_id": "control15",
+  "selection_curve": [
+    {
+      "confidence": 0.05,
+      "macro_f1": 0.20356623409150146
+    },
+    {
+      "confidence": 0.1,
+      "macro_f1": 0.22598779439949884
+    },
+    {
+      "confidence": 0.15,
+      "macro_f1": 0.24072598523894476
+    },
+    {
+      "confidence": 0.2,
+      "macro_f1": 0.24498585337339993
+    },
+    {
+      "confidence": 0.25,
+      "macro_f1": 0.2663830972310128
+    },
+    {
+      "confidence": 0.3,
+      "macro_f1": 0.28225734470920605
+    },
+    {
+      "confidence": 0.35,
+      "macro_f1": 0.2792815066681454
+    },
+    {
+      "confidence": 0.4,
+      "macro_f1": 0.2855048761812613
+    },
+    {
+      "confidence": 0.45,
+      "macro_f1": 0.27326462560403625
+    },
+    {
+      "confidence": 0.5,
+      "macro_f1": 0.2787446482742166
+    },
+    {
+      "confidence": 0.55,
+      "macro_f1": 0.25294388100329335
+    },
+    {
+      "confidence": 0.6,
+      "macro_f1": 0.2206056856596336
+    },
+    {
+      "confidence": 0.65,
+      "macro_f1": 0.22123717822775754
+    },
+    {
+      "confidence": 0.7,
+      "macro_f1": 0.22600925259574295
+    },
+    {
+      "confidence": 0.75,
+      "macro_f1": 0.22055964787954047
+    },
+    {
+      "confidence": 0.8,
+      "macro_f1": 0.20593931246832287
+    },
+    {
+      "confidence": 0.85,
+      "macro_f1": 0.19858368881115793
+    },
+    {
+      "confidence": 0.9,
+      "macro_f1": 0.16501931876429501
+    },
+    {
+      "confidence": 0.95,
+      "macro_f1": 0.1305194805194805
+    }
+  ],
+  "split": "validation"
+}

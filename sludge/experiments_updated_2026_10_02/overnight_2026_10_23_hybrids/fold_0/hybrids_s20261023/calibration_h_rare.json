@@ -1,0 +1,131 @@
+{
+  "calibration_ids": [
+    "session_2024_01_31-0001",
+    "session_2024_01_31-0005",
+    "session_2024_01_31-0006",
+    "student_06-0007",
+    "student_06-0013",
+    "student_06-0019",
+    "student_06-0020",
+    "student_06-0023",
+    "student_06-0024",
+    "student_06-0026",
+    "student_06-0027",
+    "student_06-0029",
+    "student_08-0015",
+    "student_08-0018",
+    "student_08-0019",
+    "student_08-0022",
+    "student_08-0023",
+    "student_08-0024",
+    "student_08-0030",
+    "student_08-0031",
+    "student_08-0032",
+    "student_08-0034",
+    "student_09-0004",
+    "student_09-0005",
+    "student_09-0006",
+    "student_09-0007",
+    "student_11-0011"
+  ],
+  "policies": {
+    "fixed_020": {
+      "attached_ciliates": 0.2,
+      "filamentous_bacteria": 0.2,
+      "rotifers": 0.2,
+      "testate_amoebae": 0.2,
+      "free_swimming_ciliates": 0.2,
+      "nematoda": 0.2,
+      "gastrotrichs": 0.2
+    },
+    "global_f1": {
+      "attached_ciliates": 0.75,
+      "filamentous_bacteria": 0.75,
+      "rotifers": 0.75,
+      "testate_amoebae": 0.75,
+      "free_swimming_ciliates": 0.75,
+      "nematoda": 0.75,
+      "gastrotrichs": 0.75
+    },
+    "count_guarded": {
+      "attached_ciliates": 0.8,
+      "filamentous_bacteria": 0.8,
+      "rotifers": 0.9,
+      "testate_amoebae": 0.75,
+      "free_swimming_ciliates": 0.4,
+      "nematoda": 0.4,
+      "gastrotrichs": 0.4
+    }
+  },
+  "diagnostic_joint_class_details": {
+    "attached_ciliates": {
+      "support": 30,
+      "groups": 4,
+      "reason": "class_count_guarded",
+      "best_calibration_f1": 0.43478260869565216,
+      "threshold": 0.8
+    },
+    "filamentous_bacteria": {
+      "support": 30,
+      "groups": 3,
+      "reason": "class_count_guarded",
+      "best_calibration_f1": 0.3188405797101449,
+      "threshold": 0.8
+    },
+    "rotifers": {
+      "support": 5,
+      "groups": 3,
+      "reason": "class_count_guarded",
+      "best_calibration_f1": 0.75,
+      "threshold": 0.9
+    },
+    "testate_amoebae": {
+      "support": 11,
+      "groups": 2,
+      "reason": "global_fallback_insufficient_support",
+      "best_calibration_f1": 0.72,
+      "threshold": 0.75
+    },
+    "free_swimming_ciliates": {
+      "support": 3,
+      "groups": 2,
+      "reason": "global_fallback_insufficient_support",
+      "best_calibration_f1": 0.0,
+      "threshold": 0.75
+    },
+    "nematoda": {
+      "support": 1,
+      "groups": 1,
+      "reason": "global_fallback_insufficient_support",
+      "best_calibration_f1": 0.0,
+      "threshold": 0.75
+    },
+    "gastrotrichs": {
+      "support": 5,
+      "groups": 2,
+      "reason": "global_fallback_insufficient_support",
+      "best_calibration_f1": 0.5714285714285714,
+      "threshold": 0.75
+    }
+  },
+  "routes": {
+    "attached_ciliates": "general",
+    "filamentous_bacteria": "general",
+    "rotifers": "general",
+    "testate_amoebae": "general",
+    "free_swimming_ciliates": "rare",
+    "nematoda": "rare",
+    "gastrotrichs": "rare"
+  },
+  "primary_source": "source_specific_count_guarded",
+  "source_calibrations": {
+    "general": {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/source_calibration_general.json",
+      "sha256": "1b0a3225ed4eb83104a02c9c3f38a272649b75b825eabd7a3c5341ed03392dc1"
+    },
+    "rare": {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/source_calibration_rare.json",
+      "sha256": "5ff9e2ddd98367730d9c1135bc9f22ebc299477f5c527bc5d7878127890282c4"
+    }
+  }
+}

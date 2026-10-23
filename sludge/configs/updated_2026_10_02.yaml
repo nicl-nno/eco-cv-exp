@@ -1,0 +1,25 @@
+# The October 2 revision of the microorganism annotations. The 10 numbered
+# archives in that directory correspond to the Student_* archives in the base
+# recipe; in particular 6.zip is Student_6. Keep its conflict precedence.
+extends: frcnn_bn_frozen.yaml
+sources:
+  - {id: student_11, archive: Student_11 CHECKED.zip, format: coco, role: microorganisms, priority: 0}
+  - {id: student_01, archive: Student_1.zip, format: coco, role: microorganisms, priority: 1}
+  - {id: student_02, archive: Student_2.zip, format: coco, role: microorganisms, priority: 2}
+  - {id: student_04, archive: Student_4.zip, format: coco, role: microorganisms, priority: 4}
+  - {id: student_06, archive: Student_6.zip, format: coco, role: microorganisms, priority: 6}
+  - {id: student_07, archive: Student_7.zip, format: coco, role: microorganisms, priority: 7}
+  - {id: student_08, archive: Student_8.zip, format: coco, role: microorganisms, priority: 8}
+  - {id: student_09, archive: Student_9.zip, format: coco, role: microorganisms, priority: 9}
+  - {id: student_10, archive: Student_10.zip, format: coco, role: microorganisms, priority: 10}
+  - {id: session_2024_01_31, archive: 31.01.24.zip, format: coco, role: microorganisms, priority: 12}
+paths:
+  raw_dir: data/raw/updated_2026_10_02
+  processed_dir: data/processed_updated_2026_10_02
+  experiments_dir: experiments_updated_2026_10_02
+  outputs_dir: outputs_updated_2026_10_02
+  pretrained_weights: outputs_updated_2026_10_02/pretrained/fasterrcnn_resnet50_fpn_v2_coco-dd69338a.pth
+runtime:
+  device: cuda
+  # roi_align_backward has no deterministic CUDA kernel in torch 2.11.
+  deterministic: false

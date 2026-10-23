@@ -1,0 +1,65 @@
+{
+  "checked_at": "2026-10-23T13:24:38.321310+00:00",
+  "kind": "synthetic_cpu_integration_probe_not_quality_evaluation",
+  "upstream_commit": "6646311c98f409b1a2185fba26c5e223af359153",
+  "upstream_files_verified": 90,
+  "package_sha256_before_and_after": "fb698c88c123e16f6fc1174ff46e6b77924bea92abb654984d4e5502b64c3310",
+  "device": "cpu",
+  "synthetic_frame": [
+    128,
+    160
+  ],
+  "synthetic_targets": 2,
+  "real_images_read": 0,
+  "test_reopened": false,
+  "optimizer_steps": 0,
+  "quality_evaluated": false,
+  "coco_initialization": {
+    "loaded": 400,
+    "skipped": [
+      "roi_heads.box_predictor.bbox_pred",
+      "roi_heads.box_predictor.cls_score"
+    ]
+  },
+  "zero_gate_identical_detections": true,
+  "baseline_parameters": 43286903,
+  "maa_parameters": 44226929,
+  "prior_lambda_abs_gradients": {
+    "boundary": 6.272102837101556e-09,
+    "focus": 9.197673733751799e-10,
+    "organelle": 4.191861080471426e-09,
+    "compactness": 9.987415978685021e-06,
+    "morphology": 4.987472038919805e-06,
+    "density": 2.8385829864419065e-05
+  },
+  "synthetic_losses": {
+    "loss_classifier": 2.037407398223877,
+    "loss_box_reg": 0.0013059587217867374,
+    "loss_objectness": 1.0588657855987549,
+    "loss_rpn_box_reg": 0.03780299052596092
+  },
+  "second_object_affects_loss": true,
+  "empty_targets_finite": true,
+  "metadata": {
+    "format": "sludge_micro/maa-transfer-v1",
+    "upstream_commit": "6646311c98f409b1a2185fba26c5e223af359153",
+    "image_size": [
+      128,
+      160
+    ],
+    "fpn_level": "2",
+    "token_grid": [
+      16,
+      16
+    ],
+    "prior_image_size": [
+      512,
+      512
+    ],
+    "priors_enabled": true,
+    "gate_initialization": 0.0,
+    "batchnorm": "frozen",
+    "production_ready": false
+  },
+  "elapsed_seconds": 5.114313400001265
+}

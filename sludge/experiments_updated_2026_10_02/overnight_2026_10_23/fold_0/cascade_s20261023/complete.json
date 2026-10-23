@@ -1,0 +1,56 @@
+{
+  "job": {
+    "fold": 0,
+    "seed": 20261023,
+    "recipe": "cascade",
+    "run_id": "cascade_s20261023",
+    "config": {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_cosine30_s20261023.yaml",
+      "sha256": "cd9560614ddc7a3532a476318a7c2c2f756a538f805e62342895e1878d529974"
+    },
+    "components": {
+      "agnostic": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_0_cascade_agnostic_s20261023.yaml",
+        "sha256": "cf6bc992d1965253e9811368e17c2f8b5b00cabff695c71b51bc8c8ac6bcbed4"
+      }
+    }
+  },
+  "records": [
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261023/metrics_cascade.json",
+      "sha256": "0c6456d643a680d343b97f119f07a7448b60d5d51eadd0aa1365de138fdcc537"
+    }
+  ],
+  "component_completions": [
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261023/agnostic/complete.json",
+      "sha256": "6d8ee4ef3df625032888c43b486a8a2f406a53acd68b2bdaf4c534a3ef1ed970"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261023/classifier/complete.json",
+      "sha256": "9d92382fa18a3f74c0d0702ab2bdab69afe6674cc13452328c102c7773fa8bb8"
+    }
+  ],
+  "diagnostic_artifacts": [
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261023/predictions_cascade_calibration.timing.json",
+      "sha256": "f1962025a6135948d11585adff7db989c578b9f5a657f002cb4d39e5bd3dbf82"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261023/predictions_cascade_outer_validation.timing.json",
+      "sha256": "1aacf58b542e13c3e97f0b7a5fd1caceec8081875739260345c4b00f3d1b6824"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261023/proposals_calibration.timing.json",
+      "sha256": "182f974cb47d3ae22e44b85fa78a7ac2dd00f595c3c7468b25a3a0c07ffe4a54"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261023/proposals_fit.timing.json",
+      "sha256": "2cea9a8405cceee6753752520af122d828bd4dc382e7b55ab603b5bcebb971b8"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261023/proposals_outer_validation.timing.json",
+      "sha256": "0d5ca516696d26278196e1ae150af663b79fbafbeb152ca535f9fde17882f648"
+    }
+  ]
+}

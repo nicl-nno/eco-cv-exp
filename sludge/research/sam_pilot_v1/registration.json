@@ -1,0 +1,645 @@
+{
+  "created_at": "2026-10-23T13:41:06.965577+00:00",
+  "version": "sam-pilot-v1",
+  "models": {
+    "sam_vit_b": {
+      "repo": "sam_upstream",
+      "module": "segment_anything",
+      "commit": "dca509fe793f601edb92606367a655c15ac00fdf",
+      "weight": "sam_vit_b_01ec64.pth",
+      "url": "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth",
+      "weights_pin": {
+        "path": "research/sam_pilot_v1/weights/sam_vit_b_01ec64.pth",
+        "sha256": "ec2df62732614e57411cdcf32a23ffdf28910380d03139ee0f4fcbe91eb8c912"
+      },
+      "source_pins": [
+        {
+          "path": "research/sam_upstream/segment_anything/__init__.py",
+          "sha256": "28435f3f972423b4a2ac9193824407d4a2ba465f4f924dfa9068a587474349d2"
+        },
+        {
+          "path": "research/sam_upstream/segment_anything/automatic_mask_generator.py",
+          "sha256": "2d8c5a963705d9408cbaef05f57c6dedc708ddabd45dbdbc91c060bab930a0c0"
+        },
+        {
+          "path": "research/sam_upstream/segment_anything/build_sam.py",
+          "sha256": "48e3d3becfb2f96a915a4d034d237183c44ca83d6bdafc9627581485b3496471"
+        },
+        {
+          "path": "research/sam_upstream/segment_anything/modeling/__init__.py",
+          "sha256": "7704ab74fd21b7c453d753c67df61c684c2bb169ad913b20500de510fc479331"
+        },
+        {
+          "path": "research/sam_upstream/segment_anything/modeling/common.py",
+          "sha256": "6b83de4e528dbb63e457ecd37c441977c3776b6c0670634423c14e410cf82c4e"
+        },
+        {
+          "path": "research/sam_upstream/segment_anything/modeling/image_encoder.py",
+          "sha256": "bce61823f10e32d0943a2e7eabe7a08f2094db38d4e9b247fa598496b67fdb30"
+        },
+        {
+          "path": "research/sam_upstream/segment_anything/modeling/mask_decoder.py",
+          "sha256": "76e02a8fab92e0e9ee9e5e98253bdb6a79332e054016e5e9d6a8214c1fc4f466"
+        },
+        {
+          "path": "research/sam_upstream/segment_anything/modeling/prompt_encoder.py",
+          "sha256": "74a112e0fd380ebf2ed9e787149ba48d9fa2b4caa73a4f1143f135d14db0e251"
+        },
+        {
+          "path": "research/sam_upstream/segment_anything/modeling/sam.py",
+          "sha256": "cca5914776caef007097751cd1fc6eea050f8dc3bebee06cb9d744f3801100c8"
+        },
+        {
+          "path": "research/sam_upstream/segment_anything/modeling/transformer.py",
+          "sha256": "be3964bd4c6d2e53de2c323b3fd1b33549cfe7d21acef20c9c980c3025f4ea00"
+        },
+        {
+          "path": "research/sam_upstream/segment_anything/predictor.py",
+          "sha256": "258bbfdb0436ee2051de901041956f821c8d5e8d0d4540a26e52d41004821c7f"
+        },
+        {
+          "path": "research/sam_upstream/segment_anything/utils/__init__.py",
+          "sha256": "9f2c336d52111ef51bae5b4959d8941968e9e26638c681de5388c58d3080624d"
+        },
+        {
+          "path": "research/sam_upstream/segment_anything/utils/amg.py",
+          "sha256": "7f7d4e51cd8ad9bcb3ba4489ad8a019d8a7a12f9432980891077bcf8692139b9"
+        },
+        {
+          "path": "research/sam_upstream/segment_anything/utils/onnx.py",
+          "sha256": "c43f17e87ea8822af515158d23a86df53e49f67d13fad530eaec30b80f0360ea"
+        },
+        {
+          "path": "research/sam_upstream/segment_anything/utils/transforms.py",
+          "sha256": "17a5b8ab0da4e2fb4c420d94011e8c8d5cef2dbbfeb6a3863dfa19242f48cf77"
+        },
+        {
+          "path": "research/sam_upstream/LICENSE",
+          "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+        }
+      ]
+    },
+    "efficient_sam_vitt": {
+      "repo": "efficient_sam_upstream",
+      "module": "efficient_sam",
+      "commit": "d525f622e6f640acf5a0fc37c7ca1f243da5bde0",
+      "weight": "efficient_sam_vitt.pt",
+      "url": "https://raw.githubusercontent.com/yformer/EfficientSAM/d525f622e6f640acf5a0fc37c7ca1f243da5bde0/weights/efficient_sam_vitt.pt",
+      "weights_pin": {
+        "path": "research/sam_pilot_v1/weights/efficient_sam_vitt.pt",
+        "sha256": "dff858b19600a46461cbb7de98f796b23a7a888d9f5e34c0b033f7d6eb9e4e6a"
+      },
+      "source_pins": [
+        {
+          "path": "research/efficient_sam_upstream/efficient_sam/__init__.py",
+          "sha256": "86a96c2e5c4d2bd844fb03e9a9fd991113a14c5eccb172c862d263209fb469bd"
+        },
+        {
+          "path": "research/efficient_sam_upstream/efficient_sam/build_efficient_sam.py",
+          "sha256": "3939d696b14b41c28aa2ca735353ccc7d908436bd3920f5dd31d7a44f6db1f79"
+        },
+        {
+          "path": "research/efficient_sam_upstream/efficient_sam/efficient_sam.py",
+          "sha256": "383057daaf9ddf1efa92cf9e4b7f9a0e00bfe71ed1ef7e56db627540b6115c0b"
+        },
+        {
+          "path": "research/efficient_sam_upstream/efficient_sam/efficient_sam_decoder.py",
+          "sha256": "680ab2840a19fdded3f1036055ceeb8faac32e74819a0c10f50aa7293daf6a0f"
+        },
+        {
+          "path": "research/efficient_sam_upstream/efficient_sam/efficient_sam_encoder.py",
+          "sha256": "6a7ef7aa752854b0b6e251bc2a68ec9afae14f279df77efa9b7c5a95bd76f2cf"
+        },
+        {
+          "path": "research/efficient_sam_upstream/efficient_sam/mlp.py",
+          "sha256": "d63dc8a1bdfd2b21961ca7362cf5ebc83944dc65efa478948272f71c4283175f"
+        },
+        {
+          "path": "research/efficient_sam_upstream/efficient_sam/two_way_transformer.py",
+          "sha256": "91222d511ad060bd5986d4ab98aa831f8b1e00659b4e96f4f3c3eaacc8942c7c"
+        },
+        {
+          "path": "research/efficient_sam_upstream/LICENSE",
+          "sha256": "1eb85fc97224598dad1852b5d6483bbcf0aa8608790dcc657a5a2a761ae9c8c6"
+        }
+      ]
+    }
+  },
+  "inputs": [
+    {
+      "path": "research/sam_pilot_v1/protocol.md",
+      "sha256": "bdfa57e5c066c4d83d76e620de28dc33422d6b133b7b414592a44b68f894f262"
+    },
+    {
+      "path": "research/sam_pilot_v1/pilot.py",
+      "sha256": "c3a444735e8c833e2454b5791b17d884b1cff0110d269ae799870e629762d4fa"
+    },
+    {
+      "path": "research/sam_pilot_v1/test_pilot.py",
+      "sha256": "8a61e96fb30c179061b413361c96a28737c06f7a61073c862e582db2948b7124"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_cosine30_s20261022.yaml",
+      "sha256": "cebf634744e9ce2ac3e04f82f3462a5ee478ff96699e4c0103bc36861e947f66"
+    },
+    {
+      "path": "configs/overnight_2026_10_21.yaml",
+      "sha256": "57cee50856e4e0890830ec735a58cd47c303c06a23830a8d3749a75f4071e848"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/grouped_cv_2026_10_21/fold_0/split_manifest.parquet",
+      "sha256": "73ffb9c4b398e5b6d4cdca86137d294b5b36da31abf187c4709deb4831e17338"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_0/split_manifest.parquet",
+      "sha256": "c36b7ddaa25198bb6528c1a19dfea168eb247f9d3cfbd6a826ecc8d2d9c82109"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/split_manifest.parquet",
+      "sha256": "6f88c2d3404b9028ea0fa38b81ac4ebaab19d6881d83a9c426e3e2c2ff09675c"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/variants/prefer_student_6/images.parquet",
+      "sha256": "f888c5135b745ca8bf50e693a61c672ff7e4f4b774d97ab2178c86fb58adab45"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/variants/prefer_student_6/annotations.parquet",
+      "sha256": "9cf0b5a8ca67daff2a7dd9c8981e6e24de187d68227b412f036440f22040cb2f"
+    }
+  ],
+  "frames": [
+    {
+      "image_id": "student_01-0019",
+      "image": {
+        "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/ч1.рак.амеба..bmp",
+        "sha256": "a71786d0c13527b5f68ed37e1406515add09b14446a01480c25fb70ebd8e9dbc"
+      },
+      "group": "student_01-0004",
+      "width": 1280,
+      "height": 960,
+      "boxes": [
+        [
+          154.9,
+          459.79,
+          317.40999999999997,
+          607.69
+        ],
+        [
+          1072.75,
+          588.47,
+          1218.54,
+          682.24
+        ]
+      ],
+      "labels": [
+        4,
+        6
+      ]
+    },
+    {
+      "image_id": "student_11-0034",
+      "image": {
+        "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/ч2.волокно..bmp",
+        "sha256": "30bd03947af8b618a7dcd4df0528a9284d7a396a151471b4b6d29d431f1eaa9d"
+      },
+      "group": "student_11-0023",
+      "width": 1280,
+      "height": 960,
+      "boxes": [
+        [
+          622.03,
+          206.33,
+          726.52,
+          289.0
+        ],
+        [
+          612.98,
+          695.97,
+          702.25,
+          765.4100000000001
+        ],
+        [
+          369.87,
+          516.08,
+          571.85,
+          656.03
+        ],
+        [
+          713.87,
+          640.45,
+          882.98,
+          699.82
+        ],
+        [
+          1.42,
+          531.66,
+          147.26,
+          729.46
+        ],
+        [
+          930.05,
+          690.02,
+          1074.6599999999999,
+          865.24
+        ]
+      ],
+      "labels": [
+        5,
+        5,
+        2,
+        2,
+        2,
+        2
+      ]
+    },
+    {
+      "image_id": "student_04-0014",
+      "image": {
+        "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/брюхор.червь Ghaetonotus 3шт..bmp",
+        "sha256": "0bda20650bd36c860edfc384745013d543d96dc8c69abbc5988fe69af9745e9d"
+      },
+      "group": "student_02-0001",
+      "width": 1280,
+      "height": 960,
+      "boxes": [
+        [
+          130.76,
+          593.11,
+          600.3399999999999,
+          685.2
+        ],
+        [
+          668.35,
+          454.82,
+          707.89,
+          568.06
+        ]
+      ],
+      "labels": [
+        2,
+        7
+      ]
+    },
+    {
+      "image_id": "student_11-0024",
+      "image": {
+        "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/колония цианобактерий+пр.инф.срд..bmp",
+        "sha256": "5194cec73bf3724cd9e4980bc38ebdf651f58dc05b580c85f954c7ab58cbf2c7"
+      },
+      "group": "student_11-0024",
+      "width": 1280,
+      "height": 960,
+      "boxes": [
+        [
+          0.75,
+          558.23,
+          109.42,
+          705.53
+        ],
+        [
+          962.15,
+          299.4,
+          1126.15,
+          453.53
+        ],
+        [
+          542.21,
+          81.81,
+          696.96,
+          565.23
+        ],
+        [
+          495.59,
+          549.15,
+          555.27,
+          901.89
+        ]
+      ],
+      "labels": [
+        4,
+        2,
+        1,
+        1
+      ]
+    },
+    {
+      "image_id": "student_06-0030",
+      "image": {
+        "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/ч2.коловратка..bmp",
+        "sha256": "121423776cc56b9950af4b7fc2e64de072bbb300be9cbc708d2e5d1c771756e3"
+      },
+      "group": "student_06-0001",
+      "width": 1280,
+      "height": 960,
+      "boxes": [
+        [
+          599.58,
+          301.55,
+          676.1,
+          475.66
+        ]
+      ],
+      "labels": [
+        3
+      ]
+    },
+    {
+      "image_id": "student_10-0030",
+      "image": {
+        "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/цианобактерии+следы БДМ,.bmp",
+        "sha256": "a96c4bd699b6f4c8fa089c62c10c4438420d8ffcc2886a01dd49be7d28562564"
+      },
+      "group": "student_10-0010",
+      "width": 1280,
+      "height": 960,
+      "boxes": [
+        [
+          681.16,
+          600.95,
+          924.0699999999999,
+          908.4100000000001
+        ],
+        [
+          602.21,
+          445.36,
+          955.99,
+          699.5
+        ],
+        [
+          407.08,
+          407.24,
+          1129.54,
+          960.0
+        ],
+        [
+          150.11,
+          16.8,
+          236.54000000000002,
+          116.19
+        ]
+      ],
+      "labels": [
+        2,
+        2,
+        2,
+        1
+      ]
+    },
+    {
+      "image_id": "student_09-0017",
+      "image": {
+        "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/х100..bmp",
+        "sha256": "57dbe5047372436023db84e5264b8beb862446f98dafd01cab3c7857f8ef9a43"
+      },
+      "group": "student_09-0017",
+      "width": 1280,
+      "height": 960,
+      "boxes": [
+        [
+          264.33,
+          0.0,
+          690.45,
+          414.44
+        ],
+        [
+          650.89,
+          46.64,
+          786.47,
+          254.68
+        ],
+        [
+          56.85,
+          37.25,
+          460.91,
+          178.67
+        ]
+      ],
+      "labels": [
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "image_id": "student_01-0001",
+      "image": {
+        "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/2.роговидные флокулы бактерий..bmp",
+        "sha256": "f4a2fefea3cfa3dedc710905ef738e8e287ebae2c34821d291b22ca11ff7dc7d"
+      },
+      "group": "student_01-0001",
+      "width": 1280,
+      "height": 960,
+      "boxes": [
+        [
+          128.92,
+          330.76,
+          164.08999999999997,
+          376.44
+        ],
+        [
+          198.55,
+          769.04,
+          236.46,
+          789.7199999999999
+        ],
+        [
+          640.05,
+          868.29,
+          646.63,
+          888.03
+        ],
+        [
+          556.01,
+          390.12,
+          695.8299999999999,
+          563.76
+        ],
+        [
+          913.44,
+          127.23,
+          958.12,
+          173.53
+        ]
+      ],
+      "labels": [
+        2,
+        2,
+        2,
+        4,
+        7
+      ]
+    },
+    {
+      "image_id": "student_10-0007",
+      "image": {
+        "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/ил.маленкая колония раб.+колония срд..bmp",
+        "sha256": "0836a11f6fe79039e7feb892c3098e2605da15e030736895468e8b1882c38306"
+      },
+      "group": "student_10-0004",
+      "width": 1280,
+      "height": 960,
+      "boxes": [
+        [
+          286.91,
+          0.0,
+          420.63,
+          115.77
+        ],
+        [
+          414.41,
+          80.96,
+          461.89000000000004,
+          206.86
+        ],
+        [
+          965.45,
+          764.98,
+          1025.95,
+          906.15
+        ],
+        [
+          864.47,
+          594.35,
+          1012.5,
+          785.28
+        ],
+        [
+          0.0,
+          56.4,
+          869.85,
+          796.03
+        ]
+      ],
+      "labels": [
+        4,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "image_id": "student_11-0031",
+      "image": {
+        "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/цианобактерии 1а..bmp",
+        "sha256": "bc33f7cd1bd90d1aed3ea00cb0e990148b2324b295c3dd97aaf5441ec50ed038"
+      },
+      "group": "student_11-0001",
+      "width": 1280,
+      "height": 960,
+      "boxes": [
+        [
+          781.89,
+          5.12,
+          1048.37,
+          216.71
+        ],
+        [
+          606.6,
+          267.17,
+          734.09,
+          419.45000000000005
+        ]
+      ],
+      "labels": [
+        2,
+        2
+      ]
+    },
+    {
+      "image_id": "student_10-0023",
+      "image": {
+        "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/пог.панц.3 шт.ч2.+колония срд..bmp",
+        "sha256": "0ecf3f150da1e8af4abf5bfacf4b74eafc59ad2772227770cc9ce41444231cf7"
+      },
+      "group": "student_10-0011",
+      "width": 1280,
+      "height": 960,
+      "boxes": [
+        [
+          374.79,
+          234.42,
+          849.62,
+          829.7199999999999
+        ],
+        [
+          692.84,
+          653.96,
+          846.86,
+          766.73
+        ],
+        [
+          826.56,
+          623.63,
+          921.9799999999999,
+          756.86
+        ],
+        [
+          708.46,
+          767.92,
+          901.03,
+          819.6999999999999
+        ]
+      ],
+      "labels": [
+        1,
+        3,
+        1,
+        1
+      ]
+    },
+    {
+      "image_id": "session_2024_01_31-0015",
+      "image": {
+        "path": "data/processed_updated_2026_10_02/extracted/session_2024_01_31/images/Train/31.01/Ч2.Древесина.jpg",
+        "sha256": "e321381d160f97b7d8fd55a71401f9a2ebe2882356588c8806e5c5ebfe5b414a"
+      },
+      "group": "session_2024_01_31-0013",
+      "width": 1280,
+      "height": 960,
+      "boxes": [
+        [
+          852.42,
+          480.58,
+          982.18,
+          593.64
+        ],
+        [
+          865.0,
+          618.12,
+          944.67,
+          694.56
+        ]
+      ],
+      "labels": [
+        4,
+        4
+      ]
+    }
+  ],
+  "classes": [
+    "attached_ciliates",
+    "filamentous_bacteria",
+    "rotifers",
+    "testate_amoebae",
+    "free_swimming_ciliates",
+    "nematoda",
+    "gastrotrichs"
+  ],
+  "package_sha256": "fb698c88c123e16f6fc1174ff46e6b77924bea92abb654984d4e5502b64c3310",
+  "seed": 20261023,
+  "grid": 16,
+  "batch": 8,
+  "max_seconds": 1200,
+  "quality": {
+    "pred_iou": 0.88,
+    "stability": 0.95,
+    "stability_offset": 1.0,
+    "min_area": 16,
+    "nms_iou": 0.7,
+    "max_boxes": 100
+  },
+  "test_reopened": false,
+  "heldout_used": false,
+  "training": false
+}

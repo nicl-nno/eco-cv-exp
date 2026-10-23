@@ -1,0 +1,9 @@
+{
+  "calibrations": [
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_1/cascade_s20261023/calibration_cascade.json",
+      "sha256": "21e1d4ec5b73d9afdb0bfb09220d1c86f137daa0088899e6a8b4a26345b6cf59"
+    }
+  ],
+  "original_test_excluded": true
+}

@@ -1,0 +1,14 @@
+{
+  "specialists": {
+    "input": 908,
+    "cross_suppressed": 36,
+    "top100_discarded": 1,
+    "output": 871
+  },
+  "specialists_union": {
+    "input": 908,
+    "cross_suppressed": 0,
+    "top100_discarded": 4,
+    "output": 904
+  }
+}

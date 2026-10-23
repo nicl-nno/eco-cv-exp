@@ -1,0 +1,23 @@
+{
+  "code": {
+    "commit": "48a8f6e01086af08efca78d3ebb17f4f760badb0",
+    "dirty": true,
+    "package_sha256": "54b703ed02848e3458bd22360b2282026577909cd5fbbe9b6f9f087a4e02db12"
+  },
+  "confidence": 0.45,
+  "images": 46,
+  "metrics": "experiments_updated_2026_10_02/updated_rotation/test_metrics.json",
+  "objects": 180,
+  "predictions": "outputs_updated_2026_10_02/updated_rotation/predictions_test.parquet",
+  "predictions_sha256": "a0efdb1f58c839b29bcb6a6c1301c1861d58ff003761864fbf95510f9b19e9db",
+  "run_check": {
+    "checkpoint_matches_manifest": true,
+    "checkpoint_sha256": "6968419b5de6e0098d3a352662c785c41d383da0579ef63b6aa028bffea878b5",
+    "config_equals_snapshot": true,
+    "config_sha256": "3c0767e2ba1fe2947b65da72655bfd4b61984ffb9a9942fed4fed51fe8e377be",
+    "snapshot_matches_manifest": true,
+    "split_manifest_sha256": "6f88c2d3404b9028ea0fa38b81ac4ebaab19d6881d83a9c426e3e2c2ff09675c",
+    "split_matches_lock": true
+  },
+  "run_id": "updated_rotation"
+}

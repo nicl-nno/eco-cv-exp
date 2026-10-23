@@ -1,0 +1,61 @@
+{
+  "calibration_ids": [
+    "student_01-0001",
+    "student_06-0001",
+    "student_06-0002",
+    "student_06-0008",
+    "student_06-0009",
+    "student_06-0010",
+    "student_06-0011",
+    "student_06-0016",
+    "student_06-0017",
+    "student_06-0018",
+    "student_06-0030",
+    "student_06-0031",
+    "student_06-0032",
+    "student_07-0026",
+    "student_07-0029",
+    "student_07-0030",
+    "student_07-0031",
+    "student_07-0033",
+    "student_08-0001",
+    "student_08-0002",
+    "student_08-0003",
+    "student_08-0011",
+    "student_08-0013",
+    "student_08-0014",
+    "student_08-0016",
+    "student_08-0020",
+    "student_08-0021",
+    "student_08-0035",
+    "student_10-0002"
+  ],
+  "class_details": {
+    "filamentous_bacteria": {
+      "support": 41,
+      "groups": 4,
+      "reason": "class_count_guarded",
+      "best_calibration_f1": 0.44155844155844154,
+      "threshold": 0.9
+    }
+  },
+  "policies": {
+    "fixed_020": {
+      "filamentous_bacteria": 0.2
+    },
+    "global_f1": {
+      "filamentous_bacteria": 0.75
+    },
+    "count_guarded": {
+      "filamentous_bacteria": 0.9
+    }
+  },
+  "source_model": {
+    "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/filamentous/model.pt",
+    "sha256": "bcfaffab1e918b55d99f2083f2cbd5733deb62c9db02560d11668a9a16058a9a"
+  },
+  "source_predictions": {
+    "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/filamentous_calibration.parquet",
+    "sha256": "e4d587cf92d4848f660a593ef4df845cc6c967c2e020df51b7e2cc78c2384c2d"
+  }
+}

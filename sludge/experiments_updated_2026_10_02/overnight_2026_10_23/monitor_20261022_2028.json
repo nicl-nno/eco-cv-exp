@@ -1,0 +1,180 @@
+{
+  "checked_at": "2026-10-22T20:29:26.055599+03:00",
+  "registration_verified": true,
+  "input_pins": 211,
+  "registered_jobs": 12,
+  "component_fit_budget": 24,
+  "deadline": "2026-10-23T08:00:00+03:00",
+  "verified_completed_jobs": [
+    "fold_0/cascade_s20261022",
+    "fold_0/specialists_s20261022",
+    "fold_1/cascade_s20261022",
+    "fold_1/specialists_s20261022",
+    "fold_2/cascade_s20261022",
+    "fold_2/specialists_s20261022",
+    "fold_0/cascade_s20261023",
+    "fold_0/specialists_s20261023"
+  ],
+  "failed_jobs": 0,
+  "component_completions": [
+    {
+      "path": "fold_0/cascade_s20261022/agnostic",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_0/cascade_s20261022/classifier",
+      "epochs": 20,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_0/cascade_s20261023/agnostic",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_0/cascade_s20261023/classifier",
+      "epochs": 20,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_0/specialists_s20261022/filamentous",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_0/specialists_s20261022/others",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_0/specialists_s20261023/filamentous",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_0/specialists_s20261023/others",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_1/cascade_s20261022/agnostic",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_1/cascade_s20261022/classifier",
+      "epochs": 20,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_1/specialists_s20261022/filamentous",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_1/specialists_s20261022/others",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_2/cascade_s20261022/agnostic",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_2/cascade_s20261022/classifier",
+      "epochs": 20,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_2/specialists_s20261022/filamentous",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_2/specialists_s20261022/others",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    }
+  ],
+  "active_checkpoints": [
+    {
+      "path": "fold_1/cascade_s20261023/agnostic/resume_state.pt",
+      "bytes": 345604441,
+      "modified_at": "2026-10-22T20:29:15.629586+03:00",
+      "last_completed_epoch_log": {
+        "epoch": 14,
+        "loss": 0.32660098936916754,
+        "lr": 0.0016976536367999768,
+        "seconds": 18.83670820001862
+      },
+      "binary_not_opened_during_training": true
+    }
+  ],
+  "summary_updated_at": "2026-10-22T20:25:48.030026+03:00",
+  "summary_completed_jobs": 8,
+  "pooled_primary_available": {
+    "cosine30_s20261022": {
+      "macro_f1": 0.3090007730054625,
+      "images": 204,
+      "count_mae": {
+        "attached_ciliates": 0.7598039215686274,
+        "filamentous_bacteria": 1.088235294117647
+      }
+    },
+    "cascade_s20261022": {
+      "macro_f1": 0.26249597326220453,
+      "images": 204,
+      "count_mae": {
+        "attached_ciliates": 0.8137254901960784,
+        "filamentous_bacteria": 1.1323529411764706
+      }
+    },
+    "specialists_s20261022": {
+      "macro_f1": 0.3411333092154213,
+      "images": 204,
+      "count_mae": {
+        "attached_ciliates": 0.8921568627450981,
+        "filamentous_bacteria": 1.0980392156862746
+      }
+    },
+    "specialists_union_s20261022": {
+      "macro_f1": 0.3349755911039405,
+      "images": 204,
+      "count_mae": {
+        "attached_ciliates": 0.8921568627450981,
+        "filamentous_bacteria": 1.0980392156862746
+      }
+    },
+    "cosine30_s20261023": {
+      "macro_f1": 0.3141374991688029,
+      "images": 204,
+      "count_mae": {
+        "attached_ciliates": 0.8823529411764706,
+        "filamentous_bacteria": 1.0686274509803921
+      }
+    }
+  },
+  "eligibility": {},
+  "variants": [
+    "prefer_student_6"
+  ],
+  "test_reopened": false
+}

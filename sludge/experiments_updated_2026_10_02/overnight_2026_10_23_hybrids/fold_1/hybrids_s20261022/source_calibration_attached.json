@@ -1,0 +1,61 @@
+{
+  "calibration_ids": [
+    "student_01-0001",
+    "student_06-0001",
+    "student_06-0002",
+    "student_06-0008",
+    "student_06-0009",
+    "student_06-0010",
+    "student_06-0011",
+    "student_06-0016",
+    "student_06-0017",
+    "student_06-0018",
+    "student_06-0030",
+    "student_06-0031",
+    "student_06-0032",
+    "student_07-0026",
+    "student_07-0029",
+    "student_07-0030",
+    "student_07-0031",
+    "student_07-0033",
+    "student_08-0001",
+    "student_08-0002",
+    "student_08-0003",
+    "student_08-0011",
+    "student_08-0013",
+    "student_08-0014",
+    "student_08-0016",
+    "student_08-0020",
+    "student_08-0021",
+    "student_08-0035",
+    "student_10-0002"
+  ],
+  "class_details": {
+    "attached_ciliates": {
+      "support": 39,
+      "groups": 4,
+      "reason": "class_count_guarded",
+      "best_calibration_f1": 0.30303030303030304,
+      "threshold": 0.7
+    }
+  },
+  "policies": {
+    "fixed_020": {
+      "attached_ciliates": 0.2
+    },
+    "global_f1": {
+      "attached_ciliates": 0.85
+    },
+    "count_guarded": {
+      "attached_ciliates": 0.7
+    }
+  },
+  "source_model": {
+    "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/attached/model.pt",
+    "sha256": "bc5492ce827486789b8ba230fc383d0294537c24d55921a09fda0a9bb551c7ba"
+  },
+  "source_predictions": {
+    "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/attached_calibration.parquet",
+    "sha256": "2efa8083f80bc165bd41b4b985c862945b0978ea5e1ced7f1232c2f968b61162"
+  }
+}

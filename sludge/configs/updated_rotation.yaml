@@ -1,0 +1,8 @@
+# One alternative to the control: train-time right-angle rotations and flips.
+# Microscopy fields have no fixed biological orientation; validation and test
+# use the original frames without augmentation.
+extends: updated_2026_10_02.yaml
+train:
+  augment: {rotation90: true, hflip: true, vflip: true, flip_probability: 0.5}
+protocol:
+  max_runs: 3

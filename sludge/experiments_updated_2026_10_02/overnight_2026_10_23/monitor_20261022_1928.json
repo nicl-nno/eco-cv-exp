@@ -1,0 +1,109 @@
+{
+  "checked_at": "2026-10-22T19:29:33.774437+03:00",
+  "registration_verified": true,
+  "registration_inputs": 211,
+  "folds": [
+    {
+      "fold": 0,
+      "inner_manifest": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_0/split_manifest.parquet",
+      "outer_manifest": "experiments_updated_2026_10_02/grouped_cv_2026_10_21/fold_0/split_manifest.parquet"
+    },
+    {
+      "fold": 1,
+      "inner_manifest": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_1/split_manifest.parquet",
+      "outer_manifest": "experiments_updated_2026_10_02/grouped_cv_2026_10_21/fold_1/split_manifest.parquet"
+    },
+    {
+      "fold": 2,
+      "inner_manifest": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_2/split_manifest.parquet",
+      "outer_manifest": "experiments_updated_2026_10_02/grouped_cv_2026_10_21/fold_2/split_manifest.parquet"
+    }
+  ],
+  "status": "running",
+  "completed_jobs": 3,
+  "failed_jobs": 0,
+  "completed_results": [
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "method": "cascade",
+      "primary_macro_f1_by_method": {
+        "cascade": 0.24476071130206467
+      }
+    },
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "method": "specialists",
+      "primary_macro_f1_by_method": {
+        "specialists": 0.3077997407475091,
+        "specialists_union": 0.3077997407475091
+      }
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "method": "cascade",
+      "primary_macro_f1_by_method": {
+        "cascade": 0.29274364571478323
+      }
+    }
+  ],
+  "component_completions": [
+    {
+      "path": "fold_0/cascade_s20261022/agnostic",
+      "epochs": 30,
+      "finite_loss": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_0/cascade_s20261022/classifier",
+      "epochs": 20,
+      "finite_loss": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_0/specialists_s20261022/filamentous",
+      "epochs": 30,
+      "finite_loss": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_0/specialists_s20261022/others",
+      "epochs": 30,
+      "finite_loss": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_1/cascade_s20261022/agnostic",
+      "epochs": 30,
+      "finite_loss": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_1/cascade_s20261022/classifier",
+      "epochs": 20,
+      "finite_loss": true,
+      "bn_changed": 0
+    }
+  ],
+  "active_checkpoints": [
+    {
+      "path": "fold_1/specialists_s20261022/filamentous/resume_state.pt",
+      "epoch": 11,
+      "last_loss": 0.15687168308696445,
+      "bytes": 345604313
+    }
+  ],
+  "variants": [
+    "prefer_student_6"
+  ],
+  "summary_updated_at": "2026-10-22T19:26:36.958970+03:00",
+  "summary_completed_jobs": 3,
+  "pooled_available": [
+    "cosine30_s20261022",
+    "cosine30_s20261023"
+  ],
+  "eligibility": {},
+  "test_reopened": false
+}

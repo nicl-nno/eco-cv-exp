@@ -1,0 +1,9 @@
+# Pre-registered development experiments only; the existing test stays untouched.
+extends: updated_rotation.yaml
+paths:
+  experiments_dir: experiments_updated_2026_10_02/overnight_2026_10_21
+  outputs_dir: outputs_updated_2026_10_02/overnight_2026_10_21
+  split_dir: experiments_updated_2026_10_02
+protocol:
+  max_runs: 12
+  max_epochs_per_run: 30

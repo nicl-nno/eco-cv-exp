@@ -1,0 +1,31 @@
+output_dir: runs/segmentation/mask_dino_sa
+
+data:
+  root: data/segmentation
+  split_manifest: null
+  input_size: 512
+  ignore_index: 255
+
+model:
+  backbone: mask_dino
+  attention: sa
+  num_classes: 5
+  pretrained: false
+  kwargs: {}
+
+train:
+  batch_size: 8
+  epochs: 50
+  lr: 1.0e-4
+  weight_decay: 0.05
+  warmup_epochs: 0
+  num_workers: 4
+  amp: true
+  patience: 10
+  seed: 42
+
+eval:
+  batch_size: 8
+  num_workers: 4
+  checkpoint: runs/segmentation/mask_dino_sa/seed_42/checkpoint_best.pt
+  seed: 42

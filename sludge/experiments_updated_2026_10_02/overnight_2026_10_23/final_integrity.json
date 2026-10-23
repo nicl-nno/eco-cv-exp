@@ -1,0 +1,578 @@
+{
+  "checked_at": "2026-10-22T21:35:33.377064+03:00",
+  "registration": {
+    "path": "experiments_updated_2026_10_02/overnight_2026_10_23/registration.json",
+    "sha256": "41c248fadb0ee4d2021ef39e222850f0adc9a555692e03bb0bc8456e61afce77"
+  },
+  "summary": {
+    "path": "experiments_updated_2026_10_02/overnight_2026_10_23/summary.json",
+    "sha256": "527eba55474d9f379ba49a0465bf0e37ce11b28bcde000a06b018e8e30d16d1c"
+  },
+  "completed_jobs": 12,
+  "component_fits": 24,
+  "controls_reused": 6,
+  "components": [
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "method": "cascade",
+      "component": "agnostic",
+      "epochs": 30,
+      "training_seconds": 384.75068700002157,
+      "parameters": 43256153,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261022/agnostic/model.pt",
+        "sha256": "77dad22bed1b296bb60cc1c67c5b39f21f582c0161a0280d651edfe543ee21fb"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261022/agnostic/resume_state.pt",
+        "sha256": "6c16149dd6a6f14aea42c92d14cc458d9667cd6bfcd25149057e0ac8b3f17a15"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261022/calibration_cascade.json",
+        "sha256": "5dbee4ba140e7c89bb05e1c448924ab7cb9b05dc215e77cad1547bdaa9efe13c"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "method": "cascade",
+      "component": "classifier",
+      "epochs": 20,
+      "training_seconds": 57.40562320002937,
+      "parameters": 23524424,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261022/classifier/model.pt",
+        "sha256": "ec7fab006b6eb05fb7c5ed6011789d17b3a53f3071a83d8391c4cc1de6141b66"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261022/classifier/resume_state.pt",
+        "sha256": "46c56c29ad06d96e42f296845f85748e510f6029e903b5142ced96135f189aa6"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261022/calibration_cascade.json",
+        "sha256": "5dbee4ba140e7c89bb05e1c448924ab7cb9b05dc215e77cad1547bdaa9efe13c"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "method": "specialists",
+      "component": "filamentous",
+      "epochs": 30,
+      "training_seconds": 385.4795531000418,
+      "parameters": 43256153,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261022/filamentous/model.pt",
+        "sha256": "34c6c12eee0625a34b2102975f89cfca18cacb273e614fa10ac944db304ee707"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261022/filamentous/resume_state.pt",
+        "sha256": "c3f39980ef8187be80108d9b3bfa8e372055cc78ba6fcf287d58776a1b4895b3"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261022/calibration_specialists.json",
+        "sha256": "d0d28e312624e552089b24a12178cf47b4df80f06c2d680ce1d4e6857cfaafdd"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "method": "specialists",
+      "component": "others",
+      "epochs": 30,
+      "training_seconds": 391.2318145999161,
+      "parameters": 43281778,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261022/others/model.pt",
+        "sha256": "3ccbb9d7b9138c6cd6093d1211563aac8c3ee6dc94184c697bf264663f0ce428"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261022/others/resume_state.pt",
+        "sha256": "70d02fb5e3c8f60adec0e826f6da2b3e48b412303d31b8821e36579acb1c0587"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261022/calibration_specialists.json",
+        "sha256": "d0d28e312624e552089b24a12178cf47b4df80f06c2d680ce1d4e6857cfaafdd"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "method": "cascade",
+      "component": "agnostic",
+      "epochs": 30,
+      "training_seconds": 341.15298630011966,
+      "parameters": 43256153,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/cascade_s20261022/agnostic/model.pt",
+        "sha256": "6e47b1365b8a0e4ca0e2f117448e33f708c266e4e2349201677b04e48bf1dec0"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/cascade_s20261022/agnostic/resume_state.pt",
+        "sha256": "0e516ceab5055e3912c203a1fd93756ef25c25d85b22c59620d90c8b2f2774f5"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_1/cascade_s20261022/calibration_cascade.json",
+        "sha256": "acf7193511e4da292ab11cc97e9ffb97fa26383dea4b5efadb122e85187a9a4d"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "method": "cascade",
+      "component": "classifier",
+      "epochs": 20,
+      "training_seconds": 60.86829309997847,
+      "parameters": 23524424,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/cascade_s20261022/classifier/model.pt",
+        "sha256": "7068adeafd14cd50146e5e117fe2ac665995a309f3cc1dfa39ccb99d281d4d0c"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/cascade_s20261022/classifier/resume_state.pt",
+        "sha256": "9decf674ff2a8c7f004674cc70e317446c3f52cefeb99bc4f2d0617a96ef8142"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_1/cascade_s20261022/calibration_cascade.json",
+        "sha256": "acf7193511e4da292ab11cc97e9ffb97fa26383dea4b5efadb122e85187a9a4d"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "method": "specialists",
+      "component": "filamentous",
+      "epochs": 30,
+      "training_seconds": 384.39313560005394,
+      "parameters": 43256153,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/filamentous/model.pt",
+        "sha256": "8d957224252ebd484ce29b88205f267724ae5d34657e8388c95256d62eed31b5"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/filamentous/resume_state.pt",
+        "sha256": "3e26a9b802d72c32a611746bf429060599af94edda5254cf934ce91befbd5db4"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/calibration_specialists.json",
+        "sha256": "1bde54f44dfeda40108cdc78e5f3870c955fc370847ed4e9cbb736d56cea932a"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "method": "specialists",
+      "component": "others",
+      "epochs": 30,
+      "training_seconds": 369.13255650002975,
+      "parameters": 43281778,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/others/model.pt",
+        "sha256": "b932a3eb59aedde617dd49a5870d57e07ffcc492a9ea9cef6decd8edbf67836b"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/others/resume_state.pt",
+        "sha256": "e67d15da532f053050febd7bfe0d4e20784a2c45b32c5f16c8c2599e9f63c200"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/calibration_specialists.json",
+        "sha256": "1bde54f44dfeda40108cdc78e5f3870c955fc370847ed4e9cbb736d56cea932a"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 2,
+      "seed": 20261022,
+      "method": "cascade",
+      "component": "agnostic",
+      "epochs": 30,
+      "training_seconds": 349.8094040999713,
+      "parameters": 43256153,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/cascade_s20261022/agnostic/model.pt",
+        "sha256": "63621fefaf3f1d574aa2b8658b8f3266b38b2dd04aa84789921305cc0e28e61e"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/cascade_s20261022/agnostic/resume_state.pt",
+        "sha256": "aa25e009d9a90b32e911bd446de4a4967ad33de946e73ac90560a9610d7aa900"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_2/cascade_s20261022/calibration_cascade.json",
+        "sha256": "295139d078ae367680a6730725b9d80b2bdded147c689586fab17e80be10324d"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 2,
+      "seed": 20261022,
+      "method": "cascade",
+      "component": "classifier",
+      "epochs": 20,
+      "training_seconds": 59.862416999967536,
+      "parameters": 23524424,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/cascade_s20261022/classifier/model.pt",
+        "sha256": "1e8d05c7fe503b2acd0fb4a1dadeb061b9e773650578b0c1468be1cfc9544809"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/cascade_s20261022/classifier/resume_state.pt",
+        "sha256": "73e14edc9bdd75c008d1a3d9113fc89d35b753d86e6e30d26a5557e9c721f138"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_2/cascade_s20261022/calibration_cascade.json",
+        "sha256": "295139d078ae367680a6730725b9d80b2bdded147c689586fab17e80be10324d"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 2,
+      "seed": 20261022,
+      "method": "specialists",
+      "component": "filamentous",
+      "epochs": 30,
+      "training_seconds": 392.59210379995056,
+      "parameters": 43256153,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261022/filamentous/model.pt",
+        "sha256": "c7ed8ebd0f0aea45987b7a594b881780bcd3b73b6f313cc3deddda871b2b351b"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261022/filamentous/resume_state.pt",
+        "sha256": "2d9b6a307c18281a37b42850da94e3dcb754e13a33ee6a52731cb4380dfd2741"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261022/calibration_specialists.json",
+        "sha256": "baad6b02ede3430c2657ce3505bee55cdb746f3b9c34fa9b5805c8f400bb6b3d"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 2,
+      "seed": 20261022,
+      "method": "specialists",
+      "component": "others",
+      "epochs": 30,
+      "training_seconds": 402.04782930010697,
+      "parameters": 43281778,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261022/others/model.pt",
+        "sha256": "66b5e9f08d7671a7bb2d8bd08e511cdf1c4e5545ce75839cc9a759fb9af33941"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261022/others/resume_state.pt",
+        "sha256": "c0c19d6c1a28ba5983b6c68d8396fa03fc8f08f7b6dc2f5c937674af83b1eda4"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261022/calibration_specialists.json",
+        "sha256": "baad6b02ede3430c2657ce3505bee55cdb746f3b9c34fa9b5805c8f400bb6b3d"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 0,
+      "seed": 20261023,
+      "method": "cascade",
+      "component": "agnostic",
+      "epochs": 30,
+      "training_seconds": 412.2162579999422,
+      "parameters": 43256153,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261023/agnostic/model.pt",
+        "sha256": "1c3117d363bc4ddceaa4fc476a1f79bf67dc83e9b06b92bc08eff4ff8f6f62e5"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261023/agnostic/resume_state.pt",
+        "sha256": "60627a6e4a746b65619c59052df63bb1fbdd6f2023bc8888a5a6c712694ca6cd"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261023/calibration_cascade.json",
+        "sha256": "5084b9ca9c23843579555da42a3c9fbe29a1fc285ca05b2b531e5fced3f56343"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 0,
+      "seed": 20261023,
+      "method": "cascade",
+      "component": "classifier",
+      "epochs": 20,
+      "training_seconds": 58.602661200013245,
+      "parameters": 23524424,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261023/classifier/model.pt",
+        "sha256": "8293b54c4536b0f6bc01d9060083b6a6772055ff27a6cdcb64deb915d9077425"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261023/classifier/resume_state.pt",
+        "sha256": "b37d108cacff1b42da5b93ddaad499ebc5f10669abaee6f9ab139d598248b6dc"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_0/cascade_s20261023/calibration_cascade.json",
+        "sha256": "5084b9ca9c23843579555da42a3c9fbe29a1fc285ca05b2b531e5fced3f56343"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 0,
+      "seed": 20261023,
+      "method": "specialists",
+      "component": "filamentous",
+      "epochs": 30,
+      "training_seconds": 386.9522893000103,
+      "parameters": 43256153,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261023/filamentous/model.pt",
+        "sha256": "17b7449c8723e5cd4fe18e273d2d70d11f8c8304a887d93cb2f8f761303fcfbd"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261023/filamentous/resume_state.pt",
+        "sha256": "6e44142d86fa369aa57fab0d608e57824180d36d86637ae6d8c1d39a9538c72c"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261023/calibration_specialists.json",
+        "sha256": "9415b051572829ea2bdd6530d80bd4eb2b3bf95b875cdbacada8ba74483ba0b3"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 0,
+      "seed": 20261023,
+      "method": "specialists",
+      "component": "others",
+      "epochs": 30,
+      "training_seconds": 387.01439540009596,
+      "parameters": 43281778,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261023/others/model.pt",
+        "sha256": "259302f03dc55a26dc766e5a213efc557ec9ab3c9e993d7ca92c4f4964c64715"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261023/others/resume_state.pt",
+        "sha256": "3c8e8809f24b860d685dc449cdfe106f59eba85c9324ae9b0b515f45b6110d56"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261023/calibration_specialists.json",
+        "sha256": "9415b051572829ea2bdd6530d80bd4eb2b3bf95b875cdbacada8ba74483ba0b3"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 1,
+      "seed": 20261023,
+      "method": "cascade",
+      "component": "agnostic",
+      "epochs": 30,
+      "training_seconds": 384.8013965001155,
+      "parameters": 43256153,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/cascade_s20261023/agnostic/model.pt",
+        "sha256": "8de9fbeb13d6eba681be7ebce6b4ab65add0b83af3ef8b1d6da89419e83a4065"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/cascade_s20261023/agnostic/resume_state.pt",
+        "sha256": "2d606a9edd5b08c626a9f851cee9005c75824afc8a4ae6a9b56428b61151aa07"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_1/cascade_s20261023/calibration_cascade.json",
+        "sha256": "21e1d4ec5b73d9afdb0bfb09220d1c86f137daa0088899e6a8b4a26345b6cf59"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 1,
+      "seed": 20261023,
+      "method": "cascade",
+      "component": "classifier",
+      "epochs": 20,
+      "training_seconds": 59.34170799999265,
+      "parameters": 23524424,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/cascade_s20261023/classifier/model.pt",
+        "sha256": "685d00b68d1dbc213b9a6483c38cd44374b03a407f545c0a1e3c1139e97b4a1d"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/cascade_s20261023/classifier/resume_state.pt",
+        "sha256": "6ae575ed7230ce1f890dc0e08f5c7c10fa61441a2ad0d8a7089de8322001a378"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_1/cascade_s20261023/calibration_cascade.json",
+        "sha256": "21e1d4ec5b73d9afdb0bfb09220d1c86f137daa0088899e6a8b4a26345b6cf59"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 1,
+      "seed": 20261023,
+      "method": "specialists",
+      "component": "filamentous",
+      "epochs": 30,
+      "training_seconds": 392.88751450015116,
+      "parameters": 43256153,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/filamentous/model.pt",
+        "sha256": "bcfaffab1e918b55d99f2083f2cbd5733deb62c9db02560d11668a9a16058a9a"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/filamentous/resume_state.pt",
+        "sha256": "5c5c7a8b50f4754204d59ae0c7e3d0808eb71d84041244b13b3d3030295e3ce7"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/calibration_specialists.json",
+        "sha256": "ff70a23f2938fc0288a4dddc50a70907e852bf04fdecfc560e6730c123f41a92"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 1,
+      "seed": 20261023,
+      "method": "specialists",
+      "component": "others",
+      "epochs": 30,
+      "training_seconds": 414.71925910003483,
+      "parameters": 43281778,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/others/model.pt",
+        "sha256": "3ffd45d8d746d02873d7a559bcc4002b65dfa1196b61048d9461ef280c874617"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/others/resume_state.pt",
+        "sha256": "183ed20bb5eb27f11bdec678bd643864d96a4cde58bd24cbc5446247c6700f15"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/calibration_specialists.json",
+        "sha256": "ff70a23f2938fc0288a4dddc50a70907e852bf04fdecfc560e6730c123f41a92"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 2,
+      "seed": 20261023,
+      "method": "cascade",
+      "component": "agnostic",
+      "epochs": 30,
+      "training_seconds": 425.3268895999354,
+      "parameters": 43256153,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/cascade_s20261023/agnostic/model.pt",
+        "sha256": "e61cc939017d76c36b5d960cb65e8c30f5a640e7282b93ce8c2062787396f62d"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/cascade_s20261023/agnostic/resume_state.pt",
+        "sha256": "2b4f74904bec202744782281a60c11b8731dbff17d970c0a6d7b90d418fa0549"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_2/cascade_s20261023/calibration_cascade.json",
+        "sha256": "b9e2b54d5994f2a6ea61dc073f4808f876b18413751e774dee4b5c1ad53f03e9"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 2,
+      "seed": 20261023,
+      "method": "cascade",
+      "component": "classifier",
+      "epochs": 20,
+      "training_seconds": 66.99255889991764,
+      "parameters": 23524424,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/cascade_s20261023/classifier/model.pt",
+        "sha256": "3efbfe4a529ecb5b0b5cb0181898176395864adee21917c85c7d2630485754a2"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/cascade_s20261023/classifier/resume_state.pt",
+        "sha256": "97b42e61975883f5d17f45065e0e66e94e6d425f1613f3bc57786a75ff354876"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_2/cascade_s20261023/calibration_cascade.json",
+        "sha256": "b9e2b54d5994f2a6ea61dc073f4808f876b18413751e774dee4b5c1ad53f03e9"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 2,
+      "seed": 20261023,
+      "method": "specialists",
+      "component": "filamentous",
+      "epochs": 30,
+      "training_seconds": 424.1887427000911,
+      "parameters": 43256153,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261023/filamentous/model.pt",
+        "sha256": "443042a73f737bb057c64ae131ccac7d0637b9a4805d03d7c4f9993008506d87"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261023/filamentous/resume_state.pt",
+        "sha256": "4f968ea650c43b80ff7a53ec01e8ba859c0dc5b8695034442c4d8032e17e019a"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261023/calibration_specialists.json",
+        "sha256": "b9de976d8e1a161aebfbb10039a57ec50bfc7b64db182936db410a5e38b43efa"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    },
+    {
+      "fold": 2,
+      "seed": 20261023,
+      "method": "specialists",
+      "component": "others",
+      "epochs": 30,
+      "training_seconds": 401.0255020999757,
+      "parameters": 43281778,
+      "checkpoint": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261023/others/model.pt",
+        "sha256": "ad5ee527730c1227a9f1fce5fa1963bdb237bca5ed7c4ee12dec9e9924b0b1d2"
+      },
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261023/others/resume_state.pt",
+        "sha256": "2f8c96ad9470f2d8d280a9e9a72a49a9bf518526f67d626313b30aec6ccbe72c"
+      },
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261023/calibration_specialists.json",
+        "sha256": "b9de976d8e1a161aebfbb10039a57ec50bfc7b64db182936db410a5e38b43efa"
+      },
+      "finite_losses": true,
+      "frozen_bn_unchanged": true
+    }
+  ],
+  "queue_finished_at": "2026-10-22T21:16:57.776532+03:00",
+  "shared_locks_free": true,
+  "frozen_inputs_verified": true,
+  "calibration_ids_verified": true,
+  "calibration_before_outer_mtime_verified": true,
+  "fit_crop_ids_verified": true,
+  "all_epoch_checkpoints_readable": true,
+  "test_reopened": false,
+  "independent_test": false,
+  "variant": "prefer_student_6"
+}

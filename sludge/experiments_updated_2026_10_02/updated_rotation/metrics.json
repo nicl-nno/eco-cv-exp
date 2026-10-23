@@ -1,0 +1,194 @@
+{
+  "classes": [
+    {
+      "f1": 0.19801980198019803,
+      "fn": 37,
+      "fp": 206,
+      "name": "attached_ciliates",
+      "precision": 0.1271186440677966,
+      "predictions": 236,
+      "recall": 0.44776119402985076,
+      "support": 67,
+      "tp": 30
+    },
+    {
+      "f1": 0.2028985507246377,
+      "fn": 46,
+      "fp": 64,
+      "name": "filamentous_bacteria",
+      "precision": 0.1794871794871795,
+      "predictions": 78,
+      "recall": 0.23333333333333334,
+      "support": 60,
+      "tp": 14
+    },
+    {
+      "f1": 0.6382978723404256,
+      "fn": 5,
+      "fp": 12,
+      "name": "rotifers",
+      "precision": 0.5555555555555556,
+      "predictions": 27,
+      "recall": 0.75,
+      "support": 20,
+      "tp": 15
+    },
+    {
+      "f1": 0.5531914893617021,
+      "fn": 8,
+      "fp": 13,
+      "name": "testate_amoebae",
+      "precision": 0.5,
+      "predictions": 26,
+      "recall": 0.6190476190476191,
+      "support": 21,
+      "tp": 13
+    },
+    {
+      "f1": 0.0,
+      "fn": 7,
+      "fp": 0,
+      "name": "free_swimming_ciliates",
+      "precision": null,
+      "predictions": 0,
+      "recall": 0.0,
+      "support": 7,
+      "tp": 0
+    },
+    {
+      "f1": 0.0,
+      "fn": 2,
+      "fp": 0,
+      "name": "nematoda",
+      "precision": null,
+      "predictions": 0,
+      "recall": 0.0,
+      "support": 2,
+      "tp": 0
+    },
+    {
+      "f1": 0.6153846153846154,
+      "fn": 3,
+      "fp": 2,
+      "name": "gastrotrichs",
+      "precision": 0.6666666666666666,
+      "predictions": 6,
+      "recall": 0.5714285714285714,
+      "support": 7,
+      "tp": 4
+    }
+  ],
+  "confidence": 0.45,
+  "confidence_source": "validation_selection",
+  "evaluation": {
+    "confidence_grid": {
+      "start": 0.05,
+      "step": 0.05,
+      "stop": 0.95
+    },
+    "ignore_ioa_threshold": 0.5,
+    "iou_threshold": 0.5,
+    "matching": "greedy_by_confidence",
+    "selection_tie_break": "higher_confidence",
+    "unsupported_class_policy": "exclude_if_no_support_and_no_predictions"
+  },
+  "ignore_regions": 22,
+  "images": 50,
+  "macro_f1": 0.31539890425593986,
+  "macro_f1_classes": [
+    "attached_ciliates",
+    "filamentous_bacteria",
+    "rotifers",
+    "testate_amoebae",
+    "free_swimming_ciliates",
+    "nematoda",
+    "gastrotrichs"
+  ],
+  "objects": 184,
+  "period": null,
+  "postprocess": {
+    "max_detections": 100,
+    "min_score": 0.05,
+    "nms_iou": 0.5
+  },
+  "run_id": "updated_rotation",
+  "selection_curve": [
+    {
+      "confidence": 0.05,
+      "macro_f1": 0.1152633235529004
+    },
+    {
+      "confidence": 0.1,
+      "macro_f1": 0.15705787634598273
+    },
+    {
+      "confidence": 0.15,
+      "macro_f1": 0.1906210473484137
+    },
+    {
+      "confidence": 0.2,
+      "macro_f1": 0.2311457756425548
+    },
+    {
+      "confidence": 0.25,
+      "macro_f1": 0.2734314783012107
+    },
+    {
+      "confidence": 0.3,
+      "macro_f1": 0.29357097378858166
+    },
+    {
+      "confidence": 0.35,
+      "macro_f1": 0.3037610239223142
+    },
+    {
+      "confidence": 0.4,
+      "macro_f1": 0.30976789219519574
+    },
+    {
+      "confidence": 0.45,
+      "macro_f1": 0.31539890425593986
+    },
+    {
+      "confidence": 0.5,
+      "macro_f1": 0.28746674675671435
+    },
+    {
+      "confidence": 0.55,
+      "macro_f1": 0.2639651362515792
+    },
+    {
+      "confidence": 0.6,
+      "macro_f1": 0.27735217595739126
+    },
+    {
+      "confidence": 0.65,
+      "macro_f1": 0.24898000663680106
+    },
+    {
+      "confidence": 0.7,
+      "macro_f1": 0.19653679653679654
+    },
+    {
+      "confidence": 0.75,
+      "macro_f1": 0.16334170966429032
+    },
+    {
+      "confidence": 0.8,
+      "macro_f1": 0.1270995670995671
+    },
+    {
+      "confidence": 0.85,
+      "macro_f1": 0.1115527950310559
+    },
+    {
+      "confidence": 0.9,
+      "macro_f1": 0.07650092945647415
+    },
+    {
+      "confidence": 0.95,
+      "macro_f1": 0.019047619047619046
+    }
+  ],
+  "split": "validation"
+}

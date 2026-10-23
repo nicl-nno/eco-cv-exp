@@ -1,0 +1,280 @@
+{
+  "confidence": 0.6,
+  "examples": [
+    {
+      "bbox_xyxy": [
+        3.5,
+        759.14,
+        157.58,
+        808.67
+      ],
+      "class": "attached_ciliates",
+      "confidence": 0.9949,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_10-0024.jpg",
+      "image_id": "student_10-0024",
+      "kind": "correct"
+    },
+    {
+      "bbox_xyxy": [
+        975.15,
+        603.08,
+        1259.65,
+        960.0
+      ],
+      "class": "filamentous_bacteria",
+      "confidence": 0.9451,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_06-0018.jpg",
+      "image_id": "student_06-0018",
+      "kind": "correct"
+    },
+    {
+      "bbox_xyxy": [
+        587.87,
+        506.39,
+        719.23,
+        624.0
+      ],
+      "class": "rotifers",
+      "confidence": 0.9944,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_11-0028.jpg",
+      "image_id": "student_11-0028",
+      "kind": "correct"
+    },
+    {
+      "bbox_xyxy": [
+        401.77,
+        363.26,
+        474.24,
+        446.46
+      ],
+      "class": "testate_amoebae",
+      "confidence": 0.9983,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_11-0028.jpg",
+      "image_id": "student_11-0028",
+      "kind": "correct"
+    },
+    {
+      "bbox_xyxy": [
+        320.61,
+        466.65,
+        422.76,
+        529.12
+      ],
+      "class": "gastrotrichs",
+      "confidence": 0.8562,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_10-0035.jpg",
+      "image_id": "student_10-0035",
+      "kind": "correct"
+    },
+    {
+      "bbox_xyxy": [
+        227.03,
+        428.19,
+        281.77,
+        584.71
+      ],
+      "class": "attached_ciliates",
+      "confidence": 0.9946,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_10-0032.jpg",
+      "image_id": "student_10-0032",
+      "kind": "correct"
+    },
+    {
+      "bbox_xyxy": [
+        122.51,
+        675.43,
+        390.77,
+        897.45
+      ],
+      "class": "filamentous_bacteria",
+      "confidence": 0.9298,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_08-0020.jpg",
+      "image_id": "student_08-0020",
+      "kind": "correct"
+    },
+    {
+      "bbox_xyxy": [
+        483.23,
+        668.92,
+        533.37,
+        827.98
+      ],
+      "class": "attached_ciliates",
+      "confidence": 0.9891,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_10-0023.jpg",
+      "image_id": "student_10-0023",
+      "kind": "false_positive"
+    },
+    {
+      "bbox_xyxy": [
+        419.18,
+        544.78,
+        510.71,
+        642.87
+      ],
+      "class": "attached_ciliates",
+      "confidence": 0.9872,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_10-0016.jpg",
+      "image_id": "student_10-0016",
+      "kind": "false_positive"
+    },
+    {
+      "bbox_xyxy": [
+        713.19,
+        514.38,
+        819.46,
+        657.57
+      ],
+      "class": "attached_ciliates",
+      "confidence": 0.9817,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_10-0032.jpg",
+      "image_id": "student_10-0032",
+      "kind": "false_positive"
+    },
+    {
+      "bbox_xyxy": [
+        861.12,
+        304.21,
+        1091.07,
+        485.67
+      ],
+      "class": "attached_ciliates",
+      "confidence": 0.9774,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_06-0031.jpg",
+      "image_id": "student_06-0031",
+      "kind": "false_positive"
+    },
+    {
+      "bbox_xyxy": [
+        45.15,
+        195.6,
+        413.73,
+        385.54
+      ],
+      "class": "filamentous_bacteria",
+      "confidence": 0.9766,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_08-0016.jpg",
+      "image_id": "student_08-0016",
+      "kind": "false_positive"
+    },
+    {
+      "bbox_xyxy": [
+        377.45,
+        412.47,
+        647.95,
+        605.26
+      ],
+      "class": "attached_ciliates",
+      "confidence": 0.9723,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_10-0023.jpg",
+      "image_id": "student_10-0023",
+      "kind": "false_positive"
+    },
+    {
+      "bbox_xyxy": [
+        489.23,
+        332.35,
+        585.94,
+        408.64
+      ],
+      "class": "attached_ciliates",
+      "confidence": 0.9674,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_10-0023.jpg",
+      "image_id": "student_10-0023",
+      "kind": "false_positive"
+    },
+    {
+      "bbox_xyxy": [
+        293.84,
+        652.51,
+        572.07,
+        880.29
+      ],
+      "class": "attached_ciliates",
+      "confidence": null,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_06-0008.jpg",
+      "image_id": "student_06-0008",
+      "kind": "missed"
+    },
+    {
+      "bbox_xyxy": [
+        647.36,
+        232.09,
+        779.3,
+        524.0
+      ],
+      "class": "filamentous_bacteria",
+      "confidence": null,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_06-0001.jpg",
+      "image_id": "student_06-0001",
+      "kind": "missed"
+    },
+    {
+      "bbox_xyxy": [
+        722.92,
+        768.65,
+        841.05,
+        896.54
+      ],
+      "class": "rotifers",
+      "confidence": null,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/session_2024_01_31-0013.jpg",
+      "image_id": "session_2024_01_31-0013",
+      "kind": "missed"
+    },
+    {
+      "bbox_xyxy": [
+        1072.27,
+        716.66,
+        1116.9,
+        800.57
+      ],
+      "class": "testate_amoebae",
+      "confidence": null,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_06-0017.jpg",
+      "image_id": "student_06-0017",
+      "kind": "missed"
+    },
+    {
+      "bbox_xyxy": [
+        962.8,
+        473.71,
+        1048.42,
+        515.26
+      ],
+      "class": "free_swimming_ciliates",
+      "confidence": null,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/session_2024_01_31-0016.jpg",
+      "image_id": "session_2024_01_31-0016",
+      "kind": "missed"
+    },
+    {
+      "bbox_xyxy": [
+        424.54,
+        269.75,
+        1020.96,
+        811.63
+      ],
+      "class": "nematoda",
+      "confidence": null,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_08-0011.jpg",
+      "image_id": "student_08-0011",
+      "kind": "missed"
+    },
+    {
+      "bbox_xyxy": [
+        663.11,
+        313.71,
+        698.12,
+        400.02
+      ],
+      "class": "gastrotrichs",
+      "confidence": null,
+      "file": "outputs_updated_2026_10_02/overnight_2026_10_21/cosine30_s20260929/examples/student_07-0026.jpg",
+      "image_id": "student_07-0026",
+      "kind": "missed"
+    }
+  ],
+  "run_id": "cosine30_s20260929",
+  "split": "validation"
+}

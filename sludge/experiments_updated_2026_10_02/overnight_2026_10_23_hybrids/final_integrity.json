@@ -1,0 +1,1627 @@
+{
+  "checked_at": "2026-10-23T03:54:12.350718+03:00",
+  "completed_jobs": 6,
+  "completed_components": 30,
+  "components": [
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "source": "attached",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/attached/resume_state.pt",
+        "sha256": "8efea7c3adcd0ca67f4b6c59797e3850397620cacca7478d88c5558b1210c0b3"
+      },
+      "parameters": 43256153,
+      "train_seconds": 383.6690685999638
+    },
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "source": "priority",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/priority/resume_state.pt",
+        "sha256": "62ee4b09d649541aeedfba0e04701ec84ad7fd23b93646fb2e66cbeb5f37f4c0"
+      },
+      "parameters": 43261278,
+      "train_seconds": 374.5909854999336
+    },
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "source": "rare",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/rare/resume_state.pt",
+        "sha256": "6140a0495877b28bdb5bcd30098060d242489a2a0e6fca3ac80c72d192877c0b"
+      },
+      "parameters": 43266403,
+      "train_seconds": 398.1244241000386
+    },
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "source": "priority_repeat",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/priority_repeat/resume_state.pt",
+        "sha256": "581302ae8f431919f31791eb5d36292522fd0f356bcc2bd0b74a177b5a65d1de"
+      },
+      "parameters": 43261278,
+      "train_seconds": 382.75363079999806
+    },
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "source": "rare_repeat",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/rare_repeat/resume_state.pt",
+        "sha256": "8b33b9dff99d667bac0fb470908bac17acb12a02f1d7d202c8e870dd0c637639"
+      },
+      "parameters": 43266403,
+      "train_seconds": 385.1172427001293
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "source": "attached",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/attached/resume_state.pt",
+        "sha256": "8fc62cd93a5c3aa0b887c1b3f0db94cb8738fcdce260c98fadb697f72a786e20"
+      },
+      "parameters": 43256153,
+      "train_seconds": 360.8277251999243
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "source": "priority",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/priority/resume_state.pt",
+        "sha256": "078581a3be9c54f5d26ddc21f4da485b08bd2c975c5bb43e47eb01c2e70a0601"
+      },
+      "parameters": 43261278,
+      "train_seconds": 350.41033030010294
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "source": "rare",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/rare/resume_state.pt",
+        "sha256": "e4056ef4fbae396e9d71ad3af02340f4b9664fcc96e58882aa8733f251458ec0"
+      },
+      "parameters": 43266403,
+      "train_seconds": 350.1183512000425
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "source": "priority_repeat",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/priority_repeat/resume_state.pt",
+        "sha256": "1a1373d2f905755964509b7c2b7366a5d7beeb4db4b1f61e6c1fb1c32c3d5506"
+      },
+      "parameters": 43261278,
+      "train_seconds": 353.6686849000398
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "source": "rare_repeat",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/rare_repeat/resume_state.pt",
+        "sha256": "b184b83694b2536f29e82b8699cf96ad50d70ad9ebcd17e1f6756a394be365fe"
+      },
+      "parameters": 43266403,
+      "train_seconds": 375.2118384000496
+    },
+    {
+      "fold": 2,
+      "seed": 20261022,
+      "source": "attached",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/attached/resume_state.pt",
+        "sha256": "d9e152b551bc82f3265270169bab097c9d6ce1eeceeda2b5e95dc6cc66fbc534"
+      },
+      "parameters": 43256153,
+      "train_seconds": 368.21795039999415
+    },
+    {
+      "fold": 2,
+      "seed": 20261022,
+      "source": "priority",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/priority/resume_state.pt",
+        "sha256": "1888d57fabc86426b7f3c59d46e5272ba3222f967a481d0e46ad9bb4b1bf2abc"
+      },
+      "parameters": 43261278,
+      "train_seconds": 360.73618259999785
+    },
+    {
+      "fold": 2,
+      "seed": 20261022,
+      "source": "rare",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/rare/resume_state.pt",
+        "sha256": "7d2219e1288fdab12b0b437533890e461298a5e9ee2fd331d055f31e3b78eb4a"
+      },
+      "parameters": 43266403,
+      "train_seconds": 357.7794954000274
+    },
+    {
+      "fold": 2,
+      "seed": 20261022,
+      "source": "priority_repeat",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/priority_repeat/resume_state.pt",
+        "sha256": "6db9ab64fc2581510fa79032a72fdbca1c0e2cf78abed3218824fb489f401307"
+      },
+      "parameters": 43261278,
+      "train_seconds": 358.79600999999093
+    },
+    {
+      "fold": 2,
+      "seed": 20261022,
+      "source": "rare_repeat",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/rare_repeat/resume_state.pt",
+        "sha256": "59b63afb244b5f28650e19fcde042ef99c07f4c02090c9baf3665d805a6fe02d"
+      },
+      "parameters": 43266403,
+      "train_seconds": 368.0638596000499
+    },
+    {
+      "fold": 0,
+      "seed": 20261023,
+      "source": "attached",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/attached/resume_state.pt",
+        "sha256": "504dc09080d0fb52c65d0f4c9c3a315effc6b572c6f9374b402a71b8d284d6b3"
+      },
+      "parameters": 43256153,
+      "train_seconds": 383.0330267000536
+    },
+    {
+      "fold": 0,
+      "seed": 20261023,
+      "source": "priority",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/priority/resume_state.pt",
+        "sha256": "edb1f0ce3a6e033c2f2a2abed94f8eeb161798d53ae3fd189fbc8a2e81b86c8f"
+      },
+      "parameters": 43261278,
+      "train_seconds": 378.3932866000978
+    },
+    {
+      "fold": 0,
+      "seed": 20261023,
+      "source": "rare",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/rare/resume_state.pt",
+        "sha256": "42e07e13b47af457797298814155563aba1de5db88fc0777fef78cd151174108"
+      },
+      "parameters": 43266403,
+      "train_seconds": 372.2133915000013
+    },
+    {
+      "fold": 0,
+      "seed": 20261023,
+      "source": "priority_repeat",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/priority_repeat/resume_state.pt",
+        "sha256": "8b002c144bf2458cfce22748d216364e32b848ad04578a17d7d21cb0448e8fde"
+      },
+      "parameters": 43261278,
+      "train_seconds": 378.1460816998733
+    },
+    {
+      "fold": 0,
+      "seed": 20261023,
+      "source": "rare_repeat",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/rare_repeat/resume_state.pt",
+        "sha256": "d9fc94772d9b46a2d02ac448efedb5ac1382e2639c0a94a8f731e1f17b79003b"
+      },
+      "parameters": 43266403,
+      "train_seconds": 374.31414560007397
+    },
+    {
+      "fold": 1,
+      "seed": 20261023,
+      "source": "attached",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261023/attached/resume_state.pt",
+        "sha256": "d4ed724a5e996d4e5b610f253414993ac473fd03c1d210b61ae1b3fcb1705037"
+      },
+      "parameters": 43256153,
+      "train_seconds": 357.87690560001647
+    },
+    {
+      "fold": 1,
+      "seed": 20261023,
+      "source": "priority",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261023/priority/resume_state.pt",
+        "sha256": "d0bdbaf35855bdf2634e6c1117047ea42336123c6e1573a24d617c82b32c591e"
+      },
+      "parameters": 43261278,
+      "train_seconds": 347.7162580000295
+    },
+    {
+      "fold": 1,
+      "seed": 20261023,
+      "source": "rare",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261023/rare/resume_state.pt",
+        "sha256": "63ceb9521c34fc4067bda686938730181d43914ff398bde5b67d5c68f21cb419"
+      },
+      "parameters": 43266403,
+      "train_seconds": 346.0388703001372
+    },
+    {
+      "fold": 1,
+      "seed": 20261023,
+      "source": "priority_repeat",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261023/priority_repeat/resume_state.pt",
+        "sha256": "651afc634adf225b31bf2f5287cfce92bbfdd019143d4089403743cb26f75d17"
+      },
+      "parameters": 43261278,
+      "train_seconds": 349.9787051001331
+    },
+    {
+      "fold": 1,
+      "seed": 20261023,
+      "source": "rare_repeat",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261023/rare_repeat/resume_state.pt",
+        "sha256": "6727a5c89da160a2588de5b325d4a32b5301c18be7146bb8b54c6320e5d88b2f"
+      },
+      "parameters": 43266403,
+      "train_seconds": 347.25813040000503
+    },
+    {
+      "fold": 2,
+      "seed": 20261023,
+      "source": "attached",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261023/attached/resume_state.pt",
+        "sha256": "d99f652b9d9c5f12d521e4ab852c340a978b93241d2c88b98987cf71e2903bd8"
+      },
+      "parameters": 43256153,
+      "train_seconds": 368.4313096999831
+    },
+    {
+      "fold": 2,
+      "seed": 20261023,
+      "source": "priority",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261023/priority/resume_state.pt",
+        "sha256": "c642020ff40211b78c22287fd0a0469abd950b64d2570c5cfd66d7a8c84351f9"
+      },
+      "parameters": 43261278,
+      "train_seconds": 357.7430350999639
+    },
+    {
+      "fold": 2,
+      "seed": 20261023,
+      "source": "rare",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261023/rare/resume_state.pt",
+        "sha256": "4a944f6583fca258554801e4e54c5cd35e2620b35c95ad838b71e1d53ae7d2bf"
+      },
+      "parameters": 43266403,
+      "train_seconds": 354.4392329000402
+    },
+    {
+      "fold": 2,
+      "seed": 20261023,
+      "source": "priority_repeat",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261023/priority_repeat/resume_state.pt",
+        "sha256": "a50b01f6ebbc4b4df5d16df8a8c6ce016dd1c9760f0be0e00351a739816697b8"
+      },
+      "parameters": 43261278,
+      "train_seconds": 383.60193180001806
+    },
+    {
+      "fold": 2,
+      "seed": 20261023,
+      "source": "rare_repeat",
+      "completed": true,
+      "resume_present": true,
+      "last_complete_epoch": 30,
+      "resume": {
+        "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261023/rare_repeat/resume_state.pt",
+        "sha256": "c0c6beba7a378762b1affd9117068e7c091b3f5deb51c0d9f434ec4dd56f108c"
+      },
+      "parameters": 43266403,
+      "train_seconds": 357.6718061999127
+    }
+  ],
+  "unchanged_classes_verified": true,
+  "costs": [
+    {
+      "method": "h_filamentous",
+      "fold": 0,
+      "seed": 20261022,
+      "sources": [
+        "filamentous",
+        "general"
+      ],
+      "parameters": 86543056,
+      "new_training_seconds": 0,
+      "raw_max_detections_per_frame": 82,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/calibration_h_filamentous.json",
+        "sha256": "577ba49560eb5ef6fac4e0dd297e248a858961fc6fdef13daccfd543dc80cd48"
+      }
+    },
+    {
+      "method": "h_attached",
+      "fold": 0,
+      "seed": 20261022,
+      "sources": [
+        "attached",
+        "general"
+      ],
+      "parameters": 86543056,
+      "new_training_seconds": 383.6690685999638,
+      "raw_max_detections_per_frame": 88,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/calibration_h_attached.json",
+        "sha256": "44843cfd9d70f54847f91770e8e582db6f21fda2a0b1ce89b77f6f6caf1799dc"
+      }
+    },
+    {
+      "method": "h_priority",
+      "fold": 0,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "priority"
+      ],
+      "parameters": 86548181,
+      "new_training_seconds": 374.5909854999336,
+      "raw_max_detections_per_frame": 83,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/calibration_h_priority.json",
+        "sha256": "ce32de73263223164ec8740d39bcbce52d5d373c93629837da0c1f7c2ad560b4"
+      }
+    },
+    {
+      "method": "h_separate",
+      "fold": 0,
+      "seed": 20261022,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general"
+      ],
+      "parameters": 129799209,
+      "new_training_seconds": 383.6690685999638,
+      "raw_max_detections_per_frame": 74,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/calibration_h_separate.json",
+        "sha256": "6e3009700be55fab526207d79030bd4e5dfe582337164e3f4f60ec6508b17021"
+      }
+    },
+    {
+      "method": "h_rare",
+      "fold": 0,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "rare"
+      ],
+      "parameters": 86553306,
+      "new_training_seconds": 398.1244241000386,
+      "raw_max_detections_per_frame": 85,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/calibration_h_rare.json",
+        "sha256": "8410de9d317808e0a129e7743231aaad3a4a08ec37caebf812b6410f227bc54e"
+      }
+    },
+    {
+      "method": "h_priority_rare",
+      "fold": 0,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "priority",
+        "rare"
+      ],
+      "parameters": 129814584,
+      "new_training_seconds": 772.7154095999722,
+      "raw_max_detections_per_frame": 72,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/calibration_h_priority_rare.json",
+        "sha256": "23345d94a06fdc9418504130cdea376869ced6157662f5804f3c8999718020df"
+      }
+    },
+    {
+      "method": "h_separate_rare",
+      "fold": 0,
+      "seed": 20261022,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general",
+        "rare"
+      ],
+      "parameters": 173065612,
+      "new_training_seconds": 781.7934927000024,
+      "raw_max_detections_per_frame": 63,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/calibration_h_separate_rare.json",
+        "sha256": "761f8ac717b4efd59feb52e82b0fd116f79303b99b6e1aaedacf0574ea09223b"
+      }
+    },
+    {
+      "method": "h_common3",
+      "fold": 0,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "others"
+      ],
+      "parameters": 86568681,
+      "new_training_seconds": 0,
+      "raw_max_detections_per_frame": 92,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/calibration_h_common3.json",
+        "sha256": "e8ff3f4aadf963e950967c2a9b2613aba9fab26c9f408f374ca104e2e7fd674b"
+      }
+    },
+    {
+      "method": "h_priority_repeat",
+      "fold": 0,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "priority_repeat"
+      ],
+      "parameters": 86548181,
+      "new_training_seconds": 382.75363079999806,
+      "raw_max_detections_per_frame": 68,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/calibration_h_priority_repeat.json",
+        "sha256": "6ebfcb53c10c529f10a1657ec33432a4634283e883351b47e7547ee993f98d69"
+      }
+    },
+    {
+      "method": "h_rare_repeat",
+      "fold": 0,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "rare_repeat"
+      ],
+      "parameters": 86553306,
+      "new_training_seconds": 385.1172427001293,
+      "raw_max_detections_per_frame": 88,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/calibration_h_rare_repeat.json",
+        "sha256": "88e87c22f2c32c6b8935f0782784ceeb42aa1dc21b112dff4057348a0d792af8"
+      }
+    },
+    {
+      "method": "h_priority_repeat_rare_repeat",
+      "fold": 0,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "priority_repeat",
+        "rare_repeat"
+      ],
+      "parameters": 129814584,
+      "new_training_seconds": 767.8708735001273,
+      "raw_max_detections_per_frame": 60,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/calibration_h_priority_repeat_rare_repeat.json",
+        "sha256": "845db1e5642889c4d060d7730027eec5dcdb7a2ea74cbb2ed9713fa40a5fe558"
+      }
+    },
+    {
+      "method": "h_separate_rare_repeat",
+      "fold": 0,
+      "seed": 20261022,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general",
+        "rare_repeat"
+      ],
+      "parameters": 173065612,
+      "new_training_seconds": 768.7863113000931,
+      "raw_max_detections_per_frame": 66,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/calibration_h_separate_rare_repeat.json",
+        "sha256": "e0aacb45154f14ddd28229e390147309f8bd97ea5a8299b1612e597f15a40478"
+      }
+    },
+    {
+      "method": "h_filamentous",
+      "fold": 1,
+      "seed": 20261022,
+      "sources": [
+        "filamentous",
+        "general"
+      ],
+      "parameters": 86543056,
+      "new_training_seconds": 0,
+      "raw_max_detections_per_frame": 81,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/calibration_h_filamentous.json",
+        "sha256": "f8940dfe7a312d604659b4a83d223670f71e58ebad6ae0437869b261922475fc"
+      }
+    },
+    {
+      "method": "h_attached",
+      "fold": 1,
+      "seed": 20261022,
+      "sources": [
+        "attached",
+        "general"
+      ],
+      "parameters": 86543056,
+      "new_training_seconds": 360.8277251999243,
+      "raw_max_detections_per_frame": 86,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/calibration_h_attached.json",
+        "sha256": "25c326a45ae1089cc3ba02eddb05a3636c95c75a6221ed07400de368d71e7fe2"
+      }
+    },
+    {
+      "method": "h_priority",
+      "fold": 1,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "priority"
+      ],
+      "parameters": 86548181,
+      "new_training_seconds": 350.41033030010294,
+      "raw_max_detections_per_frame": 78,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/calibration_h_priority.json",
+        "sha256": "11b4877eb2cb558847f21282f359438c2f0181c66269d77a3e369dc76c65782b"
+      }
+    },
+    {
+      "method": "h_separate",
+      "fold": 1,
+      "seed": 20261022,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general"
+      ],
+      "parameters": 129799209,
+      "new_training_seconds": 360.8277251999243,
+      "raw_max_detections_per_frame": 85,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/calibration_h_separate.json",
+        "sha256": "2cc36d4cf4eea7126b876a106d04cc6a156af924dc57096144f1f6d5d665d4ab"
+      }
+    },
+    {
+      "method": "h_rare",
+      "fold": 1,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "rare"
+      ],
+      "parameters": 86553306,
+      "new_training_seconds": 350.1183512000425,
+      "raw_max_detections_per_frame": 83,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/calibration_h_rare.json",
+        "sha256": "65d8f2fcb50b2c36881e240a938ac99945d3dc8b4657a033dc48928ecb2cf905"
+      }
+    },
+    {
+      "method": "h_priority_rare",
+      "fold": 1,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "priority",
+        "rare"
+      ],
+      "parameters": 129814584,
+      "new_training_seconds": 700.5286815001455,
+      "raw_max_detections_per_frame": 80,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/calibration_h_priority_rare.json",
+        "sha256": "0c4ff020fe209ed29b41d37d32c4bd1a4008a5cea6897b613b9363ea4c95ace2"
+      }
+    },
+    {
+      "method": "h_separate_rare",
+      "fold": 1,
+      "seed": 20261022,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general",
+        "rare"
+      ],
+      "parameters": 173065612,
+      "new_training_seconds": 710.9460763999668,
+      "raw_max_detections_per_frame": 87,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/calibration_h_separate_rare.json",
+        "sha256": "1c452666e620dd96d4bb9d9a87a19a107ec63158db85f2dfa17f29cbfbd10249"
+      }
+    },
+    {
+      "method": "h_common3",
+      "fold": 1,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "others"
+      ],
+      "parameters": 86568681,
+      "new_training_seconds": 0,
+      "raw_max_detections_per_frame": 83,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/calibration_h_common3.json",
+        "sha256": "bbf3b322a2d5897bc3d1e0ce830f2c5245aeabffe597dd687d2c799c1bd9038b"
+      }
+    },
+    {
+      "method": "h_priority_repeat",
+      "fold": 1,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "priority_repeat"
+      ],
+      "parameters": 86548181,
+      "new_training_seconds": 353.6686849000398,
+      "raw_max_detections_per_frame": 79,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/calibration_h_priority_repeat.json",
+        "sha256": "acfb7d4afa6da1bf84a65923fce9beb2fa8682448f4b226e5fd77f9878d3f666"
+      }
+    },
+    {
+      "method": "h_rare_repeat",
+      "fold": 1,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "rare_repeat"
+      ],
+      "parameters": 86553306,
+      "new_training_seconds": 375.2118384000496,
+      "raw_max_detections_per_frame": 84,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/calibration_h_rare_repeat.json",
+        "sha256": "40c371e2d4601b57744b7bc86053b0ee6db07b54807436e95f6ba58c85faa578"
+      }
+    },
+    {
+      "method": "h_priority_repeat_rare_repeat",
+      "fold": 1,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "priority_repeat",
+        "rare_repeat"
+      ],
+      "parameters": 129814584,
+      "new_training_seconds": 728.8805233000894,
+      "raw_max_detections_per_frame": 78,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/calibration_h_priority_repeat_rare_repeat.json",
+        "sha256": "85c5ff4c46430d7c04da53aa5613ae6a89fbbd3ebed039c99859a08f94ede09c"
+      }
+    },
+    {
+      "method": "h_separate_rare_repeat",
+      "fold": 1,
+      "seed": 20261022,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general",
+        "rare_repeat"
+      ],
+      "parameters": 173065612,
+      "new_training_seconds": 736.0395635999739,
+      "raw_max_detections_per_frame": 88,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/calibration_h_separate_rare_repeat.json",
+        "sha256": "5942317c2fd52bf4e2e1ed6f3e354f99fa06e3c95f4593121557f63bf871466e"
+      }
+    },
+    {
+      "method": "h_filamentous",
+      "fold": 2,
+      "seed": 20261022,
+      "sources": [
+        "filamentous",
+        "general"
+      ],
+      "parameters": 86543056,
+      "new_training_seconds": 0,
+      "raw_max_detections_per_frame": 98,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_filamentous.json",
+        "sha256": "9046c25ce2cb4b7cec071cc8f418c0df07edf68eed0e6dea6eb551db0233c631"
+      }
+    },
+    {
+      "method": "h_attached",
+      "fold": 2,
+      "seed": 20261022,
+      "sources": [
+        "attached",
+        "general"
+      ],
+      "parameters": 86543056,
+      "new_training_seconds": 368.21795039999415,
+      "raw_max_detections_per_frame": 106,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_attached.json",
+        "sha256": "08adeeb6bed1c1825dc7c6fdd8d438abe9168fb7fc204582e7ebe221f72c0550"
+      }
+    },
+    {
+      "method": "h_priority",
+      "fold": 2,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "priority"
+      ],
+      "parameters": 86548181,
+      "new_training_seconds": 360.73618259999785,
+      "raw_max_detections_per_frame": 102,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_priority.json",
+        "sha256": "36e8aaef1616b82fd74af9a086eadba61f9b2aa9d9beb19216ad59c33b9750df"
+      }
+    },
+    {
+      "method": "h_separate",
+      "fold": 2,
+      "seed": 20261022,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general"
+      ],
+      "parameters": 129799209,
+      "new_training_seconds": 368.21795039999415,
+      "raw_max_detections_per_frame": 104,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_separate.json",
+        "sha256": "7f9a302e31b3de8e77ffd255b6426262d6ebd2b1d2e4f152ab4cc34795593d34"
+      }
+    },
+    {
+      "method": "h_rare",
+      "fold": 2,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "rare"
+      ],
+      "parameters": 86553306,
+      "new_training_seconds": 357.7794954000274,
+      "raw_max_detections_per_frame": 100,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_rare.json",
+        "sha256": "90aa5e3710fba40f85aa71a2189a69547f56268710bd1330bd55a765943fd7b2"
+      }
+    },
+    {
+      "method": "h_priority_rare",
+      "fold": 2,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "priority",
+        "rare"
+      ],
+      "parameters": 129814584,
+      "new_training_seconds": 718.5156780000252,
+      "raw_max_detections_per_frame": 102,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_priority_rare.json",
+        "sha256": "c4f1ccb2434b11c0f2ce07062f554b685a1fa9ddbdbd072eeaf36a23a91cc175"
+      }
+    },
+    {
+      "method": "h_separate_rare",
+      "fold": 2,
+      "seed": 20261022,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general",
+        "rare"
+      ],
+      "parameters": 173065612,
+      "new_training_seconds": 725.9974458000215,
+      "raw_max_detections_per_frame": 104,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_separate_rare.json",
+        "sha256": "6ccf95529d17868eaf6088fda9c6dab1f890aecb7669c079b5a16f7c6e4accfd"
+      }
+    },
+    {
+      "method": "h_common3",
+      "fold": 2,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "others"
+      ],
+      "parameters": 86568681,
+      "new_training_seconds": 0,
+      "raw_max_detections_per_frame": 98,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_common3.json",
+        "sha256": "120917c76b84fab5e9c2bd871c44d7f38c9dad1ec59414f8a8a0daf2663cace4"
+      }
+    },
+    {
+      "method": "h_priority_repeat",
+      "fold": 2,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "priority_repeat"
+      ],
+      "parameters": 86548181,
+      "new_training_seconds": 358.79600999999093,
+      "raw_max_detections_per_frame": 102,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_priority_repeat.json",
+        "sha256": "973e245eef4093809ba5d10d995e1a9daf39d4210f43ad08c213325552cbc2b7"
+      }
+    },
+    {
+      "method": "h_rare_repeat",
+      "fold": 2,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "rare_repeat"
+      ],
+      "parameters": 86553306,
+      "new_training_seconds": 368.0638596000499,
+      "raw_max_detections_per_frame": 100,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_rare_repeat.json",
+        "sha256": "8bfed389c54ca5feb8d6735bc3226873d375a56f2039c6f079dfbbcc036b465f"
+      }
+    },
+    {
+      "method": "h_priority_repeat_rare_repeat",
+      "fold": 2,
+      "seed": 20261022,
+      "sources": [
+        "general",
+        "priority_repeat",
+        "rare_repeat"
+      ],
+      "parameters": 129814584,
+      "new_training_seconds": 726.8598696000408,
+      "raw_max_detections_per_frame": 102,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_priority_repeat_rare_repeat.json",
+        "sha256": "9a25fa51decdc108fb2457137958aa4b91ce0eb04354bc6bb83521bc4e4eaa14"
+      }
+    },
+    {
+      "method": "h_separate_rare_repeat",
+      "fold": 2,
+      "seed": 20261022,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general",
+        "rare_repeat"
+      ],
+      "parameters": 173065612,
+      "new_training_seconds": 736.2818100000441,
+      "raw_max_detections_per_frame": 104,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_separate_rare_repeat.json",
+        "sha256": "733e7a2263e74544dac19a8e02fa5007ccd27e9924b1ae4c52e5d644e16461e5"
+      }
+    },
+    {
+      "method": "h_filamentous",
+      "fold": 0,
+      "seed": 20261023,
+      "sources": [
+        "filamentous",
+        "general"
+      ],
+      "parameters": 86543056,
+      "new_training_seconds": 0,
+      "raw_max_detections_per_frame": 87,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/calibration_h_filamentous.json",
+        "sha256": "443e500d334692717a8fb1682e3b20725d02a8c862176c5d6e762c2ddde9adc3"
+      }
+    },
+    {
+      "method": "h_attached",
+      "fold": 0,
+      "seed": 20261023,
+      "sources": [
+        "attached",
+        "general"
+      ],
+      "parameters": 86543056,
+      "new_training_seconds": 383.0330267000536,
+      "raw_max_detections_per_frame": 86,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/calibration_h_attached.json",
+        "sha256": "c997ccf9a78547d30a14684a222165d7b8b440d175a94826536dcd94cbf00c8b"
+      }
+    },
+    {
+      "method": "h_priority",
+      "fold": 0,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "priority"
+      ],
+      "parameters": 86548181,
+      "new_training_seconds": 378.3932866000978,
+      "raw_max_detections_per_frame": 90,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/calibration_h_priority.json",
+        "sha256": "744f4cc5969d5d42651a2efdba41c85e4d63a5a1705373a90ff30267ffb7163e"
+      }
+    },
+    {
+      "method": "h_separate",
+      "fold": 0,
+      "seed": 20261023,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general"
+      ],
+      "parameters": 129799209,
+      "new_training_seconds": 383.0330267000536,
+      "raw_max_detections_per_frame": 77,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/calibration_h_separate.json",
+        "sha256": "cec7edf13b59ae11833ab4f37d87a2d16972181ae324d89cfc573425bc066352"
+      }
+    },
+    {
+      "method": "h_rare",
+      "fold": 0,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "rare"
+      ],
+      "parameters": 86553306,
+      "new_training_seconds": 372.2133915000013,
+      "raw_max_detections_per_frame": 95,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/calibration_h_rare.json",
+        "sha256": "2b54ca3e3ecb42cd138b298c4116ab4741fe8b1557984ce97b763b34ebba1372"
+      }
+    },
+    {
+      "method": "h_priority_rare",
+      "fold": 0,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "priority",
+        "rare"
+      ],
+      "parameters": 129814584,
+      "new_training_seconds": 750.6066781000991,
+      "raw_max_detections_per_frame": 89,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/calibration_h_priority_rare.json",
+        "sha256": "b3752295c7e6edc1fc44a971948adaeac1c73d6206a5c05ac5738dcdcfd6c17c"
+      }
+    },
+    {
+      "method": "h_separate_rare",
+      "fold": 0,
+      "seed": 20261023,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general",
+        "rare"
+      ],
+      "parameters": 173065612,
+      "new_training_seconds": 755.2464182000549,
+      "raw_max_detections_per_frame": 76,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/calibration_h_separate_rare.json",
+        "sha256": "4a3059254e8303789ee6f4337c233e3b9390998c2a2f12ab005121851cd98be5"
+      }
+    },
+    {
+      "method": "h_common3",
+      "fold": 0,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "others"
+      ],
+      "parameters": 86568681,
+      "new_training_seconds": 0,
+      "raw_max_detections_per_frame": 94,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/calibration_h_common3.json",
+        "sha256": "844023281b23d0f195d654826fad6a826288c9968a506a50a46abbad282c5bf4"
+      }
+    },
+    {
+      "method": "h_priority_repeat",
+      "fold": 0,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "priority_repeat"
+      ],
+      "parameters": 86548181,
+      "new_training_seconds": 378.1460816998733,
+      "raw_max_detections_per_frame": 96,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/calibration_h_priority_repeat.json",
+        "sha256": "1269e50f86359a3b3f2336206df1c9a940265bc66b4ea376bcb61d10a237b4e1"
+      }
+    },
+    {
+      "method": "h_rare_repeat",
+      "fold": 0,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "rare_repeat"
+      ],
+      "parameters": 86553306,
+      "new_training_seconds": 374.31414560007397,
+      "raw_max_detections_per_frame": 91,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/calibration_h_rare_repeat.json",
+        "sha256": "0d9ba6f98101082f6fd5c5fda03e362b2dd1e7c540ebd71fde54e7869149c4e9"
+      }
+    },
+    {
+      "method": "h_priority_repeat_rare_repeat",
+      "fold": 0,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "priority_repeat",
+        "rare_repeat"
+      ],
+      "parameters": 129814584,
+      "new_training_seconds": 752.4602272999473,
+      "raw_max_detections_per_frame": 84,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/calibration_h_priority_repeat_rare_repeat.json",
+        "sha256": "5628bf779efaae2ac94443f94f84e297882de547a634231a09f2133ad6616563"
+      }
+    },
+    {
+      "method": "h_separate_rare_repeat",
+      "fold": 0,
+      "seed": 20261023,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general",
+        "rare_repeat"
+      ],
+      "parameters": 173065612,
+      "new_training_seconds": 757.3471723001276,
+      "raw_max_detections_per_frame": 72,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/calibration_h_separate_rare_repeat.json",
+        "sha256": "8612f28049c6d060609d1db17240f63785a90c3ec0557df72c43957a121656b7"
+      }
+    },
+    {
+      "method": "h_filamentous",
+      "fold": 1,
+      "seed": 20261023,
+      "sources": [
+        "filamentous",
+        "general"
+      ],
+      "parameters": 86543056,
+      "new_training_seconds": 0,
+      "raw_max_detections_per_frame": 82,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261023/calibration_h_filamentous.json",
+        "sha256": "7f3b8e72c2a55cd89d070c3ad0c98ad7bc7b5efa4a84af84ce2ad6af0b211e21"
+      }
+    },
+    {
+      "method": "h_attached",
+      "fold": 1,
+      "seed": 20261023,
+      "sources": [
+        "attached",
+        "general"
+      ],
+      "parameters": 86543056,
+      "new_training_seconds": 357.87690560001647,
+      "raw_max_detections_per_frame": 66,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261023/calibration_h_attached.json",
+        "sha256": "e5b9280a63e83d695706e79a328a6a7cff52279f40a170974b035d1b3a4ba1ee"
+      }
+    },
+    {
+      "method": "h_priority",
+      "fold": 1,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "priority"
+      ],
+      "parameters": 86548181,
+      "new_training_seconds": 347.7162580000295,
+      "raw_max_detections_per_frame": 79,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261023/calibration_h_priority.json",
+        "sha256": "f0813bdc2bbfda054fd84cfc7a656bb1bc22a8bcdb3af1874cb0b4886adab75c"
+      }
+    },
+    {
+      "method": "h_separate",
+      "fold": 1,
+      "seed": 20261023,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general"
+      ],
+      "parameters": 129799209,
+      "new_training_seconds": 357.87690560001647,
+      "raw_max_detections_per_frame": 67,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261023/calibration_h_separate.json",
+        "sha256": "3a413a9c2de82c4f17373dc64d6fa9089a6e66c6483813f65033356f859cfecf"
+      }
+    },
+    {
+      "method": "h_rare",
+      "fold": 1,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "rare"
+      ],
+      "parameters": 86553306,
+      "new_training_seconds": 346.0388703001372,
+      "raw_max_detections_per_frame": 74,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261023/calibration_h_rare.json",
+        "sha256": "571a07afab51bf78b8020a5d7d5cddf8a87bea9e4381a925caee0754a99abcfd"
+      }
+    },
+    {
+      "method": "h_priority_rare",
+      "fold": 1,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "priority",
+        "rare"
+      ],
+      "parameters": 129814584,
+      "new_training_seconds": 693.7551283001667,
+      "raw_max_detections_per_frame": 71,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261023/calibration_h_priority_rare.json",
+        "sha256": "1ee7d1c571e9ed2be9fe0e0251b075cbf62a1ffd5bbadef8b6b011a72cada030"
+      }
+    },
+    {
+      "method": "h_separate_rare",
+      "fold": 1,
+      "seed": 20261023,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general",
+        "rare"
+      ],
+      "parameters": 173065612,
+      "new_training_seconds": 703.9157759001537,
+      "raw_max_detections_per_frame": 62,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261023/calibration_h_separate_rare.json",
+        "sha256": "2aa8f2089a8d8815ff73020c5560c349d0e59c5eb4a7e375a6256a15204e0f82"
+      }
+    },
+    {
+      "method": "h_common3",
+      "fold": 1,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "others"
+      ],
+      "parameters": 86568681,
+      "new_training_seconds": 0,
+      "raw_max_detections_per_frame": 80,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261023/calibration_h_common3.json",
+        "sha256": "be5768c5ba965a42f01c2a7e7a63cd8f9e9322dce3000aa3930f35d6a8de322f"
+      }
+    },
+    {
+      "method": "h_priority_repeat",
+      "fold": 1,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "priority_repeat"
+      ],
+      "parameters": 86548181,
+      "new_training_seconds": 349.9787051001331,
+      "raw_max_detections_per_frame": 90,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261023/calibration_h_priority_repeat.json",
+        "sha256": "e27e75253c7b68375574d312a1d8d780c19c892592223bd00d70158b175e983b"
+      }
+    },
+    {
+      "method": "h_rare_repeat",
+      "fold": 1,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "rare_repeat"
+      ],
+      "parameters": 86553306,
+      "new_training_seconds": 347.25813040000503,
+      "raw_max_detections_per_frame": 74,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261023/calibration_h_rare_repeat.json",
+        "sha256": "6e53a31f9b0b7f773a77296333fe928446dfb3a1acad63e38bd1405502a9fbce"
+      }
+    },
+    {
+      "method": "h_priority_repeat_rare_repeat",
+      "fold": 1,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "priority_repeat",
+        "rare_repeat"
+      ],
+      "parameters": 129814584,
+      "new_training_seconds": 697.2368355001381,
+      "raw_max_detections_per_frame": 82,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261023/calibration_h_priority_repeat_rare_repeat.json",
+        "sha256": "a68f8fc09a523e4d15ec3fb52def396e051c35a35a2eb2d166fcc4b2f5eb6df9"
+      }
+    },
+    {
+      "method": "h_separate_rare_repeat",
+      "fold": 1,
+      "seed": 20261023,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general",
+        "rare_repeat"
+      ],
+      "parameters": 173065612,
+      "new_training_seconds": 705.1350360000215,
+      "raw_max_detections_per_frame": 63,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261023/calibration_h_separate_rare_repeat.json",
+        "sha256": "dfd0b2af01dabf8e0b6375d32da3c11f2a215e122d634bbcc7a1a41672eadb82"
+      }
+    },
+    {
+      "method": "h_filamentous",
+      "fold": 2,
+      "seed": 20261023,
+      "sources": [
+        "filamentous",
+        "general"
+      ],
+      "parameters": 86543056,
+      "new_training_seconds": 0,
+      "raw_max_detections_per_frame": 101,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261023/calibration_h_filamentous.json",
+        "sha256": "1af053fb659b119622e8154663da9e6f8b32397fc287fdf5dfc7ba702ad27dac"
+      }
+    },
+    {
+      "method": "h_attached",
+      "fold": 2,
+      "seed": 20261023,
+      "sources": [
+        "attached",
+        "general"
+      ],
+      "parameters": 86543056,
+      "new_training_seconds": 368.4313096999831,
+      "raw_max_detections_per_frame": 112,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261023/calibration_h_attached.json",
+        "sha256": "ad85e452e68877cf7cd71f53d6cdcdddc88ce0ce1abc9c48ff4f52f8fad962e8"
+      }
+    },
+    {
+      "method": "h_priority",
+      "fold": 2,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "priority"
+      ],
+      "parameters": 86548181,
+      "new_training_seconds": 357.7430350999639,
+      "raw_max_detections_per_frame": 106,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261023/calibration_h_priority.json",
+        "sha256": "45dfdb5fdf3d6faeeb3240176a04c5c4d4d85d08a326417c0e4a6d099e0a5c82"
+      }
+    },
+    {
+      "method": "h_separate",
+      "fold": 2,
+      "seed": 20261023,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general"
+      ],
+      "parameters": 129799209,
+      "new_training_seconds": 368.4313096999831,
+      "raw_max_detections_per_frame": 113,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261023/calibration_h_separate.json",
+        "sha256": "a8d61a82a1734d63865f93fd83144725fbb7332aaa6680ea17aa05993b89ea8c"
+      }
+    },
+    {
+      "method": "h_rare",
+      "fold": 2,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "rare"
+      ],
+      "parameters": 86553306,
+      "new_training_seconds": 354.4392329000402,
+      "raw_max_detections_per_frame": 99,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261023/calibration_h_rare.json",
+        "sha256": "474c0d20bbbb39480e0229af46cc0c4e2995b14b06dfd7062dc8bd9b2f51263a"
+      }
+    },
+    {
+      "method": "h_priority_rare",
+      "fold": 2,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "priority",
+        "rare"
+      ],
+      "parameters": 129814584,
+      "new_training_seconds": 712.1822680000041,
+      "raw_max_detections_per_frame": 105,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261023/calibration_h_priority_rare.json",
+        "sha256": "81f3cbc657576ece1d27c388c167ccdd0753139bc084f7a862fa81dd646b9625"
+      }
+    },
+    {
+      "method": "h_separate_rare",
+      "fold": 2,
+      "seed": 20261023,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general",
+        "rare"
+      ],
+      "parameters": 173065612,
+      "new_training_seconds": 722.8705426000233,
+      "raw_max_detections_per_frame": 112,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261023/calibration_h_separate_rare.json",
+        "sha256": "f53224805e4b0c7790bb4d7e16dd95a44676fec1d99b6ec0e80af0c3b37479e4"
+      }
+    },
+    {
+      "method": "h_common3",
+      "fold": 2,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "others"
+      ],
+      "parameters": 86568681,
+      "new_training_seconds": 0,
+      "raw_max_detections_per_frame": 99,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261023/calibration_h_common3.json",
+        "sha256": "3506535ad48bea40b81ca0fd0aa5fd040a08323f81d77c2c0bd2d4d24ed6afea"
+      }
+    },
+    {
+      "method": "h_priority_repeat",
+      "fold": 2,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "priority_repeat"
+      ],
+      "parameters": 86548181,
+      "new_training_seconds": 383.60193180001806,
+      "raw_max_detections_per_frame": 100,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261023/calibration_h_priority_repeat.json",
+        "sha256": "f4d4b5ea86cdd734807a3fc0cdac21ea9d8ddfd04ad1baf8756fd68ec4d0c82e"
+      }
+    },
+    {
+      "method": "h_rare_repeat",
+      "fold": 2,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "rare_repeat"
+      ],
+      "parameters": 86553306,
+      "new_training_seconds": 357.6718061999127,
+      "raw_max_detections_per_frame": 98,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261023/calibration_h_rare_repeat.json",
+        "sha256": "59d84265cb9e1a1dfc6cda3329adf5c8317cbd9012d15db002b76474dad3830b"
+      }
+    },
+    {
+      "method": "h_priority_repeat_rare_repeat",
+      "fold": 2,
+      "seed": 20261023,
+      "sources": [
+        "general",
+        "priority_repeat",
+        "rare_repeat"
+      ],
+      "parameters": 129814584,
+      "new_training_seconds": 741.2737379999307,
+      "raw_max_detections_per_frame": 98,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261023/calibration_h_priority_repeat_rare_repeat.json",
+        "sha256": "6c52d9b65b8a3d5d842edb4e52f715484cc5f5bda396adae16bc03dbc124d139"
+      }
+    },
+    {
+      "method": "h_separate_rare_repeat",
+      "fold": 2,
+      "seed": 20261023,
+      "sources": [
+        "attached",
+        "filamentous",
+        "general",
+        "rare_repeat"
+      ],
+      "parameters": 173065612,
+      "new_training_seconds": 726.1031158998958,
+      "raw_max_detections_per_frame": 111,
+      "calibration": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261023/calibration_h_separate_rare_repeat.json",
+        "sha256": "285b7eeb3ebdbd51fa9838e994ce8d088f98f8e3b2cd7fc0c4446a0351db9627"
+      }
+    }
+  ],
+  "independent_test": false,
+  "test_reopened": false,
+  "cost_caveat": "Reused training not charged again; components shared across candidates. Not comparable latency."
+}

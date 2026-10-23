@@ -1,0 +1,7 @@
+# One controlled change from updated_2026_10_02.yaml: favour images containing
+# the least common of their target classes in the training set.
+extends: updated_2026_10_02.yaml
+train:
+  sampling: rarest_class_presence
+protocol:
+  max_runs: 2

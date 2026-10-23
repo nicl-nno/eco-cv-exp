@@ -1,0 +1,207 @@
+{
+  "checked_at": "2026-10-22T19:59:16.292626+03:00",
+  "registration_verified": true,
+  "input_pins": 211,
+  "jobs_registered": 12,
+  "component_fit_budget": 24,
+  "seeds": [
+    20261022,
+    20261023
+  ],
+  "deadline": "2026-10-23T08:00:00+03:00",
+  "verified_completed_jobs": [
+    "fold_0/cascade_s20261022",
+    "fold_0/specialists_s20261022",
+    "fold_1/cascade_s20261022",
+    "fold_1/specialists_s20261022",
+    "fold_2/cascade_s20261022"
+  ],
+  "failed_jobs": 0,
+  "components": [
+    {
+      "path": "fold_0/cascade_s20261022/agnostic",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_0/cascade_s20261022/classifier",
+      "epochs": 20,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_0/specialists_s20261022/filamentous",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_0/specialists_s20261022/others",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_1/cascade_s20261022/agnostic",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_1/cascade_s20261022/classifier",
+      "epochs": 20,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_1/specialists_s20261022/filamentous",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_1/specialists_s20261022/others",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_2/cascade_s20261022/agnostic",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_2/cascade_s20261022/classifier",
+      "epochs": 20,
+      "finite_losses": true,
+      "bn_changed": 0
+    },
+    {
+      "path": "fold_2/specialists_s20261022/filamentous",
+      "epochs": 30,
+      "finite_losses": true,
+      "bn_changed": 0
+    }
+  ],
+  "active_checkpoints": [
+    {
+      "path": "fold_2/specialists_s20261022/others/resume_state.pt",
+      "epoch": 18,
+      "last_loss": 0.21204446275094216,
+      "bytes": 345809497
+    }
+  ],
+  "summary_updated_at": "2026-10-22T19:48:02.967605+03:00",
+  "summary_completed_jobs": 5,
+  "pooled_primary_available": {
+    "cosine30_s20261022": {
+      "macro_f1": 0.3090007730054625,
+      "images": 204,
+      "counts": {
+        "attached_ciliates": {
+          "mae_per_frame": 0.7598039215686274,
+          "bias_per_frame": -0.3284313725490196
+        },
+        "filamentous_bacteria": {
+          "mae_per_frame": 1.088235294117647,
+          "bias_per_frame": -0.5588235294117647
+        },
+        "rotifers": {
+          "mae_per_frame": 0.15196078431372548,
+          "bias_per_frame": -0.014705882352941176
+        },
+        "testate_amoebae": {
+          "mae_per_frame": 0.4019607843137255,
+          "bias_per_frame": 0.0392156862745098
+        },
+        "free_swimming_ciliates": {
+          "mae_per_frame": 0.29901960784313725,
+          "bias_per_frame": 0.04411764705882353
+        },
+        "nematoda": {
+          "mae_per_frame": 0.21568627450980393,
+          "bias_per_frame": -0.00980392156862745
+        },
+        "gastrotrichs": {
+          "mae_per_frame": 0.19117647058823528,
+          "bias_per_frame": 0.03431372549019608
+        }
+      }
+    },
+    "cascade_s20261022": {
+      "macro_f1": 0.26249597326220453,
+      "images": 204,
+      "counts": {
+        "attached_ciliates": {
+          "mae_per_frame": 0.8137254901960784,
+          "bias_per_frame": -0.3333333333333333
+        },
+        "filamentous_bacteria": {
+          "mae_per_frame": 1.1323529411764706,
+          "bias_per_frame": -0.39705882352941174
+        },
+        "rotifers": {
+          "mae_per_frame": 0.23529411764705882,
+          "bias_per_frame": -0.10784313725490197
+        },
+        "testate_amoebae": {
+          "mae_per_frame": 0.38235294117647056,
+          "bias_per_frame": 0.00980392156862745
+        },
+        "free_swimming_ciliates": {
+          "mae_per_frame": 0.21568627450980393,
+          "bias_per_frame": -0.0392156862745098
+        },
+        "nematoda": {
+          "mae_per_frame": 0.12254901960784313,
+          "bias_per_frame": -0.09313725490196079
+        },
+        "gastrotrichs": {
+          "mae_per_frame": 0.1323529411764706,
+          "bias_per_frame": -0.09313725490196079
+        }
+      }
+    },
+    "cosine30_s20261023": {
+      "macro_f1": 0.3141374991688029,
+      "images": 204,
+      "counts": {
+        "attached_ciliates": {
+          "mae_per_frame": 0.8823529411764706,
+          "bias_per_frame": -0.2549019607843137
+        },
+        "filamentous_bacteria": {
+          "mae_per_frame": 1.0686274509803921,
+          "bias_per_frame": -0.38235294117647056
+        },
+        "rotifers": {
+          "mae_per_frame": 0.28431372549019607,
+          "bias_per_frame": 0.16666666666666666
+        },
+        "testate_amoebae": {
+          "mae_per_frame": 0.4019607843137255,
+          "bias_per_frame": 0.11764705882352941
+        },
+        "free_swimming_ciliates": {
+          "mae_per_frame": 0.25980392156862747,
+          "bias_per_frame": 0.03431372549019608
+        },
+        "nematoda": {
+          "mae_per_frame": 0.11274509803921569,
+          "bias_per_frame": -0.11274509803921569
+        },
+        "gastrotrichs": {
+          "mae_per_frame": 0.1323529411764706,
+          "bias_per_frame": -0.06372549019607843
+        }
+      }
+    }
+  },
+  "eligibility": {},
+  "variants": [
+    "prefer_student_6"
+  ],
+  "test_reopened": false
+}

@@ -1,0 +1,63 @@
+{
+  "calibration_ids": [
+    "student_02-0003",
+    "student_02-0004",
+    "student_02-0006",
+    "student_02-0007",
+    "student_02-0008",
+    "student_06-0007",
+    "student_06-0013",
+    "student_06-0019",
+    "student_06-0020",
+    "student_06-0023",
+    "student_06-0024",
+    "student_06-0026",
+    "student_06-0027",
+    "student_06-0029",
+    "student_08-0015",
+    "student_08-0018",
+    "student_08-0019",
+    "student_08-0022",
+    "student_08-0023",
+    "student_08-0024",
+    "student_08-0030",
+    "student_08-0031",
+    "student_08-0032",
+    "student_08-0034",
+    "student_09-0004",
+    "student_09-0005",
+    "student_09-0006",
+    "student_09-0007",
+    "student_11-0009",
+    "student_11-0010",
+    "student_11-0020"
+  ],
+  "class_details": {
+    "attached_ciliates": {
+      "support": 35,
+      "groups": 3,
+      "reason": "class_count_guarded",
+      "best_calibration_f1": 0.34,
+      "threshold": 0.7
+    }
+  },
+  "policies": {
+    "fixed_020": {
+      "attached_ciliates": 0.2
+    },
+    "global_f1": {
+      "attached_ciliates": 0.65
+    },
+    "count_guarded": {
+      "attached_ciliates": 0.7
+    }
+  },
+  "source_model": {
+    "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/attached/model.pt",
+    "sha256": "0defdd9e314de574070197467799baf155656c13d93690c5dc7b9849be69f192"
+  },
+  "source_predictions": {
+    "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/attached_calibration.parquet",
+    "sha256": "29ab15fe5ff091a946fcaefeb624e5d3470ddcf845b53b8a1f6e04ce820f440b"
+  }
+}

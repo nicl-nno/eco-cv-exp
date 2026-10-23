@@ -1,0 +1,68 @@
+{
+  "job": {
+    "fold": 1,
+    "seed": 20261023,
+    "recipe": "specialists",
+    "run_id": "specialists_s20261023",
+    "config": {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_cosine30_s20261023.yaml",
+      "sha256": "8be458d277f1901a401c8c17c919a364a1560cc254683efc8d9ba35bac49b3c3"
+    },
+    "components": {
+      "filamentous": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_1_specialists_filamentous_s20261023.yaml",
+        "sha256": "d4189a47e9c72a904cb29923d70cf907a9bd24794cf3bb944f016ef7d834881c"
+      },
+      "others": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_1_specialists_others_s20261023.yaml",
+        "sha256": "4b76478766d938b344e4440663280ee777519abc7cbcb2b1ffaad2e6fb0c74a1"
+      }
+    }
+  },
+  "records": [
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/metrics_specialists.json",
+      "sha256": "6f0b526b6c33da935267895637a0a22c3bb831cfecc0bd57bdc8c2dba99e309f"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/metrics_specialists_union.json",
+      "sha256": "60d1bfc5d906297261aca73262f45f90bb9637855ea3dbfdb1f15640bb086e60"
+    }
+  ],
+  "component_completions": [
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/filamentous/complete.json",
+      "sha256": "b86add891033388147ddb8eea92839562654c52f6af3c0eac2c475b7dec1d1c2"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/others/complete.json",
+      "sha256": "5c6ec9a51a050a75f7b1b36eb6beb7fc51e85397df8da0d007fccf2d60e984e9"
+    }
+  ],
+  "diagnostic_artifacts": [
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/filamentous_calibration.timing.json",
+      "sha256": "813b9e0375a339f014a701ceb4942dc39a2fe04c469f4bb4f422beb8c7d876fd"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/filamentous_outer_validation.timing.json",
+      "sha256": "c77c27f8893be9f12a2ad6c8303afb7f80981266b9392ed64e7820f8b0f8c610"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/others_calibration.timing.json",
+      "sha256": "83540ef766d3bb5970142ce3599963e69909261b91a6eb75206a7c23a90152a0"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/others_outer_validation.timing.json",
+      "sha256": "30105217456e60698f0588e7989bfba0512e8c20e070937140916ff7d3560ebd"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/merge_calibration.json",
+      "sha256": "56442b8bfce959e707cb4175038dfeb3a7b3af50c4b133d1eb273d7e43145602"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/merge_outer_validation.json",
+      "sha256": "7a7790b4dcdb0944a75b7ff7c9d0e327160e52fd7f91461e4c69a768593de1a0"
+    }
+  ]
+}

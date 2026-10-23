@@ -1,0 +1,368 @@
+{
+  "pid": 7740,
+  "status": "queue_finished",
+  "deadline": "2026-10-22T08:00:00+03:00",
+  "queue": [
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "recipe": "control15",
+      "run_id": "control15_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_control15_s20261022.yaml",
+        "sha256": "0bea08fbf2c593165c2473fab0ae30377bbb00db168427f5fd62c405420c6b8f"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T21:44:12.521712+03:00",
+      "pid": 39284,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T21:46:57.532373+03:00"
+    },
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "recipe": "cosine30",
+      "run_id": "cosine30_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_cosine30_s20261022.yaml",
+        "sha256": "cebf634744e9ce2ac3e04f82f3462a5ee478ff96699e4c0103bc36861e947f66"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T21:46:57.678086+03:00",
+      "pid": 21592,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T21:52:10.256969+03:00"
+    },
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "recipe": "repeat30",
+      "run_id": "repeat30_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_repeat30_s20261022.yaml",
+        "sha256": "b2cb53c1233301b0ba3e10538b69fe597a1fdbec94429b3d5b595de923bb490f"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T21:52:10.527064+03:00",
+      "pid": 53112,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T21:57:23.542258+03:00"
+    },
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "recipe": "repeat60",
+      "run_id": "repeat60_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_repeat60_s20261022.yaml",
+        "sha256": "c1cdb39e5f9ea44f160d2b070b8438e9586e934ca99d1b8c0b9785f547cd2cd5"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T21:57:23.956761+03:00",
+      "pid": 33948,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T22:07:36.174363+03:00"
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "recipe": "control15",
+      "run_id": "control15_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_control15_s20261022.yaml",
+        "sha256": "f7839ded568bd4dcef22e90ab97f10c5ede00ab8b0a686ddcab154d306b13819"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T22:07:36.721396+03:00",
+      "pid": 37860,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T22:10:00.989939+03:00"
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "recipe": "cosine30",
+      "run_id": "cosine30_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_cosine30_s20261022.yaml",
+        "sha256": "9bda498cf10d733c3c39e30ca93d5baab7c9c83ba99cf343debccb6fb92461b4"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T22:10:01.657489+03:00",
+      "pid": 53424,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T22:14:49.837618+03:00"
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "recipe": "repeat30",
+      "run_id": "repeat30_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_repeat30_s20261022.yaml",
+        "sha256": "cfa24c745aa70a8177e3cd4f50ada3fe199d646a288f89261ebec680741ab825"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T22:14:50.642475+03:00",
+      "pid": 9388,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T22:19:38.876790+03:00"
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "recipe": "repeat60",
+      "run_id": "repeat60_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_repeat60_s20261022.yaml",
+        "sha256": "26c46b10e1f0ee150841ca1a5284172e7c2ce652918beb53a89e106d0e554821"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T22:19:39.877737+03:00",
+      "pid": 12224,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T22:29:05.313787+03:00"
+    },
+    {
+      "fold": 2,
+      "seed": 20261022,
+      "recipe": "control15",
+      "run_id": "control15_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_control15_s20261022.yaml",
+        "sha256": "8ff56306ec222e76ab493fd78ebc6bef6bc10968763df6b0af28c4654facafa4"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T22:29:06.391303+03:00",
+      "pid": 53512,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T22:31:33.993147+03:00"
+    },
+    {
+      "fold": 2,
+      "seed": 20261022,
+      "recipe": "cosine30",
+      "run_id": "cosine30_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_cosine30_s20261022.yaml",
+        "sha256": "c11bfe65e3dddef9080add3f8bdbdfaa1347de95473e766c7b4bad8681d986a7"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T22:31:36.540090+03:00",
+      "pid": 39268,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T22:36:32.577109+03:00"
+    },
+    {
+      "fold": 2,
+      "seed": 20261022,
+      "recipe": "repeat30",
+      "run_id": "repeat30_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_repeat30_s20261022.yaml",
+        "sha256": "1403a75c8408997aead01f86daed39ce0ddf30fc1dd592b6f289ec7de4b940a5"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T22:36:36.604074+03:00",
+      "pid": 51444,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T22:41:31.711099+03:00"
+    },
+    {
+      "fold": 2,
+      "seed": 20261022,
+      "recipe": "repeat60",
+      "run_id": "repeat60_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_repeat60_s20261022.yaml",
+        "sha256": "a12bc984d50224265ca83d4ee59f3461a186c2170bc5e1cc9b68c48b5bc2921b"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T22:41:37.171644+03:00",
+      "pid": 25584,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T22:51:21.345715+03:00"
+    },
+    {
+      "fold": 0,
+      "seed": 20261023,
+      "recipe": "control15",
+      "run_id": "control15_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_control15_s20261023.yaml",
+        "sha256": "d9f98405861ff0a90134ba6ae3ee5cc41ed2ccf27f6ca09353108dd1e9598009"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T22:51:28.343462+03:00",
+      "pid": 34408,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T22:54:02.611687+03:00"
+    },
+    {
+      "fold": 0,
+      "seed": 20261023,
+      "recipe": "cosine30",
+      "run_id": "cosine30_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_cosine30_s20261023.yaml",
+        "sha256": "cd9560614ddc7a3532a476318a7c2c2f756a538f805e62342895e1878d529974"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T22:54:09.759370+03:00",
+      "pid": 33488,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T22:59:21.897205+03:00"
+    },
+    {
+      "fold": 0,
+      "seed": 20261023,
+      "recipe": "repeat30",
+      "run_id": "repeat30_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_repeat30_s20261023.yaml",
+        "sha256": "207cdb708f6a5577790dfd50e385dec69d6c936c57dd4647388e2b881b3eff0d"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T22:59:29.096294+03:00",
+      "pid": 19880,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T23:04:44.577427+03:00"
+    },
+    {
+      "fold": 0,
+      "seed": 20261023,
+      "recipe": "repeat60",
+      "run_id": "repeat60_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_repeat60_s20261023.yaml",
+        "sha256": "f7f5f672809ce49e23e2b58f98b693feef3cddc491114fd6005a11b87f652792"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T23:04:52.050971+03:00",
+      "pid": 26836,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T23:15:20.838208+03:00"
+    },
+    {
+      "fold": 1,
+      "seed": 20261023,
+      "recipe": "control15",
+      "run_id": "control15_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_control15_s20261023.yaml",
+        "sha256": "0dd95524931be76922d916b7b82f6952a164efdd1fa63669be594825fecfe8b4"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T23:15:28.555893+03:00",
+      "pid": 19044,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T23:17:52.705265+03:00"
+    },
+    {
+      "fold": 1,
+      "seed": 20261023,
+      "recipe": "cosine30",
+      "run_id": "cosine30_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_cosine30_s20261023.yaml",
+        "sha256": "8be458d277f1901a401c8c17c919a364a1560cc254683efc8d9ba35bac49b3c3"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T23:18:00.160952+03:00",
+      "pid": 52184,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T23:22:49.938058+03:00"
+    },
+    {
+      "fold": 1,
+      "seed": 20261023,
+      "recipe": "repeat30",
+      "run_id": "repeat30_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_repeat30_s20261023.yaml",
+        "sha256": "eefdfe9f66198f3e64069cc5b954c8a6ccca419c6785c94593d0e3f5c128538a"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T23:22:57.669512+03:00",
+      "pid": 48460,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T23:27:46.100396+03:00"
+    },
+    {
+      "fold": 1,
+      "seed": 20261023,
+      "recipe": "repeat60",
+      "run_id": "repeat60_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_repeat60_s20261023.yaml",
+        "sha256": "4357fbf7fc58db8a6e4c94cdc0ededfa97a2b6ae3d1f464226171d896c047924"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T23:27:53.829954+03:00",
+      "pid": 25848,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T23:37:20.275505+03:00"
+    },
+    {
+      "fold": 2,
+      "seed": 20261023,
+      "recipe": "control15",
+      "run_id": "control15_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_control15_s20261023.yaml",
+        "sha256": "d42d1fc5873ad79108e459d36037f0d5df8b782f1e4c3b19bcc94bf7179f9798"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T23:37:28.328759+03:00",
+      "pid": 22072,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T23:39:56.561622+03:00"
+    },
+    {
+      "fold": 2,
+      "seed": 20261023,
+      "recipe": "cosine30",
+      "run_id": "cosine30_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_cosine30_s20261023.yaml",
+        "sha256": "b9502c2f1e81af7fef851c8f821cffa9ec5b3211222b44b2215e086f45290e98"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T23:40:05.922726+03:00",
+      "pid": 5260,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T23:45:01.821007+03:00"
+    },
+    {
+      "fold": 2,
+      "seed": 20261023,
+      "recipe": "repeat30",
+      "run_id": "repeat30_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_repeat30_s20261023.yaml",
+        "sha256": "eb33612125919328f9f8c822b0e4f07d38096c973752edb8d99ab4b8ba09af7a"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T23:45:12.696197+03:00",
+      "pid": 31584,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T23:50:11.049805+03:00"
+    },
+    {
+      "fold": 2,
+      "seed": 20261023,
+      "recipe": "repeat60",
+      "run_id": "repeat60_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_repeat60_s20261023.yaml",
+        "sha256": "8bfcd4b9d92849fa7ddaffe7f361a48a41ef3e9de3470a3b914b90af0b591080"
+      },
+      "status": "completed",
+      "started_at": "2026-10-21T23:50:23.529574+03:00",
+      "pid": 47300,
+      "exit_code": 0,
+      "finished_at": "2026-10-22T00:00:04.008221+03:00"
+    }
+  ],
+  "finished_at": "2026-10-22T00:00:17.847300+03:00"
+}

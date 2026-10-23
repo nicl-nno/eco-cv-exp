@@ -1,0 +1,135 @@
+{
+  "pid": 15408,
+  "started_at": "2026-10-21T01:13:54.002670+03:00",
+  "deadline": "2026-10-21T08:00:00+03:00",
+  "status": "queue_finished",
+  "queue": [
+    {
+      "run_id": "release_baseline",
+      "status": "completed",
+      "started_at": "2026-10-21T01:09:29.054945+03:00",
+      "pid": 13796,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T01:09:38.709533+03:00"
+    },
+    {
+      "run_id": "control15_s20260929",
+      "recipe": "control15",
+      "seed": 20260929,
+      "status": "completed",
+      "started_at": "2026-10-21T01:09:38.711389+03:00",
+      "pid": 40360
+    },
+    {
+      "run_id": "rotation15_s20260929",
+      "recipe": "rotation15",
+      "seed": 20260929,
+      "status": "completed",
+      "started_at": "2026-10-21T01:13:54.003164+03:00",
+      "pid": 3164,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T01:18:06.643505+03:00"
+    },
+    {
+      "run_id": "rotation30_s20260929",
+      "recipe": "rotation30",
+      "seed": 20260929,
+      "status": "completed",
+      "started_at": "2026-10-21T01:18:06.644785+03:00",
+      "pid": 36532,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T01:26:22.625897+03:00"
+    },
+    {
+      "run_id": "cosine30_s20260929",
+      "recipe": "cosine30",
+      "seed": 20260929,
+      "status": "completed",
+      "started_at": "2026-10-21T01:26:22.627602+03:00",
+      "pid": 38128,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T01:34:33.797057+03:00"
+    },
+    {
+      "run_id": "control15_s20260930",
+      "recipe": "control15",
+      "seed": 20260930,
+      "status": "completed",
+      "started_at": "2026-10-21T01:34:33.799792+03:00",
+      "pid": 3952,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T01:38:32.291070+03:00"
+    },
+    {
+      "run_id": "rotation15_s20260930",
+      "recipe": "rotation15",
+      "seed": 20260930,
+      "status": "completed",
+      "started_at": "2026-10-21T01:38:32.300506+03:00",
+      "pid": 39428,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T01:42:46.095562+03:00"
+    },
+    {
+      "run_id": "rotation30_s20260930",
+      "recipe": "rotation30",
+      "seed": 20260930,
+      "status": "completed",
+      "started_at": "2026-10-21T01:42:46.098865+03:00",
+      "pid": 40692,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T01:51:02.028605+03:00"
+    },
+    {
+      "run_id": "cosine30_s20260930",
+      "recipe": "cosine30",
+      "seed": 20260930,
+      "status": "completed",
+      "started_at": "2026-10-21T01:51:02.031494+03:00",
+      "pid": 22272,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T01:59:18.332351+03:00"
+    },
+    {
+      "run_id": "control15_s20260931",
+      "recipe": "control15",
+      "seed": 20260931,
+      "status": "completed",
+      "started_at": "2026-10-21T01:59:18.335900+03:00",
+      "pid": 39360,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T02:03:07.628316+03:00"
+    },
+    {
+      "run_id": "rotation15_s20260931",
+      "recipe": "rotation15",
+      "seed": 20260931,
+      "status": "completed",
+      "started_at": "2026-10-21T02:03:07.630324+03:00",
+      "pid": 20708,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T02:07:20.506219+03:00"
+    },
+    {
+      "run_id": "rotation30_s20260931",
+      "recipe": "rotation30",
+      "seed": 20260931,
+      "status": "completed",
+      "started_at": "2026-10-21T02:07:20.510223+03:00",
+      "pid": 11680,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T02:15:37.345452+03:00"
+    },
+    {
+      "run_id": "cosine30_s20260931",
+      "recipe": "cosine30",
+      "seed": 20260931,
+      "status": "completed",
+      "started_at": "2026-10-21T02:15:37.366904+03:00",
+      "pid": 40744,
+      "exit_code": 0,
+      "finished_at": "2026-10-21T02:23:37.335969+03:00"
+    }
+  ],
+  "finished_at": "2026-10-21T02:23:37.338547+03:00"
+}

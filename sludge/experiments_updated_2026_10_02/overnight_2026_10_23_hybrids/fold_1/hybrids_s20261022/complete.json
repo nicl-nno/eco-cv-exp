@@ -1,0 +1,310 @@
+{
+  "job": {
+    "fold": 1,
+    "seed": 20261022,
+    "recipe": "hybrids",
+    "run_id": "hybrids_s20261022",
+    "config": {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_cosine30_s20261022.yaml",
+      "sha256": "9bda498cf10d733c3c39e30ca93d5baab7c9c83ba99cf343debccb6fb92461b4"
+    },
+    "components": {
+      "attached": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_1_attached_s20261022.yaml",
+        "sha256": "e051e9848d912c779b7bfc087a5d0616c57633cd9040989f8f7c9de5ae42ffb4"
+      },
+      "priority": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_1_priority_s20261022.yaml",
+        "sha256": "d70c27d2d30ac5bd6e7e23a2863769f98722f5f5409ef8a5fc815576ca803109"
+      },
+      "rare": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_1_rare_s20261022.yaml",
+        "sha256": "13812dfe4d1851dd82e1fd95d002da147c4132e28ccd6c88aaebe55217e71d04"
+      },
+      "priority_repeat": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_1_priority_repeat_s20261022.yaml",
+        "sha256": "05a64850a79db47d2e5ff00f1abf783a7cfbc6e0eac972e32d0c61c31e891cc4"
+      },
+      "rare_repeat": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_1_rare_repeat_s20261022.yaml",
+        "sha256": "831ed5fc0801e0b13d02686c42ff4755828151c7862af301480f8304f86b9042"
+      }
+    },
+    "reuse": {
+      "general": {
+        "config": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_cosine30_s20261022.yaml",
+          "sha256": "9bda498cf10d733c3c39e30ca93d5baab7c9c83ba99cf343debccb6fb92461b4"
+        },
+        "model": {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261022/model.pt",
+          "sha256": "c1e132e734a36020cbe61ac79749f9ec946baa2944248d421e4cb2a52dd1594c"
+        },
+        "calibration": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261022/calibration.json",
+          "sha256": "9ef7dbaedc4cf7af3b6bc2567d01a030278b255fed00f8ef77ee62812fc721c8"
+        },
+        "calibration_predictions": {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261022/predictions_validation.parquet",
+          "sha256": "6b981db3a3752d2327ac3c3dfcb574b3970cedbb15df8c9ff099468ca5ce784a"
+        },
+        "outer_predictions": {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261022/predictions_outer_validation.parquet",
+          "sha256": "52c559313bc4393b11aa5d9bde0fae8e6ff52147be6ff1d228a3d92819cb5665"
+        }
+      },
+      "filamentous": {
+        "config": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_1_specialists_filamentous_s20261022.yaml",
+          "sha256": "a7920fc975a370fd5911253d0b264e5b623c9b403d58fbff9cae4f53a2cc747f"
+        },
+        "model": {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/filamentous/model.pt",
+          "sha256": "8d957224252ebd484ce29b88205f267724ae5d34657e8388c95256d62eed31b5"
+        },
+        "completion": {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/filamentous/complete.json",
+          "sha256": "200898bfc71323e67f892a2f384abb5690564faffcdcbc2bb4fa77777fe9f50f"
+        },
+        "calibration_predictions": {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/filamentous_calibration.parquet",
+          "sha256": "446e41e38f770a3060d35ff7bff1ba70b8699422b9cce1fd93655682e2c12a34"
+        },
+        "outer_predictions": {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/filamentous_outer_validation.parquet",
+          "sha256": "c0a5c41ae640272f4478484b8f6ac7f35c51485a9b11e993dc506f377e40a104"
+        }
+      },
+      "others": {
+        "config": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_1_specialists_others_s20261022.yaml",
+          "sha256": "df4c1c8dbddf8876260d457047287397430c5b2930d88f5fe9b21cd1f0355728"
+        },
+        "model": {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/others/model.pt",
+          "sha256": "b932a3eb59aedde617dd49a5870d57e07ffcc492a9ea9cef6decd8edbf67836b"
+        },
+        "completion": {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/others/complete.json",
+          "sha256": "f96da60352e41064520dd7d26c32279c57bbb655a5d843697cd271daa747b2a4"
+        },
+        "calibration_predictions": {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/others_calibration.parquet",
+          "sha256": "b19b71e543b7589dfaa2158a765fa9e7c4de539265ec527ad1b966fa9439050c"
+        },
+        "outer_predictions": {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/others_outer_validation.parquet",
+          "sha256": "988d2b567610552f239944bcf3c9441ea9b89bc8994a220cb3f50d10623badaf"
+        }
+      }
+    }
+  },
+  "records": [
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/metrics_h_filamentous.json",
+      "sha256": "36505cd2bbabd7498277fca34c352d06cbec02af620b02c936b902fa2be2f7ab"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/metrics_h_attached.json",
+      "sha256": "3bcf534ce7c4973972c6ff5f57eefc61bef2ae4101e3235fed003ab14e60a433"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/metrics_h_priority.json",
+      "sha256": "1877808e4ed83765891e81e52aab8f85773b8d14dcd686f147512cee1989360e"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/metrics_h_separate.json",
+      "sha256": "3a7a81fb2452ef0129e3443195a1141b36bec66789e6bf966f911f9c62fba676"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/metrics_h_rare.json",
+      "sha256": "df408a15f96158bd34dc412aa69d3d2b8d602acf24cff7e87cc700566f038e3f"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/metrics_h_priority_rare.json",
+      "sha256": "007d5c96aeca379e05accd256554fef4d7ad98d32377de39611ae8201b1798e3"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/metrics_h_separate_rare.json",
+      "sha256": "265e381371bcc74b1e8ea0f50470d6fbdd031ca70ea76028f24fa1bfa10fe92b"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/metrics_h_common3.json",
+      "sha256": "14df8688cd8df93994d88addc8adacde47ddf90bd08d02e6eb75c97b8bc054bb"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/metrics_h_priority_repeat.json",
+      "sha256": "b17f615e99be13dc1e4e0391c267c2e692ff901ac6596a8bb2152ef20574606d"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/metrics_h_rare_repeat.json",
+      "sha256": "02e6144074485e65f44409ce64e2ce3095f80c31b5d3474377d6b6aca426a14e"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/metrics_h_priority_repeat_rare_repeat.json",
+      "sha256": "ac15859dbfa4635712443837d181ab54a73d3073c293e1ffeaf5977d8aae1a33"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/metrics_h_separate_rare_repeat.json",
+      "sha256": "37002204e45593c333a1063958d5ae6474209c8676d9d0b64f0bfe8027d56062"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/attached/complete.json",
+      "sha256": "59b6251707f769750f460b87444a74bb451798ad4c518b64d474c08c2bb4bdf8"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/attached/model.pt",
+      "sha256": "bc5492ce827486789b8ba230fc383d0294537c24d55921a09fda0a9bb551c7ba"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/attached/resume_state.pt",
+      "sha256": "8fc62cd93a5c3aa0b887c1b3f0db94cb8738fcdce260c98fadb697f72a786e20"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/attached/train_log.jsonl",
+      "sha256": "13f3631a96c26902fee140086997cf8c1bf3f9cefd357fe9373b207b6d532581"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/priority/complete.json",
+      "sha256": "26a92e5abe1b17259b0ebdcc5fa3f618a7d34316fcc170890fbe645f8f2fbf36"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/priority/model.pt",
+      "sha256": "8339304e16fb6062accbcd68bf5f843b5e0e95d942e1808ca60604f94da738a5"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/priority/resume_state.pt",
+      "sha256": "078581a3be9c54f5d26ddc21f4da485b08bd2c975c5bb43e47eb01c2e70a0601"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/priority/train_log.jsonl",
+      "sha256": "b04821a62ef72a224d8414438e1672d2526cc55f23324c92c212af571e3f0850"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/rare/complete.json",
+      "sha256": "67091a0310db4d76e021cb281ee9b35ebb498fd38bd2587388b1997d088a6ccb"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/rare/model.pt",
+      "sha256": "13df4b41623da7c300c82b5f121c8082836b34eccde0f3908a1a20244f955017"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/rare/resume_state.pt",
+      "sha256": "e4056ef4fbae396e9d71ad3af02340f4b9664fcc96e58882aa8733f251458ec0"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/rare/train_log.jsonl",
+      "sha256": "3b0abcc8d4b994781775cbc7c9621708b8b35484154895747a842ea252f010ea"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/priority_repeat/complete.json",
+      "sha256": "153c8aa8e331fb32d54508adb0a5bf1a4de21f0c6024ec6bb0dfa3b483220957"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/priority_repeat/model.pt",
+      "sha256": "f1c302cf77dbc08a6611c7d0407db8d2033bca85e32b19b31d1f7b90c27f3dee"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/priority_repeat/resume_state.pt",
+      "sha256": "1a1373d2f905755964509b7c2b7366a5d7beeb4db4b1f61e6c1fb1c32c3d5506"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/priority_repeat/train_log.jsonl",
+      "sha256": "33cbf112b5c4578af77d8be8cac80473bf289143dc49e14916ddb835639f1fb7"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/rare_repeat/complete.json",
+      "sha256": "078df5cb847c350bef018cc7eb600578b4504a2d3e06772eadb691a08322bd58"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/rare_repeat/model.pt",
+      "sha256": "e96a56c7a6dbb83dfe65302a69b68cb743d151191d12b5efb09730548135e5b1"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/rare_repeat/resume_state.pt",
+      "sha256": "b184b83694b2536f29e82b8699cf96ad50d70ad9ebcd17e1f6756a394be365fe"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/rare_repeat/train_log.jsonl",
+      "sha256": "58d0f155f014713521fef0d68e037e84ea30ff6e274cf87778125db367e57d65"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/attached_calibration.timing.json",
+      "sha256": "3cd66613b7938a1a5dd36cf1d36b36113bca0d73c2917f64892596d4bce646e3"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/attached_outer_validation.timing.json",
+      "sha256": "1dacda5a644a298ab9ea3ff305abc2acbb91611918acfa42367fe948225692d3"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/priority_calibration.timing.json",
+      "sha256": "a072fe04640295374fb1c4b883d41489001683741b2407d16ded67c0ac2eed17"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/priority_outer_validation.timing.json",
+      "sha256": "fab4ca5be8c094931568f7fccb895e394c2669b6bfd3ae503b1fadd3da0587b0"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/priority_repeat_calibration.timing.json",
+      "sha256": "5d76f3d0beed87e2ef1fc53a461c1a474b0612366d8ce8fd5931fd9e0ddd96e9"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/priority_repeat_outer_validation.timing.json",
+      "sha256": "6c529d9484027596151ac4aceda6504d9f48c0fdc449f5972f2c54b4443e75e1"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/rare_calibration.timing.json",
+      "sha256": "8d5fadb12755279b260479ffd7fd003752ccac8fbbf6f609e62dd3d32b46e761"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/rare_outer_validation.timing.json",
+      "sha256": "55efcd5d9dd8badfd9d92963c71af469875afa106613e6126485a771b1efc396"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/rare_repeat_calibration.timing.json",
+      "sha256": "4499fcb8eea2ac04d74aa53daaf86f92c8cd6188f064c551e2ec94d8d81b5de9"
+    },
+    {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/rare_repeat_outer_validation.timing.json",
+      "sha256": "9de61528f8d7ddc49e1f74c352650526a5162d0658f46fa87c4cd721f85beecd"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/source_calibration_attached.json",
+      "sha256": "3cfb41279b6b6f9223f888aee385d7c5386006c0e9ba9451aa71f386fff123b2"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/source_calibration_filamentous.json",
+      "sha256": "4d7874c50ea2045ff84cf0c6edb31e9dff96bdec04778bfc058f5547c0c563e1"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/source_calibration_general.json",
+      "sha256": "98ba6199bf4949ecc70a115f29cd5980b2821906ddb918b26fa64d905105acfa"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/source_calibration_others.json",
+      "sha256": "4a24c2e6565898220cf7137f300f5f9b48ccb25f626add058c149d4cbe9af8a7"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/source_calibration_priority.json",
+      "sha256": "ebba72a92b7457bd1e275adf02e2316e1fd1cdb05d8d25a8bb625a10a442f46f"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/source_calibration_priority_repeat.json",
+      "sha256": "2d04a380862f6f0fc67c49bcf119007c3365695ea7b092b0c7044371e4d124bf"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/source_calibration_rare.json",
+      "sha256": "96e62354133e86200aa34c2bd40d8be560feddfd08ce27174efc5472cfe87707"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/source_calibration_rare_repeat.json",
+      "sha256": "81e985164d6758bf49c345e7c580960c01b817159aa6196cbdea6c14c236dfdb"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_1/hybrids_s20261022/outer_authorization.json",
+      "sha256": "5fc8fd87779baf72d1e784ac7a4d60fac0a7979fea7291ac16014d3060e895b6"
+    }
+  ]
+}

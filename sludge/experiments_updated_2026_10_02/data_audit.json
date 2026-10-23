@@ -1,0 +1,1887 @@
+{
+  "annotator_agreement": {
+    "classes": [
+      {
+        "f1": 0.24444444444444444,
+        "fn": 56,
+        "fp": 12,
+        "name": "attached_ciliates",
+        "precision": 0.4782608695652174,
+        "predictions": 23,
+        "recall": 0.16417910447761194,
+        "support": 67,
+        "tp": 11
+      },
+      {
+        "f1": 0.1568627450980392,
+        "fn": 41,
+        "fp": 2,
+        "name": "filamentous_bacteria",
+        "precision": 0.6666666666666666,
+        "predictions": 6,
+        "recall": 0.08888888888888889,
+        "support": 45,
+        "tp": 4
+      },
+      {
+        "f1": 0.9411764705882353,
+        "fn": 0,
+        "fp": 1,
+        "name": "rotifers",
+        "precision": 0.8888888888888888,
+        "predictions": 9,
+        "recall": 1.0,
+        "support": 8,
+        "tp": 8
+      },
+      {
+        "f1": 0.6666666666666666,
+        "fn": 5,
+        "fp": 1,
+        "name": "testate_amoebae",
+        "precision": 0.8571428571428571,
+        "predictions": 7,
+        "recall": 0.5454545454545454,
+        "support": 11,
+        "tp": 6
+      },
+      {
+        "f1": 0.6666666666666666,
+        "fn": 2,
+        "fp": 0,
+        "name": "free_swimming_ciliates",
+        "precision": 1.0,
+        "predictions": 2,
+        "recall": 0.5,
+        "support": 4,
+        "tp": 2
+      },
+      {
+        "f1": 0.0,
+        "fn": 1,
+        "fp": 0,
+        "name": "nematoda",
+        "precision": null,
+        "predictions": 0,
+        "recall": 0.0,
+        "support": 1,
+        "tp": 0
+      },
+      {
+        "f1": 0.7272727272727273,
+        "fn": 3,
+        "fp": 0,
+        "name": "gastrotrichs",
+        "precision": 1.0,
+        "predictions": 4,
+        "recall": 0.5714285714285714,
+        "support": 7,
+        "tp": 4
+      }
+    ],
+    "first_copy_objects": 143,
+    "iou_threshold": 0.5,
+    "macro_f1": 0.48615567439096846,
+    "matched_objects": 35,
+    "pairs": 31,
+    "pairs_by_sources": {
+      "student_06>student_07": 26,
+      "student_06>student_08": 5
+    },
+    "second_copy_objects": 51
+  },
+  "conclusions": [
+    {
+      "evidence": {
+        "archives_checked": 10
+      },
+      "id": "class_map",
+      "status": "ok"
+    },
+    {
+      "evidence": {
+        "dated_images": 17,
+        "days": [
+          "2024-01-31"
+        ],
+        "images": 291
+      },
+      "id": "temporal_split",
+      "status": "blocked"
+    },
+    {
+      "evidence": {
+        "conflicting": 27,
+        "microorganism_groups": 34
+      },
+      "id": "duplicates",
+      "status": "limitation"
+    },
+    {
+      "evidence": {
+        "images": 41
+      },
+      "id": "unconfirmed_empty_images",
+      "status": "limitation"
+    },
+    {
+      "evidence": {
+        "images": 57
+      },
+      "id": "ignore_regions",
+      "status": "limitation"
+    },
+    {
+      "evidence": {
+        "path": "outputs_updated_2026_10_02/pretrained/fasterrcnn_resnet50_fpn_v2_coco-dd69338a.pth"
+      },
+      "id": "pretrained_weights",
+      "status": "ok"
+    }
+  ],
+  "duplicates": {
+    "conflicting_groups": 27,
+    "groups": [
+      {
+        "annotations_agree": null,
+        "group": "student_01/images/Train/1/пог.коловратка.ил..bmp",
+        "kind": "near",
+        "members": [
+          "student_01/images/Train/1/пог.коловратка.ил..bmp",
+          "student_01/images/Train/1/червь+пог.коловратка+инф.туфелька..bmp"
+        ],
+        "sources": [
+          "student_01"
+        ]
+      },
+      {
+        "annotations_agree": null,
+        "group": "student_02/images/Train/2/1.bmp",
+        "kind": "near",
+        "members": [
+          "student_02/images/Train/2/1.bmp",
+          "student_02/images/Train/2/раб.колония +коловратки.ч1..bmp"
+        ],
+        "sources": [
+          "student_02"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/брюхоресничатый червь.ч2..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/брюхоресничатый червь.ч2..bmp",
+          "student_07/images/default/7/брюхоресничатый червь.ч2..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/волокно.ч2..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/волокно.ч2..bmp",
+          "student_07/images/default/7/волокно.ч2..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/ил.волокно..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/ил.волокно..bmp",
+          "student_07/images/default/7/ил.волокно..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/ил.коловратка..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/ил.коловратка..bmp",
+          "student_07/images/default/7/ил.коловратка..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/ил.колония срд..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/ил.колония срд..bmp",
+          "student_07/images/default/7/ил.колония срд..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/ил.раб.колонии..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/ил.раб.колонии..bmp",
+          "student_07/images/default/7/ил.раб.колонии..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/инф.туфелька ч1..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/инф.туфелька ч1..bmp",
+          "student_07/images/default/7/инф.туфелька ч1..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/коловратка+колония срд,.bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/коловратка+колония срд,.bmp",
+          "student_07/images/default/7/коловратка+колония срд,.bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/колония пр.инф. перистом открыт..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/колония пр.инф. перистом открыт..bmp",
+          "student_07/images/default/7/колония пр.инф. перистом открыт..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/кр.жгутиконосцы.ч2..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/кр.жгутиконосцы.ч2..bmp",
+          "student_07/images/default/7/кр.жгутиконосцы.ч2..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/литонотус ч2..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/литонотус ч2..bmp",
+          "student_07/images/default/7/литонотус ч2..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/малощ.червь х100. ил..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/малощ.червь х100. ил..bmp",
+          "student_07/images/default/7/малощ.червь х100. ил..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/панц.коловратка ч1..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/панц.коловратка ч1..bmp",
+          "student_07/images/default/7/панц.коловратка ч1..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/пог.панц.коловратка+ брюхор.черви. ил..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/пог.панц.коловратка+ брюхор.черви. ил..bmp",
+          "student_07/images/default/7/пог.панц.коловратка+ брюхор.черви. ил..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/рак.амебы Арцелла+ Эуглифа. ил..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/рак.амебы Арцелла+ Эуглифа. ил..bmp",
+          "student_07/images/default/7/рак.амебы Арцелла+ Эуглифа. ил..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/сжатые панц.коловратки..ч2..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/сжатые панц.коловратки..ч2..bmp",
+          "student_07/images/default/7/сжатые панц.коловратки..ч2..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/цианобактерии..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/цианобактерии..bmp",
+          "student_07/images/default/7/цианобактерии..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/цианобактерии.ч2..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/цианобактерии.ч2..bmp",
+          "student_07/images/default/7/цианобактерии.ч2..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/ч1...коловратка..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/ч1...коловратка..bmp",
+          "student_08/images/default/8/ч1...коловратка..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_08"
+        ]
+      },
+      {
+        "annotations_agree": true,
+        "group": "student_06/images/default/6/ч1.брюхоресничатый червь.5 шт..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/ч1.брюхоресничатый червь.5 шт..bmp",
+          "student_07/images/default/7/ч1.брюхоресничатый червь.5 шт..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/ч1.волокно. (2).bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/ч1.волокно. (2).bmp",
+          "student_08/images/default/8/ч1.волокно. (2).bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_08"
+        ]
+      },
+      {
+        "annotations_agree": true,
+        "group": "student_06/images/default/6/ч1.волокно....bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/ч1.волокно....bmp",
+          "student_08/images/default/8/ч1.волокно....bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_08"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/ч1.волокно..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/ч1.волокно..bmp",
+          "student_07/images/default/7/ч1.волокно..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/ч1.колония срд..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/ч1.колония срд..bmp",
+          "student_08/images/default/8/ч1.колония срд..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_08"
+        ]
+      },
+      {
+        "annotations_agree": true,
+        "group": "student_06/images/default/6/ч1.малощетинковый червь Эолозома х40..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/ч1.малощетинковый червь Эолозома х40..bmp",
+          "student_07/images/default/7/ч1.малощетинковый червь Эолозома х40..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/ч1.один.пр.инф..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/ч1.один.пр.инф..bmp",
+          "student_07/images/default/7/ч1.один.пр.инф..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/ч1.рак.амебы  Эуглифа..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/ч1.рак.амебы  Эуглифа..bmp",
+          "student_08/images/default/8/ч1.рак.амебы  Эуглифа..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_08"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/ч1.цианобактерии..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/ч1.цианобактерии..bmp",
+          "student_07/images/default/7/ч1.цианобактерии..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": true,
+        "group": "student_06/images/default/6/ч2.коловратка..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/ч2.коловратка..bmp",
+          "student_07/images/default/7/ч2.коловратка..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/ч2.обожж.ст..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/ч2.обожж.ст..bmp",
+          "student_07/images/default/7/ч2.обожж.ст..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": false,
+        "group": "student_06/images/default/6/ч2.цианобактерии..bmp",
+        "kind": "exact",
+        "members": [
+          "student_06/images/default/6/ч2.цианобактерии..bmp",
+          "student_07/images/default/7/ч2.цианобактерии..bmp"
+        ],
+        "sources": [
+          "student_06",
+          "student_07"
+        ]
+      },
+      {
+        "annotations_agree": null,
+        "group": "student_08/images/default/8/ч1.....bmp",
+        "kind": "near",
+        "members": [
+          "student_08/images/default/8/ч1.....bmp",
+          "student_08/images/default/8/ч1.один.пр.инф..bmp"
+        ],
+        "sources": [
+          "student_08"
+        ]
+      }
+    ],
+    "groups_by_kind": {
+      "exact": 31,
+      "near": 3
+    },
+    "groups_by_sources": {
+      "student_01": 1,
+      "student_02": 1,
+      "student_06+student_07": 26,
+      "student_06+student_08": 5,
+      "student_08": 1
+    },
+    "hamming_histogram": {
+      "0": 31,
+      "2": 1,
+      "5": 2
+    },
+    "microorganism_distance_profile": {
+      "0": 31,
+      "2": 1,
+      "5": 2
+    },
+    "pairs": 34,
+    "pairs_by_roles": {
+      "microorganisms": 34
+    },
+    "pixel_equal_pairs": 31,
+    "redundant_file_copies": 31
+  },
+  "external": {
+    "enabled": false,
+    "present": false
+  },
+  "floc_archives": {},
+  "inputs": {
+    "archives": [
+      {
+        "archive": "31.01.24.zip",
+        "format": "coco",
+        "present": true,
+        "role": "microorganisms",
+        "sha256": "3d8f6a658dcb862c4dcf9ea56eb7451e89263ead8c5c96cfe968337189d1ba17",
+        "size_bytes": 15107053,
+        "source_id": "session_2024_01_31"
+      },
+      {
+        "archive": "Student_1.zip",
+        "format": "coco",
+        "present": true,
+        "role": "microorganisms",
+        "sha256": "953df3d421fd6fcf3b164a5f32f62adfae3cf668017591024772ba1988b0262f",
+        "size_bytes": 110898239,
+        "source_id": "student_01"
+      },
+      {
+        "archive": "Student_10.zip",
+        "format": "coco",
+        "present": true,
+        "role": "microorganisms",
+        "sha256": "11032a172ba4bc8bcac69220ffc34733c182c6169d5a92c40d2c5643c330dcad",
+        "size_bytes": 129336753,
+        "source_id": "student_10"
+      },
+      {
+        "archive": "Student_11 CHECKED.zip",
+        "format": "coco",
+        "present": true,
+        "role": "microorganisms",
+        "sha256": "8a3a01422c221d81a905008e80e5a5e2b91c3a8afcab28eb6166ab42edbb797c",
+        "size_bytes": 140503016,
+        "source_id": "student_11"
+      },
+      {
+        "archive": "Student_2.zip",
+        "format": "coco",
+        "present": true,
+        "role": "microorganisms",
+        "sha256": "a2bb1d6dba9eaec74f86119dcac53a51b8f0a40a5fe242ab4fc2bd100e3d0383",
+        "size_bytes": 114504231,
+        "source_id": "student_02"
+      },
+      {
+        "archive": "Student_4.zip",
+        "format": "coco",
+        "present": true,
+        "role": "microorganisms",
+        "sha256": "541e6367c7e533779dcf14c14437a9aad6ee03a63a7cbc7651393a9f7ca92e66",
+        "size_bytes": 129377692,
+        "source_id": "student_04"
+      },
+      {
+        "archive": "Student_6.zip",
+        "format": "coco",
+        "present": true,
+        "role": "microorganisms",
+        "sha256": "c675c3278c017a8b1e72bd3dfb90b4d5dd8faa12d5047246c5d6ec6dc291396f",
+        "size_bytes": 118252294,
+        "source_id": "student_06"
+      },
+      {
+        "archive": "Student_7.zip",
+        "format": "coco",
+        "present": true,
+        "role": "microorganisms",
+        "sha256": "d0b307659288869c6c31d93227a7b6cc629ccde47c5df7f6d5ea2d5d610a10c9",
+        "size_bytes": 122020227,
+        "source_id": "student_07"
+      },
+      {
+        "archive": "Student_8.zip",
+        "format": "coco",
+        "present": true,
+        "role": "microorganisms",
+        "sha256": "179f724f6366f749663d9882d10843778ec4ea14fff906d24370c20828967bb2",
+        "size_bytes": 129361547,
+        "source_id": "student_08"
+      },
+      {
+        "archive": "Student_9.zip",
+        "format": "coco",
+        "present": true,
+        "role": "microorganisms",
+        "sha256": "24f4bba66de7a3d57d71e8dff24079f05b448f07b1f1d82af1c7af358a25d0e9",
+        "size_bytes": 132996387,
+        "source_id": "student_09"
+      }
+    ],
+    "raw_dir": "data/raw/updated_2026_10_02",
+    "specification_sha256": null,
+    "undeclared_files": []
+  },
+  "microorganism_set": {
+    "categories_all_copies": {
+      "aeolosoma": 19,
+      "attached_ciliates": 318,
+      "custom_microorganism": 7,
+      "debris": 177,
+      "filamentous_bacteria": 297,
+      "flagellates": 28,
+      "floc": 4094,
+      "free_swimming_ciliates": 36,
+      "fungi": 25,
+      "gastrotrichs": 39,
+      "naked_amoebae": 31,
+      "nematoda": 26,
+      "rotifers": 108,
+      "suctoria": 10,
+      "testate_amoebae": 114,
+      "unknown": 117
+    },
+    "categories_unique_images": {
+      "aeolosoma": 17,
+      "attached_ciliates": 295,
+      "custom_microorganism": 7,
+      "debris": 166,
+      "filamentous_bacteria": 291,
+      "flagellates": 25,
+      "floc": 3768,
+      "free_swimming_ciliates": 34,
+      "fungi": 25,
+      "gastrotrichs": 35,
+      "naked_amoebae": 31,
+      "nematoda": 26,
+      "rotifers": 99,
+      "suctoria": 10,
+      "testate_amoebae": 107,
+      "unknown": 94
+    },
+    "images_all_copies": 322,
+    "images_unique_pixels": 291,
+    "images_with_ignore_regions": 57,
+    "images_with_target": 250,
+    "images_with_target_and_ignore": 45,
+    "images_without_any_annotation": 0,
+    "images_without_target": 41,
+    "images_without_target_with_ignore": 12,
+    "max_target_objects_per_image": 24,
+    "stem_collisions": {
+      "images_with_shared_stem": 107,
+      "stems_shared": 42,
+      "stems_shared_by_different_pixels": 21
+    },
+    "target_classes_unique_images": [
+      {
+        "box_size_px": {
+          "height_max": 960.0,
+          "height_median": 158.67999999999995,
+          "height_min": 20.55000000000001,
+          "width_max": 1280.0,
+          "width_median": 155.12,
+          "width_min": 22.480000000000018
+        },
+        "images": 101,
+        "label": 1,
+        "name": "attached_ciliates",
+        "objects": 295,
+        "rejected": 0,
+        "source_category_id": 2
+      },
+      {
+        "box_size_px": {
+          "height_max": 907.74,
+          "height_median": 153.4,
+          "height_min": 13.319999999999993,
+          "width_max": 1277.71,
+          "width_median": 143.17999999999995,
+          "width_min": 6.580000000000041
+        },
+        "images": 94,
+        "label": 2,
+        "name": "filamentous_bacteria",
+        "objects": 291,
+        "rejected": 0,
+        "source_category_id": 5
+      },
+      {
+        "box_size_px": {
+          "height_max": 504.81,
+          "height_median": 128.07000000000005,
+          "height_min": 31.96,
+          "width_max": 427.8399999999999,
+          "width_median": 153.68,
+          "width_min": 28.980000000000018
+        },
+        "images": 78,
+        "label": 3,
+        "name": "rotifers",
+        "objects": 99,
+        "rejected": 0,
+        "source_category_id": 3
+      },
+      {
+        "box_size_px": {
+          "height_max": 194.68,
+          "height_median": 79.85000000000002,
+          "height_min": 37.329999999999984,
+          "width_max": 223.12,
+          "width_median": 81.05000000000001,
+          "width_min": 35.639999999999986
+        },
+        "images": 70,
+        "label": 4,
+        "name": "testate_amoebae",
+        "objects": 107,
+        "rejected": 0,
+        "source_category_id": 9
+      },
+      {
+        "box_size_px": {
+          "height_max": 155.96999999999997,
+          "height_median": 47.44,
+          "height_min": 17.980000000000018,
+          "width_max": 136.2,
+          "width_median": 59.295000000000016,
+          "width_min": 10.75
+        },
+        "images": 23,
+        "label": 5,
+        "name": "free_swimming_ciliates",
+        "objects": 34,
+        "rejected": 0,
+        "source_category_id": 4
+      },
+      {
+        "box_size_px": {
+          "height_max": 951.47,
+          "height_median": 75.78999999999996,
+          "height_min": 16.309999999999945,
+          "width_max": 1280.0,
+          "width_median": 62.89999999999998,
+          "width_min": 12.199999999999989
+        },
+        "images": 12,
+        "label": 6,
+        "name": "nematoda",
+        "objects": 26,
+        "rejected": 0,
+        "source_category_id": 14
+      },
+      {
+        "box_size_px": {
+          "height_max": 178.13,
+          "height_median": 78.55999999999995,
+          "height_min": 29.0,
+          "width_max": 188.85000000000002,
+          "width_median": 67.17000000000002,
+          "width_min": 12.659999999999968
+        },
+        "images": 27,
+        "label": 7,
+        "name": "gastrotrichs",
+        "objects": 35,
+        "rejected": 0,
+        "source_category_id": 7
+      }
+    ]
+  },
+  "reference_experiment": null,
+  "sources": {
+    "session_2024_01_31": {
+      "annotations": {
+        "annotations": 290,
+        "bbox_origin": {
+          "coco_bbox": 290
+        },
+        "bbox_polygon_gap_over_1px": 0,
+        "by_category": {
+          "aeolosoma": 1,
+          "attached_ciliates": 1,
+          "debris": 11,
+          "filamentous_bacteria": 6,
+          "floc": 254,
+          "free_swimming_ciliates": 1,
+          "naked_amoebae": 2,
+          "rotifers": 5,
+          "testate_amoebae": 9
+        },
+        "by_role": {
+          "background": 11,
+          "not_detected": 254,
+          "out_of_scope": 3,
+          "target": 22
+        },
+        "fixes": {},
+        "issues": {},
+        "rejected": 0
+      },
+      "format": "coco",
+      "images": {
+        "channels": {
+          "3": 17
+        },
+        "declared_size_mismatch": 0,
+        "decode_errors": 0,
+        "images": 17,
+        "images_not_expected_size": 0,
+        "sizes": {
+          "1280x960": 17
+        },
+        "suffixes": {
+          ".jpg": 17
+        },
+        "unreferenced_images": 0
+      },
+      "reader": {
+        "annotation_entries": 290,
+        "annotation_files": [
+          "annotations/instances_Train.json"
+        ],
+        "categories": {
+          "1": "floc",
+          "10": "naked_amoebae",
+          "11": "flagellates",
+          "12": "fungi",
+          "13": "aeolosoma",
+          "14": "nematoda",
+          "15": "unknown",
+          "16": "custom_microorganism",
+          "2": "attached_ciliates",
+          "3": "rotifers",
+          "4": "free_swimming_ciliates",
+          "5": "filamentous_bacteria",
+          "6": "debris",
+          "7": "gastrotrichs",
+          "8": "suctoria",
+          "9": "testate_amoebae"
+        },
+        "image_entries": 17,
+        "info": {
+          "contributor": "",
+          "date_created": "",
+          "description": "",
+          "url": "",
+          "version": "",
+          "year": ""
+        },
+        "problems": {}
+      },
+      "role": "microorganisms",
+      "time": {
+        "archive_entry_dates": {
+          "max": "2026-10-04",
+          "min": "2026-10-04"
+        },
+        "camera_models": {
+          "Levenhuk510": 17
+        },
+        "coco_date_captured_values": [
+          "0"
+        ],
+        "exif_datetime_original": 17,
+        "exif_days": [
+          "2024-01-31"
+        ],
+        "exif_range": [
+          "2024-01-31T09:18:41",
+          "2024-01-31T10:19:56"
+        ],
+        "filename_timestamp_days": 0,
+        "filename_timestamp_images": 0,
+        "filename_timestamp_range": null
+      }
+    },
+    "student_01": {
+      "annotations": {
+        "annotations": 507,
+        "bbox_origin": {
+          "coco_bbox": 507
+        },
+        "bbox_polygon_gap_over_1px": 0,
+        "by_category": {
+          "aeolosoma": 8,
+          "attached_ciliates": 16,
+          "debris": 4,
+          "filamentous_bacteria": 48,
+          "flagellates": 12,
+          "floc": 315,
+          "free_swimming_ciliates": 11,
+          "fungi": 25,
+          "gastrotrichs": 7,
+          "naked_amoebae": 11,
+          "nematoda": 22,
+          "rotifers": 13,
+          "suctoria": 9,
+          "testate_amoebae": 6
+        },
+        "by_role": {
+          "background": 4,
+          "not_detected": 315,
+          "out_of_scope": 65,
+          "target": 123
+        },
+        "fixes": {},
+        "issues": {},
+        "rejected": 0
+      },
+      "format": "coco",
+      "images": {
+        "channels": {
+          "3": 30
+        },
+        "declared_size_mismatch": 0,
+        "decode_errors": 0,
+        "images": 30,
+        "images_not_expected_size": 0,
+        "sizes": {
+          "1280x960": 30
+        },
+        "suffixes": {
+          ".bmp": 30
+        },
+        "unreferenced_images": 0
+      },
+      "reader": {
+        "annotation_entries": 507,
+        "annotation_files": [
+          "annotations/instances_Train.json"
+        ],
+        "categories": {
+          "1": "floc",
+          "10": "naked_amoebae",
+          "11": "flagellates",
+          "12": "fungi",
+          "13": "aeolosoma",
+          "14": "nematoda",
+          "15": "unknown",
+          "16": "custom_microorganism",
+          "2": "attached_ciliates",
+          "3": "rotifers",
+          "4": "free_swimming_ciliates",
+          "5": "filamentous_bacteria",
+          "6": "debris",
+          "7": "gastrotrichs",
+          "8": "suctoria",
+          "9": "testate_amoebae"
+        },
+        "image_entries": 30,
+        "info": {
+          "contributor": "",
+          "date_created": "",
+          "description": "",
+          "url": "",
+          "version": "",
+          "year": ""
+        },
+        "problems": {}
+      },
+      "role": "microorganisms",
+      "time": {
+        "archive_entry_dates": {
+          "max": "2026-10-04",
+          "min": "2026-10-04"
+        },
+        "camera_models": {},
+        "coco_date_captured_values": [
+          "0"
+        ],
+        "exif_datetime_original": 0,
+        "exif_days": [],
+        "exif_range": null,
+        "filename_timestamp_days": 0,
+        "filename_timestamp_images": 0,
+        "filename_timestamp_range": null
+      }
+    },
+    "student_02": {
+      "annotations": {
+        "annotations": 417,
+        "bbox_origin": {
+          "coco_bbox": 417
+        },
+        "bbox_polygon_gap_over_1px": 0,
+        "by_category": {
+          "attached_ciliates": 18,
+          "debris": 9,
+          "filamentous_bacteria": 16,
+          "flagellates": 9,
+          "floc": 341,
+          "rotifers": 14,
+          "testate_amoebae": 5,
+          "unknown": 5
+        },
+        "by_role": {
+          "background": 9,
+          "ignore": 5,
+          "not_detected": 341,
+          "out_of_scope": 9,
+          "target": 53
+        },
+        "fixes": {},
+        "issues": {},
+        "rejected": 0
+      },
+      "format": "coco",
+      "images": {
+        "channels": {
+          "3": 31
+        },
+        "declared_size_mismatch": 0,
+        "decode_errors": 0,
+        "images": 31,
+        "images_not_expected_size": 0,
+        "sizes": {
+          "1280x960": 31
+        },
+        "suffixes": {
+          ".bmp": 31
+        },
+        "unreferenced_images": 0
+      },
+      "reader": {
+        "annotation_entries": 417,
+        "annotation_files": [
+          "annotations/instances_Train.json"
+        ],
+        "categories": {
+          "1": "floc",
+          "10": "naked_amoebae",
+          "11": "flagellates",
+          "12": "fungi",
+          "13": "aeolosoma",
+          "14": "nematoda",
+          "15": "unknown",
+          "16": "custom_microorganism",
+          "2": "attached_ciliates",
+          "3": "rotifers",
+          "4": "free_swimming_ciliates",
+          "5": "filamentous_bacteria",
+          "6": "debris",
+          "7": "gastrotrichs",
+          "8": "suctoria",
+          "9": "testate_amoebae"
+        },
+        "image_entries": 31,
+        "info": {
+          "contributor": "",
+          "date_created": "",
+          "description": "",
+          "url": "",
+          "version": "",
+          "year": ""
+        },
+        "problems": {}
+      },
+      "role": "microorganisms",
+      "time": {
+        "archive_entry_dates": {
+          "max": "2026-10-04",
+          "min": "2026-10-04"
+        },
+        "camera_models": {},
+        "coco_date_captured_values": [
+          "0"
+        ],
+        "exif_datetime_original": 0,
+        "exif_days": [],
+        "exif_range": null,
+        "filename_timestamp_days": 0,
+        "filename_timestamp_images": 0,
+        "filename_timestamp_range": null
+      }
+    },
+    "student_04": {
+      "annotations": {
+        "annotations": 735,
+        "bbox_origin": {
+          "coco_bbox": 735
+        },
+        "bbox_polygon_gap_over_1px": 0,
+        "by_category": {
+          "attached_ciliates": 13,
+          "custom_microorganism": 5,
+          "debris": 13,
+          "filamentous_bacteria": 7,
+          "floc": 667,
+          "free_swimming_ciliates": 3,
+          "gastrotrichs": 3,
+          "rotifers": 15,
+          "testate_amoebae": 1,
+          "unknown": 8
+        },
+        "by_role": {
+          "background": 13,
+          "ignore": 13,
+          "not_detected": 667,
+          "target": 42
+        },
+        "fixes": {},
+        "issues": {},
+        "rejected": 0
+      },
+      "format": "coco",
+      "images": {
+        "channels": {
+          "3": 35
+        },
+        "declared_size_mismatch": 0,
+        "decode_errors": 0,
+        "images": 35,
+        "images_not_expected_size": 0,
+        "sizes": {
+          "1280x960": 35
+        },
+        "suffixes": {
+          ".bmp": 35
+        },
+        "unreferenced_images": 0
+      },
+      "reader": {
+        "annotation_entries": 735,
+        "annotation_files": [
+          "annotations/instances_default.json"
+        ],
+        "categories": {
+          "1": "floc",
+          "10": "naked_amoebae",
+          "11": "flagellates",
+          "12": "fungi",
+          "13": "aeolosoma",
+          "14": "nematoda",
+          "15": "unknown",
+          "16": "custom_microorganism",
+          "2": "attached_ciliates",
+          "3": "rotifers",
+          "4": "free_swimming_ciliates",
+          "5": "filamentous_bacteria",
+          "6": "debris",
+          "7": "gastrotrichs",
+          "8": "suctoria",
+          "9": "testate_amoebae"
+        },
+        "image_entries": 35,
+        "info": {
+          "contributor": "",
+          "date_created": "",
+          "description": "",
+          "url": "",
+          "version": "",
+          "year": ""
+        },
+        "problems": {}
+      },
+      "role": "microorganisms",
+      "time": {
+        "archive_entry_dates": {
+          "max": "2026-10-04",
+          "min": "2026-10-04"
+        },
+        "camera_models": {},
+        "coco_date_captured_values": [
+          "0"
+        ],
+        "exif_datetime_original": 0,
+        "exif_days": [],
+        "exif_range": null,
+        "filename_timestamp_days": 0,
+        "filename_timestamp_images": 0,
+        "filename_timestamp_range": null
+      }
+    },
+    "student_06": {
+      "annotations": {
+        "annotations": 562,
+        "bbox_origin": {
+          "coco_bbox": 562
+        },
+        "bbox_polygon_gap_over_1px": 0,
+        "by_category": {
+          "aeolosoma": 1,
+          "attached_ciliates": 67,
+          "debris": 23,
+          "filamentous_bacteria": 45,
+          "flagellates": 3,
+          "floc": 378,
+          "free_swimming_ciliates": 4,
+          "gastrotrichs": 7,
+          "nematoda": 1,
+          "rotifers": 8,
+          "testate_amoebae": 11,
+          "unknown": 14
+        },
+        "by_role": {
+          "background": 23,
+          "ignore": 14,
+          "not_detected": 378,
+          "out_of_scope": 4,
+          "target": 143
+        },
+        "fixes": {},
+        "issues": {},
+        "rejected": 0
+      },
+      "format": "coco",
+      "images": {
+        "channels": {
+          "3": 32
+        },
+        "declared_size_mismatch": 0,
+        "decode_errors": 0,
+        "images": 32,
+        "images_not_expected_size": 0,
+        "sizes": {
+          "1280x960": 32
+        },
+        "suffixes": {
+          ".bmp": 32
+        },
+        "unreferenced_images": 0
+      },
+      "reader": {
+        "annotation_entries": 562,
+        "annotation_files": [
+          "annotations/instances_default.json"
+        ],
+        "categories": {
+          "1": "floc",
+          "10": "naked_amoebae",
+          "11": "flagellates",
+          "12": "fungi",
+          "13": "aeolosoma",
+          "14": "nematoda",
+          "15": "unknown",
+          "16": "custom_microorganism",
+          "2": "attached_ciliates",
+          "3": "rotifers",
+          "4": "free_swimming_ciliates",
+          "5": "filamentous_bacteria",
+          "6": "debris",
+          "7": "gastrotrichs",
+          "8": "suctoria",
+          "9": "testate_amoebae"
+        },
+        "image_entries": 32,
+        "info": {
+          "contributor": "",
+          "date_created": "",
+          "description": "",
+          "url": "",
+          "version": "",
+          "year": ""
+        },
+        "problems": {}
+      },
+      "role": "microorganisms",
+      "time": {
+        "archive_entry_dates": {
+          "max": "2026-10-04",
+          "min": "2026-10-04"
+        },
+        "camera_models": {},
+        "coco_date_captured_values": [
+          "0"
+        ],
+        "exif_datetime_original": 0,
+        "exif_days": [],
+        "exif_range": null,
+        "filename_timestamp_days": 0,
+        "filename_timestamp_images": 0,
+        "filename_timestamp_range": null
+      }
+    },
+    "student_07": {
+      "annotations": {
+        "annotations": 416,
+        "bbox_origin": {
+          "coco_bbox": 416
+        },
+        "bbox_polygon_gap_over_1px": 0,
+        "by_category": {
+          "aeolosoma": 2,
+          "attached_ciliates": 34,
+          "debris": 7,
+          "filamentous_bacteria": 6,
+          "flagellates": 3,
+          "floc": 319,
+          "free_swimming_ciliates": 2,
+          "gastrotrichs": 5,
+          "naked_amoebae": 1,
+          "rotifers": 12,
+          "testate_amoebae": 3,
+          "unknown": 22
+        },
+        "by_role": {
+          "background": 7,
+          "ignore": 22,
+          "not_detected": 319,
+          "out_of_scope": 6,
+          "target": 62
+        },
+        "fixes": {},
+        "issues": {},
+        "rejected": 0
+      },
+      "format": "coco",
+      "images": {
+        "channels": {
+          "3": 33
+        },
+        "declared_size_mismatch": 0,
+        "decode_errors": 0,
+        "images": 33,
+        "images_not_expected_size": 0,
+        "sizes": {
+          "1280x960": 33
+        },
+        "suffixes": {
+          ".bmp": 33
+        },
+        "unreferenced_images": 0
+      },
+      "reader": {
+        "annotation_entries": 416,
+        "annotation_files": [
+          "annotations/instances_default.json"
+        ],
+        "categories": {
+          "1": "floc",
+          "10": "naked_amoebae",
+          "11": "flagellates",
+          "12": "fungi",
+          "13": "aeolosoma",
+          "14": "nematoda",
+          "15": "unknown",
+          "16": "custom_microorganism",
+          "2": "attached_ciliates",
+          "3": "rotifers",
+          "4": "free_swimming_ciliates",
+          "5": "filamentous_bacteria",
+          "6": "debris",
+          "7": "gastrotrichs",
+          "8": "suctoria",
+          "9": "testate_amoebae"
+        },
+        "image_entries": 33,
+        "info": {
+          "contributor": "",
+          "date_created": "",
+          "description": "",
+          "url": "",
+          "version": "",
+          "year": ""
+        },
+        "problems": {}
+      },
+      "role": "microorganisms",
+      "time": {
+        "archive_entry_dates": {
+          "max": "2026-10-04",
+          "min": "2026-10-04"
+        },
+        "camera_models": {},
+        "coco_date_captured_values": [
+          "0"
+        ],
+        "exif_datetime_original": 0,
+        "exif_days": [],
+        "exif_range": null,
+        "filename_timestamp_days": 0,
+        "filename_timestamp_images": 0,
+        "filename_timestamp_range": null
+      }
+    },
+    "student_08": {
+      "annotations": {
+        "annotations": 437,
+        "bbox_origin": {
+          "coco_bbox": 437
+        },
+        "bbox_polygon_gap_over_1px": 0,
+        "by_category": {
+          "attached_ciliates": 25,
+          "debris": 22,
+          "filamentous_bacteria": 16,
+          "floc": 288,
+          "nematoda": 1,
+          "rotifers": 7,
+          "testate_amoebae": 24,
+          "unknown": 54
+        },
+        "by_role": {
+          "background": 22,
+          "ignore": 54,
+          "not_detected": 288,
+          "target": 73
+        },
+        "fixes": {},
+        "issues": {},
+        "rejected": 0
+      },
+      "format": "coco",
+      "images": {
+        "channels": {
+          "3": 35
+        },
+        "declared_size_mismatch": 0,
+        "decode_errors": 0,
+        "images": 35,
+        "images_not_expected_size": 0,
+        "sizes": {
+          "1280x960": 35
+        },
+        "suffixes": {
+          ".bmp": 35
+        },
+        "unreferenced_images": 0
+      },
+      "reader": {
+        "annotation_entries": 437,
+        "annotation_files": [
+          "annotations/instances_default.json"
+        ],
+        "categories": {
+          "1": "floc",
+          "10": "naked_amoebae",
+          "11": "flagellates",
+          "12": "fungi",
+          "13": "aeolosoma",
+          "14": "nematoda",
+          "15": "unknown",
+          "16": "custom_microorganism",
+          "2": "attached_ciliates",
+          "3": "rotifers",
+          "4": "free_swimming_ciliates",
+          "5": "filamentous_bacteria",
+          "6": "debris",
+          "7": "gastrotrichs",
+          "8": "suctoria",
+          "9": "testate_amoebae"
+        },
+        "image_entries": 35,
+        "info": {
+          "contributor": "",
+          "date_created": "",
+          "description": "",
+          "url": "",
+          "version": "",
+          "year": ""
+        },
+        "problems": {}
+      },
+      "role": "microorganisms",
+      "time": {
+        "archive_entry_dates": {
+          "max": "2026-10-04",
+          "min": "2026-10-04"
+        },
+        "camera_models": {},
+        "coco_date_captured_values": [
+          "0"
+        ],
+        "exif_datetime_original": 0,
+        "exif_days": [],
+        "exif_range": null,
+        "filename_timestamp_days": 0,
+        "filename_timestamp_images": 0,
+        "filename_timestamp_range": null
+      }
+    },
+    "student_09": {
+      "annotations": {
+        "annotations": 586,
+        "bbox_origin": {
+          "coco_bbox": 586
+        },
+        "bbox_polygon_gap_over_1px": 0,
+        "by_category": {
+          "aeolosoma": 3,
+          "attached_ciliates": 29,
+          "debris": 20,
+          "filamentous_bacteria": 112,
+          "floc": 386,
+          "free_swimming_ciliates": 2,
+          "gastrotrichs": 5,
+          "nematoda": 1,
+          "rotifers": 9,
+          "testate_amoebae": 12,
+          "unknown": 7
+        },
+        "by_role": {
+          "background": 20,
+          "ignore": 7,
+          "not_detected": 386,
+          "out_of_scope": 3,
+          "target": 170
+        },
+        "fixes": {},
+        "issues": {},
+        "rejected": 0
+      },
+      "format": "coco",
+      "images": {
+        "channels": {
+          "3": 36
+        },
+        "declared_size_mismatch": 0,
+        "decode_errors": 0,
+        "images": 36,
+        "images_not_expected_size": 0,
+        "sizes": {
+          "1280x960": 36
+        },
+        "suffixes": {
+          ".bmp": 36
+        },
+        "unreferenced_images": 0
+      },
+      "reader": {
+        "annotation_entries": 586,
+        "annotation_files": [
+          "annotations/instances_default.json"
+        ],
+        "categories": {
+          "1": "floc",
+          "10": "naked_amoebae",
+          "11": "flagellates",
+          "12": "fungi",
+          "13": "aeolosoma",
+          "14": "nematoda",
+          "15": "unknown",
+          "16": "custom_microorganism",
+          "2": "attached_ciliates",
+          "3": "rotifers",
+          "4": "free_swimming_ciliates",
+          "5": "filamentous_bacteria",
+          "6": "debris",
+          "7": "gastrotrichs",
+          "8": "suctoria",
+          "9": "testate_amoebae"
+        },
+        "image_entries": 36,
+        "info": {
+          "contributor": "",
+          "date_created": "",
+          "description": "",
+          "url": "",
+          "version": "",
+          "year": ""
+        },
+        "problems": {}
+      },
+      "role": "microorganisms",
+      "time": {
+        "archive_entry_dates": {
+          "max": "2026-10-04",
+          "min": "2026-10-04"
+        },
+        "camera_models": {},
+        "coco_date_captured_values": [
+          "0"
+        ],
+        "exif_datetime_original": 0,
+        "exif_days": [],
+        "exif_range": null,
+        "filename_timestamp_days": 0,
+        "filename_timestamp_images": 0,
+        "filename_timestamp_range": null
+      }
+    },
+    "student_10": {
+      "annotations": {
+        "annotations": 790,
+        "bbox_origin": {
+          "coco_bbox": 790
+        },
+        "bbox_polygon_gap_over_1px": 0,
+        "by_category": {
+          "aeolosoma": 1,
+          "attached_ciliates": 48,
+          "custom_microorganism": 2,
+          "debris": 55,
+          "filamentous_bacteria": 10,
+          "floc": 627,
+          "free_swimming_ciliates": 5,
+          "gastrotrichs": 7,
+          "rotifers": 9,
+          "testate_amoebae": 20,
+          "unknown": 6
+        },
+        "by_role": {
+          "background": 55,
+          "ignore": 8,
+          "not_detected": 627,
+          "out_of_scope": 1,
+          "target": 99
+        },
+        "fixes": {},
+        "issues": {},
+        "rejected": 0
+      },
+      "format": "coco",
+      "images": {
+        "channels": {
+          "3": 35
+        },
+        "declared_size_mismatch": 0,
+        "decode_errors": 0,
+        "images": 35,
+        "images_not_expected_size": 0,
+        "sizes": {
+          "1280x960": 35
+        },
+        "suffixes": {
+          ".bmp": 35
+        },
+        "unreferenced_images": 0
+      },
+      "reader": {
+        "annotation_entries": 790,
+        "annotation_files": [
+          "annotations/instances_default.json"
+        ],
+        "categories": {
+          "1": "floc",
+          "10": "naked_amoebae",
+          "11": "flagellates",
+          "12": "fungi",
+          "13": "aeolosoma",
+          "14": "nematoda",
+          "15": "unknown",
+          "16": "custom_microorganism",
+          "2": "attached_ciliates",
+          "3": "rotifers",
+          "4": "free_swimming_ciliates",
+          "5": "filamentous_bacteria",
+          "6": "debris",
+          "7": "gastrotrichs",
+          "8": "suctoria",
+          "9": "testate_amoebae"
+        },
+        "image_entries": 35,
+        "info": {
+          "contributor": "",
+          "date_created": "",
+          "description": "",
+          "url": "",
+          "version": "",
+          "year": ""
+        },
+        "problems": {}
+      },
+      "role": "microorganisms",
+      "time": {
+        "archive_entry_dates": {
+          "max": "2026-10-04",
+          "min": "2026-10-04"
+        },
+        "camera_models": {},
+        "coco_date_captured_values": [
+          "0"
+        ],
+        "exif_datetime_original": 0,
+        "exif_days": [],
+        "exif_range": null,
+        "filename_timestamp_days": 0,
+        "filename_timestamp_images": 0,
+        "filename_timestamp_range": null
+      }
+    },
+    "student_11": {
+      "annotations": {
+        "annotations": 706,
+        "bbox_origin": {
+          "coco_bbox": 706
+        },
+        "bbox_polygon_gap_over_1px": 0,
+        "by_category": {
+          "aeolosoma": 3,
+          "attached_ciliates": 67,
+          "debris": 13,
+          "filamentous_bacteria": 31,
+          "flagellates": 1,
+          "floc": 519,
+          "free_swimming_ciliates": 8,
+          "gastrotrichs": 5,
+          "naked_amoebae": 17,
+          "nematoda": 1,
+          "rotifers": 16,
+          "suctoria": 1,
+          "testate_amoebae": 23,
+          "unknown": 1
+        },
+        "by_role": {
+          "background": 13,
+          "ignore": 1,
+          "not_detected": 519,
+          "out_of_scope": 22,
+          "target": 151
+        },
+        "fixes": {},
+        "issues": {},
+        "rejected": 0
+      },
+      "format": "coco",
+      "images": {
+        "channels": {
+          "3": 38
+        },
+        "declared_size_mismatch": 0,
+        "decode_errors": 0,
+        "images": 38,
+        "images_not_expected_size": 0,
+        "sizes": {
+          "1280x960": 38
+        },
+        "suffixes": {
+          ".bmp": 38
+        },
+        "unreferenced_images": 0
+      },
+      "reader": {
+        "annotation_entries": 706,
+        "annotation_files": [
+          "annotations/instances_default.json"
+        ],
+        "categories": {
+          "1": "floc",
+          "10": "naked_amoebae",
+          "11": "flagellates",
+          "12": "fungi",
+          "13": "aeolosoma",
+          "14": "nematoda",
+          "15": "unknown",
+          "16": "custom_microorganism",
+          "2": "attached_ciliates",
+          "3": "rotifers",
+          "4": "free_swimming_ciliates",
+          "5": "filamentous_bacteria",
+          "6": "debris",
+          "7": "gastrotrichs",
+          "8": "suctoria",
+          "9": "testate_amoebae"
+        },
+        "image_entries": 38,
+        "info": {
+          "contributor": "",
+          "date_created": "",
+          "description": "",
+          "url": "",
+          "version": "",
+          "year": ""
+        },
+        "problems": {}
+      },
+      "role": "microorganisms",
+      "time": {
+        "archive_entry_dates": {
+          "max": "2026-10-04",
+          "min": "2026-10-04"
+        },
+        "camera_models": {},
+        "coco_date_captured_values": [
+          "0"
+        ],
+        "exif_datetime_original": 0,
+        "exif_days": [],
+        "exif_range": null,
+        "filename_timestamp_days": 0,
+        "filename_timestamp_images": 0,
+        "filename_timestamp_range": null
+      }
+    }
+  },
+  "specification_comparison": null
+}

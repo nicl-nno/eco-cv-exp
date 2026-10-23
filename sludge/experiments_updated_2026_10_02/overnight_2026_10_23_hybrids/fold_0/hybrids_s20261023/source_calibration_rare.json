@@ -1,0 +1,79 @@
+{
+  "calibration_ids": [
+    "session_2024_01_31-0001",
+    "session_2024_01_31-0005",
+    "session_2024_01_31-0006",
+    "student_06-0007",
+    "student_06-0013",
+    "student_06-0019",
+    "student_06-0020",
+    "student_06-0023",
+    "student_06-0024",
+    "student_06-0026",
+    "student_06-0027",
+    "student_06-0029",
+    "student_08-0015",
+    "student_08-0018",
+    "student_08-0019",
+    "student_08-0022",
+    "student_08-0023",
+    "student_08-0024",
+    "student_08-0030",
+    "student_08-0031",
+    "student_08-0032",
+    "student_08-0034",
+    "student_09-0004",
+    "student_09-0005",
+    "student_09-0006",
+    "student_09-0007",
+    "student_11-0011"
+  ],
+  "class_details": {
+    "free_swimming_ciliates": {
+      "support": 3,
+      "groups": 2,
+      "reason": "global_fallback_insufficient_support",
+      "best_calibration_f1": 0.0,
+      "threshold": 0.4
+    },
+    "nematoda": {
+      "support": 1,
+      "groups": 1,
+      "reason": "global_fallback_insufficient_support",
+      "best_calibration_f1": 0.0,
+      "threshold": 0.4
+    },
+    "gastrotrichs": {
+      "support": 5,
+      "groups": 2,
+      "reason": "global_fallback_insufficient_support",
+      "best_calibration_f1": 0.5714285714285714,
+      "threshold": 0.4
+    }
+  },
+  "policies": {
+    "fixed_020": {
+      "free_swimming_ciliates": 0.2,
+      "nematoda": 0.2,
+      "gastrotrichs": 0.2
+    },
+    "global_f1": {
+      "free_swimming_ciliates": 0.4,
+      "nematoda": 0.4,
+      "gastrotrichs": 0.4
+    },
+    "count_guarded": {
+      "free_swimming_ciliates": 0.4,
+      "nematoda": 0.4,
+      "gastrotrichs": 0.4
+    }
+  },
+  "source_model": {
+    "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/rare/model.pt",
+    "sha256": "5fa99d5a9de516c353031382d3b60191c0f258893545ba40f02c2f8665579190"
+  },
+  "source_predictions": {
+    "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/rare_calibration.parquet",
+    "sha256": "3d823430f314901e252d432a9659fbec4695de4263b7341650faa5e98f00d7e3"
+  }
+}

@@ -1,0 +1,32 @@
+Traceback (most recent call last):
+  File "D:\agents\cvsludge\bio_collaboration\microorganism_detector\scripts\reconstruct_release_split.py", line 228, in <module>
+    work() if args.worker else main()
+    ~~~~^^
+  File "D:\agents\cvsludge\bio_collaboration\microorganism_detector\scripts\reconstruct_release_split.py", line 179, in work
+    fetch_archives()
+    ~~~~~~~~~~~~~~^^
+  File "D:\agents\cvsludge\bio_collaboration\microorganism_detector\scripts\reconstruct_release_split.py", line 96, in fetch_archives
+    fetch_with_retry(name, RAW / name, expected)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\agents\cvsludge\bio_collaboration\microorganism_detector\scripts\reconstruct_release_split.py", line 63, in fetch_with_retry
+    download.fetch(name, target, expected)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\agents\cvsludge\bio_collaboration\microorganism_detector\scripts\fetch_updated_archives.py", line 64, in fetch
+    with urllib.request.urlopen(url, timeout=120) as response, temporary.open("wb") as output:
+         ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "D:\agents\fedotllmsub\.python313\Lib\urllib\request.py", line 189, in urlopen
+    return opener.open(url, data, timeout)
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "D:\agents\fedotllmsub\.python313\Lib\urllib\request.py", line 495, in open
+    response = meth(req, response)
+  File "D:\agents\fedotllmsub\.python313\Lib\urllib\request.py", line 604, in http_response
+    response = self.parent.error(
+        'http', request, response, code, msg, hdrs)
+  File "D:\agents\fedotllmsub\.python313\Lib\urllib\request.py", line 533, in error
+    return self._call_chain(*args)
+           ~~~~~~~~~~~~~~~~^^^^^^^
+  File "D:\agents\fedotllmsub\.python313\Lib\urllib\request.py", line 466, in _call_chain
+    result = func(*args)
+  File "D:\agents\fedotllmsub\.python313\Lib\urllib\request.py", line 613, in http_error_default
+    raise HTTPError(req.full_url, code, msg, hdrs, fp)
+urllib.error.HTTPError: HTTP Error 500: Internal Server Error

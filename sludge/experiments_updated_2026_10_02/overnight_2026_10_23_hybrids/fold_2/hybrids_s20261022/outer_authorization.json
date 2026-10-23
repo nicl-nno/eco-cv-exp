@@ -1,0 +1,54 @@
+{
+  "calibrations": [
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_filamentous.json",
+      "sha256": "9046c25ce2cb4b7cec071cc8f418c0df07edf68eed0e6dea6eb551db0233c631"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_attached.json",
+      "sha256": "08adeeb6bed1c1825dc7c6fdd8d438abe9168fb7fc204582e7ebe221f72c0550"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_priority.json",
+      "sha256": "36e8aaef1616b82fd74af9a086eadba61f9b2aa9d9beb19216ad59c33b9750df"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_separate.json",
+      "sha256": "7f9a302e31b3de8e77ffd255b6426262d6ebd2b1d2e4f152ab4cc34795593d34"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_rare.json",
+      "sha256": "90aa5e3710fba40f85aa71a2189a69547f56268710bd1330bd55a765943fd7b2"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_priority_rare.json",
+      "sha256": "c4f1ccb2434b11c0f2ce07062f554b685a1fa9ddbdbd072eeaf36a23a91cc175"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_separate_rare.json",
+      "sha256": "6ccf95529d17868eaf6088fda9c6dab1f890aecb7669c079b5a16f7c6e4accfd"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_common3.json",
+      "sha256": "120917c76b84fab5e9c2bd871c44d7f38c9dad1ec59414f8a8a0daf2663cace4"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_priority_repeat.json",
+      "sha256": "973e245eef4093809ba5d10d995e1a9daf39d4210f43ad08c213325552cbc2b7"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_rare_repeat.json",
+      "sha256": "8bfed389c54ca5feb8d6735bc3226873d375a56f2039c6f079dfbbcc036b465f"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_priority_repeat_rare_repeat.json",
+      "sha256": "9a25fa51decdc108fb2457137958aa4b91ce0eb04354bc6bb83521bc4e4eaa14"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_2/hybrids_s20261022/calibration_h_separate_rare_repeat.json",
+      "sha256": "733e7a2263e74544dac19a8e02fa5007ccd27e9924b1ae4c52e5d644e16461e5"
+    }
+  ],
+  "test_excluded": true,
+  "historical_outer_already_inspected": true
+}

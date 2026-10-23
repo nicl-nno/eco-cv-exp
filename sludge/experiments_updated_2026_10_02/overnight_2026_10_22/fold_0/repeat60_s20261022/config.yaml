@@ -1,0 +1,223 @@
+audit:
+  bbox_tolerance_px: 1.0
+  dhash_size: 16
+  duplicate_match_iou: 0.9
+  expected_height: 960
+  expected_width: 1280
+  image_suffixes:
+  - .jpg
+  - .jpeg
+  - .bmp
+  near_duplicate_max_hamming: 10
+classes:
+  background:
+  - debris
+  ignore:
+  - unknown
+  - custom_microorganism
+  not_detected:
+  - floc
+  - Active sludge floc
+  out_of_scope:
+  - fungi
+  - flagellates
+  - aeolosoma
+  - naked_amoebae
+  - suctoria
+  target:
+  - label: 1
+    name: attached_ciliates
+    source_category: attached_ciliates
+    source_category_id: 2
+    title: Прикреплённые инфузории
+  - label: 2
+    name: filamentous_bacteria
+    source_category: filamentous_bacteria
+    source_category_id: 5
+    title: Нитчатые бактерии
+  - label: 3
+    name: rotifers
+    source_category: rotifers
+    source_category_id: 3
+    title: Коловратки
+  - label: 4
+    name: testate_amoebae
+    source_category: testate_amoebae
+    source_category_id: 9
+    title: Раковинные амёбы
+  - label: 5
+    name: free_swimming_ciliates
+    source_category: free_swimming_ciliates
+    source_category_id: 4
+    title: Свободноплавающие инфузории
+  - label: 6
+    name: nematoda
+    source_category: nematoda
+    source_category_id: 14
+    title: Нематоды
+  - label: 7
+    name: gastrotrichs
+    source_category: gastrotrichs
+    source_category_id: 7
+    title: Брюхоресничные
+duplicate_variants:
+  exclude_conflicts: null
+  prefer_student_6: student_06
+  prefer_student_7: student_07
+  prefer_student_8: student_08
+evaluation:
+  confidence_grid:
+    start: 0.05
+    step: 0.05
+    stop: 0.95
+  ignore_ioa_threshold: 0.5
+  iou_threshold: 0.5
+  matching: greedy_by_confidence
+  selection_tie_break: higher_confidence
+  unsupported_class_policy: exclude_if_no_support_and_no_predictions
+external:
+  class_map:
+    Ar: testate_amoebae
+    Do: rotifers
+    Eu: free_swimming_ciliates
+    Mo: rotifers
+    Ne: nematoda
+  enabled: false
+  source_id: external_md_as
+model:
+  architecture: fasterrcnn_resnet50_fpn_v2
+  max_size: 1280
+  min_size: 960
+  trainable_backbone_layers: 3
+  yolo: null
+paths:
+  experiments_dir: experiments_updated_2026_10_02\overnight_2026_10_22\fold_0
+  outputs_dir: outputs_updated_2026_10_02\overnight_2026_10_22\fold_0
+  pavel_pipeline: ..
+  pretrained_weights: outputs_updated_2026_10_02\pretrained\fasterrcnn_resnet50_fpn_v2_coco-dd69338a.pth
+  processed_dir: data\processed_updated_2026_10_02
+  raw_dir: data\raw\updated_2026_10_02
+  reference_checkpoint: null
+  reference_metrics: null
+  requirements_registry: null
+  specification: null
+  split_dir: experiments_updated_2026_10_02\overnight_2026_10_22\fold_0
+postprocess:
+  max_detections: 100
+  min_score: 0.05
+  nms_iou: 0.5
+prepare:
+  bbox_policy: coco_bbox_then_polygon
+  conflicting_duplicate_policy: exclude_group
+  ignore_policy: ignore_label
+  unconfirmed_empty_policy: exclude
+  variant: prefer_student_6
+protocol:
+  acceptance: candidate_greater_than_control
+  control_dir: null
+  control_run: null
+  max_epochs_per_run: 60
+  max_runs: 8
+  per_class_constraints: null
+  primary_metric: macro_f1
+runtime:
+  deterministic: false
+  device: cuda
+  loader_workers: 0
+  seed: 20261022
+  threads: 4
+sources:
+- archive: Student_11 CHECKED.zip
+  format: coco
+  id: student_11
+  priority: 0
+  role: microorganisms
+- archive: Student_1.zip
+  format: coco
+  id: student_01
+  priority: 1
+  role: microorganisms
+- archive: Student_2.zip
+  format: coco
+  id: student_02
+  priority: 2
+  role: microorganisms
+- archive: Student_4.zip
+  format: coco
+  id: student_04
+  priority: 4
+  role: microorganisms
+- archive: Student_6.zip
+  format: coco
+  id: student_06
+  priority: 6
+  role: microorganisms
+- archive: Student_7.zip
+  format: coco
+  id: student_07
+  priority: 7
+  role: microorganisms
+- archive: Student_8.zip
+  format: coco
+  id: student_08
+  priority: 8
+  role: microorganisms
+- archive: Student_9.zip
+  format: coco
+  id: student_09
+  priority: 9
+  role: microorganisms
+- archive: Student_10.zip
+  format: coco
+  id: student_10
+  priority: 10
+  role: microorganisms
+- archive: 31.01.24.zip
+  format: coco
+  id: session_2024_01_31
+  priority: 12
+  role: microorganisms
+split:
+  alternative_approval: 'Owner decision of 2026-09-29: research training on a non-temporal
+    grouped split; unknown capture dates are not reconstructed.'
+  boundary_group_policy: group_to_later_split
+  confirmed_time_sources:
+  - exif_datetime_original
+  - owner_metadata
+  grouping:
+    filename_series: true
+    orb_features: 1500
+    orb_image_width: 640
+    orb_min_inliers: 20
+    orb_ransac_px: 3.0
+    orb_ratio: 0.75
+    sampling_point_tokens: true
+    search_iterations: 1000
+    unmarked_per_session: true
+  owner_metadata: null
+  protocol: group
+  target_fractions:
+    test: 0.2
+    train: 0.6
+    validation: 0.2
+  train_end: null
+  validation_end: null
+train:
+  accumulate: 2
+  augment:
+    flip_probability: 0.5
+    hflip: true
+    rotation90: true
+    vflip: true
+  batch_size: 1
+  batchnorm: frozen
+  epochs: 60
+  exclude_ignore_images: true
+  final_lr_factor: 0.1
+  lr: 0.0025
+  lr_schedule: cosine
+  momentum: 0.9
+  sampling: repeat_sqrt_020_cap3
+  warmup_epochs: 2
+  weight_decay: 0.0005
+version: 1

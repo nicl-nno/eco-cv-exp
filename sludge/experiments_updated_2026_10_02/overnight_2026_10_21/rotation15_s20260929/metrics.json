@@ -1,0 +1,194 @@
+{
+  "classes": [
+    {
+      "f1": 0.14423076923076922,
+      "fn": 22,
+      "fp": 512,
+      "name": "attached_ciliates",
+      "precision": 0.0807899461400359,
+      "predictions": 557,
+      "recall": 0.6716417910447762,
+      "support": 67,
+      "tp": 45
+    },
+    {
+      "f1": 0.21455938697318008,
+      "fn": 32,
+      "fp": 173,
+      "name": "filamentous_bacteria",
+      "precision": 0.13930348258706468,
+      "predictions": 201,
+      "recall": 0.4666666666666667,
+      "support": 60,
+      "tp": 28
+    },
+    {
+      "f1": 0.47761194029850745,
+      "fn": 4,
+      "fp": 31,
+      "name": "rotifers",
+      "precision": 0.3404255319148936,
+      "predictions": 47,
+      "recall": 0.8,
+      "support": 20,
+      "tp": 16
+    },
+    {
+      "f1": 0.22950819672131148,
+      "fn": 0,
+      "fp": 141,
+      "name": "testate_amoebae",
+      "precision": 0.12962962962962962,
+      "predictions": 162,
+      "recall": 1.0,
+      "support": 21,
+      "tp": 21
+    },
+    {
+      "f1": 0.11764705882352941,
+      "fn": 6,
+      "fp": 9,
+      "name": "free_swimming_ciliates",
+      "precision": 0.1,
+      "predictions": 10,
+      "recall": 0.14285714285714285,
+      "support": 7,
+      "tp": 1
+    },
+    {
+      "f1": 0.0,
+      "fn": 2,
+      "fp": 0,
+      "name": "nematoda",
+      "precision": null,
+      "predictions": 0,
+      "recall": 0.0,
+      "support": 2,
+      "tp": 0
+    },
+    {
+      "f1": 0.5714285714285714,
+      "fn": 3,
+      "fp": 3,
+      "name": "gastrotrichs",
+      "precision": 0.5714285714285714,
+      "predictions": 7,
+      "recall": 0.5714285714285714,
+      "support": 7,
+      "tp": 4
+    }
+  ],
+  "confidence": 0.25,
+  "confidence_source": "validation_selection",
+  "evaluation": {
+    "confidence_grid": {
+      "start": 0.05,
+      "step": 0.05,
+      "stop": 0.95
+    },
+    "ignore_ioa_threshold": 0.5,
+    "iou_threshold": 0.5,
+    "matching": "greedy_by_confidence",
+    "selection_tie_break": "higher_confidence",
+    "unsupported_class_policy": "exclude_if_no_support_and_no_predictions"
+  },
+  "ignore_regions": 22,
+  "images": 50,
+  "macro_f1": 0.25071227478226704,
+  "macro_f1_classes": [
+    "attached_ciliates",
+    "filamentous_bacteria",
+    "rotifers",
+    "testate_amoebae",
+    "free_swimming_ciliates",
+    "nematoda",
+    "gastrotrichs"
+  ],
+  "objects": 184,
+  "period": null,
+  "postprocess": {
+    "max_detections": 100,
+    "min_score": 0.05,
+    "nms_iou": 0.5
+  },
+  "run_id": "rotation15_s20260929",
+  "selection_curve": [
+    {
+      "confidence": 0.05,
+      "macro_f1": 0.07795583546053712
+    },
+    {
+      "confidence": 0.1,
+      "macro_f1": 0.11928133029134234
+    },
+    {
+      "confidence": 0.15,
+      "macro_f1": 0.16486585309688429
+    },
+    {
+      "confidence": 0.2,
+      "macro_f1": 0.21337809054685394
+    },
+    {
+      "confidence": 0.25,
+      "macro_f1": 0.25071227478226704
+    },
+    {
+      "confidence": 0.3,
+      "macro_f1": 0.24232361460544066
+    },
+    {
+      "confidence": 0.35,
+      "macro_f1": 0.19895974542229403
+    },
+    {
+      "confidence": 0.4,
+      "macro_f1": 0.20475210926415216
+    },
+    {
+      "confidence": 0.45,
+      "macro_f1": 0.2190428082017521
+    },
+    {
+      "confidence": 0.5,
+      "macro_f1": 0.23669450817187318
+    },
+    {
+      "confidence": 0.55,
+      "macro_f1": 0.2068534250031637
+    },
+    {
+      "confidence": 0.6,
+      "macro_f1": 0.19803446538662176
+    },
+    {
+      "confidence": 0.65,
+      "macro_f1": 0.19323171316268814
+    },
+    {
+      "confidence": 0.7,
+      "macro_f1": 0.16931123796112355
+    },
+    {
+      "confidence": 0.75,
+      "macro_f1": 0.15586454361964566
+    },
+    {
+      "confidence": 0.8,
+      "macro_f1": 0.14494838494838497
+    },
+    {
+      "confidence": 0.85,
+      "macro_f1": 0.12672811059907835
+    },
+    {
+      "confidence": 0.9,
+      "macro_f1": 0.12064728520424724
+    },
+    {
+      "confidence": 0.95,
+      "macro_f1": 0.04399585921325051
+    }
+  ],
+  "split": "validation"
+}

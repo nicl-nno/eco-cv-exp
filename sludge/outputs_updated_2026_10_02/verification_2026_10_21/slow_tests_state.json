@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "supervisor_pid": 39884,
+  "started_at": "2026-10-21T03:40:23.083556+03:00",
+  "deadline": "2026-10-21T08:00:00+03:00",
+  "command": [
+    "D:\\agents\\cvsludge\\bio_collaboration\\microorganism_detector\\.venv\\Scripts\\python.exe",
+    "-m",
+    "pytest",
+    "-m",
+    "slow",
+    "--maxfail=1",
+    "--junitxml=D:\\agents\\cvsludge\\bio_collaboration\\microorganism_detector\\outputs_updated_2026_10_02\\verification_2026_10_21\\slow_tests.xml"
+  ],
+  "data": "synthetic test fixtures only",
+  "device": "cpu",
+  "worker_pid": 26068,
+  "exit_code": 0,
+  "finished_at": "2026-10-21T03:44:31.151569+03:00"
+}

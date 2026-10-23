@@ -1,0 +1,59 @@
+{
+  "selected": "cosine30",
+  "fixed_confidence": 0.2,
+  "seed": 20261021,
+  "fold_registration_sha256": "e93f7a402afeb1222b366aa04430e2bc6f9ef3646a51fdb7f3048faecdc1d066",
+  "development_images": 204,
+  "jobs": [
+    {
+      "fold": 0,
+      "recipe": "control15",
+      "run_id": "control15",
+      "config": "experiments_updated_2026_10_02/grouped_cv_2026_10_21/queue_configs/fold_0_control15.yaml",
+      "config_sha256": "491bd7a920029f4bd7b3230474af2377bf652404f03a99d894c13521e358e688"
+    },
+    {
+      "fold": 0,
+      "recipe": "cosine30",
+      "run_id": "cosine30",
+      "config": "experiments_updated_2026_10_02/grouped_cv_2026_10_21/queue_configs/fold_0_cosine30.yaml",
+      "config_sha256": "d1866b498ce2af2d117b2d706f1652eeb1e280ed2cf219943a268b79f3ff5dda"
+    },
+    {
+      "fold": 1,
+      "recipe": "control15",
+      "run_id": "control15",
+      "config": "experiments_updated_2026_10_02/grouped_cv_2026_10_21/queue_configs/fold_1_control15.yaml",
+      "config_sha256": "404a734b3cc704c373fd7f13d718847586c68243fbbf4ce3dd1f5bc2517fcf6a"
+    },
+    {
+      "fold": 1,
+      "recipe": "cosine30",
+      "run_id": "cosine30",
+      "config": "experiments_updated_2026_10_02/grouped_cv_2026_10_21/queue_configs/fold_1_cosine30.yaml",
+      "config_sha256": "f747a56bb27b617227aa56a35b2f926036f1de5bcf9f70c4ff74afa81e6707d4"
+    },
+    {
+      "fold": 2,
+      "recipe": "control15",
+      "run_id": "control15",
+      "config": "experiments_updated_2026_10_02/grouped_cv_2026_10_21/queue_configs/fold_2_control15.yaml",
+      "config_sha256": "49252c7a90a21a3cd6baa03f7e40290a6db06766fbd632173bef64d040afc13d"
+    },
+    {
+      "fold": 2,
+      "recipe": "cosine30",
+      "run_id": "cosine30",
+      "config": "experiments_updated_2026_10_02/grouped_cv_2026_10_21/queue_configs/fold_2_cosine30.yaml",
+      "config_sha256": "b3baa7ff6604b95005c08011b86caed4c58e803ed2251c3c18e65afdf08aafe7"
+    }
+  ],
+  "deadline": "2026-10-21T08:00:00+03:00",
+  "independent_external_test": false,
+  "first_stage_means": {
+    "control15": 0.2920975264406063,
+    "rotation15": 0.2648630662357173,
+    "rotation30": 0.30469845113980465,
+    "cosine30": 0.339679251670145
+  }
+}

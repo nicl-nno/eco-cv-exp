@@ -1,0 +1,139 @@
+{
+  "calibration_ids": [
+    "session_2024_01_31-0001",
+    "session_2024_01_31-0005",
+    "session_2024_01_31-0006",
+    "student_06-0007",
+    "student_06-0013",
+    "student_06-0019",
+    "student_06-0020",
+    "student_06-0023",
+    "student_06-0024",
+    "student_06-0026",
+    "student_06-0027",
+    "student_06-0029",
+    "student_08-0015",
+    "student_08-0018",
+    "student_08-0019",
+    "student_08-0022",
+    "student_08-0023",
+    "student_08-0024",
+    "student_08-0030",
+    "student_08-0031",
+    "student_08-0032",
+    "student_08-0034",
+    "student_09-0004",
+    "student_09-0005",
+    "student_09-0006",
+    "student_09-0007",
+    "student_11-0011"
+  ],
+  "policies": {
+    "fixed_020": {
+      "attached_ciliates": 0.2,
+      "filamentous_bacteria": 0.2,
+      "rotifers": 0.2,
+      "testate_amoebae": 0.2,
+      "free_swimming_ciliates": 0.2,
+      "nematoda": 0.2,
+      "gastrotrichs": 0.2
+    },
+    "global_f1": {
+      "attached_ciliates": 0.3,
+      "filamentous_bacteria": 0.3,
+      "rotifers": 0.3,
+      "testate_amoebae": 0.3,
+      "free_swimming_ciliates": 0.3,
+      "nematoda": 0.3,
+      "gastrotrichs": 0.3
+    },
+    "count_guarded": {
+      "attached_ciliates": 0.8,
+      "filamentous_bacteria": 0.9,
+      "rotifers": 0.7,
+      "testate_amoebae": 0.45,
+      "free_swimming_ciliates": 0.3,
+      "nematoda": 0.3,
+      "gastrotrichs": 0.3
+    }
+  },
+  "diagnostic_joint_class_details": {
+    "attached_ciliates": {
+      "support": 30,
+      "groups": 4,
+      "reason": "class_count_guarded",
+      "best_calibration_f1": 0.3728813559322034,
+      "threshold": 0.8
+    },
+    "filamentous_bacteria": {
+      "support": 30,
+      "groups": 3,
+      "reason": "class_count_guarded",
+      "best_calibration_f1": 0.27586206896551724,
+      "threshold": 0.9
+    },
+    "rotifers": {
+      "support": 5,
+      "groups": 3,
+      "reason": "class_count_guarded",
+      "best_calibration_f1": 0.6666666666666666,
+      "threshold": 0.7
+    },
+    "testate_amoebae": {
+      "support": 11,
+      "groups": 2,
+      "reason": "global_fallback_insufficient_support",
+      "best_calibration_f1": 0.6206896551724138,
+      "threshold": 0.3
+    },
+    "free_swimming_ciliates": {
+      "support": 3,
+      "groups": 2,
+      "reason": "global_fallback_insufficient_support",
+      "best_calibration_f1": 0.0,
+      "threshold": 0.3
+    },
+    "nematoda": {
+      "support": 1,
+      "groups": 1,
+      "reason": "global_fallback_insufficient_support",
+      "best_calibration_f1": 0.0,
+      "threshold": 0.3
+    },
+    "gastrotrichs": {
+      "support": 5,
+      "groups": 2,
+      "reason": "global_fallback_insufficient_support",
+      "best_calibration_f1": 0.5714285714285714,
+      "threshold": 0.3
+    }
+  },
+  "routes": {
+    "attached_ciliates": "attached",
+    "filamentous_bacteria": "filamentous",
+    "rotifers": "general",
+    "testate_amoebae": "general",
+    "free_swimming_ciliates": "rare_repeat",
+    "nematoda": "rare_repeat",
+    "gastrotrichs": "rare_repeat"
+  },
+  "primary_source": "source_specific_count_guarded",
+  "source_calibrations": {
+    "filamentous": {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/source_calibration_filamentous.json",
+      "sha256": "0663068ab8ea53b6f8a804a1118bb3ecc1fd24621a0e58540001f6859cdfe2ff"
+    },
+    "general": {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/source_calibration_general.json",
+      "sha256": "7d5103bb8d58bd46ff45a63fffd3f2b80d119890dd585ba414428f82e6977e75"
+    },
+    "rare_repeat": {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/source_calibration_rare_repeat.json",
+      "sha256": "a679c7e5715ed32134a86402a668b506f056efed1df199829e1716083817ca64"
+    },
+    "attached": {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/source_calibration_attached.json",
+      "sha256": "37f7e7064716b5609bdeb74282a4f6232b4142e182a0ee687a0c2dd448f5da5e"
+    }
+  }
+}

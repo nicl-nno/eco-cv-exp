@@ -1,0 +1,3 @@
+extends: updated_rotation.yaml
+protocol:
+  control_run: updated_control

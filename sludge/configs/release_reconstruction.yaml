@@ -1,0 +1,13 @@
+# Metadata-only reconstruction of the released model's source split.
+# Never trains or evaluates a model; not a replacement for a verified original manifest.
+extends: updated_2026_10_02.yaml
+paths:
+  raw_dir: data/raw/release_reconstruction
+  processed_dir: data/processed_release_reconstruction
+  experiments_dir: experiments_updated_2026_10_02/release_reconstruction
+  outputs_dir: outputs_updated_2026_10_02/release_reconstruction
+  split_dir: null
+runtime:
+  device: cpu
+  deterministic: true
+  seed: 20260929

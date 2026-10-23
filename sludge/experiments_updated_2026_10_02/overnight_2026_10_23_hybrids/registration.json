@@ -1,0 +1,1063 @@
+{
+  "created_at": "2026-10-23T00:15:24.737050+03:00",
+  "deadline": "2026-10-23T08:00:00+03:00",
+  "component_fits": 30,
+  "jobs": [
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "recipe": "hybrids",
+      "run_id": "hybrids_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_cosine30_s20261022.yaml",
+        "sha256": "cebf634744e9ce2ac3e04f82f3462a5ee478ff96699e4c0103bc36861e947f66"
+      },
+      "components": {
+        "attached": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_0_attached_s20261022.yaml",
+          "sha256": "0376f85d7307520c68797fb7a9e71848110d8f9539a4476eb154a6a6210e9a0a"
+        },
+        "priority": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_0_priority_s20261022.yaml",
+          "sha256": "f3663bc316f467f777c5ef542b7a20716462f72f4ff61615fb07c149d1b5234a"
+        },
+        "rare": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_0_rare_s20261022.yaml",
+          "sha256": "519082912ebfc14a2722e1a885dc4488568374e65fe752bc4c5908521820416a"
+        },
+        "priority_repeat": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_0_priority_repeat_s20261022.yaml",
+          "sha256": "895a825f4b895850e175edecaa1ac1942fc4d896cbaef114750f60e90b87500c"
+        },
+        "rare_repeat": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_0_rare_repeat_s20261022.yaml",
+          "sha256": "3ca7cd6525c47cbb468988bd439776c04b5e0b342464856f7905202a20860845"
+        }
+      },
+      "reuse": {
+        "general": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_cosine30_s20261022.yaml",
+            "sha256": "cebf634744e9ce2ac3e04f82f3462a5ee478ff96699e4c0103bc36861e947f66"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261022/model.pt",
+            "sha256": "60e9532596d234fe0df077dc5e19f163a49089c681437c982d882e2f7941a988"
+          },
+          "calibration": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261022/calibration.json",
+            "sha256": "5c2ebf78004364dd12c19133d14a48f2b33d32a645396af1544bd4e5a6a3aa36"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261022/predictions_validation.parquet",
+            "sha256": "43f1c1d56c4661c373edb8561cf207d0ccaf6adf835b0fd7f8ca446131bb9884"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261022/predictions_outer_validation.parquet",
+            "sha256": "8cc06bcd412201f59a382883fa93a68f20d108ebb7dadf58da9bc39bd048007f"
+          }
+        },
+        "filamentous": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_0_specialists_filamentous_s20261022.yaml",
+            "sha256": "661409597b1462a71a7000f3877d666c18a868a7acf5cc9dd3a10d78a89c7cc3"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261022/filamentous/model.pt",
+            "sha256": "34c6c12eee0625a34b2102975f89cfca18cacb273e614fa10ac944db304ee707"
+          },
+          "completion": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261022/filamentous/complete.json",
+            "sha256": "8ed13976302197ee540945bf5cd8d500c310103bde279f14514861a908e4b0d9"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261022/filamentous_calibration.parquet",
+            "sha256": "7d3af3a48a78465fb5e82d7c751bdeb653ed576b4b6ec66a9298bca6697b3a1e"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261022/filamentous_outer_validation.parquet",
+            "sha256": "f7a920950a3aefdb79c3b00ee9e933589beb707651e7dbbbca4b8a30e3fedab7"
+          }
+        },
+        "others": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_0_specialists_others_s20261022.yaml",
+            "sha256": "3683ed1f22d3292dbafa3d0b62c5e5a370f5b4a0c8000a0267c4d3a256325ad6"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261022/others/model.pt",
+            "sha256": "3ccbb9d7b9138c6cd6093d1211563aac8c3ee6dc94184c697bf264663f0ce428"
+          },
+          "completion": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261022/others/complete.json",
+            "sha256": "2ab06040e89535c2ed8415803b5c69b16d714cf21bd49f94fe32afb4b0197c6e"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261022/others_calibration.parquet",
+            "sha256": "876518b2b8e01614704685e9c1aac77a936166ecab3549656dd38a1ef664a7cb"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261022/others_outer_validation.parquet",
+            "sha256": "dd06031696a89263335571228a7245577dbee18cc6a5fd39d3fb90885bee1c94"
+          }
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "recipe": "hybrids",
+      "run_id": "hybrids_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_cosine30_s20261022.yaml",
+        "sha256": "9bda498cf10d733c3c39e30ca93d5baab7c9c83ba99cf343debccb6fb92461b4"
+      },
+      "components": {
+        "attached": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_1_attached_s20261022.yaml",
+          "sha256": "e051e9848d912c779b7bfc087a5d0616c57633cd9040989f8f7c9de5ae42ffb4"
+        },
+        "priority": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_1_priority_s20261022.yaml",
+          "sha256": "d70c27d2d30ac5bd6e7e23a2863769f98722f5f5409ef8a5fc815576ca803109"
+        },
+        "rare": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_1_rare_s20261022.yaml",
+          "sha256": "13812dfe4d1851dd82e1fd95d002da147c4132e28ccd6c88aaebe55217e71d04"
+        },
+        "priority_repeat": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_1_priority_repeat_s20261022.yaml",
+          "sha256": "05a64850a79db47d2e5ff00f1abf783a7cfbc6e0eac972e32d0c61c31e891cc4"
+        },
+        "rare_repeat": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_1_rare_repeat_s20261022.yaml",
+          "sha256": "831ed5fc0801e0b13d02686c42ff4755828151c7862af301480f8304f86b9042"
+        }
+      },
+      "reuse": {
+        "general": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_cosine30_s20261022.yaml",
+            "sha256": "9bda498cf10d733c3c39e30ca93d5baab7c9c83ba99cf343debccb6fb92461b4"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261022/model.pt",
+            "sha256": "c1e132e734a36020cbe61ac79749f9ec946baa2944248d421e4cb2a52dd1594c"
+          },
+          "calibration": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261022/calibration.json",
+            "sha256": "9ef7dbaedc4cf7af3b6bc2567d01a030278b255fed00f8ef77ee62812fc721c8"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261022/predictions_validation.parquet",
+            "sha256": "6b981db3a3752d2327ac3c3dfcb574b3970cedbb15df8c9ff099468ca5ce784a"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261022/predictions_outer_validation.parquet",
+            "sha256": "52c559313bc4393b11aa5d9bde0fae8e6ff52147be6ff1d228a3d92819cb5665"
+          }
+        },
+        "filamentous": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_1_specialists_filamentous_s20261022.yaml",
+            "sha256": "a7920fc975a370fd5911253d0b264e5b623c9b403d58fbff9cae4f53a2cc747f"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/filamentous/model.pt",
+            "sha256": "8d957224252ebd484ce29b88205f267724ae5d34657e8388c95256d62eed31b5"
+          },
+          "completion": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/filamentous/complete.json",
+            "sha256": "200898bfc71323e67f892a2f384abb5690564faffcdcbc2bb4fa77777fe9f50f"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/filamentous_calibration.parquet",
+            "sha256": "446e41e38f770a3060d35ff7bff1ba70b8699422b9cce1fd93655682e2c12a34"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/filamentous_outer_validation.parquet",
+            "sha256": "c0a5c41ae640272f4478484b8f6ac7f35c51485a9b11e993dc506f377e40a104"
+          }
+        },
+        "others": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_1_specialists_others_s20261022.yaml",
+            "sha256": "df4c1c8dbddf8876260d457047287397430c5b2930d88f5fe9b21cd1f0355728"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/others/model.pt",
+            "sha256": "b932a3eb59aedde617dd49a5870d57e07ffcc492a9ea9cef6decd8edbf67836b"
+          },
+          "completion": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/others/complete.json",
+            "sha256": "f96da60352e41064520dd7d26c32279c57bbb655a5d843697cd271daa747b2a4"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/others_calibration.parquet",
+            "sha256": "b19b71e543b7589dfaa2158a765fa9e7c4de539265ec527ad1b966fa9439050c"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261022/others_outer_validation.parquet",
+            "sha256": "988d2b567610552f239944bcf3c9441ea9b89bc8994a220cb3f50d10623badaf"
+          }
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "seed": 20261022,
+      "recipe": "hybrids",
+      "run_id": "hybrids_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_cosine30_s20261022.yaml",
+        "sha256": "c11bfe65e3dddef9080add3f8bdbdfaa1347de95473e766c7b4bad8681d986a7"
+      },
+      "components": {
+        "attached": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_2_attached_s20261022.yaml",
+          "sha256": "aafe89ecd78f13c6ba02ec4eb6d68fa59b5278e6eb4ffb4045a60428c5064157"
+        },
+        "priority": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_2_priority_s20261022.yaml",
+          "sha256": "a8fff4ca1c5a7b2d7d636f9b9b755934199cf56195e1d8e5bf1a38b03c49066f"
+        },
+        "rare": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_2_rare_s20261022.yaml",
+          "sha256": "1c0bac10e06083d058537fc09feae76dbb17fc0f62a2e7525e03c17c71b02c75"
+        },
+        "priority_repeat": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_2_priority_repeat_s20261022.yaml",
+          "sha256": "4e1ef590ef0b49a6c02a64c41b352619f59005147be0bd4b6166956d14a593e5"
+        },
+        "rare_repeat": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_2_rare_repeat_s20261022.yaml",
+          "sha256": "32431bf2dc333c84004bf80ae79907f1d5fd84419dfbfc1223f429ee1096471a"
+        }
+      },
+      "reuse": {
+        "general": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_cosine30_s20261022.yaml",
+            "sha256": "c11bfe65e3dddef9080add3f8bdbdfaa1347de95473e766c7b4bad8681d986a7"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261022/model.pt",
+            "sha256": "3db5402a66d184835f2f8a90009011195c02b29af9b2b5f71822c1c8bc72cb22"
+          },
+          "calibration": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261022/calibration.json",
+            "sha256": "156277aaf1f030b8426d5f85398401d8c905fe5fde18ac1e67f052700ef0a8bf"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261022/predictions_validation.parquet",
+            "sha256": "156f1ff20de1796e24f36b97df706d535dc0556ec0e47358bf35671ff18ad307"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261022/predictions_outer_validation.parquet",
+            "sha256": "a24f7538e70db84f7708f7ed9a3f1b38756198e8a5f00578a72a6671bf87768e"
+          }
+        },
+        "filamentous": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_2_specialists_filamentous_s20261022.yaml",
+            "sha256": "989e7ff892e319257548201367ba41e0b696da8f302f7d561feb8be39aad82e0"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261022/filamentous/model.pt",
+            "sha256": "c7ed8ebd0f0aea45987b7a594b881780bcd3b73b6f313cc3deddda871b2b351b"
+          },
+          "completion": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261022/filamentous/complete.json",
+            "sha256": "b81fa128d10f9f31656d7d36adc9982c734d9acdb782a2f8921f221c7e5a7f76"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261022/filamentous_calibration.parquet",
+            "sha256": "c5b4fd1672df7f89df70c88033a316ed9dd9bfd4759a8540d6a4731bbb1343ad"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261022/filamentous_outer_validation.parquet",
+            "sha256": "06f2e433fbad8e2c12001d9c061bfe15ad86ad0a0b45b8bed32d786cf7f90afd"
+          }
+        },
+        "others": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_2_specialists_others_s20261022.yaml",
+            "sha256": "cd32ec52013768d32a9c50dab53cfa5763842616abb84d61f052f6deace962a4"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261022/others/model.pt",
+            "sha256": "66b5e9f08d7671a7bb2d8bd08e511cdf1c4e5545ce75839cc9a759fb9af33941"
+          },
+          "completion": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261022/others/complete.json",
+            "sha256": "1e07cf74b52f1ea136090d248eb92622e87a1c08cb772d0f684e8903c67c3389"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261022/others_calibration.parquet",
+            "sha256": "842d057f9599b000b3a0db39d0a62b107d64b79c59c19015a63a5240735fe3c9"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261022/others_outer_validation.parquet",
+            "sha256": "f688bb354a1dd095141a89924e027edf717e0ecbd4bff6e9c04c5e4e50d675aa"
+          }
+        }
+      }
+    },
+    {
+      "fold": 0,
+      "seed": 20261023,
+      "recipe": "hybrids",
+      "run_id": "hybrids_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_cosine30_s20261023.yaml",
+        "sha256": "cd9560614ddc7a3532a476318a7c2c2f756a538f805e62342895e1878d529974"
+      },
+      "components": {
+        "attached": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_0_attached_s20261023.yaml",
+          "sha256": "6bd4d1f5afb2faa184c4841fbeb5c4ff2c7772a402488a336cb085f182fc6ffa"
+        },
+        "priority": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_0_priority_s20261023.yaml",
+          "sha256": "30511b20e6832849a44396d71397c92a02911ce08950154225cdb379393923d6"
+        },
+        "rare": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_0_rare_s20261023.yaml",
+          "sha256": "c8522338b800be48892fd7409e7071c49f62f66b9967248454b1de4167e10ed7"
+        },
+        "priority_repeat": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_0_priority_repeat_s20261023.yaml",
+          "sha256": "608abe0068d5a9c14cb0bb44b025bf68dafc64be19fffb1997a14dacb902f9c0"
+        },
+        "rare_repeat": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_0_rare_repeat_s20261023.yaml",
+          "sha256": "d8c9cff72901c5b9f3018aea0d8884e4e95d5bfba037c39fb1ea1eb5afe31488"
+        }
+      },
+      "reuse": {
+        "general": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_cosine30_s20261023.yaml",
+            "sha256": "cd9560614ddc7a3532a476318a7c2c2f756a538f805e62342895e1878d529974"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261023/model.pt",
+            "sha256": "47a93aa7e19bd36fa5ccf744ec8cc5bdef215738e76180ea95ed6d036dd798fa"
+          },
+          "calibration": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261023/calibration.json",
+            "sha256": "1e2fb6ad32e945797ad3b6ca89496815fba6bf4b22717b3d9552d13aa4bf4a7a"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261023/predictions_validation.parquet",
+            "sha256": "b0db867d400d554b8d933a42ba429315b944ff67ef55103cf6b350893f6a2857"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261023/predictions_outer_validation.parquet",
+            "sha256": "c0a75ed49af0d867b0d6130bc228fdf9de481b546396ce21ff3e062a68751bdc"
+          }
+        },
+        "filamentous": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_0_specialists_filamentous_s20261023.yaml",
+            "sha256": "055869b9861f1011522a439f43a649dabae612b936e02fbc0996e1f7399b24d2"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261023/filamentous/model.pt",
+            "sha256": "17b7449c8723e5cd4fe18e273d2d70d11f8c8304a887d93cb2f8f761303fcfbd"
+          },
+          "completion": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261023/filamentous/complete.json",
+            "sha256": "4c040c0d978ebf4ba78fa13b54c42a72d0f7ea2cf7a6b4022c2104de81cd444c"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261023/filamentous_calibration.parquet",
+            "sha256": "cbc51d3f2edc3a146cd44de4df6a91e527c73ec7c1cb549a42099538de71373c"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261023/filamentous_outer_validation.parquet",
+            "sha256": "ae6fd87284fc54b6f7a87f23a41f7fea157373123257294a4e39122330441266"
+          }
+        },
+        "others": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_0_specialists_others_s20261023.yaml",
+            "sha256": "8a17d44287ed216bb00176f5154d70b27b460d561d29a9abad6d861a9b046a34"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261023/others/model.pt",
+            "sha256": "259302f03dc55a26dc766e5a213efc557ec9ab3c9e993d7ca92c4f4964c64715"
+          },
+          "completion": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261023/others/complete.json",
+            "sha256": "d96a5847a84f35328477f82d4d9864b172de2c5e408a38ab5ad2763864e761c9"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261023/others_calibration.parquet",
+            "sha256": "3183355bc1f5619ccc64b885cd006a5a8972d3ecca00aa9f65790e5f7769f3cb"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_0/specialists_s20261023/others_outer_validation.parquet",
+            "sha256": "f2692ca79032feef897bf6d40430931fdb25caa3b47b6851580e1e044f9432ed"
+          }
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "seed": 20261023,
+      "recipe": "hybrids",
+      "run_id": "hybrids_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_cosine30_s20261023.yaml",
+        "sha256": "8be458d277f1901a401c8c17c919a364a1560cc254683efc8d9ba35bac49b3c3"
+      },
+      "components": {
+        "attached": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_1_attached_s20261023.yaml",
+          "sha256": "93241565801183d38b5c1dae79751b5d7ff287408eb79a93cc419b3fa88f6c1d"
+        },
+        "priority": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_1_priority_s20261023.yaml",
+          "sha256": "f7af8de88ba9d69ff6d51881b64138e73c9ce02265e9a0a89d473062cb5a7b62"
+        },
+        "rare": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_1_rare_s20261023.yaml",
+          "sha256": "b5eed2eb1fda3d433e6e44b917d2da8dffe6691ea86a4b81a5834818aeb0c37a"
+        },
+        "priority_repeat": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_1_priority_repeat_s20261023.yaml",
+          "sha256": "abdd756dcd91adf971beb268ec8ab8e1711f885beb73f7ef85f928860aa4b0f9"
+        },
+        "rare_repeat": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_1_rare_repeat_s20261023.yaml",
+          "sha256": "86ffcbc3a82539a7a3bf0d132ef9b2d73f3fa9562fc3c523ae6a65ed9c485cd0"
+        }
+      },
+      "reuse": {
+        "general": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_cosine30_s20261023.yaml",
+            "sha256": "8be458d277f1901a401c8c17c919a364a1560cc254683efc8d9ba35bac49b3c3"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261023/model.pt",
+            "sha256": "90e1d96ecf8637d94387782f930bf5c9f117e01c6fd12060bcd05611920b9795"
+          },
+          "calibration": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261023/calibration.json",
+            "sha256": "6020e4f886ff64d8f2e77c73d08b87c8c825e6a5a68743d29fab0157319c1970"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261023/predictions_validation.parquet",
+            "sha256": "fc82939326f40d2b03f091afac1e561951d24e9cf3582192c8f02a838ec481b4"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261023/predictions_outer_validation.parquet",
+            "sha256": "7c170da0c1272d2b38cb60f14b1b51004eeffa42ffdefff126ce09994dd03846"
+          }
+        },
+        "filamentous": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_1_specialists_filamentous_s20261023.yaml",
+            "sha256": "d4189a47e9c72a904cb29923d70cf907a9bd24794cf3bb944f016ef7d834881c"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/filamentous/model.pt",
+            "sha256": "bcfaffab1e918b55d99f2083f2cbd5733deb62c9db02560d11668a9a16058a9a"
+          },
+          "completion": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/filamentous/complete.json",
+            "sha256": "b86add891033388147ddb8eea92839562654c52f6af3c0eac2c475b7dec1d1c2"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/filamentous_calibration.parquet",
+            "sha256": "e4d587cf92d4848f660a593ef4df845cc6c967c2e020df51b7e2cc78c2384c2d"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/filamentous_outer_validation.parquet",
+            "sha256": "3ca23895bb5b49c08f38efbf97bfb392e4efac12e300c77743dbd8dd77f22753"
+          }
+        },
+        "others": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_1_specialists_others_s20261023.yaml",
+            "sha256": "4b76478766d938b344e4440663280ee777519abc7cbcb2b1ffaad2e6fb0c74a1"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/others/model.pt",
+            "sha256": "3ffd45d8d746d02873d7a559bcc4002b65dfa1196b61048d9461ef280c874617"
+          },
+          "completion": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/others/complete.json",
+            "sha256": "5c6ec9a51a050a75f7b1b36eb6beb7fc51e85397df8da0d007fccf2d60e984e9"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/others_calibration.parquet",
+            "sha256": "1185cd4d9fa4515f1e6f479c2b7418930dd735fa38e57b98dc74f8c7c1486009"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_1/specialists_s20261023/others_outer_validation.parquet",
+            "sha256": "554bdf55dbe03b40421d1f1d4d73b213daf6d7d1a572f1846789dae3869d34eb"
+          }
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "seed": 20261023,
+      "recipe": "hybrids",
+      "run_id": "hybrids_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_cosine30_s20261023.yaml",
+        "sha256": "b9502c2f1e81af7fef851c8f821cffa9ec5b3211222b44b2215e086f45290e98"
+      },
+      "components": {
+        "attached": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_2_attached_s20261023.yaml",
+          "sha256": "3fa24082800f791f843cfcc72a7ff4685592c1db45d03ba1787e543c118adc2b"
+        },
+        "priority": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_2_priority_s20261023.yaml",
+          "sha256": "ea93efff6422a499d8e24f6caef39f9703b1130acf3d4498d8123138c94c2b0a"
+        },
+        "rare": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_2_rare_s20261023.yaml",
+          "sha256": "1c2396fdcf38a2de4f9978167284c881a85e1d57fccc1ff112a0c06ada74cea2"
+        },
+        "priority_repeat": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_2_priority_repeat_s20261023.yaml",
+          "sha256": "6f35d0b7d235aacedd2940c267258975dadf624af7647ca3e8ccf450684bc552"
+        },
+        "rare_repeat": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/queue_configs/fold_2_rare_repeat_s20261023.yaml",
+          "sha256": "d121c8351500100fb80412f41133358605b1d41e66335aa000ae030f7fc1399a"
+        }
+      },
+      "reuse": {
+        "general": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_cosine30_s20261023.yaml",
+            "sha256": "b9502c2f1e81af7fef851c8f821cffa9ec5b3211222b44b2215e086f45290e98"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261023/model.pt",
+            "sha256": "431971a9e685b3d157048eb098ba712e0d729f637fcd926237c169e9e0eacca3"
+          },
+          "calibration": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261023/calibration.json",
+            "sha256": "eefbc6127e830a5966b4c8b32cf8077592a1bfe63e9104710a2edf19b72b8055"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261023/predictions_validation.parquet",
+            "sha256": "9bb420a3d441733569f8f754346963535493cc3fa18ce8f01edcba7ba114746d"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261023/predictions_outer_validation.parquet",
+            "sha256": "9f0415101f5ba750a4faa5640ebe343400490e9dc5510c52606569bd8d135dc2"
+          }
+        },
+        "filamentous": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_2_specialists_filamentous_s20261023.yaml",
+            "sha256": "82a8c9c34cb32086755b927ce613280a368fe30fe467353ac6c074b80ca8b8cc"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261023/filamentous/model.pt",
+            "sha256": "443042a73f737bb057c64ae131ccac7d0637b9a4805d03d7c4f9993008506d87"
+          },
+          "completion": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261023/filamentous/complete.json",
+            "sha256": "8af68921ff8c9d0ea3db48d3e3822d70f2a630f6bb9613729652b65febd43f03"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261023/filamentous_calibration.parquet",
+            "sha256": "adff52ee879f59849d08c490a6103c4849718c8f8b16fb86bbaa3f368e4be44a"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261023/filamentous_outer_validation.parquet",
+            "sha256": "3635a17d21c2929a26ee899aae82d3025bf6108b3e8bc0c5a8ba6d525159859d"
+          }
+        },
+        "others": {
+          "config": {
+            "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_2_specialists_others_s20261023.yaml",
+            "sha256": "1b8687ad1e753eb0ada2605d20aa47738d211b9412f8b687efa68a848733a7e8"
+          },
+          "model": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261023/others/model.pt",
+            "sha256": "ad5ee527730c1227a9f1fce5fa1963bdb237bca5ed7c4ee12dec9e9924b0b1d2"
+          },
+          "completion": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261023/others/complete.json",
+            "sha256": "f7918c9ce6f975a445e2c8fe0aa8f50e63ae35ee021b5766f068098407095e74"
+          },
+          "calibration_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261023/others_calibration.parquet",
+            "sha256": "689fee4a9a411a31d44a59670b9cc9cf34bd9e4e0f28ed5c8259372d89c26f3b"
+          },
+          "outer_predictions": {
+            "path": "outputs_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261023/others_outer_validation.parquet",
+            "sha256": "b7bead139a5163adc6e2dce8f50d09e6e5043edbc75118e8e22a29c6b9508d69"
+          }
+        }
+      }
+    }
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "outer_manifest": "experiments_updated_2026_10_02/grouped_cv_2026_10_21/fold_0/split_manifest.parquet",
+      "inner_manifest": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_0/split_manifest.parquet",
+      "splits": {
+        "train": {
+          "images": 110,
+          "groups": 17,
+          "objects": {
+            "attached_ciliates": 126,
+            "filamentous_bacteria": 110,
+            "rotifers": 49,
+            "testate_amoebae": 45,
+            "free_swimming_ciliates": 13,
+            "nematoda": 12,
+            "gastrotrichs": 13
+          },
+          "images_with_class": {
+            "attached_ciliates": 45,
+            "filamentous_bacteria": 38,
+            "rotifers": 37,
+            "testate_amoebae": 29,
+            "free_swimming_ciliates": 11,
+            "nematoda": 5,
+            "gastrotrichs": 11
+          },
+          "ignore_regions": 20,
+          "images_with_ignore": 14
+        },
+        "validation": {
+          "images": 27,
+          "groups": 4,
+          "objects": {
+            "attached_ciliates": 30,
+            "filamentous_bacteria": 30,
+            "rotifers": 5,
+            "testate_amoebae": 11,
+            "free_swimming_ciliates": 3,
+            "nematoda": 1,
+            "gastrotrichs": 5
+          },
+          "images_with_class": {
+            "attached_ciliates": 12,
+            "filamentous_bacteria": 10,
+            "rotifers": 4,
+            "testate_amoebae": 7,
+            "free_swimming_ciliates": 2,
+            "nematoda": 1,
+            "gastrotrichs": 3
+          },
+          "ignore_regions": 7,
+          "images_with_ignore": 5
+        },
+        "test": {
+          "images": 0,
+          "groups": 0,
+          "objects": {
+            "attached_ciliates": 0,
+            "filamentous_bacteria": 0,
+            "rotifers": 0,
+            "testate_amoebae": 0,
+            "free_swimming_ciliates": 0,
+            "nematoda": 0,
+            "gastrotrichs": 0
+          },
+          "images_with_class": {
+            "attached_ciliates": 0,
+            "filamentous_bacteria": 0,
+            "rotifers": 0,
+            "testate_amoebae": 0,
+            "free_swimming_ciliates": 0,
+            "nematoda": 0,
+            "gastrotrichs": 0
+          },
+          "ignore_regions": 0,
+          "images_with_ignore": 0
+        }
+      },
+      "train_filter": {
+        "enabled": true,
+        "train_images": 110,
+        "removed_images": 14,
+        "objects_before": {
+          "attached_ciliates": 126,
+          "filamentous_bacteria": 110,
+          "rotifers": 49,
+          "testate_amoebae": 45,
+          "free_swimming_ciliates": 13,
+          "nematoda": 12,
+          "gastrotrichs": 13
+        },
+        "objects_removed": {
+          "attached_ciliates": 6,
+          "filamentous_bacteria": 14,
+          "rotifers": 7,
+          "testate_amoebae": 4,
+          "free_swimming_ciliates": 3,
+          "nematoda": 0,
+          "gastrotrichs": 2
+        },
+        "objects_after": {
+          "attached_ciliates": 120,
+          "filamentous_bacteria": 96,
+          "rotifers": 42,
+          "testate_amoebae": 41,
+          "free_swimming_ciliates": 10,
+          "nematoda": 12,
+          "gastrotrichs": 11
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "outer_manifest": "experiments_updated_2026_10_02/grouped_cv_2026_10_21/fold_1/split_manifest.parquet",
+      "inner_manifest": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_1/split_manifest.parquet",
+      "splits": {
+        "train": {
+          "images": 100,
+          "groups": 18,
+          "objects": {
+            "attached_ciliates": 112,
+            "filamentous_bacteria": 125,
+            "rotifers": 39,
+            "testate_amoebae": 46,
+            "free_swimming_ciliates": 18,
+            "nematoda": 21,
+            "gastrotrichs": 14
+          },
+          "images_with_class": {
+            "attached_ciliates": 39,
+            "filamentous_bacteria": 42,
+            "rotifers": 33,
+            "testate_amoebae": 30,
+            "free_swimming_ciliates": 10,
+            "nematoda": 7,
+            "gastrotrichs": 12
+          },
+          "ignore_regions": 15,
+          "images_with_ignore": 12
+        },
+        "validation": {
+          "images": 29,
+          "groups": 5,
+          "objects": {
+            "attached_ciliates": 39,
+            "filamentous_bacteria": 41,
+            "rotifers": 9,
+            "testate_amoebae": 15,
+            "free_swimming_ciliates": 2,
+            "nematoda": 1,
+            "gastrotrichs": 4
+          },
+          "images_with_class": {
+            "attached_ciliates": 11,
+            "filamentous_bacteria": 11,
+            "rotifers": 7,
+            "testate_amoebae": 10,
+            "free_swimming_ciliates": 2,
+            "nematoda": 1,
+            "gastrotrichs": 4
+          },
+          "ignore_regions": 24,
+          "images_with_ignore": 11
+        },
+        "test": {
+          "images": 0,
+          "groups": 0,
+          "objects": {
+            "attached_ciliates": 0,
+            "filamentous_bacteria": 0,
+            "rotifers": 0,
+            "testate_amoebae": 0,
+            "free_swimming_ciliates": 0,
+            "nematoda": 0,
+            "gastrotrichs": 0
+          },
+          "images_with_class": {
+            "attached_ciliates": 0,
+            "filamentous_bacteria": 0,
+            "rotifers": 0,
+            "testate_amoebae": 0,
+            "free_swimming_ciliates": 0,
+            "nematoda": 0,
+            "gastrotrichs": 0
+          },
+          "ignore_regions": 0,
+          "images_with_ignore": 0
+        }
+      },
+      "train_filter": {
+        "enabled": true,
+        "train_images": 100,
+        "removed_images": 12,
+        "objects_before": {
+          "attached_ciliates": 112,
+          "filamentous_bacteria": 125,
+          "rotifers": 39,
+          "testate_amoebae": 46,
+          "free_swimming_ciliates": 18,
+          "nematoda": 21,
+          "gastrotrichs": 14
+        },
+        "objects_removed": {
+          "attached_ciliates": 5,
+          "filamentous_bacteria": 16,
+          "rotifers": 4,
+          "testate_amoebae": 5,
+          "free_swimming_ciliates": 1,
+          "nematoda": 0,
+          "gastrotrichs": 1
+        },
+        "objects_after": {
+          "attached_ciliates": 107,
+          "filamentous_bacteria": 109,
+          "rotifers": 35,
+          "testate_amoebae": 41,
+          "free_swimming_ciliates": 17,
+          "nematoda": 21,
+          "gastrotrichs": 13
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "outer_manifest": "experiments_updated_2026_10_02/grouped_cv_2026_10_21/fold_2/split_manifest.parquet",
+      "inner_manifest": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_2/split_manifest.parquet",
+      "splits": {
+        "train": {
+          "images": 111,
+          "groups": 14,
+          "objects": {
+            "attached_ciliates": 120,
+            "filamentous_bacteria": 133,
+            "rotifers": 44,
+            "testate_amoebae": 43,
+            "free_swimming_ciliates": 19,
+            "nematoda": 10,
+            "gastrotrichs": 13
+          },
+          "images_with_class": {
+            "attached_ciliates": 44,
+            "filamentous_bacteria": 40,
+            "rotifers": 35,
+            "testate_amoebae": 32,
+            "free_swimming_ciliates": 10,
+            "nematoda": 3,
+            "gastrotrichs": 11
+          },
+          "ignore_regions": 36,
+          "images_with_ignore": 20
+        },
+        "validation": {
+          "images": 31,
+          "groups": 4,
+          "objects": {
+            "attached_ciliates": 35,
+            "filamentous_bacteria": 31,
+            "rotifers": 10,
+            "testate_amoebae": 10,
+            "free_swimming_ciliates": 1,
+            "nematoda": 1,
+            "gastrotrichs": 5
+          },
+          "images_with_class": {
+            "attached_ciliates": 11,
+            "filamentous_bacteria": 11,
+            "rotifers": 8,
+            "testate_amoebae": 6,
+            "free_swimming_ciliates": 1,
+            "nematoda": 1,
+            "gastrotrichs": 3
+          },
+          "ignore_regions": 8,
+          "images_with_ignore": 6
+        },
+        "test": {
+          "images": 0,
+          "groups": 0,
+          "objects": {
+            "attached_ciliates": 0,
+            "filamentous_bacteria": 0,
+            "rotifers": 0,
+            "testate_amoebae": 0,
+            "free_swimming_ciliates": 0,
+            "nematoda": 0,
+            "gastrotrichs": 0
+          },
+          "images_with_class": {
+            "attached_ciliates": 0,
+            "filamentous_bacteria": 0,
+            "rotifers": 0,
+            "testate_amoebae": 0,
+            "free_swimming_ciliates": 0,
+            "nematoda": 0,
+            "gastrotrichs": 0
+          },
+          "ignore_regions": 0,
+          "images_with_ignore": 0
+        }
+      },
+      "train_filter": {
+        "enabled": true,
+        "train_images": 111,
+        "removed_images": 20,
+        "objects_before": {
+          "attached_ciliates": 120,
+          "filamentous_bacteria": 133,
+          "rotifers": 44,
+          "testate_amoebae": 43,
+          "free_swimming_ciliates": 19,
+          "nematoda": 10,
+          "gastrotrichs": 13
+        },
+        "objects_removed": {
+          "attached_ciliates": 10,
+          "filamentous_bacteria": 25,
+          "rotifers": 8,
+          "testate_amoebae": 8,
+          "free_swimming_ciliates": 1,
+          "nematoda": 1,
+          "gastrotrichs": 1
+        },
+        "objects_after": {
+          "attached_ciliates": 110,
+          "filamentous_bacteria": 108,
+          "rotifers": 36,
+          "testate_amoebae": 35,
+          "free_swimming_ciliates": 18,
+          "nematoda": 9,
+          "gastrotrichs": 12
+        }
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "path": "NIGHT_RUN_2026_10_23_HYBRIDS.md",
+      "sha256": "6f13a9d936dd41d39d4b49ff503996af51537f4fa51bced3079bf98a82bea8ce"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23_hybrids/protocol.md",
+      "sha256": "6f13a9d936dd41d39d4b49ff503996af51537f4fa51bced3079bf98a82bea8ce"
+    },
+    {
+      "path": "scripts/overnight_hybrids.py",
+      "sha256": "9ae1daaa0f4ffeec25468eba7a8cbdd82f2213da6354f1376dbfea4b9df522a3"
+    },
+    {
+      "path": "tests/test_overnight_hybrids.py",
+      "sha256": "0faad2a6ea6ed4ae3676bf1550095bf8a7e11efe5219f18ad2dc125cca12f8af"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23/registration.json",
+      "sha256": "41c248fadb0ee4d2021ef39e222850f0adc9a555692e03bb0bc8456e61afce77"
+    },
+    {
+      "path": "scripts/overnight_experiments.py",
+      "sha256": "ad775a9e98e621cc2de2f5fb48ab3b3fbfa9fe80bc74c9a413b4169811ef900b"
+    },
+    {
+      "path": "scripts/report_hybrid_night.py",
+      "sha256": "aec521e552f6748e8d96cec36cccc25df19eea93912fd50ad65096030c0ae0c7"
+    }
+  ],
+  "package_sha256": "fb698c88c123e16f6fc1174ff46e6b77924bea92abb654984d4e5502b64c3310",
+  "development_images": 204,
+  "groups": {
+    "attached": [
+      "attached_ciliates"
+    ],
+    "priority": [
+      "attached_ciliates",
+      "filamentous_bacteria"
+    ],
+    "rare": [
+      "free_swimming_ciliates",
+      "nematoda",
+      "gastrotrichs"
+    ],
+    "priority_repeat": [
+      "attached_ciliates",
+      "filamentous_bacteria"
+    ],
+    "rare_repeat": [
+      "free_swimming_ciliates",
+      "nematoda",
+      "gastrotrichs"
+    ]
+  },
+  "replacements": {
+    "h_filamentous": {
+      "filamentous_bacteria": "filamentous"
+    },
+    "h_attached": {
+      "attached_ciliates": "attached"
+    },
+    "h_priority": {
+      "attached_ciliates": "priority",
+      "filamentous_bacteria": "priority"
+    },
+    "h_separate": {
+      "attached_ciliates": "attached",
+      "filamentous_bacteria": "filamentous"
+    },
+    "h_rare": {
+      "free_swimming_ciliates": "rare",
+      "nematoda": "rare",
+      "gastrotrichs": "rare"
+    },
+    "h_priority_rare": {
+      "attached_ciliates": "priority",
+      "filamentous_bacteria": "priority",
+      "free_swimming_ciliates": "rare",
+      "nematoda": "rare",
+      "gastrotrichs": "rare"
+    },
+    "h_separate_rare": {
+      "attached_ciliates": "attached",
+      "filamentous_bacteria": "filamentous",
+      "free_swimming_ciliates": "rare",
+      "nematoda": "rare",
+      "gastrotrichs": "rare"
+    },
+    "h_common3": {
+      "rotifers": "others",
+      "testate_amoebae": "others",
+      "gastrotrichs": "others"
+    },
+    "h_priority_repeat": {
+      "attached_ciliates": "priority_repeat",
+      "filamentous_bacteria": "priority_repeat"
+    },
+    "h_rare_repeat": {
+      "free_swimming_ciliates": "rare_repeat",
+      "nematoda": "rare_repeat",
+      "gastrotrichs": "rare_repeat"
+    },
+    "h_priority_repeat_rare_repeat": {
+      "attached_ciliates": "priority_repeat",
+      "filamentous_bacteria": "priority_repeat",
+      "free_swimming_ciliates": "rare_repeat",
+      "nematoda": "rare_repeat",
+      "gastrotrichs": "rare_repeat"
+    },
+    "h_separate_rare_repeat": {
+      "attached_ciliates": "attached",
+      "filamentous_bacteria": "filamentous",
+      "free_swimming_ciliates": "rare_repeat",
+      "nematoda": "rare_repeat",
+      "gastrotrichs": "rare_repeat"
+    }
+  },
+  "primary": "count_guarded",
+  "independent_test": false,
+  "test_reopened": false
+}

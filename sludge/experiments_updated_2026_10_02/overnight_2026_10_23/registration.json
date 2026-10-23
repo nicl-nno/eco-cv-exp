@@ -1,0 +1,1630 @@
+{
+  "created_at": "2026-10-22T18:55:49.587240+03:00",
+  "deadline": "2026-10-23T08:00:00+03:00",
+  "component_fits": 24,
+  "jobs": [
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "recipe": "cascade",
+      "run_id": "cascade_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_cosine30_s20261022.yaml",
+        "sha256": "cebf634744e9ce2ac3e04f82f3462a5ee478ff96699e4c0103bc36861e947f66"
+      },
+      "components": {
+        "agnostic": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_0_cascade_agnostic_s20261022.yaml",
+          "sha256": "d1cf4a338cb62b3a64883f5caae44ff48dd040b0dc6870a7aff9e5b7fa696a4d"
+        }
+      }
+    },
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "recipe": "specialists",
+      "run_id": "specialists_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_cosine30_s20261022.yaml",
+        "sha256": "cebf634744e9ce2ac3e04f82f3462a5ee478ff96699e4c0103bc36861e947f66"
+      },
+      "components": {
+        "filamentous": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_0_specialists_filamentous_s20261022.yaml",
+          "sha256": "661409597b1462a71a7000f3877d666c18a868a7acf5cc9dd3a10d78a89c7cc3"
+        },
+        "others": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_0_specialists_others_s20261022.yaml",
+          "sha256": "3683ed1f22d3292dbafa3d0b62c5e5a370f5b4a0c8000a0267c4d3a256325ad6"
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "recipe": "cascade",
+      "run_id": "cascade_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_cosine30_s20261022.yaml",
+        "sha256": "9bda498cf10d733c3c39e30ca93d5baab7c9c83ba99cf343debccb6fb92461b4"
+      },
+      "components": {
+        "agnostic": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_1_cascade_agnostic_s20261022.yaml",
+          "sha256": "ff7de9cf0f09cd9599173adaa0bc640b6056a954291fc18c1fcf8c29a93648cb"
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "recipe": "specialists",
+      "run_id": "specialists_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_cosine30_s20261022.yaml",
+        "sha256": "9bda498cf10d733c3c39e30ca93d5baab7c9c83ba99cf343debccb6fb92461b4"
+      },
+      "components": {
+        "filamentous": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_1_specialists_filamentous_s20261022.yaml",
+          "sha256": "a7920fc975a370fd5911253d0b264e5b623c9b403d58fbff9cae4f53a2cc747f"
+        },
+        "others": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_1_specialists_others_s20261022.yaml",
+          "sha256": "df4c1c8dbddf8876260d457047287397430c5b2930d88f5fe9b21cd1f0355728"
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "seed": 20261022,
+      "recipe": "cascade",
+      "run_id": "cascade_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_cosine30_s20261022.yaml",
+        "sha256": "c11bfe65e3dddef9080add3f8bdbdfaa1347de95473e766c7b4bad8681d986a7"
+      },
+      "components": {
+        "agnostic": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_2_cascade_agnostic_s20261022.yaml",
+          "sha256": "ccdc035af4b6b49ca08f809014214689063f3739c62d178b166dedcba63a2a7e"
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "seed": 20261022,
+      "recipe": "specialists",
+      "run_id": "specialists_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_cosine30_s20261022.yaml",
+        "sha256": "c11bfe65e3dddef9080add3f8bdbdfaa1347de95473e766c7b4bad8681d986a7"
+      },
+      "components": {
+        "filamentous": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_2_specialists_filamentous_s20261022.yaml",
+          "sha256": "989e7ff892e319257548201367ba41e0b696da8f302f7d561feb8be39aad82e0"
+        },
+        "others": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_2_specialists_others_s20261022.yaml",
+          "sha256": "cd32ec52013768d32a9c50dab53cfa5763842616abb84d61f052f6deace962a4"
+        }
+      }
+    },
+    {
+      "fold": 0,
+      "seed": 20261023,
+      "recipe": "cascade",
+      "run_id": "cascade_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_cosine30_s20261023.yaml",
+        "sha256": "cd9560614ddc7a3532a476318a7c2c2f756a538f805e62342895e1878d529974"
+      },
+      "components": {
+        "agnostic": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_0_cascade_agnostic_s20261023.yaml",
+          "sha256": "cf6bc992d1965253e9811368e17c2f8b5b00cabff695c71b51bc8c8ac6bcbed4"
+        }
+      }
+    },
+    {
+      "fold": 0,
+      "seed": 20261023,
+      "recipe": "specialists",
+      "run_id": "specialists_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_cosine30_s20261023.yaml",
+        "sha256": "cd9560614ddc7a3532a476318a7c2c2f756a538f805e62342895e1878d529974"
+      },
+      "components": {
+        "filamentous": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_0_specialists_filamentous_s20261023.yaml",
+          "sha256": "055869b9861f1011522a439f43a649dabae612b936e02fbc0996e1f7399b24d2"
+        },
+        "others": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_0_specialists_others_s20261023.yaml",
+          "sha256": "8a17d44287ed216bb00176f5154d70b27b460d561d29a9abad6d861a9b046a34"
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "seed": 20261023,
+      "recipe": "cascade",
+      "run_id": "cascade_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_cosine30_s20261023.yaml",
+        "sha256": "8be458d277f1901a401c8c17c919a364a1560cc254683efc8d9ba35bac49b3c3"
+      },
+      "components": {
+        "agnostic": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_1_cascade_agnostic_s20261023.yaml",
+          "sha256": "e3aa1b18b3fd386807322c047d3f063d5bdb18c0255e995e8744db2e680a43f4"
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "seed": 20261023,
+      "recipe": "specialists",
+      "run_id": "specialists_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_cosine30_s20261023.yaml",
+        "sha256": "8be458d277f1901a401c8c17c919a364a1560cc254683efc8d9ba35bac49b3c3"
+      },
+      "components": {
+        "filamentous": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_1_specialists_filamentous_s20261023.yaml",
+          "sha256": "d4189a47e9c72a904cb29923d70cf907a9bd24794cf3bb944f016ef7d834881c"
+        },
+        "others": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_1_specialists_others_s20261023.yaml",
+          "sha256": "4b76478766d938b344e4440663280ee777519abc7cbcb2b1ffaad2e6fb0c74a1"
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "seed": 20261023,
+      "recipe": "cascade",
+      "run_id": "cascade_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_cosine30_s20261023.yaml",
+        "sha256": "b9502c2f1e81af7fef851c8f821cffa9ec5b3211222b44b2215e086f45290e98"
+      },
+      "components": {
+        "agnostic": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_2_cascade_agnostic_s20261023.yaml",
+          "sha256": "d13acec38052dc7145e2992fdddb35cf166dd97a0d5a06e6f7f2dc2f4c318e5b"
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "seed": 20261023,
+      "recipe": "specialists",
+      "run_id": "specialists_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_cosine30_s20261023.yaml",
+        "sha256": "b9502c2f1e81af7fef851c8f821cffa9ec5b3211222b44b2215e086f45290e98"
+      },
+      "components": {
+        "filamentous": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_2_specialists_filamentous_s20261023.yaml",
+          "sha256": "82a8c9c34cb32086755b927ce613280a368fe30fe467353ac6c074b80ca8b8cc"
+        },
+        "others": {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_23/queue_configs/fold_2_specialists_others_s20261023.yaml",
+          "sha256": "1b8687ad1e753eb0ada2605d20aa47738d211b9412f8b687efa68a848733a7e8"
+        }
+      }
+    }
+  ],
+  "controls": [
+    {
+      "fold": 0,
+      "seed": 20261022,
+      "recipe": "cosine30",
+      "run_id": "cosine30_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_cosine30_s20261022.yaml",
+        "sha256": "cebf634744e9ce2ac3e04f82f3462a5ee478ff96699e4c0103bc36861e947f66"
+      },
+      "artifacts": [
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261022/manifest.json",
+          "sha256": "269002ec095144afed34db0c11e7e64710938782263fe782ea2d52c381b05166"
+        },
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261022/outer_metrics.json",
+          "sha256": "2a3b1a3f18de44160135e6b009fac248c0c39db272629885f0dcdc1529b04276"
+        },
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261022/calibration.json",
+          "sha256": "5c2ebf78004364dd12c19133d14a48f2b33d32a645396af1544bd4e5a6a3aa36"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261022/model.pt",
+          "sha256": "60e9532596d234fe0df077dc5e19f163a49089c681437c982d882e2f7941a988"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261022/predictions_validation.parquet",
+          "sha256": "43f1c1d56c4661c373edb8561cf207d0ccaf6adf835b0fd7f8ca446131bb9884"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261022/predictions_outer_validation.parquet",
+          "sha256": "8cc06bcd412201f59a382883fa93a68f20d108ebb7dadf58da9bc39bd048007f"
+        }
+      ]
+    },
+    {
+      "fold": 1,
+      "seed": 20261022,
+      "recipe": "cosine30",
+      "run_id": "cosine30_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_cosine30_s20261022.yaml",
+        "sha256": "9bda498cf10d733c3c39e30ca93d5baab7c9c83ba99cf343debccb6fb92461b4"
+      },
+      "artifacts": [
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261022/manifest.json",
+          "sha256": "95f0521c441d740acbfacabd1fe6e5f3baffa800311595a186e845c0d066be94"
+        },
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261022/outer_metrics.json",
+          "sha256": "4a28363b365fb4dbad9693b931042691d5591205d2f8618ada473f2bcdcffe6f"
+        },
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261022/calibration.json",
+          "sha256": "9ef7dbaedc4cf7af3b6bc2567d01a030278b255fed00f8ef77ee62812fc721c8"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261022/model.pt",
+          "sha256": "c1e132e734a36020cbe61ac79749f9ec946baa2944248d421e4cb2a52dd1594c"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261022/predictions_validation.parquet",
+          "sha256": "6b981db3a3752d2327ac3c3dfcb574b3970cedbb15df8c9ff099468ca5ce784a"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261022/predictions_outer_validation.parquet",
+          "sha256": "52c559313bc4393b11aa5d9bde0fae8e6ff52147be6ff1d228a3d92819cb5665"
+        }
+      ]
+    },
+    {
+      "fold": 2,
+      "seed": 20261022,
+      "recipe": "cosine30",
+      "run_id": "cosine30_s20261022",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_cosine30_s20261022.yaml",
+        "sha256": "c11bfe65e3dddef9080add3f8bdbdfaa1347de95473e766c7b4bad8681d986a7"
+      },
+      "artifacts": [
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261022/manifest.json",
+          "sha256": "eb627fc1bbab1fcee0b38dd901b5fb38292defe84a0802f3a5f980bc36462bf6"
+        },
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261022/outer_metrics.json",
+          "sha256": "4da96fa382fc3d12ba93a00dd006e6fc4b27cdb341d720d201ce974dc6e12d6e"
+        },
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261022/calibration.json",
+          "sha256": "156277aaf1f030b8426d5f85398401d8c905fe5fde18ac1e67f052700ef0a8bf"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261022/model.pt",
+          "sha256": "3db5402a66d184835f2f8a90009011195c02b29af9b2b5f71822c1c8bc72cb22"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261022/predictions_validation.parquet",
+          "sha256": "156f1ff20de1796e24f36b97df706d535dc0556ec0e47358bf35671ff18ad307"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261022/predictions_outer_validation.parquet",
+          "sha256": "a24f7538e70db84f7708f7ed9a3f1b38756198e8a5f00578a72a6671bf87768e"
+        }
+      ]
+    },
+    {
+      "fold": 0,
+      "seed": 20261023,
+      "recipe": "cosine30",
+      "run_id": "cosine30_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_0_cosine30_s20261023.yaml",
+        "sha256": "cd9560614ddc7a3532a476318a7c2c2f756a538f805e62342895e1878d529974"
+      },
+      "artifacts": [
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261023/manifest.json",
+          "sha256": "d779a8f9bb3cccef4b3c5cbca07f7660112b229cbf2c4a52e9812b4c400e59cb"
+        },
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261023/outer_metrics.json",
+          "sha256": "f1f1a1dd9381c108c4a1a8ca188bcc17114c0a7602c9abb9f4f43e8d851bf8c8"
+        },
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261023/calibration.json",
+          "sha256": "1e2fb6ad32e945797ad3b6ca89496815fba6bf4b22717b3d9552d13aa4bf4a7a"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261023/model.pt",
+          "sha256": "47a93aa7e19bd36fa5ccf744ec8cc5bdef215738e76180ea95ed6d036dd798fa"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261023/predictions_validation.parquet",
+          "sha256": "b0db867d400d554b8d933a42ba429315b944ff67ef55103cf6b350893f6a2857"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_0/cosine30_s20261023/predictions_outer_validation.parquet",
+          "sha256": "c0a75ed49af0d867b0d6130bc228fdf9de481b546396ce21ff3e062a68751bdc"
+        }
+      ]
+    },
+    {
+      "fold": 1,
+      "seed": 20261023,
+      "recipe": "cosine30",
+      "run_id": "cosine30_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_cosine30_s20261023.yaml",
+        "sha256": "8be458d277f1901a401c8c17c919a364a1560cc254683efc8d9ba35bac49b3c3"
+      },
+      "artifacts": [
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261023/manifest.json",
+          "sha256": "626e71588f2fe3984776f52392f7fda7be70516d3041dfee49e50c7066a23898"
+        },
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261023/outer_metrics.json",
+          "sha256": "938e3f9bdcaa28ab5fb3c2410d3c062d1d53ed0609fdaa587adf648ce0f68cec"
+        },
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261023/calibration.json",
+          "sha256": "6020e4f886ff64d8f2e77c73d08b87c8c825e6a5a68743d29fab0157319c1970"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261023/model.pt",
+          "sha256": "90e1d96ecf8637d94387782f930bf5c9f117e01c6fd12060bcd05611920b9795"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261023/predictions_validation.parquet",
+          "sha256": "fc82939326f40d2b03f091afac1e561951d24e9cf3582192c8f02a838ec481b4"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_1/cosine30_s20261023/predictions_outer_validation.parquet",
+          "sha256": "7c170da0c1272d2b38cb60f14b1b51004eeffa42ffdefff126ce09994dd03846"
+        }
+      ]
+    },
+    {
+      "fold": 2,
+      "seed": 20261023,
+      "recipe": "cosine30",
+      "run_id": "cosine30_s20261023",
+      "config": {
+        "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_2_cosine30_s20261023.yaml",
+        "sha256": "b9502c2f1e81af7fef851c8f821cffa9ec5b3211222b44b2215e086f45290e98"
+      },
+      "artifacts": [
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261023/manifest.json",
+          "sha256": "151e114ba37b4509b45c640164d95df95039836d21532242270bd59f5b94116d"
+        },
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261023/outer_metrics.json",
+          "sha256": "b831dc988279cf2db3934d752ece90945cb4277649bafdc819dace99f9b45725"
+        },
+        {
+          "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261023/calibration.json",
+          "sha256": "eefbc6127e830a5966b4c8b32cf8077592a1bfe63e9104710a2edf19b72b8055"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261023/model.pt",
+          "sha256": "431971a9e685b3d157048eb098ba712e0d729f637fcd926237c169e9e0eacca3"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261023/predictions_validation.parquet",
+          "sha256": "9bb420a3d441733569f8f754346963535493cc3fa18ce8f01edcba7ba114746d"
+        },
+        {
+          "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_2/cosine30_s20261023/predictions_outer_validation.parquet",
+          "sha256": "9f0415101f5ba750a4faa5640ebe343400490e9dc5510c52606569bd8d135dc2"
+        }
+      ]
+    }
+  ],
+  "folds": [
+    {
+      "fold": 0,
+      "outer_manifest": "experiments_updated_2026_10_02/grouped_cv_2026_10_21/fold_0/split_manifest.parquet",
+      "inner_manifest": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_0/split_manifest.parquet",
+      "splits": {
+        "train": {
+          "images": 110,
+          "groups": 17,
+          "objects": {
+            "attached_ciliates": 126,
+            "filamentous_bacteria": 110,
+            "rotifers": 49,
+            "testate_amoebae": 45,
+            "free_swimming_ciliates": 13,
+            "nematoda": 12,
+            "gastrotrichs": 13
+          },
+          "images_with_class": {
+            "attached_ciliates": 45,
+            "filamentous_bacteria": 38,
+            "rotifers": 37,
+            "testate_amoebae": 29,
+            "free_swimming_ciliates": 11,
+            "nematoda": 5,
+            "gastrotrichs": 11
+          },
+          "ignore_regions": 20,
+          "images_with_ignore": 14
+        },
+        "validation": {
+          "images": 27,
+          "groups": 4,
+          "objects": {
+            "attached_ciliates": 30,
+            "filamentous_bacteria": 30,
+            "rotifers": 5,
+            "testate_amoebae": 11,
+            "free_swimming_ciliates": 3,
+            "nematoda": 1,
+            "gastrotrichs": 5
+          },
+          "images_with_class": {
+            "attached_ciliates": 12,
+            "filamentous_bacteria": 10,
+            "rotifers": 4,
+            "testate_amoebae": 7,
+            "free_swimming_ciliates": 2,
+            "nematoda": 1,
+            "gastrotrichs": 3
+          },
+          "ignore_regions": 7,
+          "images_with_ignore": 5
+        },
+        "test": {
+          "images": 0,
+          "groups": 0,
+          "objects": {
+            "attached_ciliates": 0,
+            "filamentous_bacteria": 0,
+            "rotifers": 0,
+            "testate_amoebae": 0,
+            "free_swimming_ciliates": 0,
+            "nematoda": 0,
+            "gastrotrichs": 0
+          },
+          "images_with_class": {
+            "attached_ciliates": 0,
+            "filamentous_bacteria": 0,
+            "rotifers": 0,
+            "testate_amoebae": 0,
+            "free_swimming_ciliates": 0,
+            "nematoda": 0,
+            "gastrotrichs": 0
+          },
+          "ignore_regions": 0,
+          "images_with_ignore": 0
+        }
+      },
+      "train_filter": {
+        "enabled": true,
+        "train_images": 110,
+        "removed_images": 14,
+        "objects_before": {
+          "attached_ciliates": 126,
+          "filamentous_bacteria": 110,
+          "rotifers": 49,
+          "testate_amoebae": 45,
+          "free_swimming_ciliates": 13,
+          "nematoda": 12,
+          "gastrotrichs": 13
+        },
+        "objects_removed": {
+          "attached_ciliates": 6,
+          "filamentous_bacteria": 14,
+          "rotifers": 7,
+          "testate_amoebae": 4,
+          "free_swimming_ciliates": 3,
+          "nematoda": 0,
+          "gastrotrichs": 2
+        },
+        "objects_after": {
+          "attached_ciliates": 120,
+          "filamentous_bacteria": 96,
+          "rotifers": 42,
+          "testate_amoebae": 41,
+          "free_swimming_ciliates": 10,
+          "nematoda": 12,
+          "gastrotrichs": 11
+        }
+      }
+    },
+    {
+      "fold": 1,
+      "outer_manifest": "experiments_updated_2026_10_02/grouped_cv_2026_10_21/fold_1/split_manifest.parquet",
+      "inner_manifest": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_1/split_manifest.parquet",
+      "splits": {
+        "train": {
+          "images": 100,
+          "groups": 18,
+          "objects": {
+            "attached_ciliates": 112,
+            "filamentous_bacteria": 125,
+            "rotifers": 39,
+            "testate_amoebae": 46,
+            "free_swimming_ciliates": 18,
+            "nematoda": 21,
+            "gastrotrichs": 14
+          },
+          "images_with_class": {
+            "attached_ciliates": 39,
+            "filamentous_bacteria": 42,
+            "rotifers": 33,
+            "testate_amoebae": 30,
+            "free_swimming_ciliates": 10,
+            "nematoda": 7,
+            "gastrotrichs": 12
+          },
+          "ignore_regions": 15,
+          "images_with_ignore": 12
+        },
+        "validation": {
+          "images": 29,
+          "groups": 5,
+          "objects": {
+            "attached_ciliates": 39,
+            "filamentous_bacteria": 41,
+            "rotifers": 9,
+            "testate_amoebae": 15,
+            "free_swimming_ciliates": 2,
+            "nematoda": 1,
+            "gastrotrichs": 4
+          },
+          "images_with_class": {
+            "attached_ciliates": 11,
+            "filamentous_bacteria": 11,
+            "rotifers": 7,
+            "testate_amoebae": 10,
+            "free_swimming_ciliates": 2,
+            "nematoda": 1,
+            "gastrotrichs": 4
+          },
+          "ignore_regions": 24,
+          "images_with_ignore": 11
+        },
+        "test": {
+          "images": 0,
+          "groups": 0,
+          "objects": {
+            "attached_ciliates": 0,
+            "filamentous_bacteria": 0,
+            "rotifers": 0,
+            "testate_amoebae": 0,
+            "free_swimming_ciliates": 0,
+            "nematoda": 0,
+            "gastrotrichs": 0
+          },
+          "images_with_class": {
+            "attached_ciliates": 0,
+            "filamentous_bacteria": 0,
+            "rotifers": 0,
+            "testate_amoebae": 0,
+            "free_swimming_ciliates": 0,
+            "nematoda": 0,
+            "gastrotrichs": 0
+          },
+          "ignore_regions": 0,
+          "images_with_ignore": 0
+        }
+      },
+      "train_filter": {
+        "enabled": true,
+        "train_images": 100,
+        "removed_images": 12,
+        "objects_before": {
+          "attached_ciliates": 112,
+          "filamentous_bacteria": 125,
+          "rotifers": 39,
+          "testate_amoebae": 46,
+          "free_swimming_ciliates": 18,
+          "nematoda": 21,
+          "gastrotrichs": 14
+        },
+        "objects_removed": {
+          "attached_ciliates": 5,
+          "filamentous_bacteria": 16,
+          "rotifers": 4,
+          "testate_amoebae": 5,
+          "free_swimming_ciliates": 1,
+          "nematoda": 0,
+          "gastrotrichs": 1
+        },
+        "objects_after": {
+          "attached_ciliates": 107,
+          "filamentous_bacteria": 109,
+          "rotifers": 35,
+          "testate_amoebae": 41,
+          "free_swimming_ciliates": 17,
+          "nematoda": 21,
+          "gastrotrichs": 13
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "outer_manifest": "experiments_updated_2026_10_02/grouped_cv_2026_10_21/fold_2/split_manifest.parquet",
+      "inner_manifest": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_2/split_manifest.parquet",
+      "splits": {
+        "train": {
+          "images": 111,
+          "groups": 14,
+          "objects": {
+            "attached_ciliates": 120,
+            "filamentous_bacteria": 133,
+            "rotifers": 44,
+            "testate_amoebae": 43,
+            "free_swimming_ciliates": 19,
+            "nematoda": 10,
+            "gastrotrichs": 13
+          },
+          "images_with_class": {
+            "attached_ciliates": 44,
+            "filamentous_bacteria": 40,
+            "rotifers": 35,
+            "testate_amoebae": 32,
+            "free_swimming_ciliates": 10,
+            "nematoda": 3,
+            "gastrotrichs": 11
+          },
+          "ignore_regions": 36,
+          "images_with_ignore": 20
+        },
+        "validation": {
+          "images": 31,
+          "groups": 4,
+          "objects": {
+            "attached_ciliates": 35,
+            "filamentous_bacteria": 31,
+            "rotifers": 10,
+            "testate_amoebae": 10,
+            "free_swimming_ciliates": 1,
+            "nematoda": 1,
+            "gastrotrichs": 5
+          },
+          "images_with_class": {
+            "attached_ciliates": 11,
+            "filamentous_bacteria": 11,
+            "rotifers": 8,
+            "testate_amoebae": 6,
+            "free_swimming_ciliates": 1,
+            "nematoda": 1,
+            "gastrotrichs": 3
+          },
+          "ignore_regions": 8,
+          "images_with_ignore": 6
+        },
+        "test": {
+          "images": 0,
+          "groups": 0,
+          "objects": {
+            "attached_ciliates": 0,
+            "filamentous_bacteria": 0,
+            "rotifers": 0,
+            "testate_amoebae": 0,
+            "free_swimming_ciliates": 0,
+            "nematoda": 0,
+            "gastrotrichs": 0
+          },
+          "images_with_class": {
+            "attached_ciliates": 0,
+            "filamentous_bacteria": 0,
+            "rotifers": 0,
+            "testate_amoebae": 0,
+            "free_swimming_ciliates": 0,
+            "nematoda": 0,
+            "gastrotrichs": 0
+          },
+          "ignore_regions": 0,
+          "images_with_ignore": 0
+        }
+      },
+      "train_filter": {
+        "enabled": true,
+        "train_images": 111,
+        "removed_images": 20,
+        "objects_before": {
+          "attached_ciliates": 120,
+          "filamentous_bacteria": 133,
+          "rotifers": 44,
+          "testate_amoebae": 43,
+          "free_swimming_ciliates": 19,
+          "nematoda": 10,
+          "gastrotrichs": 13
+        },
+        "objects_removed": {
+          "attached_ciliates": 10,
+          "filamentous_bacteria": 25,
+          "rotifers": 8,
+          "testate_amoebae": 8,
+          "free_swimming_ciliates": 1,
+          "nematoda": 1,
+          "gastrotrichs": 1
+        },
+        "objects_after": {
+          "attached_ciliates": 110,
+          "filamentous_bacteria": 108,
+          "rotifers": 36,
+          "testate_amoebae": 35,
+          "free_swimming_ciliates": 18,
+          "nematoda": 9,
+          "gastrotrichs": 12
+        }
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "path": "NIGHT_RUN_2026_10_23.md",
+      "sha256": "54d3fbd7aedd7bdacbf7eec9ae6d80b3dbc65e92ead922f542543e976d76bae2"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23/protocol.md",
+      "sha256": "54d3fbd7aedd7bdacbf7eec9ae6d80b3dbc65e92ead922f542543e976d76bae2"
+    },
+    {
+      "path": "scripts/overnight_architectures.py",
+      "sha256": "2b3cd19816e8a1a98621a91ad985e75f36c1510c1480196cb86d0e994103bcde"
+    },
+    {
+      "path": "scripts/architecture_components.py",
+      "sha256": "1cdb70911c002fe304ed2cd16c554bce988f224e7ab3aad32e2047425d0a923a"
+    },
+    {
+      "path": "scripts/overnight_calibrated.py",
+      "sha256": "c8ee5464dc680867426324100062bb3d664167a9f59a7d357b3ba430e382feda"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_22/registration.json",
+      "sha256": "10bafb9098254cb420c9b1e3555fbb1bd15cd77caf25e9b6dc0843ba3446f02c"
+    },
+    {
+      "path": "tests/test_overnight_architectures.py",
+      "sha256": "efbc01fa77917579d43ee79cb403aba3ae37c4028c386875af65742036aa62a2"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/session_2024_01_31/images/Train/31.01/Ил.Беспанцирная коловратка.jpg",
+      "sha256": "e230f1d6f36237b1c2b6a1979e180feb98ec90998e4103ea87a7d266b50174ae"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/session_2024_01_31/images/Train/31.01/Ил.Прикреплённая инфузория.jpg",
+      "sha256": "e9d5f5df0c6d3a189f9fe7f667017a1bc5568818be095235a22c54863f3b9bec"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/session_2024_01_31/images/Train/31.01/Ил.Эолосома.jpg",
+      "sha256": "50b1218ebec677099d68188257cc6b6c7d9fede7e39de72a5ebf81e3d9446260"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/session_2024_01_31/images/Train/31.01/Ч1.Аспидиски.jpg",
+      "sha256": "740fa53fbfa43e9b9fb3794f36721b5daa13dc0b2a96da2c021ee6f26d39607b"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/session_2024_01_31/images/Train/31.01/Ч1.Беспанцирные коловратки.jpg",
+      "sha256": "10b212b3acd7148ba46ac6616368791d02f521990c4663aaf29591c571afc358"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/session_2024_01_31/images/Train/31.01/Ч1.Волокно и древесина.jpg",
+      "sha256": "d640ecfb90bb1e12c031728dd9ef9fca77167ad9f6d4b51695b1748c305f13a2"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/session_2024_01_31/images/Train/31.01/Ч1.Погибшие панцирные коловратки.jpg",
+      "sha256": "238d0073d36f6c8a9a57df213f62500adfffaef7465a585dd849fcab0243ffbc"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/session_2024_01_31/images/Train/31.01/Ч1.Цианобактерии.jpg",
+      "sha256": "14090dfa1571d80a860727b2f752f50f1a5bc970277663187b99e9e1ca10aadf"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/session_2024_01_31/images/Train/31.01/Ч2.Аспидиска.jpg",
+      "sha256": "a74756fb512785453df9f41abc1c6d6dd437d20856d1a4a9bfbb7e499b91b5fd"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/session_2024_01_31/images/Train/31.01/Ч2.Древесина.jpg",
+      "sha256": "e321381d160f97b7d8fd55a71401f9a2ebe2882356588c8806e5c5ebfe5b414a"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/session_2024_01_31/images/Train/31.01/Ч2.Литонотус.jpg",
+      "sha256": "19f3cd93ace518a8120aa817252a1efc69afb1f5a7b5f38ec07fdaabb2cc497d"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/2.роговидные флокулы бактерий..bmp",
+      "sha256": "f4a2fefea3cfa3dedc710905ef738e8e287ebae2c34821d291b22ca11ff7dc7d"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/пог.коловратка ч1..bmp",
+      "sha256": "2ea3276ce6bc625c00f2a8af5da236bc51629043c38e67a12deb3a9b557eb117"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/пог.коловратка.ил..bmp",
+      "sha256": "1008376e49211bf28199ba91720615ca2300115d341fcf1ff4ebff5409d84ce5"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/пог.панц.коловратка..bmp",
+      "sha256": "6d25dd181653f3021e31868646749da80c837b3b7334b1aa727c71f3d20e2587"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/пог.панц.коловратки 3 шт..bmp",
+      "sha256": "290bed70fedb98749267a77cbefb20431811bf70f679207c6e957f796f0ad9f0"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/раб.инф. 3 шт.ил.х100..bmp",
+      "sha256": "b0ca3ece959cfae3d003833cd98f6d34508f2585cdb76dae6bbd25f9d982987c"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/раб.коловратка ч1..bmp",
+      "sha256": "74dc7c88cc0ee3a9a1e9c53d434214a0886a86d922766736022a5fb037954a86"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/раб.коловратка.ил..bmp",
+      "sha256": "b8dea5d24829784e9eda1e4f7e5b0b413a2b68cc329e8b0ab8ae1628ddd9814e"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/светлые кристаллы..bmp",
+      "sha256": "42c572e4305ed87e21dc2c1225e5e5ee8e5865eaf24c17a4ff0ed421ddb31090"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/цианобактерии.ил..bmp",
+      "sha256": "695b6e81de4267b2d6532c514a41a508819da937aebb02629c3bb1d39ebf1076"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/ч1,инф.туфелька.bmp",
+      "sha256": "afdf92f173b202215e439a4705493ade353d473aafb58472c46aa6e1dd5c55c5"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/ч1...bmp",
+      "sha256": "cac8a223c534488091124eba41886364547564a95f5e4c83360c7ce375cb855d"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/ч1.волокно..bmp",
+      "sha256": "0af6ecf954903922196d115510745f4be7806294fc3a92b5cfcac6245e8ad8e9"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/ч1.раб.инф..bmp",
+      "sha256": "78a460d05bce371a3acfdd5eefdb340a3bba97cccdb420dcb40ad2088adbda4c"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/ч1.раб.коловратки 6шт..bmp",
+      "sha256": "1e071b2c16e8fcb1815c3b6b909420fd68dcad5e24ddac8cf68be7f1f0c64158"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/ч1.рак.амеба..bmp",
+      "sha256": "a71786d0c13527b5f68ed37e1406515add09b14446a01480c25fb70ebd8e9dbc"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/ч1.роговидные флокулы..bmp",
+      "sha256": "0b5cf00143148c18795bd5615a55dfb14be57bf5cee437f7279c4145f3e38f56"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/ч1.цианобактерии. (2).bmp",
+      "sha256": "49d3e962eee115add4250ba94fd34e8bc6036a3e360a48b2cd3f5bf2a9402d34"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/ч1.цианобактерии..bmp",
+      "sha256": "3d4d01d27d129782401afe6ec03816ec2f84516becd75b6369335f843315197a"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_01/images/Train/1/червь+пог.коловратка+инф.туфелька..bmp",
+      "sha256": "1f41604f51624336f85431e8d0c3e1326de0698cf3c78b40b083f7722ca2c712"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/1.bmp",
+      "sha256": "9a7a0a863dfacf0c4e92f74923775ea0b5ad1bec31cc2f7e14428d1dcbf3956d"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/2.пог.коловратка..bmp",
+      "sha256": "abfb16f58f4b2de5479d3c305d62c2d957206a0c29fb28d3aa4bf512fa9caf71"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/4..bmp",
+      "sha256": "ed2569c2ac660011d45b9f496d11bee8ec2c26c0536a953dbfc6f46665739f3e"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/4.волокно.bmp",
+      "sha256": "9d05c4ba96153ec4a4df2bca6a233a701795361c58895f328aec696ec5b2b688"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/4.коловратка..bmp",
+      "sha256": "df25b2e9e99e3c8a08648c17a093ecaad1bae7252e14a02096b1395f71d200c9"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/4.панц.раб.2 шт..bmp",
+      "sha256": "dc7ac87eab554317457b51d3da3d9c3bff47c6ee43fb54ff03f3180bb0f588c6"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/4.пог.панц..4.+ зооглеи6 шт..bmp",
+      "sha256": "1af5210493e46c3aab6c82c5d00f34b25255be66a1d83913015e73c17028a9c9"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/волокно.2..bmp",
+      "sha256": "4317012b0f1f308a76a17f2e134d6cb98ce6672b36ffe5b3bde6924c2d6d7afe"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/колония срд..bmp",
+      "sha256": "d4469d310b9fb9d33c9a52eb156c38af6aa2d5b0a83c696b06f3ec950a08109e"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/один.пр.инфю раб..bmp",
+      "sha256": "91178f69f92098989c1094e18057c0dc5360d96cde5b184b81eb32625d785d9a"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/раб.колония +коловратки.ч1..bmp",
+      "sha256": "f1e7f6b98756f8d1166b98d0d4b84da9408b6c4ddfb5d5ef7a6c52a91adb6bc5"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/раб.колония 1..bmp",
+      "sha256": "001a7d16e3295ee3dd87d6b7891ffa46714a8c169899bcb1c5aec3e8437dd754"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/цианобактерии+ сжатая коловратка..bmp",
+      "sha256": "9334dc57e45d5490d766682beca39384cd3e123166ccb7e0eae7019254497546"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/ч1. один.пр.инф.раб..bmp",
+      "sha256": "b0a26aec8d7f407001d8a48177091d790152a1c79c230a77b7b45cb508734908"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/ч1..bmp",
+      "sha256": "f31ee57771ce2bf6ec5096213dcd0792f49095ebc35e3aaec54e66fc3282ef6a"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/ч1.волокно+цианобактерии..bmp",
+      "sha256": "3f126125ffedb2f44ac6263d1384a16bf73c845b6a2c3026b1c9ca5ab622cdce"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/ч1.волокно..bmp",
+      "sha256": "c3c58702e3b9159309cc15d207edc8a0b1a0c882e93b0a4c4fccc9f99e5b14f6"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/ч1.коловратка акт..bmp",
+      "sha256": "ee29d009328a5a459f4cb5ee75b1380e50e484fc797dead090709552315d2dae"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/ч1.колония срд х100..bmp",
+      "sha256": "ca569458a342607e9a5d87a1d461e9973089f5c32fbb6c52f01596f54f361dda"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/ч1.один.пр.инф.раб..bmp",
+      "sha256": "09c048497b37032cf912118c5fa1c16fa477642136b2b00815bd40cf51753654"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/ч1.панц.коловратка.bmp",
+      "sha256": "12d4913de1fb37772642efaa16a64c598932a16e13ee3526e426cf760d114716"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/ч2.коловратка..bmp",
+      "sha256": "78e407243a037c13de82c07ecaaf73e80f4e25318776a3da308c9e8987df9780"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/ч2.один.пр.инф. срд..bmp",
+      "sha256": "ff027eb2a1fe10c29e1f987ddf2c8d6600d6b4e558c9e0e01eda8a4a2d1fb1f7"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/ч2.погибшая панц.коловратка..bmp",
+      "sha256": "d4975c5c5f8ce68c929b69b1cca8c0b7195f9d2d5bd729504bbdee93389bfba7"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/ч2.пр.инф. раб..bmp",
+      "sha256": "6e136bacc258a11b6672b0915213bca3d7d91223b416dcf6bb566aa3f806f9ad"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/ч2.цианобактерии..bmp",
+      "sha256": "9ff1e7d4dc23f42acf41b6eec8f413fc3fb6a8e58e3a6ce490754f8acd9182a0"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_02/images/Train/2/ч2.цианобактерии.bmp",
+      "sha256": "13b7f40160092afd858aaa6c82dd2436c0eb261a1db1b11145d3b9f5136ae6b7"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/1.гибель коловраток..bmp",
+      "sha256": "a86a28325df53586febf323af944412d2684b96c87bebb509265e94d5c75296e"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/2.коловратки..bmp",
+      "sha256": "0d0173dcf1b94b8b9036f47d65cf5ad3add072b9e716e0819986ca33bef3cd4b"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/2.колонии раб..bmp",
+      "sha256": "b2e122899e726c92d2825a0e0db3155dff16a7d8e9712958a78edcb50c8a2b2b"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/2.литонотус..bmp",
+      "sha256": "28b36d783fd505792175c9733407f74b282ff3f5380cb6e6fb8254b91493997c"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/2.пр.инф. срд..bmp",
+      "sha256": "14844311e271c7be82211e880729d63b3e9cdb118de8ec02ae854eee8e9b9a11"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/2.раб.колония..bmp",
+      "sha256": "0efe839a7d466397092e7a46e677fac24ba4b60df8cc9bbd401716dacecae87a"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/2.цианобактерии..bmp",
+      "sha256": "152fad0e7acc416b167f0d16df19370a1b44766dc2bfea045bd4c7f35cafaf44"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/брюх.черви.ч2..bmp",
+      "sha256": "68e08a6b9d5ac4894e8797552621dc44540a0b3db1da8098d73d4a386e1d100e"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/брюхор.червь Ghaetonotus 3шт..bmp",
+      "sha256": "0bda20650bd36c860edfc384745013d543d96dc8c69abbc5988fe69af9745e9d"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/волокно+ зооглея.ч1..bmp",
+      "sha256": "e65a18ff4f1106c5a47185dedc7b0e497dbd313b17b3e29c4282a91bc29699e2"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/коловратка+кр.жгут....bmp",
+      "sha256": "f336a7c944553fc583e78a803b5d069246f71dad1fe286b1bff96ad474198c98"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/один.пр.инф.2 шт.раб..bmp",
+      "sha256": "bd01c5e06b289acd82c2316919a28f8c3a940a9a8d5207df5ffb2c3333f0de68"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/пог.коловратка 3шт..bmp",
+      "sha256": "b2b4431080da1f1164ee713ef051c4c9acfc9893fc08f1053551c40caff4dd14"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/рак.амеба.bmp",
+      "sha256": "f711b93b6dc49160e10143bc6483ebb60324e41ce4a349acf04f35f209d44a7d"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/сжатая коловратка.ч2..bmp",
+      "sha256": "5173931cdc765d77cd0f05ad89d3b808b7e1f4d3915022ade5158f9b9d6fded5"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/ч1.акт.панц.коловратка..bmp",
+      "sha256": "bb4f4ab972e5bd970378702b01eb88a2fbf999dd9521923449176f8174e51496"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/ч1.коловратка..bmp",
+      "sha256": "39c2a83ee2d1844b628ac1b8ca6eda0a917ea05aade12f6afff983f51647aee5"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/ч1.литонотус..bmp",
+      "sha256": "a4b4c8e5fca88ea102290dc7763f19e5660d17a2fa630e44d0a12cff34175d3e"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/ч1.пр.инф. рода Epistylis раб..bmp",
+      "sha256": "670fea228c578dd742a979ea322307f0e5efddc519b8138ee7a572d5005f43b6"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/ч1.раб.коловратка 2шт..bmp",
+      "sha256": "7272ccf3da6be6bc0d7126107a30712ab694c325c2d7acf2de328a24d25f8ea0"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/ч1.раб.колонии..bmp",
+      "sha256": "4abaf032fe3785dfcb925583a1c2614e4173f499f26b46bc6f35a98d570d6260"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/ч1.цианобактерии..bmp",
+      "sha256": "50dfb52f709ecf961645717a0083ae16f5d255e5bf0cce6ada7444c94b15760d"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/ч2.коловратка. (2).bmp",
+      "sha256": "56ae675802c01c1685741b0ebd6f15b85f057c68980ac16922e34721a41d1dc1"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/ч2.коловратка..bmp",
+      "sha256": "7b6edc61b1de779e406ebb29e6df1b676b1f1f804326dad2539b6e3c93712758"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/ч2.сжатая панц.коловратка..bmp",
+      "sha256": "3f9986c255546963594b99f475063af089476c78b7de9de460e2cab4ed7d4ccf"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_04/images/default/4/ч2.цианобактерии..bmp",
+      "sha256": "003eabca9b2e69759e524579feffd1da984b9cf824b65daa903156368784a3a7"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/брюхоресничатый червь.ч2..bmp",
+      "sha256": "4b115a29441464685aaf4d244b52aec3bd9d057756bf8321c98dc73bc299b2ac"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/волокно.ч2..bmp",
+      "sha256": "798cff1000b0a4082aa7e11f7869d917ea386d17a3bc2bbc01ab1f95dde7b433"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/инф.туфелька ч1..bmp",
+      "sha256": "b7d9ce834bf3c7565b3beb6965db9bd5909b875bdab074f464099177e6d0d5f0"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/коловратка+колония срд,.bmp",
+      "sha256": "b8f8353ccfc6757bd9261b017f5237abb6c20799b665dce943ae0eeb7b89fcbf"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/колония пр.инф. перистом открыт..bmp",
+      "sha256": "7f37cd3bb019b95dac14f18bc8d4a64d0c96fe1992c68861bab27d2f41dc49d0"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/кр.жгутиконосцы.ч2..bmp",
+      "sha256": "561efe3de4a79e142d92781848d3f010179ceb9accfc3b03e8de3fae42f12746"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/литонотус ч2..bmp",
+      "sha256": "681a876951ba9566e7cfc8bbe5e68aa0f3d6c4fc6af9600d54d6fa41eaa10468"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/панц.коловратка ч1..bmp",
+      "sha256": "d4c0509d9969921fe7bf80b2c696c4366b93ed094f15f7b553fc921fa8f95883"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/сжатые панц.коловратки..ч2..bmp",
+      "sha256": "891f3ff8586e46d695187c98fa615f387e255377a535046ca600c7df4debaa3c"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/цианобактерии..bmp",
+      "sha256": "23ba188c8fa6ba25eee6c5ea8164c9a66a4e6d0e16cc9408b9631ebbbfae6e92"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/цианобактерии.ч2..bmp",
+      "sha256": "c6b34a16869809c4e4dd790e875ce978a5c5b7806a232301a41fa4319c30916d"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/ч1...коловратка..bmp",
+      "sha256": "7f8eb05fafee02c4c9a6a8c54ca68af4f8e41026f83f91dd791a47d0e980a902"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/ч1.брюхоресничатый червь.5 шт..bmp",
+      "sha256": "2ed46c43eb38775fcd5aac7abffcd075e88e9def51b1560b71394f136cd86683"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/ч1.волокно..bmp",
+      "sha256": "6660850a00fd34c03cb85b179c90bd3450db44ecd449e37c7fb602fca98b58b5"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/ч1.колония срд..bmp",
+      "sha256": "1a116b99a57904e80e49e454507c5bcfc1f9456ef9001a9ea78da52ed0d6a435"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/ч1.один.пр.инф..bmp",
+      "sha256": "d8c67a749304725680a0765a5b999c6b7edb95776de2b570153ffccf99a06363"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/ч1.рак.амебы  Эуглифа..bmp",
+      "sha256": "c6bc3cc65ad352d642f44a266223fbffd09ef9925cc62cb2640f849f2b6e70d6"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/ч1.цианобактерии..bmp",
+      "sha256": "0a830563d821ae41491bfdbdc7c03973e8234933f867b8935022773ed7146c04"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/ч2.коловратка..bmp",
+      "sha256": "121423776cc56b9950af4b7fc2e64de072bbb300be9cbc708d2e5d1c771756e3"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/ч2.обожж.ст..bmp",
+      "sha256": "de96377c395ed648089ec6530ab5b5f4c10ca8306e1d4117f583007576979bdc"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_06/images/default/6/ч2.цианобактерии..bmp",
+      "sha256": "47e786263c97df1e70bd1ec5498ef10fd50f7a1a94976eb9b7fce0419048eff2"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_07/images/default/7/ч2.коловратка. (2).bmp",
+      "sha256": "c195552a44832dbcef2782369fac35671342d5985d1b85da4a0f63eeb43533a6"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_07/images/default/7/ч2.пог.панц.коловратка4 шт..bmp",
+      "sha256": "500e02fd303cf8e3f71e99b92f0ec7005081406890270544dd5ba668a9c4d53c"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_07/images/default/7/ч2.раб.колонии..bmp",
+      "sha256": "e35ec6e45beead62a39a874912602bf8f0a0514d0da2a23f37a678459615ee04"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_07/images/default/7/ч2.раб.колония..bmp",
+      "sha256": "d67f55f256a2cc61ac98a23cd64965a2db380b808d6b88c69e60641482987aab"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_07/images/default/7/ча...1..bmp",
+      "sha256": "cc69ad90aaa9f8b343de143a7319ebeddb1a1e68a1a2be80ebabb0ed9f0469f7"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/1..bmp",
+      "sha256": "45f4eddfefeee3ceecf62a1c364b28c59bbad7c02d8236a0c8ad06c8b83a6a1d"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/волокно+ пуст. ст..bmp",
+      "sha256": "97ba99467d92bb9ce0000eda2ca34df7bab391a8704bba5411a5267aef7380bc"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/волокно+ рак.амеба..bmp",
+      "sha256": "0ac46ba2fffc0cf2f11f8a166d29e9232fa5fd3fc47ca9bcf45842e07fc42281"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/камера г.Нематода червь.bmp",
+      "sha256": "b4435b53e87fa9b25c8ce5dd4f40b3cbc93fb73aaffc02db914202ad59f55c3c"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/колония без крепления.1..bmp",
+      "sha256": "38c47824433a7925824b74d56a1e2cf1f0973771060f4767fd83cc70134755b9"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/колония раб..bmp",
+      "sha256": "ce9bbdee595320fc9cc963a86d6430101d6304fa708f22b0f395d37ae14c5581"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/колония с обожж. ст.+ древесина.ч1..bmp",
+      "sha256": "f01c0e481a3213613a8b904916b55c08d62502d1179d887ebbb0422c45f691f6"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/один.пр.инф. раб.+ рак.амеба..bmp",
+      "sha256": "c2ee092d646f47694aae88a1b1c28dcfabf73ec155476447f6766c0b097f1946"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/пустые ст.ч1..bmp",
+      "sha256": "63cfa5f650c20a099d9e004ea8295586f07625be0827b052738e2754074b9319"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/раб.инф. ч1..bmp",
+      "sha256": "372e486c13b4e3f61f4f2e9e95bb157ce4ff2d2e1da22f989d7d1e4de0ba2626"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/цианобактерии.ч2. (2).bmp",
+      "sha256": "2898d3e4471f6c9dd25d6da9459b043ee30785ab3863b13aef683b7265a0dff9"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/цианобактерии.ч2..bmp",
+      "sha256": "61a28c608b4534fb6ec6e98fceb4564210c552f24e0ce948a1843c15c879de8b"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/ч1. один.пр. инф. срд..bmp",
+      "sha256": "98b79fb27ccab0a76526f30c2813a94f1dda276a3db9da92d0656380975a0a48"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/ч1.....bmp",
+      "sha256": "a6d5f618228893f92a12bd93de712e40284003d5415d348217f155048c24a035"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/ч1....bmp",
+      "sha256": "8d3e112d052d0236d6836e4989ff83b97529a62cefad64f94f0dfcbfd99c5176"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/ч1.один.пр.инф..bmp",
+      "sha256": "18436e1937fc48ebfb21cce8cff7ffa449d34c8012964ed5528fd6a4545823db"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/ч1.рак.амеба Арцелла..bmp",
+      "sha256": "3dc772947c970ad853a3f3b4d4c1f33c36eaefabe7906510f8d44633105d25da"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/ч1.рак.амеба Центропиксис.bmp",
+      "sha256": "a11030429f7f59e17df5d5a60ceea6ef8cb3296b0ee136549f06c9d77cd72471"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/ч1.цианобактерии..bmp",
+      "sha256": "b131f3786e793f069790f958af29a0d51c9fa27b8167939a7a094c0ce7593a70"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_08/images/default/8/ч2.волокно..bmp",
+      "sha256": "a0f3eacab24bec446d98398d7e20e0b32b1df1324b8cc7d4139ab2aae8fd3286"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/брюхор.черви.1..bmp",
+      "sha256": "1a840028e02529e2adde4b90c1369ff30d784cc5f7310f8a60a0f2d1affeb050"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/волокно+коловратка.ил..bmp",
+      "sha256": "f9178587d4b8a190398f0d043cb67cb2165fddc7a6f3e6c1acb35eed1d7e9244"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/волокно.ил..bmp",
+      "sha256": "dc3764807df8288875e6285682c3f5955fccfd16fe0729b8d940bfd7d004040b"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/ил....bmp",
+      "sha256": "e0018c09ce0c0763d75a04aebefecbd8055d3f77e4de5e5328b6da015b3bb267"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/ил.круглый червь..bmp",
+      "sha256": "283109eddac44444880b7d40d55d3130f840b4b68ee43f7cb9bcaeedc44d1de6"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/коловратка ч1..bmp",
+      "sha256": "ddfe9a9bea6daedd8b31fd51bcf867ff4d4305c99441f5fd6ab253f49d44e9ac"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/колония раб.+пуст .ст. ч1..bmp",
+      "sha256": "afadb5e3ab47eb4335d530700b699a4ef91e7bc1b376be73ab61cc5c74d1993e"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/панц.коловратка ч1..bmp",
+      "sha256": "16f2c8e155e007f041af86cb3e6f0b2881af0671e061a81286430821070974a5"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/раб.колония ч1..bmp",
+      "sha256": "7aedae26af8aede617ef74596107a2b5023dd450781663a839943ba045abd63b"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/свободнопл. инф. стилонихия.ч1..bmp",
+      "sha256": "782eaa41a6ea63524f2dcc98732f3138012f4a89a31d86b0af68649d0a6b7c4f"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/сжжатые панц.коловратки.1..bmp",
+      "sha256": "02c2ab107fcc07ee70ed42eeaf15d4042ff17692a8abef56747c9a584afac62e"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/х100..bmp",
+      "sha256": "57dbe5047372436023db84e5264b8beb862446f98dafd01cab3c7857f8ef9a43"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/ч1......bmp",
+      "sha256": "e75a6f41cf00f468cfe2366d24891b01f5c410df1b020dae613d51acb4c8c2b8"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/ч1.волокно+ пуст.ст..bmp",
+      "sha256": "974178a68d28d23055c01bbdaebbc5f0cf27010b2cd28ed61481ffdaadcd5c9b"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/ч1.волокно..bmp",
+      "sha256": "6713d1f0f0bfabf7f911603b3dd8b3dea1d6db2d846b8558730aeee8b55f6b73"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/ч1.древесина..bmp",
+      "sha256": "4f40f43cab5da025534e7625a472c1781b380977139bcbc23f9f2f099c27a216"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/ч1.колонии +отр. ст..bmp",
+      "sha256": "1ddcf6a8874ae5dd94e3cb921b654b9636ecf90450387d602401c7de3f0c09d3"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/ч1.рак. амеба Эуглифа..bmp",
+      "sha256": "894c35d24110794440a7ac093516c0c752ac5292d6fc6d7c4799ff57ac3e59ae"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/ч1.рак.амеба Центропиксис+ волокно..bmp",
+      "sha256": "0bc520e9c12a2fd485f6ee61dc286a42840037b84f857d24578990581d26339d"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/ч1.рак.амеба..bmp",
+      "sha256": "d88790a9b18a31e395ebb3910a667864abeb53ea2d9763564c0a0c3928067ad5"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/ч1.цианобактерии. (2).bmp",
+      "sha256": "668a61341972cc6baefefe65f2fb408063367008467ba9c3c2aa899792f2ece1"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/ч1.цианобактерии..bmp",
+      "sha256": "23abe081454b2e76f8bcfa1f2636994fd5db0a0834087f6a3ffc1883c9e423b6"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_09/images/default/9/червь..bmp",
+      "sha256": "fedabc7522343bc0c089c01b1e71ad32659ab3e83c8ae2130d460b7adf7d9ffa"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/волокно.2..bmp",
+      "sha256": "e930b2d8f6b6e04f67bb25b9693e5237c8e13a1532c1dc8f399c9d63a8637fea"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/зооглея.ил...bmp",
+      "sha256": "b4db55ae6c1ee09d0b42996db95922fa557d89bf7b0f78727a3a5b05f7dd445c"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/ил.акт.коловратка..bmp",
+      "sha256": "767a3ae4c101fdd437d43145dc20a83bedbb447a5ff4f68a0de26f3a8cdfa49d"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/ил.маленкая колония раб.+колония срд..bmp",
+      "sha256": "0836a11f6fe79039e7feb892c3098e2605da15e030736895468e8b1882c38306"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/ил.песок..bmp",
+      "sha256": "3b6ed66131f0b366bbb82ee3905f6c7a575a6888deadfc9ff9497523f1607026"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/коловратка+раб.колония рода Эпистилус.bmp",
+      "sha256": "9d6c76b06bf79128132ac438f28b949b57ea4da108d666c16643a07d7434eb88"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/коловратки 2ч..bmp",
+      "sha256": "593ab7f86ef00241332b196075bef378c2d147f4ad364fe041023a0ca190d0cc"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/колония рода Epistylis+волокно.ил..bmp",
+      "sha256": "d9baf4b1bafebca2c5256829217182e35c90c7c9ec05b779aa975ab88a3dda69"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/колония срд+отр.ст..bmp",
+      "sha256": "3ff14099d255f59720e73bf600e9a7ee14a1bfaba150807cf31675d95e22900f"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/литонотус+ зооглея..bmp",
+      "sha256": "89e02d601e9c861489a116afa3ae5663e2fb5c060274f041d4c5b5c45127657f"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/литонотус.ч1..bmp",
+      "sha256": "c83f8bdf1611efc337d8c76887f2feaa4b41d226b79b24134dd56d773e613a4b"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/малощ. червь+ пус. ст..bmp",
+      "sha256": "386a0b4102d81e6a6904c721f9c1f24d09dce60e70931eda64d55c97db6a6b8e"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/один.пр.инф. 19шт..bmp",
+      "sha256": "42bb6249e2c6b61e61bcd7640fd91d2f20accb65b2adc9eb779879b43c85a428"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/один.пр.инф.раб..bmp",
+      "sha256": "88c4d00b239e1266b2b2a1234347a6b52fcfd2532d226ac00c8770db5af84e14"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/панц.коловратка+волокно..bmp",
+      "sha256": "7ebf70a51369ad5c5e466d655df0f3c9600a4784d2ca84e0c04dc76ad226a04e"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/пог.панц.3 шт.ч2.+колония срд..bmp",
+      "sha256": "0ecf3f150da1e8af4abf5bfacf4b74eafc59ad2772227770cc9ce41444231cf7"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/раб.колония ч1..bmp",
+      "sha256": "431b3a87ed7fe9caa401dda3179547a7f7999f7143aed595907efe52cfe2ca11"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/рак.амеба Центропиксис.bmp",
+      "sha256": "830b246bb34ac389689d753ddb1412816c69426037077e4030981c7510af912a"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/цианобактерии+следы БДМ,.bmp",
+      "sha256": "a96c4bd699b6f4c8fa089c62c10c4438420d8ffcc2886a01dd49be7d28562564"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/цианобактерии2 ч..bmp",
+      "sha256": "17fa5b237f6b97213e7fd29a700cfbcc2e454e095ac0adf2cb1b634677b9ecca"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/ч1....bmp",
+      "sha256": "5631a89fb1ec62c12f78cea1c24f81d0b43ffc0ce0c804a473920717e77e25c9"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/ч1.коловратка.bmp",
+      "sha256": "cde20117414b35937cf97cde866bd152ebfc33f737849340c757672752a10f5b"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/ч1.колония рода Ehistylis срд..bmp",
+      "sha256": "2c9efbc68c5bf56d2825b1bb82dd1fe00f5ae163b382d8e0ac07c493296cd5d6"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_10/images/default/10/ч1.червь брюхоресничатый.4 шт..bmp",
+      "sha256": "90ca831482c5d4e8fa96449a5884204ef60d05b7c117ba403cdb248713f58915"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/1 а..bmp",
+      "sha256": "10ca10aa74261e64bc293aa6c6965052ed685bbbbb4ad4ae73b681d79c019004"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/2.коловратки..bmp",
+      "sha256": "94a5c9e2945160b9a92e33723d32354fa65a50a108f208ce2a206124b1058082"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/2.пуст. ст..bmp",
+      "sha256": "a319e042f0d3217afebf471063b6308ff38806310551439a4453079be210d562"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/3 а..bmp",
+      "sha256": "d465be2fe6d3ef60db909110ffcd2dfc7820aed9d52b8bef44f666164f80a055"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/3 аэр.,,.bmp",
+      "sha256": "573a8be03ced000b97d930180d4bfb5b975adc77774d6f3de2523cd976464819"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/3 аэр..bmp",
+      "sha256": "e5bcfcef6b5abb8f281ee1ba1b0534d4b1d9f02c30fec6a794bb0ee4b1eff26d"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/4. коловраток 6 шт..bmp",
+      "sha256": "1c867a4ae677f408f139f285e3e45c1d6013ff76390031964f0dbde355380617"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/4..bmp",
+      "sha256": "844dd84c90f640ac3204f98eeeb98756b0491f26822211706dd6a91ac137c2a1"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/8 а..bmp",
+      "sha256": "9dda90fd1ec9fe65ca0e3fc432a00e199627b15f40801a9d0b85f4e3bc628bdf"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/а4..bmp",
+      "sha256": "3d00500a2c91f675caee777e838cd8b4673bb4464840336ccc4433613f2b6b08"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/аэр.3..bmp",
+      "sha256": "7925436753c124fb26945978d19050df503f746129140d0ccbef6bdd12f68310"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/коловратка.4..bmp",
+      "sha256": "e13b2a5ee91a527727204c13d40693d6fef39b24908435f0b4e1e35d6f61f3aa"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/коловратки. 1 а....bmp",
+      "sha256": "966b6b85f65359bfdf8a292e3454a940292f73187d18927a412e1b5e1aee626f"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/колония срд.ч2..bmp",
+      "sha256": "463dce84c069a0f1d0d5d5b0d2cabcb4d7023c7ce1902bd902e1f376c28b6921"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/колония цианобактерий+пр.инф.срд..bmp",
+      "sha256": "5194cec73bf3724cd9e4980bc38ebdf651f58dc05b580c85f954c7ab58cbf2c7"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/малощ.червь.ч2..bmp",
+      "sha256": "e6ea116bb251f2c2d0b5a00b897f6202df58a5c882d97ff29d4419b99774072c"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/пог.панц. +раб.коловратка..bmp",
+      "sha256": "d812b36c28b50bd8897f7a1eac6fa4a2f6f3f557f85edaef7b4cd871f4bc4277"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/рак.амбы Эуглифы..bmp",
+      "sha256": "34f63f8cde478324ca4cee835f4d341b305dc37c5c61d3ae403c8d9a43c810f6"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/сжжатая панц.коловратка.1..bmp",
+      "sha256": "c75c09d4fb3572cb35d942ccf413fdcf7c094638aebfc18faee086eb15ad15e0"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/сос.инф. 1а..bmp",
+      "sha256": "8cd8c186f2587f58435120b2ef12d3d6833ce2a98b9c15bbc7b55fa369ff45af"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/цианобактерии 1а..bmp",
+      "sha256": "bc33f7cd1bd90d1aed3ea00cb0e990148b2324b295c3dd97aaf5441ec50ed038"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/цианобактерии+пустые ст..bmp",
+      "sha256": "65cabf600cc73a50ab03ee781c444e37e313201570b78754b499cc96441ebf14"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/цианобактерии..ч2..bmp",
+      "sha256": "bae512179fee29f02c8b967c22600eb344e88a2c4f984ef33411f32c734b2cc0"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/ч2.волокно..bmp",
+      "sha256": "30bd03947af8b618a7dcd4df0528a9284d7a396a151471b4b6d29d431f1eaa9d"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/ч2.коловратки..bmp",
+      "sha256": "135ffc87f9b19451a6aacad10ba16e70b8e45479b4e9a4216d34f5683e8d94e5"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/ч2.один.пр.инф. раб..bmp",
+      "sha256": "d4efd33b39edf6ded9eef6909eef63b5e7eeae1473cf2c155c4b352e18cb6994"
+    },
+    {
+      "path": "data/processed_updated_2026_10_02/extracted/student_11/images/default/11/червь 1 аэр..bmp",
+      "sha256": "592c3968dc2f3ecb7b8e37bca98a0df22afbd46de4ddedbcbffc24e5ee5d8260"
+    }
+  ],
+  "package_sha256": "fb698c88c123e16f6fc1174ff46e6b77924bea92abb654984d4e5502b64c3310",
+  "development_images": 204,
+  "independent_test": false,
+  "primary": "count_guarded",
+  "seeds": [
+    20261022,
+    20261023
+  ]
+}

@@ -1,0 +1,361 @@
+{
+  "batchnorm": {
+    "changed": 0,
+    "changed_first": [],
+    "layers": 65,
+    "layers_in_training_mode": 0,
+    "mode": "frozen",
+    "statistics": 195
+  },
+  "class_map": [
+    {
+      "label": 1,
+      "name": "attached_ciliates",
+      "source_category": "attached_ciliates",
+      "source_category_id": 2,
+      "title": "Прикреплённые инфузории"
+    },
+    {
+      "label": 2,
+      "name": "filamentous_bacteria",
+      "source_category": "filamentous_bacteria",
+      "source_category_id": 5,
+      "title": "Нитчатые бактерии"
+    },
+    {
+      "label": 3,
+      "name": "rotifers",
+      "source_category": "rotifers",
+      "source_category_id": 3,
+      "title": "Коловратки"
+    },
+    {
+      "label": 4,
+      "name": "testate_amoebae",
+      "source_category": "testate_amoebae",
+      "source_category_id": 9,
+      "title": "Раковинные амёбы"
+    },
+    {
+      "label": 5,
+      "name": "free_swimming_ciliates",
+      "source_category": "free_swimming_ciliates",
+      "source_category_id": 4,
+      "title": "Свободноплавающие инфузории"
+    },
+    {
+      "label": 6,
+      "name": "nematoda",
+      "source_category": "nematoda",
+      "source_category_id": 14,
+      "title": "Нематоды"
+    },
+    {
+      "label": 7,
+      "name": "gastrotrichs",
+      "source_category": "gastrotrichs",
+      "source_category_id": 7,
+      "title": "Брюхоресничные"
+    }
+  ],
+  "code": {
+    "commit": "48a8f6e01086af08efca78d3ebb17f4f760badb0",
+    "dirty": true
+  },
+  "code_at_start": {
+    "commit": "48a8f6e01086af08efca78d3ebb17f4f760badb0",
+    "dirty": true,
+    "package_sha256": "2d633b7357bd76b91f18dd2f8491fc9b4ec5b4ccffd89023c65fa17d7209e75c"
+  },
+  "config_sha256": "162ef79fac5cbaba1685dedc37ad583a756308366b105249ce3d75ed1829825c",
+  "environment": {
+    "device": "cuda",
+    "machine": "AMD64",
+    "packages": {
+      "PyYAML": "6.0.3",
+      "numpy": "2.5.2",
+      "opencv-python-headless": "5.0.0.93",
+      "pandas": "3.0.6",
+      "pillow": "12.3.0",
+      "pyarrow": "26.0.0",
+      "pydantic": "2.14.1",
+      "torch": "2.11.0+cu128",
+      "torchvision": "0.26.0+cu128",
+      "ultralytics": null
+    },
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.13.7",
+    "torch_threads": 4
+  },
+  "initialisation": {
+    "loaded": 400,
+    "skipped": [
+      "roi_heads.box_predictor.bbox_pred",
+      "roi_heads.box_predictor.cls_score"
+    ]
+  },
+  "inputs": {
+    "checkpoint": {
+      "path": "outputs_updated_2026_10_02/overnight_2026_10_21/rotation15_s20260930/model.pt",
+      "sha256": "ec05dc47e836dfc25f7c40fae4fd53131ffb7de74394dd053e5c7eeb4e21b317"
+    },
+    "pretrained_weights": {
+      "path": "outputs_updated_2026_10_02/pretrained/fasterrcnn_resnet50_fpn_v2_coco-dd69338a.pth",
+      "sha256": "dd69338a24b8d7381807e247652bdc356325bcbaf1cd3e092e00e0a1a58706bf"
+    }
+  },
+  "resumed_after_epoch": null,
+  "run_id": "rotation15_s20260930",
+  "sampling": {
+    "images": 132,
+    "policy": "none",
+    "presence": {
+      "attached_ciliates": 53,
+      "filamentous_bacteria": 51,
+      "free_swimming_ciliates": 11,
+      "gastrotrichs": 15,
+      "nematoda": 7,
+      "rotifers": 43,
+      "testate_amoebae": 36
+    }
+  },
+  "seed": 20260930,
+  "split_lock": {
+    "assignment_cost": 1.01991,
+    "data_variant": "prefer_student_6",
+    "groups": 39,
+    "largest_group": 36,
+    "limitations": [],
+    "manifest": "split_manifest.parquet",
+    "manifest_sha256": "6f88c2d3404b9028ea0fa38b81ac4ebaab19d6881d83a9c426e3e2c2ff09675c",
+    "overlap_links": 11,
+    "protocol": {
+      "alternative_approval": "Owner decision of 2026-09-29: research training on a non-temporal grouped split; unknown capture dates are not reconstructed.",
+      "boundary_group_policy": "group_to_later_split",
+      "confirmed_time_sources": [
+        "exif_datetime_original",
+        "owner_metadata"
+      ],
+      "grouping": {
+        "filename_series": true,
+        "orb_features": 1500,
+        "orb_image_width": 640,
+        "orb_min_inliers": 20,
+        "orb_ransac_px": 3.0,
+        "orb_ratio": 0.75,
+        "sampling_point_tokens": true,
+        "search_iterations": 1000,
+        "unmarked_per_session": true
+      },
+      "owner_metadata": null,
+      "protocol": "group",
+      "target_fractions": {
+        "test": 0.2,
+        "train": 0.6,
+        "validation": 0.2
+      },
+      "train_end": null,
+      "validation_end": null
+    },
+    "scene_links": "scene_links.parquet",
+    "scene_links_sha256": "7e6c098787c002b1bf646b1dfc1c82a7cb01d600dc25e5a99df5621b3145a2c3",
+    "sessions": [
+      "session_2024_01_31",
+      "student_01",
+      "student_02+student_04",
+      "student_06+student_07+student_08",
+      "student_09",
+      "student_10",
+      "student_11"
+    ],
+    "splits": {
+      "test": {
+        "groups": 8,
+        "ignore_regions": 24,
+        "images": 46,
+        "images_with_class": {
+          "attached_ciliates": 20,
+          "filamentous_bacteria": 18,
+          "free_swimming_ciliates": 5,
+          "gastrotrichs": 5,
+          "nematoda": 3,
+          "rotifers": 16,
+          "testate_amoebae": 13
+        },
+        "images_with_ignore": 11,
+        "objects": {
+          "attached_ciliates": 64,
+          "filamentous_bacteria": 56,
+          "free_swimming_ciliates": 6,
+          "gastrotrichs": 8,
+          "nematoda": 3,
+          "rotifers": 21,
+          "testate_amoebae": 22
+        }
+      },
+      "train": {
+        "groups": 19,
+        "ignore_regions": 33,
+        "images": 154,
+        "images_with_class": {
+          "attached_ciliates": 61,
+          "filamentous_bacteria": 58,
+          "free_swimming_ciliates": 13,
+          "gastrotrichs": 16,
+          "nematoda": 7,
+          "rotifers": 48,
+          "testate_amoebae": 43
+        },
+        "images_with_ignore": 22,
+        "objects": {
+          "attached_ciliates": 164,
+          "filamentous_bacteria": 175,
+          "free_swimming_ciliates": 21,
+          "gastrotrichs": 20,
+          "nematoda": 21,
+          "rotifers": 58,
+          "testate_amoebae": 64
+        }
+      },
+      "validation": {
+        "groups": 12,
+        "ignore_regions": 22,
+        "images": 50,
+        "images_with_class": {
+          "attached_ciliates": 20,
+          "filamentous_bacteria": 18,
+          "free_swimming_ciliates": 5,
+          "gastrotrichs": 6,
+          "nematoda": 2,
+          "rotifers": 14,
+          "testate_amoebae": 14
+        },
+        "images_with_ignore": 12,
+        "objects": {
+          "attached_ciliates": 67,
+          "filamentous_bacteria": 60,
+          "free_swimming_ciliates": 7,
+          "gastrotrichs": 7,
+          "nematoda": 2,
+          "rotifers": 20,
+          "testate_amoebae": 21
+        }
+      }
+    },
+    "train_filter": {
+      "enabled": true,
+      "objects_after": {
+        "attached_ciliates": 143,
+        "filamentous_bacteria": 150,
+        "free_swimming_ciliates": 19,
+        "gastrotrichs": 18,
+        "nematoda": 21,
+        "rotifers": 52,
+        "testate_amoebae": 55
+      },
+      "objects_before": {
+        "attached_ciliates": 164,
+        "filamentous_bacteria": 175,
+        "free_swimming_ciliates": 21,
+        "gastrotrichs": 20,
+        "nematoda": 21,
+        "rotifers": 58,
+        "testate_amoebae": 64
+      },
+      "objects_removed": {
+        "attached_ciliates": 21,
+        "filamentous_bacteria": 25,
+        "free_swimming_ciliates": 2,
+        "gastrotrichs": 2,
+        "nematoda": 0,
+        "rotifers": 6,
+        "testate_amoebae": 9
+      },
+      "removed_images": 22,
+      "train_images": 154
+    }
+  },
+  "train_history": [
+    {
+      "epoch": 1,
+      "loss": 0.7374752381760062,
+      "lr": 0.0025
+    },
+    {
+      "epoch": 2,
+      "loss": 0.6033391783183272,
+      "lr": 0.0025
+    },
+    {
+      "epoch": 3,
+      "loss": 0.534520094311147,
+      "lr": 0.0025
+    },
+    {
+      "epoch": 4,
+      "loss": 0.49775634113360534,
+      "lr": 0.0025
+    },
+    {
+      "epoch": 5,
+      "loss": 0.4923491226791432,
+      "lr": 0.0025
+    },
+    {
+      "epoch": 6,
+      "loss": 0.46366287321981153,
+      "lr": 0.0025
+    },
+    {
+      "epoch": 7,
+      "loss": 0.45928989788235136,
+      "lr": 0.0025
+    },
+    {
+      "epoch": 8,
+      "loss": 0.4314045433350133,
+      "lr": 0.0025
+    },
+    {
+      "epoch": 9,
+      "loss": 0.43553062336462917,
+      "lr": 0.0025
+    },
+    {
+      "epoch": 10,
+      "loss": 0.4119261830029162,
+      "lr": 0.0025
+    },
+    {
+      "epoch": 11,
+      "loss": 0.4161790520460768,
+      "lr": 0.0025
+    },
+    {
+      "epoch": 12,
+      "loss": 0.4006841119209474,
+      "lr": 0.0025
+    },
+    {
+      "epoch": 13,
+      "loss": 0.38778968228760996,
+      "lr": 0.0025
+    },
+    {
+      "epoch": 14,
+      "loss": 0.3828102493319999,
+      "lr": 0.0025
+    },
+    {
+      "epoch": 15,
+      "loss": 0.38448290428090276,
+      "lr": 0.0025
+    }
+  ],
+  "train_images": 132,
+  "trainable_parameters": {
+    "names_sha256": "c7df246429c9cf46ec524db8ec31593f57c3b308ffccf5668b934d9d2dbb5e2f",
+    "tensors": 176,
+    "values": 43061559
+  }
+}

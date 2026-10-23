@@ -1,0 +1,22 @@
+ablation:
+  task: classification
+  backbone: efficientnetv2
+  output_dir: runs/ablation
+  seeds: [42, 123, 321]
+  include_full_maa: true
+  priors:
+    - boundary
+    - focus
+    - organelle
+    - compactness
+    - morphology
+    - density
+
+classification_config: classification.yaml
+detection_config: detection.yaml
+segmentation_config: segmentation.yaml
+
+metrics:
+  classification: f1_weighted
+  detection: map50
+  segmentation: mdice

@@ -1,0 +1,544 @@
+{
+  "job": {
+    "fold": 1,
+    "seed": 20261023,
+    "recipe": "control15",
+    "run_id": "control15_s20261023",
+    "config": {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_22/queue_configs/fold_1_control15_s20261023.yaml",
+      "sha256": "0dd95524931be76922d916b7b82f6952a164efdd1fa63669be594825fecfe8b4"
+    }
+  },
+  "checks": {
+    "checkpoint_sha256": "b9fd3cb5c7635c63ea8ef0dac2e7957ad6578f3581c4fa91d23aadeb1dea6c21",
+    "config_sha256": "b8651c52d6b356ba1f9cc1f274a89f29aeb61b9dec2cc766663ae7702b8c33d8",
+    "split_manifest_sha256": "50b0bbee9ccbb54a75c335e50016277ca67d0475ecad31ab57326867885fc4a5",
+    "checkpoint_matches_manifest": true,
+    "snapshot_matches_manifest": true,
+    "config_equals_snapshot": true,
+    "split_matches_lock": true
+  },
+  "calibration": {
+    "path": "experiments_updated_2026_10_02/overnight_2026_10_22/fold_1/control15_s20261023/calibration.json",
+    "sha256": "6aeb4bcfa8b8a7a149caaff87630704b0f7df8f32de9c3e8c309aef2813cacd2"
+  },
+  "predictions": {
+    "path": "outputs_updated_2026_10_02/overnight_2026_10_22/fold_1/control15_s20261023/predictions_outer_validation.parquet",
+    "sha256": "e4c63a0c8730595ff241bfe3aa7f871b241f62baadfa32f11a6301b4876bf777"
+  },
+  "policies": {
+    "fixed_020": {
+      "confidence": null,
+      "classes": [
+        {
+          "name": "attached_ciliates",
+          "support": 80,
+          "predictions": 205,
+          "tp": 35,
+          "fp": 170,
+          "fn": 45,
+          "precision": 0.17073170731707318,
+          "recall": 0.4375,
+          "f1": 0.24561403508771928
+        },
+        {
+          "name": "filamentous_bacteria",
+          "support": 69,
+          "predictions": 239,
+          "tp": 33,
+          "fp": 206,
+          "fn": 36,
+          "precision": 0.13807531380753138,
+          "recall": 0.4782608695652174,
+          "f1": 0.21428571428571427
+        },
+        {
+          "name": "rotifers",
+          "support": 30,
+          "predictions": 32,
+          "tp": 20,
+          "fp": 12,
+          "fn": 10,
+          "precision": 0.625,
+          "recall": 0.6666666666666666,
+          "f1": 0.6451612903225806
+        },
+        {
+          "name": "testate_amoebae",
+          "support": 24,
+          "predictions": 55,
+          "tp": 13,
+          "fp": 42,
+          "fn": 11,
+          "precision": 0.23636363636363636,
+          "recall": 0.5416666666666666,
+          "f1": 0.3291139240506329
+        },
+        {
+          "name": "free_swimming_ciliates",
+          "support": 8,
+          "predictions": 10,
+          "tp": 0,
+          "fp": 10,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "name": "nematoda",
+          "support": 1,
+          "predictions": 6,
+          "tp": 0,
+          "fp": 6,
+          "fn": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "name": "gastrotrichs",
+          "support": 9,
+          "predictions": 12,
+          "tp": 3,
+          "fp": 9,
+          "fn": 6,
+          "precision": 0.25,
+          "recall": 0.3333333333333333,
+          "f1": 0.2857142857142857
+        }
+      ],
+      "macro_f1": 0.24569846420870464,
+      "macro_f1_classes": [
+        "attached_ciliates",
+        "filamentous_bacteria",
+        "rotifers",
+        "testate_amoebae",
+        "free_swimming_ciliates",
+        "nematoda",
+        "gastrotrichs"
+      ],
+      "counting": {
+        "images": 75,
+        "confidence": null,
+        "classes": [
+          {
+            "name": "attached_ciliates",
+            "annotated": 80,
+            "counted": 205,
+            "in_ignore_regions": 2,
+            "mae_per_frame": 2.2266666666666666,
+            "bias_per_frame": 1.6666666666666667,
+            "mae_per_frame_all": 2.2533333333333334,
+            "bias_per_frame_all": 1.6933333333333334
+          },
+          {
+            "name": "filamentous_bacteria",
+            "annotated": 69,
+            "counted": 239,
+            "in_ignore_regions": 0,
+            "mae_per_frame": 2.48,
+            "bias_per_frame": 2.2666666666666666,
+            "mae_per_frame_all": 2.48,
+            "bias_per_frame_all": 2.2666666666666666
+          },
+          {
+            "name": "rotifers",
+            "annotated": 30,
+            "counted": 32,
+            "in_ignore_regions": 1,
+            "mae_per_frame": 0.24,
+            "bias_per_frame": 0.02666666666666667,
+            "mae_per_frame_all": 0.25333333333333335,
+            "bias_per_frame_all": 0.04
+          },
+          {
+            "name": "testate_amoebae",
+            "annotated": 24,
+            "counted": 55,
+            "in_ignore_regions": 3,
+            "mae_per_frame": 0.6533333333333333,
+            "bias_per_frame": 0.41333333333333333,
+            "mae_per_frame_all": 0.6933333333333334,
+            "bias_per_frame_all": 0.4533333333333333
+          },
+          {
+            "name": "free_swimming_ciliates",
+            "annotated": 8,
+            "counted": 10,
+            "in_ignore_regions": 0,
+            "mae_per_frame": 0.24,
+            "bias_per_frame": 0.02666666666666667,
+            "mae_per_frame_all": 0.24,
+            "bias_per_frame_all": 0.02666666666666667
+          },
+          {
+            "name": "nematoda",
+            "annotated": 1,
+            "counted": 6,
+            "in_ignore_regions": 0,
+            "mae_per_frame": 0.09333333333333334,
+            "bias_per_frame": 0.06666666666666667,
+            "mae_per_frame_all": 0.09333333333333334,
+            "bias_per_frame_all": 0.06666666666666667
+          },
+          {
+            "name": "gastrotrichs",
+            "annotated": 9,
+            "counted": 12,
+            "in_ignore_regions": 0,
+            "mae_per_frame": 0.2,
+            "bias_per_frame": 0.04,
+            "mae_per_frame_all": 0.2,
+            "bias_per_frame_all": 0.04
+          }
+        ]
+      },
+      "images": 75,
+      "objects": 221,
+      "confidence_source": "frozen_per_fold_policy_before_outer_inference"
+    },
+    "global_f1": {
+      "confidence": null,
+      "classes": [
+        {
+          "name": "attached_ciliates",
+          "support": 80,
+          "predictions": 150,
+          "tp": 33,
+          "fp": 117,
+          "fn": 47,
+          "precision": 0.22,
+          "recall": 0.4125,
+          "f1": 0.28695652173913044
+        },
+        {
+          "name": "filamentous_bacteria",
+          "support": 69,
+          "predictions": 168,
+          "tp": 29,
+          "fp": 139,
+          "fn": 40,
+          "precision": 0.17261904761904762,
+          "recall": 0.42028985507246375,
+          "f1": 0.24472573839662448
+        },
+        {
+          "name": "rotifers",
+          "support": 30,
+          "predictions": 19,
+          "tp": 13,
+          "fp": 6,
+          "fn": 17,
+          "precision": 0.6842105263157895,
+          "recall": 0.43333333333333335,
+          "f1": 0.5306122448979592
+        },
+        {
+          "name": "testate_amoebae",
+          "support": 24,
+          "predictions": 37,
+          "tp": 11,
+          "fp": 26,
+          "fn": 13,
+          "precision": 0.2972972972972973,
+          "recall": 0.4583333333333333,
+          "f1": 0.36065573770491804
+        },
+        {
+          "name": "free_swimming_ciliates",
+          "support": 8,
+          "predictions": 3,
+          "tp": 0,
+          "fp": 3,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "name": "nematoda",
+          "support": 1,
+          "predictions": 1,
+          "tp": 0,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "name": "gastrotrichs",
+          "support": 9,
+          "predictions": 7,
+          "tp": 1,
+          "fp": 6,
+          "fn": 8,
+          "precision": 0.14285714285714285,
+          "recall": 0.1111111111111111,
+          "f1": 0.125
+        }
+      ],
+      "macro_f1": 0.22113574896266172,
+      "macro_f1_classes": [
+        "attached_ciliates",
+        "filamentous_bacteria",
+        "rotifers",
+        "testate_amoebae",
+        "free_swimming_ciliates",
+        "nematoda",
+        "gastrotrichs"
+      ],
+      "counting": {
+        "images": 75,
+        "confidence": null,
+        "classes": [
+          {
+            "name": "attached_ciliates",
+            "annotated": 80,
+            "counted": 150,
+            "in_ignore_regions": 2,
+            "mae_per_frame": 1.5466666666666666,
+            "bias_per_frame": 0.9333333333333333,
+            "mae_per_frame_all": 1.5733333333333333,
+            "bias_per_frame_all": 0.96
+          },
+          {
+            "name": "filamentous_bacteria",
+            "annotated": 69,
+            "counted": 168,
+            "in_ignore_regions": 0,
+            "mae_per_frame": 1.6666666666666667,
+            "bias_per_frame": 1.32,
+            "mae_per_frame_all": 1.6666666666666667,
+            "bias_per_frame_all": 1.32
+          },
+          {
+            "name": "rotifers",
+            "annotated": 30,
+            "counted": 19,
+            "in_ignore_regions": 0,
+            "mae_per_frame": 0.28,
+            "bias_per_frame": -0.14666666666666667,
+            "mae_per_frame_all": 0.28,
+            "bias_per_frame_all": -0.14666666666666667
+          },
+          {
+            "name": "testate_amoebae",
+            "annotated": 24,
+            "counted": 37,
+            "in_ignore_regions": 2,
+            "mae_per_frame": 0.4666666666666667,
+            "bias_per_frame": 0.17333333333333334,
+            "mae_per_frame_all": 0.49333333333333335,
+            "bias_per_frame_all": 0.2
+          },
+          {
+            "name": "free_swimming_ciliates",
+            "annotated": 8,
+            "counted": 3,
+            "in_ignore_regions": 0,
+            "mae_per_frame": 0.14666666666666667,
+            "bias_per_frame": -0.06666666666666667,
+            "mae_per_frame_all": 0.14666666666666667,
+            "bias_per_frame_all": -0.06666666666666667
+          },
+          {
+            "name": "nematoda",
+            "annotated": 1,
+            "counted": 1,
+            "in_ignore_regions": 0,
+            "mae_per_frame": 0.02666666666666667,
+            "bias_per_frame": 0.0,
+            "mae_per_frame_all": 0.02666666666666667,
+            "bias_per_frame_all": 0.0
+          },
+          {
+            "name": "gastrotrichs",
+            "annotated": 9,
+            "counted": 7,
+            "in_ignore_regions": 0,
+            "mae_per_frame": 0.18666666666666668,
+            "bias_per_frame": -0.02666666666666667,
+            "mae_per_frame_all": 0.18666666666666668,
+            "bias_per_frame_all": -0.02666666666666667
+          }
+        ]
+      },
+      "images": 75,
+      "objects": 221,
+      "confidence_source": "frozen_per_fold_policy_before_outer_inference"
+    },
+    "count_guarded": {
+      "confidence": null,
+      "classes": [
+        {
+          "name": "attached_ciliates",
+          "support": 80,
+          "predictions": 140,
+          "tp": 32,
+          "fp": 108,
+          "fn": 48,
+          "precision": 0.22857142857142856,
+          "recall": 0.4,
+          "f1": 0.2909090909090909
+        },
+        {
+          "name": "filamentous_bacteria",
+          "support": 69,
+          "predictions": 111,
+          "tp": 23,
+          "fp": 88,
+          "fn": 46,
+          "precision": 0.2072072072072072,
+          "recall": 0.3333333333333333,
+          "f1": 0.25555555555555554
+        },
+        {
+          "name": "rotifers",
+          "support": 30,
+          "predictions": 40,
+          "tp": 22,
+          "fp": 18,
+          "fn": 8,
+          "precision": 0.55,
+          "recall": 0.7333333333333333,
+          "f1": 0.6285714285714286
+        },
+        {
+          "name": "testate_amoebae",
+          "support": 24,
+          "predictions": 62,
+          "tp": 14,
+          "fp": 48,
+          "fn": 10,
+          "precision": 0.22580645161290322,
+          "recall": 0.5833333333333334,
+          "f1": 0.32558139534883723
+        },
+        {
+          "name": "free_swimming_ciliates",
+          "support": 8,
+          "predictions": 3,
+          "tp": 0,
+          "fp": 3,
+          "fn": 8,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "name": "nematoda",
+          "support": 1,
+          "predictions": 1,
+          "tp": 0,
+          "fp": 1,
+          "fn": 1,
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        {
+          "name": "gastrotrichs",
+          "support": 9,
+          "predictions": 7,
+          "tp": 1,
+          "fp": 6,
+          "fn": 8,
+          "precision": 0.14285714285714285,
+          "recall": 0.1111111111111111,
+          "f1": 0.125
+        }
+      ],
+      "macro_f1": 0.23223106719784464,
+      "macro_f1_classes": [
+        "attached_ciliates",
+        "filamentous_bacteria",
+        "rotifers",
+        "testate_amoebae",
+        "free_swimming_ciliates",
+        "nematoda",
+        "gastrotrichs"
+      ],
+      "counting": {
+        "images": 75,
+        "confidence": null,
+        "classes": [
+          {
+            "name": "attached_ciliates",
+            "annotated": 80,
+            "counted": 140,
+            "in_ignore_regions": 2,
+            "mae_per_frame": 1.4666666666666666,
+            "bias_per_frame": 0.8,
+            "mae_per_frame_all": 1.4933333333333334,
+            "bias_per_frame_all": 0.8266666666666667
+          },
+          {
+            "name": "filamentous_bacteria",
+            "annotated": 69,
+            "counted": 111,
+            "in_ignore_regions": 0,
+            "mae_per_frame": 1.2,
+            "bias_per_frame": 0.56,
+            "mae_per_frame_all": 1.2,
+            "bias_per_frame_all": 0.56
+          },
+          {
+            "name": "rotifers",
+            "annotated": 30,
+            "counted": 40,
+            "in_ignore_regions": 1,
+            "mae_per_frame": 0.29333333333333333,
+            "bias_per_frame": 0.13333333333333333,
+            "mae_per_frame_all": 0.30666666666666664,
+            "bias_per_frame_all": 0.14666666666666667
+          },
+          {
+            "name": "testate_amoebae",
+            "annotated": 24,
+            "counted": 62,
+            "in_ignore_regions": 3,
+            "mae_per_frame": 0.72,
+            "bias_per_frame": 0.5066666666666667,
+            "mae_per_frame_all": 0.76,
+            "bias_per_frame_all": 0.5466666666666666
+          },
+          {
+            "name": "free_swimming_ciliates",
+            "annotated": 8,
+            "counted": 3,
+            "in_ignore_regions": 0,
+            "mae_per_frame": 0.14666666666666667,
+            "bias_per_frame": -0.06666666666666667,
+            "mae_per_frame_all": 0.14666666666666667,
+            "bias_per_frame_all": -0.06666666666666667
+          },
+          {
+            "name": "nematoda",
+            "annotated": 1,
+            "counted": 1,
+            "in_ignore_regions": 0,
+            "mae_per_frame": 0.02666666666666667,
+            "bias_per_frame": 0.0,
+            "mae_per_frame_all": 0.02666666666666667,
+            "bias_per_frame_all": 0.0
+          },
+          {
+            "name": "gastrotrichs",
+            "annotated": 9,
+            "counted": 7,
+            "in_ignore_regions": 0,
+            "mae_per_frame": 0.18666666666666668,
+            "bias_per_frame": -0.02666666666666667,
+            "mae_per_frame_all": 0.18666666666666668,
+            "bias_per_frame_all": -0.02666666666666667
+          }
+        ]
+      },
+      "images": 75,
+      "objects": 221,
+      "confidence_source": "frozen_per_fold_policy_before_outer_inference"
+    }
+  }
+}

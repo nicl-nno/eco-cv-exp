@@ -1,0 +1,35 @@
+output_dir: runs/classification/swinv2_cbam
+
+data:
+  root: data/classification
+  manifest: null
+  split_manifest: null
+  input_size: 512
+
+model:
+  backbone: swinv2
+  attention: cbam
+  num_classes: 5
+  pretrained: false
+  kwargs: {}
+
+train:
+  batch_size: 16
+  epochs: 50
+  lr: 1.0e-4
+  weight_decay: 0.05
+  warmup_epochs: 0
+  num_workers: 4
+  amp: true
+  patience: 10
+  seed: 42
+  use_class_weights: true
+  label_smoothing: 0.0
+
+eval:
+  batch_size: 16
+  num_workers: 4
+  checkpoint: runs/classification/swinv2_cbam/seed_42/checkpoint_best.pt
+  seed: 42
+  latency_warmup: 10
+  latency_repeats: 50

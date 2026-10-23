@@ -1,0 +1,101 @@
+{
+  "seconds": 3.999934999999823,
+  "images": 67,
+  "proposals": 1411,
+  "retained": 692,
+  "oracle_gt_crops": 254,
+  "oracle_confusion": [
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      22,
+      48,
+      2,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      47,
+      6,
+      38,
+      0,
+      0,
+      0,
+      4,
+      0
+    ],
+    [
+      2,
+      0,
+      0,
+      21,
+      1,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      3,
+      0,
+      2,
+      16,
+      0,
+      0,
+      0
+    ],
+    [
+      8,
+      2,
+      0,
+      1,
+      0,
+      1,
+      0,
+      0
+    ],
+    [
+      6,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      5,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "oracle_accuracy": 0.49606299212598426,
+  "oracle_class_order": [
+    "background",
+    "attached_ciliates",
+    "filamentous_bacteria",
+    "rotifers",
+    "testate_amoebae",
+    "free_swimming_ciliates",
+    "nematoda",
+    "gastrotrichs"
+  ],
+  "includes_oracle_and_model_load": true
+}

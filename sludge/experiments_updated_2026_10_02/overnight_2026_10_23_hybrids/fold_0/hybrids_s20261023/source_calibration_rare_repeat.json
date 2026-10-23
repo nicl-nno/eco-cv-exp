@@ -1,0 +1,79 @@
+{
+  "calibration_ids": [
+    "session_2024_01_31-0001",
+    "session_2024_01_31-0005",
+    "session_2024_01_31-0006",
+    "student_06-0007",
+    "student_06-0013",
+    "student_06-0019",
+    "student_06-0020",
+    "student_06-0023",
+    "student_06-0024",
+    "student_06-0026",
+    "student_06-0027",
+    "student_06-0029",
+    "student_08-0015",
+    "student_08-0018",
+    "student_08-0019",
+    "student_08-0022",
+    "student_08-0023",
+    "student_08-0024",
+    "student_08-0030",
+    "student_08-0031",
+    "student_08-0032",
+    "student_08-0034",
+    "student_09-0004",
+    "student_09-0005",
+    "student_09-0006",
+    "student_09-0007",
+    "student_11-0011"
+  ],
+  "class_details": {
+    "free_swimming_ciliates": {
+      "support": 3,
+      "groups": 2,
+      "reason": "global_fallback_insufficient_support",
+      "best_calibration_f1": 0.2857142857142857,
+      "threshold": 0.15
+    },
+    "nematoda": {
+      "support": 1,
+      "groups": 1,
+      "reason": "global_fallback_insufficient_support",
+      "best_calibration_f1": 0.0,
+      "threshold": 0.15
+    },
+    "gastrotrichs": {
+      "support": 5,
+      "groups": 2,
+      "reason": "global_fallback_insufficient_support",
+      "best_calibration_f1": 0.6,
+      "threshold": 0.15
+    }
+  },
+  "policies": {
+    "fixed_020": {
+      "free_swimming_ciliates": 0.2,
+      "nematoda": 0.2,
+      "gastrotrichs": 0.2
+    },
+    "global_f1": {
+      "free_swimming_ciliates": 0.15,
+      "nematoda": 0.15,
+      "gastrotrichs": 0.15
+    },
+    "count_guarded": {
+      "free_swimming_ciliates": 0.15,
+      "nematoda": 0.15,
+      "gastrotrichs": 0.15
+    }
+  },
+  "source_model": {
+    "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/rare_repeat/model.pt",
+    "sha256": "e0e278d7ba4d0d910c324171d48647e66f48c1ed3b0bb0025172016f5c66d11f"
+  },
+  "source_predictions": {
+    "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261023/rare_repeat_calibration.parquet",
+    "sha256": "33d2a1832a19697b8269037eea755a670d3810d5ffc80e4e1a6cfcaab9cf7a1f"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "archives": [
+    {
+      "archive": "Student_4.zip",
+      "bytes": 129374609,
+      "sha256": "06f56fca58644638896057d679f191b64fe1d6f7856f6906ac2f7f0c874c5eeb",
+      "status": "verified_existing"
+    },
+    {
+      "archive": "Student_1.zip",
+      "bytes": 110884761,
+      "sha256": "81ff39db7284a6593490ee8d2d69970b4b9bb88c0f9a9cc986b8931e2f1dd5c7",
+      "status": "verified_existing"
+    },
+    {
+      "archive": "Student_2.zip",
+      "bytes": 114507846,
+      "sha256": "f5a64809d8da43d489678fba5087438603ac7bb0d42231a55e43c2829afd3190",
+      "status": "verified_existing"
+    },
+    {
+      "archive": "Student_6.zip",
+      "bytes": 118250443,
+      "sha256": "7c618cb00545d850effb30a1cb47aaf968ce1e07d32d75f530125ce5b19ffa6f",
+      "status": "verified_existing"
+    },
+    {
+      "archive": "Student_7.zip",
+      "error": "HTTP Error 500: Internal Server Error",
+      "status": "failed"
+    },
+    {
+      "archive": "Student_8.zip",
+      "bytes": 129358191,
+      "sha256": "63325c5e34bfe2eae3dc789f2cccef4f68bca1e77643eb75aaacd43ebc2d8dc6",
+      "status": "downloaded_verified"
+    },
+    {
+      "archive": "Student_9.zip",
+      "bytes": 132996781,
+      "sha256": "723b5dcb06ebca4a258044c7387c3223a1d96e5b10c9fea869945ba5c478a493",
+      "status": "downloaded_verified"
+    },
+    {
+      "archive": "31.01.24.zip",
+      "bytes": 15106990,
+      "sha256": "66d9d31f3ccdb866d63de1ca6b777748deccc10c4e6f5b6eae8aa77694cbe557",
+      "status": "downloaded_verified"
+    },
+    {
+      "archive": "Student_10.zip",
+      "error": "HTTP Error 500: Internal Server Error",
+      "status": "failed"
+    },
+    {
+      "archive": "Student_11 CHECKED.zip",
+      "bytes": 140503486,
+      "sha256": "20ef460ef1877484151c77e91bb4988ef82b26eae7f1796a93d7233e0fa47433",
+      "status": "downloaded_verified"
+    }
+  ],
+  "at": "2026-10-21T14:33:30.609510+03:00",
+  "scope": "User-requested download only; no training or split reconstruction"
+}

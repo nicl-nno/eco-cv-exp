@@ -1,0 +1,27 @@
+{
+  "architecture": "fasterrcnn_resnet50_fpn_v2",
+  "checkpoint_sha256": "6968419b5de6e0098d3a352662c785c41d383da0579ef63b6aa028bffea878b5",
+  "class_errors": [],
+  "confidence": 0.45,
+  "count_columns": [
+    "image_id",
+    "attached_ciliates",
+    "filamentous_bacteria",
+    "rotifers",
+    "testate_amoebae",
+    "free_swimming_ciliates",
+    "nematoda",
+    "gastrotrichs"
+  ],
+  "counts_match_detections": 10,
+  "detections_match": 10,
+  "export_sha256": {
+    "categories": "670a27923450ebece0848f6252bc60afb63c362ebc50705e009ac8c8b309ffd4",
+    "config": "a74a9a96b74be1823bbae42ac619dfaec043e5d60cb55a1cdd2db5dbae601ecd",
+    "weights": "6968419b5de6e0098d3a352662c785c41d383da0579ef63b6aa028bffea878b5"
+  },
+  "export_weights_identical": true,
+  "images": 10,
+  "objects": 42,
+  "run_id": "updated_rotation"
+}

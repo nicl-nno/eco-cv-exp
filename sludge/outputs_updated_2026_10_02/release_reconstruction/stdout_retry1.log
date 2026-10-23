@@ -1,0 +1,11 @@
+download:Student_1.zip
+verified Student_1.zip
+download:Student_2.zip
+verified Student_2.zip
+download:Student_4.zip
+verified Student_4.zip
+download:Student_6.zip
+verified Student_6.zip
+download:Student_7.zip
+Transient download failure for Student_7.zip; retry 1/2
+Transient download failure for Student_7.zip; retry 2/2

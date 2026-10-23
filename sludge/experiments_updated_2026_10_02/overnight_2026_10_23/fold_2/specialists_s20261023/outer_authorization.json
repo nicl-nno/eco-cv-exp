@@ -1,0 +1,13 @@
+{
+  "calibrations": [
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261023/calibration_specialists.json",
+      "sha256": "b9de976d8e1a161aebfbb10039a57ec50bfc7b64db182936db410a5e38b43efa"
+    },
+    {
+      "path": "experiments_updated_2026_10_02/overnight_2026_10_23/fold_2/specialists_s20261023/calibration_specialists_union.json",
+      "sha256": "25cc67fc29e2adf604e6c2d6021c7386db8026a3c2728c5ad6c6615fd4ed4402"
+    }
+  ],
+  "original_test_excluded": true
+}

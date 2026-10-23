@@ -1,0 +1,76 @@
+{
+  "images": 50,
+  "confidence": 0.4,
+  "classes": [
+    {
+      "name": "attached_ciliates",
+      "annotated": 67,
+      "counted": 178,
+      "in_ignore_regions": 4,
+      "mae_per_frame": 2.42,
+      "bias_per_frame": 2.22,
+      "mae_per_frame_all": 2.5,
+      "bias_per_frame_all": 2.3
+    },
+    {
+      "name": "filamentous_bacteria",
+      "annotated": 60,
+      "counted": 52,
+      "in_ignore_regions": 0,
+      "mae_per_frame": 1.28,
+      "bias_per_frame": -0.16,
+      "mae_per_frame_all": 1.28,
+      "bias_per_frame_all": -0.16
+    },
+    {
+      "name": "rotifers",
+      "annotated": 20,
+      "counted": 14,
+      "in_ignore_regions": 1,
+      "mae_per_frame": 0.16,
+      "bias_per_frame": -0.12,
+      "mae_per_frame_all": 0.18,
+      "bias_per_frame_all": -0.1
+    },
+    {
+      "name": "testate_amoebae",
+      "annotated": 21,
+      "counted": 32,
+      "in_ignore_regions": 4,
+      "mae_per_frame": 0.5,
+      "bias_per_frame": 0.22,
+      "mae_per_frame_all": 0.54,
+      "bias_per_frame_all": 0.3
+    },
+    {
+      "name": "free_swimming_ciliates",
+      "annotated": 7,
+      "counted": 7,
+      "in_ignore_regions": 0,
+      "mae_per_frame": 0.16,
+      "bias_per_frame": 0.0,
+      "mae_per_frame_all": 0.16,
+      "bias_per_frame_all": 0.0
+    },
+    {
+      "name": "nematoda",
+      "annotated": 2,
+      "counted": 1,
+      "in_ignore_regions": 0,
+      "mae_per_frame": 0.02,
+      "bias_per_frame": -0.02,
+      "mae_per_frame_all": 0.02,
+      "bias_per_frame_all": -0.02
+    },
+    {
+      "name": "gastrotrichs",
+      "annotated": 7,
+      "counted": 7,
+      "in_ignore_regions": 0,
+      "mae_per_frame": 0.16,
+      "bias_per_frame": 0.0,
+      "mae_per_frame_all": 0.16,
+      "bias_per_frame_all": 0.0
+    }
+  ]
+}

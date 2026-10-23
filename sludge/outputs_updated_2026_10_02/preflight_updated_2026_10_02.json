@@ -1,0 +1,37 @@
+{
+  "architecture": "fasterrcnn_resnet50_fpn_v2",
+  "batchnorm_after_step": {
+    "changed": 0,
+    "changed_first": [],
+    "layers": 65,
+    "layers_in_training_mode": 0,
+    "mode": "frozen",
+    "statistics": 195
+  },
+  "classifier_outputs": 8,
+  "device": "cuda",
+  "hardware": {
+    "cpu": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+    "logical_cpus": 28,
+    "machine": "AMD64",
+    "memory_bytes": null,
+    "mps_available": false
+  },
+  "initialisation": {
+    "loaded": 400,
+    "skipped": [
+      "roi_heads.box_predictor.bbox_pred",
+      "roi_heads.box_predictor.cls_score"
+    ]
+  },
+  "loss": 2.4356329441070557,
+  "loss_finite": true,
+  "step_seconds": 0.7810075000015786,
+  "threads": 4,
+  "train_images": 132,
+  "trainable_parameters": {
+    "names_sha256": "c7df246429c9cf46ec524db8ec31593f57c3b308ffccf5668b934d9d2dbb5e2f",
+    "tensors": 176,
+    "values": 43061559
+  }
+}

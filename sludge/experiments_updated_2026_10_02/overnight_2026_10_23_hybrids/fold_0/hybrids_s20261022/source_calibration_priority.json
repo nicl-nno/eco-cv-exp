@@ -1,0 +1,69 @@
+{
+  "calibration_ids": [
+    "session_2024_01_31-0001",
+    "session_2024_01_31-0005",
+    "session_2024_01_31-0006",
+    "student_06-0007",
+    "student_06-0013",
+    "student_06-0019",
+    "student_06-0020",
+    "student_06-0023",
+    "student_06-0024",
+    "student_06-0026",
+    "student_06-0027",
+    "student_06-0029",
+    "student_08-0015",
+    "student_08-0018",
+    "student_08-0019",
+    "student_08-0022",
+    "student_08-0023",
+    "student_08-0024",
+    "student_08-0030",
+    "student_08-0031",
+    "student_08-0032",
+    "student_08-0034",
+    "student_09-0004",
+    "student_09-0005",
+    "student_09-0006",
+    "student_09-0007",
+    "student_11-0011"
+  ],
+  "class_details": {
+    "attached_ciliates": {
+      "support": 30,
+      "groups": 4,
+      "reason": "class_count_guarded",
+      "best_calibration_f1": 0.43137254901960786,
+      "threshold": 0.9
+    },
+    "filamentous_bacteria": {
+      "support": 30,
+      "groups": 3,
+      "reason": "class_count_guarded",
+      "best_calibration_f1": 0.3,
+      "threshold": 0.85
+    }
+  },
+  "policies": {
+    "fixed_020": {
+      "attached_ciliates": 0.2,
+      "filamentous_bacteria": 0.2
+    },
+    "global_f1": {
+      "attached_ciliates": 0.85,
+      "filamentous_bacteria": 0.85
+    },
+    "count_guarded": {
+      "attached_ciliates": 0.9,
+      "filamentous_bacteria": 0.85
+    }
+  },
+  "source_model": {
+    "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/priority/model.pt",
+    "sha256": "72eca256fd007d0b21198ef1607e206332f5e9def412f6572fc46c06aba97f3e"
+  },
+  "source_predictions": {
+    "path": "outputs_updated_2026_10_02/overnight_2026_10_23_hybrids/fold_0/hybrids_s20261022/priority_calibration.parquet",
+    "sha256": "32e915bba28a39dc1710ac2ead420eac3007c739a4ba42b474c9eaec220b2efc"
+  }
+}

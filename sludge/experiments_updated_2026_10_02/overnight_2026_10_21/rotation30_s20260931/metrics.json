@@ -1,0 +1,194 @@
+{
+  "classes": [
+    {
+      "f1": 0.2619047619047619,
+      "fn": 45,
+      "fp": 79,
+      "name": "attached_ciliates",
+      "precision": 0.21782178217821782,
+      "predictions": 101,
+      "recall": 0.3283582089552239,
+      "support": 67,
+      "tp": 22
+    },
+    {
+      "f1": 0.21621621621621623,
+      "fn": 36,
+      "fp": 138,
+      "name": "filamentous_bacteria",
+      "precision": 0.14814814814814814,
+      "predictions": 162,
+      "recall": 0.4,
+      "support": 60,
+      "tp": 24
+    },
+    {
+      "f1": 0.5769230769230769,
+      "fn": 5,
+      "fp": 17,
+      "name": "rotifers",
+      "precision": 0.46875,
+      "predictions": 32,
+      "recall": 0.75,
+      "support": 20,
+      "tp": 15
+    },
+    {
+      "f1": 0.625,
+      "fn": 11,
+      "fp": 1,
+      "name": "testate_amoebae",
+      "precision": 0.9090909090909091,
+      "predictions": 11,
+      "recall": 0.47619047619047616,
+      "support": 21,
+      "tp": 10
+    },
+    {
+      "f1": 0.0,
+      "fn": 7,
+      "fp": 7,
+      "name": "free_swimming_ciliates",
+      "precision": 0.0,
+      "predictions": 7,
+      "recall": 0.0,
+      "support": 7,
+      "tp": 0
+    },
+    {
+      "f1": 0.0,
+      "fn": 2,
+      "fp": 0,
+      "name": "nematoda",
+      "precision": null,
+      "predictions": 0,
+      "recall": 0.0,
+      "support": 2,
+      "tp": 0
+    },
+    {
+      "f1": 0.5,
+      "fn": 4,
+      "fp": 2,
+      "name": "gastrotrichs",
+      "precision": 0.6,
+      "predictions": 5,
+      "recall": 0.42857142857142855,
+      "support": 7,
+      "tp": 3
+    }
+  ],
+  "confidence": 0.65,
+  "confidence_source": "validation_selection",
+  "evaluation": {
+    "confidence_grid": {
+      "start": 0.05,
+      "step": 0.05,
+      "stop": 0.95
+    },
+    "ignore_ioa_threshold": 0.5,
+    "iou_threshold": 0.5,
+    "matching": "greedy_by_confidence",
+    "selection_tie_break": "higher_confidence",
+    "unsupported_class_policy": "exclude_if_no_support_and_no_predictions"
+  },
+  "ignore_regions": 22,
+  "images": 50,
+  "macro_f1": 0.3114348650062936,
+  "macro_f1_classes": [
+    "attached_ciliates",
+    "filamentous_bacteria",
+    "rotifers",
+    "testate_amoebae",
+    "free_swimming_ciliates",
+    "nematoda",
+    "gastrotrichs"
+  ],
+  "objects": 184,
+  "period": null,
+  "postprocess": {
+    "max_detections": 100,
+    "min_score": 0.05,
+    "nms_iou": 0.5
+  },
+  "run_id": "rotation30_s20260931",
+  "selection_curve": [
+    {
+      "confidence": 0.05,
+      "macro_f1": 0.16051834834671294
+    },
+    {
+      "confidence": 0.1,
+      "macro_f1": 0.20010283980148497
+    },
+    {
+      "confidence": 0.15,
+      "macro_f1": 0.2175164315152165
+    },
+    {
+      "confidence": 0.2,
+      "macro_f1": 0.23189788039109782
+    },
+    {
+      "confidence": 0.25,
+      "macro_f1": 0.24659901654675173
+    },
+    {
+      "confidence": 0.3,
+      "macro_f1": 0.24729823257218117
+    },
+    {
+      "confidence": 0.35,
+      "macro_f1": 0.2605294378599451
+    },
+    {
+      "confidence": 0.4,
+      "macro_f1": 0.26556989742377246
+    },
+    {
+      "confidence": 0.45,
+      "macro_f1": 0.2734572219349737
+    },
+    {
+      "confidence": 0.5,
+      "macro_f1": 0.2920431776887301
+    },
+    {
+      "confidence": 0.55,
+      "macro_f1": 0.30768738125880984
+    },
+    {
+      "confidence": 0.6,
+      "macro_f1": 0.30124784880691385
+    },
+    {
+      "confidence": 0.65,
+      "macro_f1": 0.3114348650062936
+    },
+    {
+      "confidence": 0.7,
+      "macro_f1": 0.29924888940846384
+    },
+    {
+      "confidence": 0.75,
+      "macro_f1": 0.29937212247078987
+    },
+    {
+      "confidence": 0.8,
+      "macro_f1": 0.2601333067333712
+    },
+    {
+      "confidence": 0.85,
+      "macro_f1": 0.21965766063510422
+    },
+    {
+      "confidence": 0.9,
+      "macro_f1": 0.15267500262198036
+    },
+    {
+      "confidence": 0.95,
+      "macro_f1": 0.1101401009756691
+    }
+  ],
+  "split": "validation"
+}

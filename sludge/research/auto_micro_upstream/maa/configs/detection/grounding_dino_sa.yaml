@@ -1,0 +1,33 @@
+output_dir: runs/detection/grounding_dino_sa
+
+data:
+  root: data/detection
+  annotation_file: annotations/instances.json
+  split_manifest: null
+  input_size: 512
+
+model:
+  backbone: grounding_dino
+  attention: sa
+  num_classes: 5
+  num_queries: 100
+  pretrained: false
+  kwargs: {}
+
+train:
+  batch_size: 8
+  epochs: 50
+  lr: 1.0e-4
+  weight_decay: 0.05
+  warmup_epochs: 0
+  num_workers: 4
+  amp: true
+  patience: 10
+  seed: 42
+
+eval:
+  batch_size: 8
+  num_workers: 4
+  checkpoint: runs/detection/grounding_dino_sa/seed_42/checkpoint_best.pt
+  seed: 42
+  score_threshold: 0.05
